@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Alex Marjanovic Technical Communicator Home</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <style>
+       body {
+      background-color: ivory;
+    }
+
+    .card {
+      height: 94%;
+    }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"></script>
+  <script src="utility-functions.js"></script>
+</head>
+
+<body class="p-3">
+  <header>
+    <nav class="nav nav-tabs">
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link  active bg-dark text-light" href="portfolio.html">Portfolio</a>
+      <a class="nav-link" href="resume.html">Resume</a>
+      <a class="nav-link" href="send-email.html">Send Email</a>
+      <a class="nav-link" href="schedule-call.html">Schedule</a>
+      <a class="nav-link" href="about.html">About</a>
+    </nav>
+    <div>
+      <img alt="siteHeader" width="100%" src="assets\images\siteHeader_4kp_rev2.png"/>
+      <br>
+    </div>
+    <div class="alert alert-success">
+      <a class="ms-2" href="https://www.linkedin.com/in/alexmarjanovic">
+        <img alt="LinkedIn" style="height:40px; width: 40px" src="assets\icons\icon_linkedin.png" /></a>
+      <a href="contact.html#sendMessage">
+        <img alt="email" style="height:30px; width: 30px" src="assets\images\email_coral.png" /></a>
+    </div>
+    <hr />
+  </header>
+  <main id="mainTag">
+    <div class="alert alert-secondary alert-dismissible">
+      <strong>Coming soon!</strong> In the near future, you'll be able to click on the cards to view larger samples with
+      greater detail.
+      <button class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+    <div class="container ms-2">
+      <div class="row">
+        <h2>Projects</h2>
+        <p>
+          Here's a sampling of current and past projects to which I've
+          contributed.
+        </p>
+        <p>
+          Many projects involve propietary information or sensitive data. To
+          protect the confidentiality and privacy of my clients and/or employers,
+          most samples are generic representations of the deliverables produced.
+          Any samples that contain actual work are from defunct companies with any
+          data redacted.
+        </p>
+        <br>
+      </div>
+    </div>
+    <script>
+    //lGENERATE A BOOTSTRAP GRID OF CARDS DISPLAYING PORTFOLIO ITEMS
+      //DECLARE CARD OBJECTS, THEIR PROPERTIES, AND THE VALUES FOR THE ARRAY
+      const card1 = {};
+      card1.id = "adminGuide";
+      card1.src = "assets/images/admin_guide_1_1024.png";
+      card1.alt = "adminGuide";
+      card1.title = "Administrator guide for software";
+      card1.description = "To reduce information overload, I separated the manuals for each application into an administrator guide and a user guide. As the software quality analyst on many of the projects I documented, I outlined the guides after reviewing the application's requirements and specifications, and developed content while performing QA. After the final round of bug fixes, the were delivered to the user acceptance testing leads for testing and signoff.";
+
+      const card2 = {};
+      card2.id = "helpFile";
+      card2.src = "assets/images/help_file_1_1024.png";
+      card2.alt = "helpFile";
+      card2.title = "Help file for a  website";
+      card2.description = "Using RoboHelp, I created this help system as an assignment for a course on knowledge management and computer-based training design.";
+
+      const card3 = {};
+      card3.id = "manual";
+      card3.src = "assets/images/manual_1_1024.png";
+      card3.alt = "manual";
+      card3.title = "Manual for custom software implementation";
+      card3.description = "For a custom implementation of cost accounting software, I was asked to consolidate a third-party vendor's help file and hundreds of documents from two business divisions into a user manual. The original files were in HTMLhelp and multiple SharePoint libraries. The client supplied a Microsoft Word template and the final version ended up at over 300 pages.";
+
+      const card4 = {};
+      card4.id = "policyIT";
+      card4.src = "assets/images/policy_IT_1_1024.png";
+      card4.alt = "policyIT";
+      card4.title = "Policy for application development department";
+      card4.description = "I performed a gap analysis and drafted policy and procedure documents for an application development director working on the group's CMMI certification.";
+
+      const card5 = {};
+      card5.id = "storyboards";
+      card5.src = "assets/images/storyboards.png";
+      card5.alt = "storyboards";
+      card5.title = "Storyboards for help desk intranet";
+      card5.description = "While in graduate schoool specializing in user-centered design, I worked as a help desk team lead. The support staff, myself included, often reported that keyword searching in the incident reporting system was...well, not good. I designed these storyboards to demonstrate how a centralized intranet site could improve efficiency and user satisfaction, by storing our policies and procuedures and by providing a robust searchable knowlesge base.";
+
+      const card6 = {};
+      card6.id = "UXwriting";
+      card6.src = "assets/images/ux_writing.png ";
+      card6.alt = "UXwriting";
+      card6.title = "UX writing for information management suite";
+      card6.description = "While producing an information management suite with over five modules that collect, display, and sometimes export a variety of different data, I realized that despite the best efforts of the graphic designer, myself as business analyst and UX designer, and the developers, some of the panels and pages would be confusing, because of the nature of the data involved. With the exception of one holdout, I presented them with story boards to illustrate how helper text could best benefit the specific needs of the end users. Not only was the client delighted with the results, but also our QA testers thanked me for making their days easier.";
+
+      const card7 = {};
+      card7.id = "wireframe";
+      card7.src = "assets/images/wireframe.png";
+      card7.alt = "wireframe";
+      card7.title = "Wireframe for website design";
+      card7.description = "A recent client provided a UX designer, a design system, and Figma, which provided me with new learning opportunities. As a senior business analyst, I developed or helped develop wireframes and mockups for over 20 pages in the application suite, spanning all areas of the system from system administration to accepting payments. Due to confidentiality agreements, I cannot share any of the work produced for the client. The wireframe example here is my plan for this website.";
+
+      const card8 = {};
+      card8.id = "workflowDiagrams";
+      card8.src = "assets/images/workflow_diagram.png";
+      card8.alt = "workflowDiagrams";
+      card8.title = "Workflow diagram - user security structure";
+      card8.description = "Many projects on which I serve need diagrams--database ERDs, org charts, process maps, user profiles/security, workflows, etc. I'm very visual so these diagrams help me as well as my clients and team members. While ypically I work with Microsoft Visio, for this sample I decided to give Lucidchart as spin.";
+
+      //DECLARE THE ARRAY
+      const cards = [card1, card2, card3, card4, card5, card6, card7, card8];
+
+      //DECLARE THE INDEX VALUE
+      let index = 0;
+
+      //SET ROWSTRING AND COLUMNSTRING TO BLANK TO INITIALIZE THE LOOP
+      let rowString = "";
+      let columnString = "";
+
+      //INITALIZE THE LOOP STARTING WITH THE ROWS
+      for (row = 0; row < 5; row++) {
+        //initliaze the Column loop for 2 columns
+        for (col = 0; col < 2; col++) {
+          //declare how the cards will be indexed from the array
+          const card = cards[index];
+          //declare the boolean to check for undefined cards when the array is empty
+          const doesCardExist = card !== undefined;
+          //if card data exists, then the loop will generate the card
+          if (doesCardExist) {
+            //start the column output HTML
+            columnString += '<div class="col">';
+            //call the Bootstrap function to generate the HTML output that goes into the div
+            columnString += bootstrapPortfolioCard(card)
+            //close the div tag for the card
+            columnString += '</div>';
+            //increment the card position to generate the next card
+            index++
+          }
+          //if no card data exists (undefined), create an empty column
+          else {columnString +='<div class="col"></div>';}
+        }
+        //generate the row output HTML parent for the columns
+        rowString += `<div class="row">${columnString}</div>`;
+        //reset the column string to run the next card
+        columnString = "";
+      }
+      //generate the parent container tag for the cards Bootsrap grid
+      mainTag.innerHTML += `<div class="container">${rowString}</div>`;
+    </script>
+
+
+    <br>
+    <div class="container ms-2">
+      <div class="row">
+
+        <p>For samples not represented here, please <a href="contact.html#sendMessage">submit a request</a> by
+          completing the form on my Contact page.</p>
+      </div>
+    </div>
+  </main>
+  <hr />
+  <footer>
+    <div class="m-5"> <b>Sitemap</b>
+      <p>
+        <a href="index.html">Home</a><br>
+        <a href="portfolio.html">Portfolio</a><br>
+        <a href="resume.html">Resume</a><br>
+        <a href="contact.html">Contact</a><br>
+        <a href="about.html">About</a>
+      </p>
+    </div>
+    <div>
+      <hr />
+    </div>
+    <div> 2024
+      <img width="15px" src="assets\icons\copyright_cGainsboro_nobg.png" />
+      Aleksandra Marjanovic
+    </div>
+  </footer>
+</body>
+
+</html>

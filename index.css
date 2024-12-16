@@ -1,0 +1,86 @@
+#mixin-welcome {
+  color: rgb(232, 83, 30);
+  text-shadow: 1px 1px rgb(95, 85, 85);
+}
+
+a {
+  background-color: ivory;
+  color: rgb(7, 58, 41);
+}
+a:hover {
+  color: violet;
+}
+
+@font-face {
+  font-family: "ComforterBrush";
+  src: url(assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf);
+}
+@font-face {
+  font-family: "GreatVibes";
+  src: url(assets/fonts/Great_Vibes/GreatVibes-Regular.ttf);
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url(assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
+}
+body {
+  font-family: OpenSans;
+  background-color: ivory;
+  color: rgb(2, 5, 61);
+  opacity: 1;
+}
+
+h1 {
+  font-family: GreatVibes;
+  font-size: 102;
+  font-weight: 400;
+  position: relative;
+  opacity: 1;
+}
+
+.signature {
+  font-family: ComforterBrush;
+  font-size: 86;
+}
+
+.list-group-item-text1 {
+  color: rgb(229, 229, 233);
+}
+
+h3,
+.list-group-item-text2 {
+  color: black;
+}
+
+.list-group-item-color1 {
+  background-color: rgb(17, 75, 95);
+}
+
+.list-group-item-color2 {
+  background-color: rgb(204, 245, 226);
+}
+
+.fullOpacity {
+  opacity: 1;
+}
+
+.animation:hover {
+  transform: scale(1) rotate(20deg);
+  transition: transform 1s;
+}
+
+.boxShadowUL {
+  box-shadow: 30px 20px rgb(189, 69, 33);
+}
+
+.boxShadowLI {
+  box-shadow: 25px 20px rgb(189, 69, 33);
+}
+
+.textShadow {
+  text-shadow: 1px 1px rgb(84, 80, 80);
+}
+
+.bg-image {
+  background-image: url("assets/images/tech_comm.png");
+}/*# sourceMappingURL=index.css.map */

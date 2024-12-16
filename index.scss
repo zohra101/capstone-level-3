@@ -1,0 +1,122 @@
+//Mixin
+@mixin orangeText {
+  color: rgb(232, 83, 30);
+}
+
+@mixin redTextShadow {
+  text-shadow: 1px 1px rgb(95, 85, 85);
+}
+
+#mixin-welcome {
+  @include orangeText;
+  @include redTextShadow;
+}
+
+//Colors (use variables)
+$blackText: black;
+$greyText: rgb(229, 229, 233);
+
+//RGBA color variables
+$list-group-item-color1: rgb(17, 75, 95);
+$list-group-item-color2: rgb(204, 245, 226);
+
+//Nesting & parent syntax
+a {
+  background-color: ivory;
+  color: rgb(7, 58, 41);
+  &:hover {
+      color: violet;
+  }
+}
+
+//Custom font - 
+@font-face {
+font-family:"ComforterBrush";
+src: url(assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf); 
+}
+
+@font-face {
+  font-family:"GreatVibes";
+  src: url(assets/fonts/Great_Vibes/GreatVibes-Regular.ttf); 
+}
+
+@font-face {
+  font-family:"OpenSans";
+  src: url(assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf); 
+}
+
+//Font variables
+$primaryFont: OpenSans;
+$secondaryFont: sans-serif;
+$h1Font: GreatVibes;
+$handwrFont: ComforterBrush;
+
+body {
+  font-family: $primaryFont;
+  background-color: ivory;
+  color: rgb(2, 5, 61, 1.0);
+  opacity: 1.0;
+}
+
+
+h1 {
+  font-family: $h1Font;
+  font-size: 102;
+  font-weight: 400;
+  position: relative;
+  opacity: 1.0;
+}
+
+.signature {
+  font-family: $handwrFont;
+  font-size: 86;
+}
+
+//Color styles
+.list-group-item-text1 {
+  color: $greyText;
+}
+
+h3, 
+.list-group-item-text2 {
+  color: $blackText;
+}
+
+.list-group-item-color1 { 
+  background-color: $list-group-item-color1;
+}
+
+.list-group-item-color2 {
+  background-color: $list-group-item-color2;
+}
+
+//Opacity
+.fullOpacity {
+  opacity: 1.0;
+}
+
+//Transform rotate and animate
+ .animation:hover {
+  transform: scale(1) rotate(20deg);
+  transition: transform 1s;
+}
+
+//Text-shadow & Box-shadow
+.boxShadowUL {
+  box-shadow: 30px 20px rgb(189, 69, 33);
+}
+
+.boxShadowLI {
+  box-shadow: 25px 20px rgb(189, 69, 33);
+}
+
+.textShadow {
+  text-shadow: 1px 1px rgb(84, 80, 80);
+}
+
+//Background image
+$techComm: url("assets/images/tech_comm.png");
+
+.bg-image {
+  background-image: $techComm;
+}
