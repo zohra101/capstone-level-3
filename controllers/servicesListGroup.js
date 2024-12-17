@@ -4,7 +4,7 @@ import { ListGroupItem } from "../utils/ListGroupItem.js";
 import { output } from "../../utils/output.js";
 
 window.createServicesListGroup = createServicesListGroup;
-
+debugger;
 function createServicesListGroup() {
     const services = [
         ["Content Development", "Information Design", "Editing and Proofreading", "Technical Marketing", "Technical Writing", "User Interface (UI) and User Experience (UX) Design"],
@@ -19,24 +19,16 @@ function createServicesListGroup() {
     const servicesListGroup = new ListGroup();
 
     let count = services.length;
-
-    for (let index=0; index <count; index++) {
+    
+    for (index=0; index < count; index++) {
         const serviceName = services[0][index];
         const serviceDescription = services[1][index];
         const listGroupItem = new ListGroupItem(`${serviceName}: ${serviceDescription}`);
         servicesListGroup.addItem(listGroupItem);
     };
+
 debugger;
-    output(servicesListGroup, "servicesListGroupTag");
+    output(servicesListGroup,"servicesListGroupTag");
 }
 
-//Use isEven and set isEven === true to show style 1 and false !== to show style 2
-
-// let isEven = true; 
-
-// for () {
-
-
-//     //Changes the flag to the opposite value so that the background color alternates with the rows
-//     isEven = !isEven;
-// }
+createServicesListGroup();

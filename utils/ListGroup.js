@@ -1,15 +1,16 @@
 import { ListGroupItem } from "../utils/ListGroupItem.js";
+debugger;
 export class ListGroup {
 
     openingTag = "<ul class='container list-group ms-3 boxShadowUL'>";
     closingTag = "</ul>";
     innerHTML = "";
-    debugger;
-    addItem(listGroupItem = new ListGroupItem()) {
+
+    addItem(listGroupItem = new ListGroupItem()) {debugger;
         this.innerHTML += listGroupItem;
     }
-    debugger;
-    toString() {
+
+    toString() {debugger;
         return `${this.openingTag}${this.innerHTML}${this.closingTag}`;
     }
 }

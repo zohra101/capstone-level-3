@@ -7,5 +7,5 @@ export function parseQotdResponse(resolveValue) {
     const quote = results.body;
     const author= results.author;
     const qotd = `${quote} -- ${author}`;
-    output(qotd);
+    output(qotd, "QotdTag");
 }
