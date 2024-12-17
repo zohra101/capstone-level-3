@@ -18,9 +18,9 @@ function createServicesListGroup() {
 
     const servicesListGroup = new ListGroup();
 
-    let count = services.length;
+    let index = services[0].length;
     
-    for (index=0; index < count; index++) {
+    for (index=0; index < services[0].length; index++) {
         const serviceName = services[0][index];
         const serviceDescription = services[1][index];
         const listGroupItem = new ListGroupItem(`${serviceName}: ${serviceDescription}`);
