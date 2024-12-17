@@ -1,3 +1,4 @@
+
 export class ListGroup {
     openingTag = "<ul class='container list-group ms-3 boxShadowUL'>";
     closingTag = "</div>";
@@ -7,8 +8,9 @@ export class ListGroup {
         this.innerHTML = content;
     }
 
-    tostring() {
+    toString() {
         return `${this.openingTag}${this.innerHTML}${this.closingTag}`;
     }
 
 }
+\\

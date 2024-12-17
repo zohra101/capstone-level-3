@@ -1,5 +1,9 @@
 export class Card {
-    openingTag = "<div class='card m-4 p-4 bg-dark text-light'><img class='card-img-top'id='${card.id}'src='${card.src}'alt='${card.title}'/>";
+    openingTag = "<div class='card m-4 p-4 bg-dark text-light'>
+    <img class='card-img-top'
+    id='${card.id}'
+    src='${card.src}'
+    alt='${card.title}'/>";
     closingTag = "</div>";
     innerHTML = "";
 
@@ -7,7 +11,7 @@ export class Card {
         this.innerHTML = content;
     }
 
-    tostring() {
+    toString() {
         return `${this.openingTag}${this.innerHTML}${this.closingTag}`;
     }
 

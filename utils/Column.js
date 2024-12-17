@@ -7,7 +7,7 @@ export class Column {
         this.innerHTML = content;
     }
 
-    tostring() {
+    toString() {
         return `${this.openingTag}${this.innerHTML}${this.closingTag}`;
     }
 

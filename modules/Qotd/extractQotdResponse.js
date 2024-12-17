@@ -1,10 +1,7 @@
-//Extract the response and parse it
-function extractResponse(resolveValue) {
-    debugger;
+import { Qotd } from "./Qotd";
+
+//Extract the server resoponse and parse it
+export function extractQotdResponse(resolveValue) {
     const promise = resolveValue.text();
-    promise.then(parseQotdResponse);
+    promise.then();
 }
-
-
-
-

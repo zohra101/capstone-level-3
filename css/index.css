@@ -13,15 +13,15 @@ a:hover {
 
 @font-face {
   font-family: "ComforterBrush";
-  src: url(assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf);
+  src: url(../assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf);
 }
 @font-face {
   font-family: "GreatVibes";
-  src: url(assets/fonts/Great_Vibes/GreatVibes-Regular.ttf);
+  src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf);
 }
 @font-face {
   font-family: "OpenSans";
-  src: url(assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
+  src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
 }
 body {
   font-family: OpenSans;
@@ -82,5 +82,5 @@ h3,
 }
 
 .bg-image {
-  background-image: url("assets/images/tech_comm.png");
+  background-image: url("../assets/images/tech_comm.png");
 }/*# sourceMappingURL=index.css.map */

@@ -7,7 +7,7 @@ export class CardBody {
         this.innerHTML = content;
     }
 
-    tostring() {
+    toString() {
         return `${this.openingTag}${this.innerHTML}${this.closingTag}`;
     }
 
