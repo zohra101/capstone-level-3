@@ -11,7 +11,6 @@
   <!-- JavaScript Modules -->
   <script src="./utils/output.js" type="module"></script>
   <script src="./controllers/handleQuoteOfTheDay.js" type="module"></script>
-  <!-- <script src="./controllers/servicesList.js" type="module"></script> -->
 </head>
 
 <body class="p-3">
@@ -87,49 +86,19 @@
           help files, I ensure that content is accessible and tailored to your audience's needs. Rates are per hour or
           per project depending on the complexity, scope, and estimated time for completion.</p>
       </div>
-      <div class="row">
-        <ul class="container list-group ms-3 boxShadowUL">
-          <li class="list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI"> <b>Content Development:</b> Developing content for websites,
-            intranets,
-            and knowledge bases, ensuring that information is accurate, accessible,
-            and user-friendly.</li>
-          <li class="list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"><b>Editing and Proofreading:</b> Reviewing technical
-            documents for
-            clarity, consistency, grammar, and accuracy, ensuring they meet
-            organizational standards and guidelines.</li>
-          <li class="list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI "><b>Information Design:</b> Structuring and organizing
-            information to
-            make it easy to understand and navigate, often involving the use of
-            charts, diagrams, mock-ups, screenshots, wire frames and other visual
-            aids.</li>
-          <li class="list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"> <b>Technical Marketing:</b> Producing technical
-            marketing materials such
-            as case studies, technical brochures, and product specifications that
-            help explain the benefits and features of technical products to
-            potential customers.</li>
-          <li class="list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI"> <b>Technical Writing:</b> Creating user manuals,
-            installation guides,
-            help files, white papers, and other documentation that explains how to
-            use products or services.</li>
-          <li class="list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"> <b>User Interface (UI) and User Experience (UX)
-              Design:</b>
-            Working with design and development teams to create interfaces that are
-            intuitive and easy to use, and conducting usability testing to improve
-            user experiences.</li>
-        </ul>
+      <div>
+        <output id="servicesListGroupTag"></output>
+        <script src="./controllers/servicesListGroup.js" type="module"></script>
       </div>
     </div>
       <br>
-  
-     
       <br><br>
-      <div class="row">
+      <div class="row m-2">
         <p>If my services seem like a good fit for your organization, please <a href="contact.html#sendMessage">send a
             message</a> using the Contact form. </p>
+        <p>Thanks for visiting!</p><br>
+        <h2 class="signature">Alex Marjanovic</h2>
       </div>
-    <p>Thanks for visiting!</p><br>
-    <h2 class="signature">Alex Marjanovic</h2>
-
     </div>
   </main>
   <hr />

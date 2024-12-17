@@ -1,9 +1,16 @@
-import { Qotd } from "../modules/qotd/Qotd.js";
-import { output } from "../utils/output.js";
-debugger;
+//Fetch the response from the server and extract it
+import { extractQotdResponse } from "../modules/qotd/extractQotdResponse.js";
 
 window.handleQuoteOfTheDay = handleQuoteOfTheDay;
 
-function handleQuoteOfTheDay() {
-    output(Qotd);
+export function handleQuoteOfTheDay() {
+    const proxy = "https://corsproxy.io/?url="
+    const baseUrl = "https://favqs.com/api";
+    const endPoint = "/qotd";
+    const url = proxy + baseUrl + endPoint;
+    const promise = fetch(url);
+    promise.then(extractQotdResponse);
+    
 }
+
+
