@@ -4,7 +4,7 @@ import { ListGroupItem } from "../utils/ListGroupItem.js";
 import { output } from "../../utils/output.js";
 
 window.createServicesListGroup = createServicesListGroup;
-debugger;
+
 function createServicesListGroup() {
     const services = [
         ["Content Development", "Information Design", "Editing and Proofreading", "Technical Marketing", "Technical Writing", "User Interface (UI) and User Experience (UX) Design"],
@@ -27,7 +27,6 @@ function createServicesListGroup() {
         servicesListGroup.addItem(listGroupItem);
     };
 
-debugger;
     output(servicesListGroup,"servicesListGroupTag");
 }
 

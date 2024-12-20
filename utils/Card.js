@@ -2,7 +2,7 @@ export class Card {
     openingTag = "<div class='card m-4 p-4 bg-dark text-light'>
     <img class='card-img-top'
     id='${card.id}'
-    src='${card.src}'
+    src='${card.image}'
     alt='${card.title}'/>";
     closingTag = "</div>";
     innerHTML = "";

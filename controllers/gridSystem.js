@@ -8,7 +8,7 @@ window.gridSystemExample = gridSystemExample;
 export function gridSystemExample() {
     debugger;
     const gridSystem = new GridSystem();
-    for (let rowNumber = 1; rowNumber <= 3; rowNumber++) {
+    for (let rowNumber = 1; rowNumber <= 9; rowNumber++) {
             const row = new Row();
 
         for (let columnNumber = 1; columnNumber <= 3; columnNumber++) {
