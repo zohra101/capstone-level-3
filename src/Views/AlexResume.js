@@ -1,13 +1,14 @@
 import React from "react";
 import { Navbar } from "./Navbar.js";
 import { Header } from "./Header.js";
+import { Footer } from "./Footer.js";
 import "../css/resume.css";
 
 export function AlexResume() {
 	return (
 		<>
 			<Navbar />
-			<Header/>
+			<Header />
 			<main>
 				<div className="container ms-0">
 					<div className="row">
@@ -273,6 +274,7 @@ export function AlexResume() {
 					</div>
 				</div>
 			</main>
+			<Footer />
 		</>
 	);
 }

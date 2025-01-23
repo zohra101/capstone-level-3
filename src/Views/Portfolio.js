@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "../Views/Navbar.js";
 import { Header } from "./Header.js";
+import { Footer } from "./Footer.js";
 
 export function Portfolio() {
 	return (
@@ -44,6 +45,7 @@ export function Portfolio() {
 					</div>
 				</div>
 			</main>
+			<Footer/>
 		</>
 	);
 }

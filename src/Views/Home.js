@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { Navbar } from "../Views/Navbar.js";
 import { Header } from "./Header.js";
+import { Footer } from "./Footer.js";
 import { handleQuoteOfTheDay } from "../controllers/handleQuoteOfTheDay.js";
 // import { createServicesListGroup } from "../controllers/createServicesListGroup.js";
 import "../css/index.scss";
@@ -106,6 +107,7 @@ export function Home() {
 					<h2 className="signature">Alex Marjanovic</h2>
 				</div>
 			</main>
+			<Footer />
 		</>
 	);
 }
