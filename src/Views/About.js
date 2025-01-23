@@ -1,20 +1,22 @@
 import React from "react";
-import { Navbar } from "../Views/Navbar.js";
+import { Navbar } from "./Navbar.js";
+import { Header } from "./Header.js";
 
 export function About() {
 	return (
 		<>
         <Navbar/>
-			<main class="p-1">
-				<div class="container ms-2">
-					<div class="row">
+		<Header/>
+			<main className="p-1">
+				<div className="container ms-2">
+					<div className="row">
 						<h3
 							id="aboutSite"
-							class="emphasis newSection">
-							<span class="badge text-bg-primary">New</span> About this website{" "}
+							className="emphasis newSection">
+							<span className="badge text-bg-primary">New</span> About this website{" "}
 						</h3>
 					</div>
-					<div class="row">
+					<div className="row">
 						{" "}
 						<p>
 							I created this website using CSS, HTML, and JavaScript, storing my
@@ -30,23 +32,23 @@ export function About() {
 						</p>
 					</div>
 				</div>
-				<div class="row ms-2">
+				<div className="row ms-2">
 					<h3 id="aboutMe">About me</h3>
-					<div class="col">
+					<div className="col">
 						<img
 							src="../src/assets/images/alex.png"
 							alt="alex"
 							width="100%"
 						/>
 					</div>
-					<div class="col align-items-start">
+					<div className="col align-items-start">
 						<p>
 							During high school (in New Jersey), my dad wanted to buy me a
 							really big present. "Do you want a computer like your cousins? Or
 							something else?" And so began my war between art and computing. A
 							writer since third grade, I served as the co-editor-in-chief of
 							both the school paper and yearbook (thankfully, not in the same
-							year!) and graduated with both journalism and programming classes.
+							year!) and graduated with both journalism and programming classNamees.
 							At university, I dropped computer science because debugging made
 							me miserable. I had more fun around books, old things, and people
 							so after a very brief fling with finance, I majored in English and
