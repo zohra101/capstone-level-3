@@ -9,8 +9,7 @@ export function handleQuoteOfTheDay() {
     const endPoint = "/qotd";
     const url = proxy + baseUrl + endPoint;
     const promise = fetch(url);
-    promise.then(extractQotdResponse);
-    
+    promise.then(extractQotdResponse);    
 }
 
 

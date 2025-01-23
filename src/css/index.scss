@@ -29,21 +29,21 @@ a {
   }
 }
 
-//Custom font - 
-@font-face {
-font-family:"ComforterBrush";
-src: url(assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf); 
-}
+//Custom fonts 
+// @font-face {
+// font-family:"ComforterBrush";
+// src: url(../assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf); 
+// }
 
-@font-face {
-  font-family:"GreatVibes";
-  src: url(assets/fonts/Great_Vibes/GreatVibes-Regular.ttf); 
-}
+// @font-face {
+//   font-family:"GreatVibes";
+//   src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf); 
+// }
 
-@font-face {
-  font-family:"OpenSans";
-  src: url(assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf); 
-}
+// @font-face {
+//   font-family:"OpenSans";
+//   src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf); 
+// }
 
 //Font variables
 $primaryFont: OpenSans;
@@ -115,7 +115,7 @@ h3,
 }
 
 //Background image
-$techComm: url("assets/images/tech_comm.png");
+$techComm: url("../assets/images/tech_comm.png");
 
 .bg-image {
   background-image: $techComm;
