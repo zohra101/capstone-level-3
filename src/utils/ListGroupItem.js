@@ -1,15 +1,13 @@
-
-debugger;
 export class ListGroupItem {
     openingTag = "<li class='list-group-item boxShadowLI'>";
     closingTag = "</li>";
     innerHTML = "";
     
-    constructor(content="") {debugger;
+    constructor(content="") {
         this.innerHTML = content;
     }
     
-    toString() {debugger;
+    toString() {
         return `${this.openingTag}${this.innerHTML}${this.closingTag}`;
     }
 
