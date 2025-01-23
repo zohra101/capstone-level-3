@@ -30,20 +30,20 @@ a {
 }
 
 //Custom fonts 
-// @font-face {
-// font-family:"ComforterBrush";
-// src: url(../assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf); 
-// }
+@font-face {
+font-family:"ComforterBrush";
+src: url(../assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf); 
+}
 
-// @font-face {
-//   font-family:"GreatVibes";
-//   src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf); 
-// }
+@font-face {
+  font-family:"GreatVibes";
+  src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf); 
+}
 
-// @font-face {
-//   font-family:"OpenSans";
-//   src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf); 
-// }
+@font-face {
+  font-family:"OpenSans";
+  src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf); 
+}
 
 //Font variables
 $primaryFont: OpenSans;
@@ -88,6 +88,14 @@ h3,
 
 .list-group-item-color2 {
   background-color: $list-group-item-color2;
+}
+
+a {
+  background-color: ivory;
+  color: rgb(7, 58, 41);
+}
+a:hover {
+  color: violet;
 }
 
 //Opacity

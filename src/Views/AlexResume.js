@@ -1,11 +1,13 @@
 import React from "react";
 import { Navbar } from "./Navbar.js";
+import { Header } from "../Views/Header.js";
 import "../css/resume.css";
 
 export function AlexResume() {
 	return (
 		<>
 			<Navbar />
+			<Header />
 			<main>
 				<div className="container ms-0">
 					<div className="row">
@@ -129,7 +131,7 @@ export function AlexResume() {
 								CRIF Lending Solutions
 							</p>
 							<p>
-								<span id="skill">Employee of the Quarter</span>><br />
+								<span id="skill">Employee of the Quarter</span><br />
 								CRIF Lending Solutions
 							</p>
 							<p>
