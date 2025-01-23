@@ -1,11 +1,13 @@
 import React from "react";
 import { handleSubmitCall } from "../modules/call/handleSubmitCall.js";
 import { Navbar } from "./Navbar.js";
+import { Header } from "./Header.js";
 
 export function Consultation() {
 	return (
 		<>
-    <Navbar/>
+			<Navbar />
+			<Header />
 			<main>
 				<div className="container m-3">
 					<div className="row ">

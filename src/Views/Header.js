@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Name() {
+export function Header() {
 	return (
 		<>
 			<header>
@@ -17,14 +17,14 @@ export function Name() {
 						href="https://www.linkedin.com/in/alexmarjanovic">
 						<img
 							alt="LinkedIn"
-							style="height:40px; width: 40px"
-							src="../src/assets/iconsicon_linkedin.png"
+							style={{height: "40px", width: "40px"}}
+							src="../src/assets/icons/icon_linkedin.png"
 						/>
 					</a>
 					<a href="contact.html#sendMessage">
 						<img
 							alt="email"
-							style="height:30px; width: 30px"
+							style={{height: "30px", width: "30px"}}
 							src="../src/assets/images/email_coral.png"
 						/>
 					</a>

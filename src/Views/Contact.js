@@ -1,11 +1,13 @@
 import React from "react";
 import { handleSubmitEmail } from "../modules/email/handleSubmitEmail.js";
 import { Navbar } from "./Navbar.js";
+import { Header } from "./Header.js";
 
 export function Contact() {
 	return (
 		<>
 			<Navbar />
+			<Header />
 			<main>
 				<div className="container m-3">
 					<div className="row ">

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Navbar } from "../Views/Navbar.js";
+import { Header } from "./Header.js";
 import { handleQuoteOfTheDay } from "../controllers/handleQuoteOfTheDay.js";
 // import { createServicesListGroup } from "../controllers/createServicesListGroup.js";
 import "../css/index.scss";
@@ -8,6 +9,7 @@ export function Home() {
 	return (
 		<>
 			<Navbar />
+			<Header />
 			<main>
 				<h1 id="mixin-welcome">Welcome</h1>
 				<div className="p-3">
