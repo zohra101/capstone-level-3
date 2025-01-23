@@ -1,12 +1,12 @@
 import React from "react";
-import { Header } from "../Views/Header.js"; 
-import { Navbar } from "../Views/Navbar.js";
+import { Navbar } from "./Navbar.js";
+import { Header } from "./Header.js";
 
 export function About() {
 	return (
 		<>
-			<Navbar />
-			<Header/>
+        <Navbar/>
+		<Header/>
 			<main className="p-1">
 				<div className="container ms-2">
 					<div className="row">
