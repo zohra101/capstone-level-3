@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "./Navbar.js";
 import { Header } from "./Header.js";
+import { Footer } from "./Footer.js";
 
 export function About() {
 	return (
@@ -95,6 +96,7 @@ export function About() {
 					</div>
 				</div>
 			</main>
+			<Footer/>
 		</>
 	);
 }

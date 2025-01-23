@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "./Navbar.js";
 import { Header } from "./Header.js";
+import { Footer } from "./Footer.js";
 import "../css/resume.css";
 
 export function AlexResume() {
@@ -273,6 +274,7 @@ export function AlexResume() {
 					</div>
 				</div>
 			</main>
+			<Footer />
 		</>
 	);
 }

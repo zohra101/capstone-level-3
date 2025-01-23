@@ -2,6 +2,7 @@ import React from "react";
 import { handleSubmitEmail } from "../modules/email/handleSubmitEmail.js";
 import { Navbar } from "./Navbar.js";
 import { Header } from "./Header.js";
+import { Footer } from "./Footer.js";
 
 export function Contact() {
 	return (
@@ -88,8 +89,8 @@ export function Contact() {
 									/>
 								</div>
 							</div>
-							<div class="row p-2">
-								<div class="col">
+							<div className="row p-2">
+								<div className="col">
 									<span style={{ fontWeight: "bold" }}>
 										<label for="userMessage">Message</label>
 										<br />
@@ -97,7 +98,7 @@ export function Contact() {
 									<textarea
 										required
 										id="userMessage"
-										class="inputs"
+										className="inputs"
 										placeholder="Enter your message here."></textarea>
 								</div>
 							</div>
@@ -113,6 +114,7 @@ export function Contact() {
 				<div id="outputTag2"></div>
 				<br />
 			</main>
+			<Footer />
 		</>
 	);
 }
