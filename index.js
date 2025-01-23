@@ -1,12 +1,12 @@
 import { createRoot } from "react-dom/client";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router";
-import { Home } from "./Views/Home.js";
-import { About } from "./Views/About.js";
-import { AlexResume } from "./Views/AlexResume.js";
-import { Consultation } from "./Views/Consultation.js";
-import { Contact } from "./Views/Contact.js";
-import { Portfolio } from "./Views/Portfolio.js";
+import { Home } from "./src/Views/Home.js";
+import { About } from "./src/Views/About.js";
+import { AlexResume } from "./src/Views/AlexResume.js";
+import { Consultation } from "./src/Views/Consultation.js";
+import { Contact } from "./src/Views/Contact.js";
+import { Portfolio } from "./src/Views/Portfolio.js";
 
 const root = createRoot(window.bodyTag);
 
