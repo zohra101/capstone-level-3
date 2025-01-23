@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar } from "./Navbar.js";
-import { Header } from "../Views/Header.js";
+import { Header } from "./Header.js";
 import "../css/resume.css";
 
 export function AlexResume() {
