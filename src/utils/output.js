@@ -2,7 +2,7 @@ export function output(
     message = "",
     outputTag = "outputTag",
     shouldAppend = true
-    ) {    debugger;
+    ) { debugger;
         if (shouldAppend) window[outputTag].innerHTML += message;
         else window[outputTag].innerHTML = message;
 }
