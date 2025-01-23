@@ -1,11 +1,13 @@
 import React from "react";
 import { Navbar } from "./Navbar.js";
+import { Header } from "./Header.js";
 import "../css/resume.css";
 
 export function AlexResume() {
 	return (
 		<>
 			<Navbar />
+			<Header/>
 			<main>
 				<div className="container ms-0">
 					<div className="row">

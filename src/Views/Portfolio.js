@@ -1,10 +1,12 @@
 import React from "react";
 import { Navbar } from "../Views/Navbar.js";
+import { Header } from "./Header.js";
 
 export function Portfolio() {
 	return (
 		<>
 			<Navbar />
+			<Header />
 			<main id="mainTag">
 				<div class="alert alert-secondary alert-dismissible">
 					<strong>Coming soon!</strong> In the near future, you'll be able to
