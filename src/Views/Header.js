@@ -8,7 +8,7 @@ export function Header() {
 					<img
 						alt="siteHeader"
 						width="100%"
-						src="../src/assets/images/siteHeader_4kp_rev2.png"
+						src="./src/assets/images/siteHeader_4kp_rev2.png"
 					/>
 				</div>
 				<div>
@@ -18,14 +18,14 @@ export function Header() {
 						<img
 							alt="LinkedIn"
 							style={{height: "40px", width: "40px"}}
-							src="../src/assets/icons/icon_linkedin.png"
+							src="./src/assets/icons/icon_linkedin.png"
 						/>
 					</a>
 					<a href="contact.html#sendMessage">
 						<img
 							alt="email"
 							style={{height: "30px", width: "30px"}}
-							src="../src/assets/images/email_coral.png"
+							src="./src/assets/images/email_coral.png"
 						/>
 					</a>
 				</div>
