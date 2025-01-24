@@ -18,7 +18,7 @@ root.render(
 				element={<Home />}
 			/>
 			<Route
-				path="/capstone-level-3/"
+				path="/capstone-level-3"
 				element={<Home />}
 			/>
 			<Route
