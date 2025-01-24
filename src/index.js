@@ -18,10 +18,6 @@ root.render(
 				element={<Home />}
 			/>
 			<Route
-				path="/index.html"
-				element={<Home />}
-			/>
-			<Route
 				path="https://zohra101.github.io/capstone-level-3/"
 				element={<Home />}
 			/>

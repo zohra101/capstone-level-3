@@ -13322,9 +13322,6 @@ root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_
   path: "/",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_Home_js__WEBPACK_IMPORTED_MODULE_2__.Home, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/index.html",
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_Home_js__WEBPACK_IMPORTED_MODULE_2__.Home, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
   path: "https://zohra101.github.io/capstone-level-3/",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_Home_js__WEBPACK_IMPORTED_MODULE_2__.Home, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
@@ -13342,15 +13339,6 @@ root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
   path: "/Consultation",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_Consultation_js__WEBPACK_IMPORTED_MODULE_5__.Consultation, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/about",
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_About_js__WEBPACK_IMPORTED_MODULE_3__.About, null)
-}))));
-})();
-
-/******/ })()
-;
-//# sourceMappingURL=main.js.mapll)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
   path: "/about",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_About_js__WEBPACK_IMPORTED_MODULE_3__.About, null)
