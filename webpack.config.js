@@ -12,10 +12,10 @@ export default {
 				test: /\.(scss|css)/, //COMPILE STYLE NODULES
 				use: ["style-loader", "css-loader", "sass-loader"], //USE THIS LOADER TO COMPLILE STYLE MODULES
 			},
-			// {
-			// 	test: /\.(png|jpeg|gif)/, //COMPILE IMAGES
-			// 	use: ["file-loader"], //USE THIS LOADER TO COMPLILE IMAGE FILES
-			// },
+			{
+				test: /\.(png|jpeg|gif)/, //COMPILE IMAGES
+				use: ["file-loader"], //USE THIS LOADER TO COMPLILE IMAGE FILES
+			},
 		],
 	},
 	watch: true, //WATCH FOR CHANGES. PRESS CTRL+C TO CANCEL WATCH.
