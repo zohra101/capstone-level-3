@@ -13347,13 +13347,4 @@ root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_
 
 /******/ })()
 ;
-//# sourceMappingURL=main.js.mapll)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/about",
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_About_js__WEBPACK_IMPORTED_MODULE_3__.About, null)
-}))));
-})();
-
-/******/ })()
-;
 //# sourceMappingURL=main.js.map
