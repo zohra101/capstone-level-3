@@ -22,7 +22,7 @@ root.render(
 				element={<Home />}
 			/>
 			<Route
-				path="/capstone-level-3/"
+				path="https://zohra101.github.io/capstone-level-3/"
 				element={<Home />}
 			/>
 			<Route
