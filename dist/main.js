@@ -12832,7 +12832,7 @@ function Header() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     alt: "siteHeader",
     width: "100%",
-    src: "/src/assets/images/siteHeader_4kp_rev2.png"
+    src: "src\\assets\\images\\siteHeader_4kp_rev2.png"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     className: "ms-2",
     href: "https://www.linkedin.com/in/alexmarjanovic"
@@ -12842,7 +12842,7 @@ function Header() {
       height: "40px",
       width: "40px"
     },
-    src: "/src/assets/icons/icon_linkedin.png"
+    src: "src\\assets\\icons\\icon_linkedin.png"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "contact.html#sendMessage"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
@@ -12851,7 +12851,7 @@ function Header() {
       height: "30px",
       width: "30px"
     },
-    src: "/src/assets/images/email_coral.png"
+    src: "src\\assets\\images\\email_coral.png"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", null)));
 }
 
@@ -13339,15 +13339,6 @@ root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
   path: "/Consultation",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_Consultation_js__WEBPACK_IMPORTED_MODULE_5__.Consultation, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/about",
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_About_js__WEBPACK_IMPORTED_MODULE_3__.About, null)
-}))));
-})();
-
-/******/ })()
-;
-//# sourceMappingURL=main.js.mapll)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
   path: "/about",
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_About_js__WEBPACK_IMPORTED_MODULE_3__.About, null)
