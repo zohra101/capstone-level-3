@@ -21,7 +21,7 @@ export function Home() {
 					</button>
 					<div id="QotdTag"></div>
 				</div>
-				<div className="container m-2 bg-image">
+				<div className="container m-2">
 					<div className="row">
 						<p>
 							Hi, I'm Alex Marjanovic, a technical communicator based out of
