@@ -13,7 +13,7 @@ export function Header() {
 				</div>
 				<div>
 					<a
-						class="ms-2"
+						className="ms-2"
 						href="https://www.linkedin.com/in/alexmarjanovic">
 						<img
 							alt="LinkedIn"

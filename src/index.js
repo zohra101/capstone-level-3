@@ -10,8 +10,6 @@ import { Portfolio } from "./Views/Portfolio.js";
 
 const root = createRoot(window.bodyTag);
 
-// const message = `You've reached this page because the page you were expecting is not available. Please contact the site administrator for assistance.`;
-
 root.render(
 	<BrowserRouter>
 		<Routes>
