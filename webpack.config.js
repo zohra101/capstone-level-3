@@ -4,8 +4,8 @@ export default {
 	module: {
 		//RULES ARE A LIST OF WAYS TO PROCESS THE MODULES
 		rules: [
-			{
-				exclude: /\.(scss|css|ttf)/, //DON'T COMPILE STYLE MODULES
+			{	test: /\.js/,
+				exclude: /\.(scss|css|ttf|otf|png|jpeg|jpg|gif)/, //DON'T COMPILE STYLE MODULES
 				use: "babel-loader", //USE THIS LOADER TO COMPILE ALL OTHER MODULES
 			},
 			{
@@ -13,7 +13,7 @@ export default {
 				use: ["style-loader", "css-loader", "sass-loader"], //USE THIS LOADER TO COMPLILE STYLE MODULES
 			},
 			{
-				test: /\.(png|jpeg|gif)/, //COMPILE IMAGES
+				test: /\.(png|jpeg|gif|jpg)/, //COMPILE IMAGES
 				use: ["file-loader"], //USE THIS LOADER TO COMPLILE IMAGE FILES
 			},
 		],
