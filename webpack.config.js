@@ -5,7 +5,7 @@ export default {
 		//RULES ARE A LIST OF WAYS TO PROCESS THE MODULES
 		rules: [
 			{
-				exclude: /\.(scss|css|ttf|png|jpeg|gif)/, //DON'T COMPILE STYLE MODULES
+				exclude: /\.(scss|css|ttf)/, //DON'T COMPILE STYLE MODULES
 				use: "babel-loader", //USE THIS LOADER TO COMPILE ALL OTHER MODULES
 			},
 			{
