@@ -10,7 +10,7 @@ export function Footer() {
 					2024{" "}
 					<img
 						width="15px"
-						src="../src/assets/icons/copyright_cGainsboro_nobg.png"
+						src="src/assets/icons/copyright_cGainsboro_nobg.png"
 					/>{" "}
 					Aleksandra Marjanovic
 				</div>

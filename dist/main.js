@@ -12810,7 +12810,7 @@ __webpack_require__.r(__webpack_exports__);
 function Footer() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, " ", "2024", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     width: "15px",
-    src: "../src/assets/icons/copyright_cGainsboro_nobg.png"
+    src: "src/assets/icons/copyright_cGainsboro_nobg.png"
   }), " ", "Aleksandra Marjanovic")));
 }
 
