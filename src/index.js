@@ -20,10 +20,6 @@ root.render(
 				element={<Home />}
 			/>
 			<Route
-				path="/capstone-project-level-3"
-				element={<Home />}
-			/>
-			<Route
 				path="/home"
 				element={<Home />}
 			/>
