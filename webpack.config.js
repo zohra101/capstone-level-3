@@ -1,4 +1,5 @@
 export default {
+	entry: "./src/index.js",
 	//MODULES ARE CODE/FILES THAT ARE IMPORTED
 	module: {
 		//RULES ARE A LIST OF WAYS TO PROCESS THE MODULES
