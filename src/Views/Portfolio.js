@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Navbar } from "../Views/Navbar.js";
 import { Banner } from "./Banner.js";
 import { Footer } from "./Footer.js";
 
 export function Portfolio() {
+	const [didMount, setDidMount] = useState(false);
+
+	useEffect(componentDidMount, []);
+	useEffect(componentDidUpdate, []);
+	useEffect(componentDidUnmount, []);
+
 	return (
 		<>
 			<Navbar />
@@ -48,4 +54,22 @@ export function Portfolio() {
 			<Footer />
 		</>
 	);
+
+	function componentDidMount() {
+		setDidMount(true);
+		console.log("The Portfolio component mounted.");
+		return componentDidUnmount;
+	}
+
+	function componentDidUpdate() {
+		if (didMount === true) console.log("The Portfolio component updated.");
+	}
+
+	function componentDidUnmount() {
+		return logUnmount;
+	}
+
+	function logUnmount() {
+		console.log("The Portfolio component unmounted.");
+	}
 }
