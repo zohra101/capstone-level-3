@@ -1,14 +1,9 @@
 import React from "react";
 import { handleSubmitCall } from "../modules/call/handleSubmitCall.js";
-import { Navbar } from "./Navbar.js";
-import { Header } from "./Header.js";
-import { Footer } from "./Footer.js";
 
 export function Consultation() {
 	return (
 		<>
-			<Navbar />
-			<Header />
 			<main>
 				<div className="container m-3">
 					<div className="row ">
@@ -116,7 +111,6 @@ export function Consultation() {
 				<div id="outputTag2"></div>
 				<br />
 			</main>
-			<Footer />
 		</>
 	);
 }

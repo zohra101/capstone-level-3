@@ -1,30 +1,37 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Navbar } from "../Views/Navbar.js";
-import { Header } from "./Header.js";
+import { Banner } from "./Banner.js";
 import { Footer } from "./Footer.js";
-import { handleQuoteOfTheDay } from "../controllers/handleQuoteOfTheDay.js";
+import { HandleQuoteOfTheDay } from "./HandleQuoteOfTheDay.js";
 // import { createServicesListGroup } from "../controllers/createServicesListGroup.js";
 import "../css/index.scss";
 
 export function Home() {
+	const [didMount, setDidMount] = useState(false);
 
 	useEffect(componentDidMount, []);
+	useEffect(componentDidUpdate, []);
+	useEffect(componentDidUnmount, []);
+
+	const domain = window.location.hostname;
+	const port = window.location.port;
+	console.log(`Domain: ${domain} Port: ${port}`);
+
 	return (
 		<>
 			<Navbar />
-			<Header />
-			<main id="homeMainTag">
-				<h1 id="mixin-welcome">Welcome</h1>
-				<div className="p-3">
-					<button
-						className="animation btn btn-outline-dark"
-						onClick={handleQuoteOfTheDay}>
-						Quote of the Day
-					</button>
-					<div id="QotdTag"></div>
-				</div>
+			<Banner />
+			<main id="homeMain">
+				<h1
+					id="mixin-welcome"
+					className="m-2">
+					Welcome
+				</h1>
+				<HandleQuoteOfTheDay />
 				<div className="container m-2">
-					<div className="row">
+					<div
+						id="homeIntro"
+						className="row">
 						<p>
 							Hi, I'm Alex Marjanovic, a technical communicator based out of
 							Baton Rouge, LA. Originally from New Jersey, I moved south to
@@ -53,7 +60,9 @@ export function Home() {
 					</div>
 				</div>
 				<div className="container m-2">
-					<div className="row">
+					<div
+						id="homeHelp"
+						className="row">
 						<h3>How I can help</h3>
 					</div>
 					<div className="row">
@@ -85,7 +94,9 @@ export function Home() {
 				<div className="row m-2">
 					<h3>Services</h3>
 				</div>
-				<div className="row m-2">
+				<div
+					id="homeServices"
+					className="row m-2">
 					<p>
 						Whether it's writing user manuals, creating process documentation,
 						developing training materials, or editing help files, I ensure that
@@ -112,8 +123,19 @@ export function Home() {
 			<Footer />
 		</>
 	);
+
+	function componentDidMount() {
+		setDidMount(true);
+		console.log("The Home component mounted.");
+	}
+
+	function componentDidUpdate() {
+		if (didMount === true) console.log("The Home component updated.");
+	}
+
+	function componentDidUnmount() {
+		console.log("The Home component unmounted.");
+	}
+
 }
 
-function componentDidMount() {
-	console.log("The Home component mounted.");
-}

@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Header() {
+export function Banner() {
 	return (
 		<>
 			<header>

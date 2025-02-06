@@ -1,13 +1,13 @@
 import React from "react";
 import { Navbar } from "../Views/Navbar.js";
-import { Header } from "./Header.js";
+import { Banner } from "./Banner.js";
 import { Footer } from "./Footer.js";
 
 export function Portfolio() {
 	return (
 		<>
 			<Navbar />
-			<Header />
+			<Banner />
 			<main id="mainTag">
 				<div className="alert alert-secondary alert-dismissible">
 					<strong>Coming soon!</strong> In the near future, you'll be able to

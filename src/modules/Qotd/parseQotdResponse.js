@@ -2,10 +2,16 @@
 import { output } from "../../utils/output.js";
 
 export function parseQotdResponse(resolveValue) {
-    const response = JSON.parse(resolveValue);
-    const results =  response.quote;
-    const quote = results.body;
-    const author= results.author;
-    const qotd = `${quote} -- ${author}`;
-    output(qotd, "QotdTag");
+	let quote = "";
+	let author = "";
+
+	const response = JSON.parse(resolveValue);
+	const results = response.quote;
+	quote = results.body; 
+	console.log(`Quote: ${quote}`);
+	author = results.author; 
+	console.log(`Author: ${author}`);
+	// const qotd = `${quote} -- ${author}`;
+	output(quote, "qotdQuoteTag");
+	output(author, "qotdAuthorTag");
 }

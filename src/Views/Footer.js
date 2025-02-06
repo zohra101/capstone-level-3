@@ -5,7 +5,7 @@ export function Footer() {
 		<>
 			<hr></hr>
 			<footer>
-				<div>
+				<div className="m-2">
 					{" "}
 					2024{" "}
 					<img

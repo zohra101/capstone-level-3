@@ -1,14 +1,14 @@
 import React from "react";
 import { handleSubmitEmail } from "../modules/email/handleSubmitEmail.js";
 import { Navbar } from "./Navbar.js";
-import { Header } from "./Header.js";
+import { Banner } from "./Banner.js";
 import { Footer } from "./Footer.js";
 
 export function Contact() {
 	return (
 		<>
 			<Navbar />
-			<Header />
+			<Banner />
 			<main>
 				<div className="container m-3">
 					<div className="row ">
@@ -92,7 +92,7 @@ export function Contact() {
 							<div className="row p-2">
 								<div className="col">
 									<span style={{ fontWeight: "bold" }}>
-										<label htmlFor="userMessage">Message</label>
+										<label for="userMessage">Message</label>
 										<br />
 									</span>
 									<textarea
