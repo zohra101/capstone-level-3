@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Navbar } from "./Navbar.js";
 import { Banner } from "./Banner.js";
 import { Footer } from "./Footer.js";
 
 export function About() {
+	const [didMount, setDidMount] = useState(false);
+
+	useEffect(componentDidMount, []);
+	useEffect(componentDidUpdate, []);
+	useEffect(componentDidUnmount, []);
+
 	return (
 		<>
 			<Navbar />
@@ -100,4 +106,22 @@ export function About() {
 			<Footer />
 		</>
 	);
+
+	function componentDidMount() {
+		setDidMount(true);
+		console.log("The About component mounted.");
+		return componentDidUnmount;
+	}
+
+	function componentDidUpdate() {
+		if (didMount === true) console.log("The About component updated.");
+	}
+
+	function componentDidUnmount() {
+		return logUnmount;
+	}
+
+	function logUnmount() {
+		console.log("The About component unmounted.");
+	}
 }
