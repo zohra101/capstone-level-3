@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { handleSubmitEmail } from "../modules/email/handleSubmitEmail.js";
 import { Navbar } from "./Navbar.js";
 import { Banner } from "./Banner.js";
 import { Footer } from "./Footer.js";
 
 export function Contact() {
+	const [didMount, setDidMount] = useState(false);
+
+	useEffect(componentDidMount, []);
+	useEffect(componentDidUpdate, []);
+	useEffect(componentDidUnmount, []);
+
 	return (
 		<>
 			<Navbar />
@@ -117,4 +123,22 @@ export function Contact() {
 			<Footer />
 		</>
 	);
+
+	function componentDidMount() {
+		setDidMount(true);
+		console.log("The Home component mounted.");
+		return componentDidUnmount;
+	}
+
+	function componentDidUpdate() {
+		if (didMount === true) console.log("The Home component updated.");
+	}
+
+	function componentDidUnmount() {
+		return logUnmount;
+	}
+
+	function logUnmount() {
+		console.log("The Home component unmounted.");
+	}
 }
