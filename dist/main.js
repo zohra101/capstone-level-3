@@ -2848,6 +2848,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function AlexResume() {
+  const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Navbar_js__WEBPACK_IMPORTED_MODULE_1__.Navbar, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner_js__WEBPACK_IMPORTED_MODULE_2__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container ms-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -2915,6 +2919,20 @@ function AlexResume() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Lowered incident resolution times by creating a knowledge management committee. Partnered with delivery managers to analyze gaps, and drafted 1st versions of best practices, policies, and procedures."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Engaged IT management to define configuration and security policy, executing 1st projects using new API."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Increased revenue from Open Lending interface by 100% over 8 months by taking ownership of interface and improving relationships with clients and vendor. Selected by VP to coordinate a new Vendor Relationship Management demo program.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Project Coordinator/Technical Writer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", null, "CB&I/The Shaw Group (Baton Rouge, LA) | Jul 2008\u2013 Sept 2014"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Blurb"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
     className: "ms-5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Authored 40-page administrator and user guides for web-based. Recruited by business systems portfolio manager after producing a 300-page manual and other training materials as side projects."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Improved documentation management by maintaining a SharePoint catalog of specifications for 800+ business intelligence reports. Designed templates for requirements, specifications, test plans, and user guides to improve documentation usability."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Helped the Application Development director prepare for CMMI certification by performing gap analysis of documents from all teams and writing new and updated SOPs."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Managed a tool inventory application with over 120 users across more than 25 global sites on 9 web servers in the US and Australia. Spearheaded efforts to resolve network connectivity issue on a major nuclear power construction site and aided in creating steering committee to govern global initiatives."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_js__WEBPACK_IMPORTED_MODULE_3__.Footer, null));
+  function componentDidMount() {
+    setDidMount(true);
+    console.log("The Resume component mounted.");
+    return componentDidUnmount;
+  }
+  function componentDidUpdate() {
+    if (didMount === true) console.log("The Resume component updated.");
+  }
+  function componentDidUnmount() {
+    return logUnmount;
+  }
+  function logUnmount() {
+    console.log("The Resume component unmounted.");
+  }
 }
 
 /***/ }),

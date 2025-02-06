@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Navbar } from "./Navbar.js";
 import { Banner } from "./Banner.js";
 import { Footer } from "./Footer.js";
 import "../css/resume.css";
 
 export function AlexResume() {
+	const [didMount, setDidMount] = useState(false);
+
+	useEffect(componentDidMount, []);
+	useEffect(componentDidUpdate, []);
+	useEffect(componentDidUnmount, []);
+
 	return (
 		<>
 			<Navbar />
@@ -278,4 +284,23 @@ export function AlexResume() {
 			<Footer />
 		</>
 	);
+
+		function componentDidMount() {
+			setDidMount(true);
+			console.log("The Resume component mounted.");
+			return componentDidUnmount;
+		}
+
+		function componentDidUpdate() {
+			if (didMount === true) console.log("The Resume component updated.");
+		}
+
+		function componentDidUnmount() {
+			return logUnmount;
+		}
+
+		function logUnmount() {
+			console.log("The Resume component unmounted.");
+		}
+
 }
