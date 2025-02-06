@@ -2990,10 +2990,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _modules_call_handleSubmitCall_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/call/handleSubmitCall.js */ "./src/modules/call/handleSubmitCall.js");
+/* harmony import */ var _Banner_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Banner.js */ "./src/Views/Banner.js");
+/* harmony import */ var _Navbar_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Navbar.js */ "./src/Views/Navbar.js");
+
+
 
 
 function Consultation() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Navbar_js__WEBPACK_IMPORTED_MODULE_3__.Navbar, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner_js__WEBPACK_IMPORTED_MODULE_2__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container m-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row "
@@ -3101,6 +3109,20 @@ function Consultation() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "outputTag2"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)));
+  function componentDidMount() {
+    setDidMount(true);
+    console.log("The Home component mounted.");
+    return componentDidUnmount;
+  }
+  function componentDidUpdate() {
+    if (didMount === true) console.log("The Home component updated.");
+  }
+  function componentDidUnmount() {
+    return logUnmount;
+  }
+  function logUnmount() {
+    console.log("The Home component unmounted.");
+  }
 }
 
 /***/ }),

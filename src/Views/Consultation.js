@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { handleSubmitCall } from "../modules/call/handleSubmitCall.js";
+import { Banner } from "./Banner.js";
+import { Navbar } from "./Navbar.js";
 
 export function Consultation() {
+	const [didMount, setDidMount] = useState(false);
+
+	useEffect(componentDidMount, []);
+	useEffect(componentDidUpdate, []);
+	useEffect(componentDidUnmount, []);
+
 	return (
 		<>
+			<Navbar/>
+			<Banner/>
 			<main>
 				<div className="container m-3">
 					<div className="row ">
@@ -113,4 +123,22 @@ export function Consultation() {
 			</main>
 		</>
 	);
+
+	function componentDidMount() {
+		setDidMount(true);
+		console.log("The Home component mounted.");
+		return componentDidUnmount;
+	}
+
+	function componentDidUpdate() {
+		if (didMount === true) console.log("The Home component updated.");
+	}
+
+	function componentDidUnmount() {
+		return logUnmount;
+	}
+
+	function logUnmount() {
+		console.log("The Home component unmounted.");
+	}
 }
