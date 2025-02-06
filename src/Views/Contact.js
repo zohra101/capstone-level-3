@@ -98,7 +98,7 @@ export function Contact() {
 							<div className="row p-2">
 								<div className="col">
 									<span style={{ fontWeight: "bold" }}>
-										<label for="userMessage">Message</label>
+										<label htmlFor="userMessage">Message</label>
 										<br />
 									</span>
 									<textarea
@@ -126,12 +126,12 @@ export function Contact() {
 
 	function componentDidMount() {
 		setDidMount(true);
-		console.log("The Consultation component mounted.");
+		console.log("The Contact component mounted.");
 		return componentDidUnmount;
 	}
 
 	function componentDidUpdate() {
-		if (didMount === true) console.log("The Consultation component updated.");
+		if (didMount === true) console.log("The Contact component updated.");
 	}
 
 	function componentDidUnmount() {
@@ -139,6 +139,6 @@ export function Contact() {
 	}
 
 	function logUnmount() {
-		console.log("The Consultation component unmounted.");
+		console.log("The Contact component unmounted.");
 	}
 }
