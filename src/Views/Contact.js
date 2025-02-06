@@ -92,7 +92,7 @@ export function Contact() {
 							<div className="row p-2">
 								<div className="col">
 									<span style={{ fontWeight: "bold" }}>
-										<label for="userMessage">Message</label>
+										<label htmlFor="userMessage">Message</label>
 										<br />
 									</span>
 									<textarea

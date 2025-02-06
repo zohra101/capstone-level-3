@@ -7,11 +7,13 @@ import { handleQuoteOfTheDay } from "../controllers/handleQuoteOfTheDay.js";
 import "../css/index.scss";
 
 export function Home() {
+
+	useEffect(componentDidMount, []);
 	return (
 		<>
 			<Navbar />
 			<Header />
-			<main>
+			<main id="homeMainTag">
 				<h1 id="mixin-welcome">Welcome</h1>
 				<div className="p-3">
 					<button
@@ -110,4 +112,8 @@ export function Home() {
 			<Footer />
 		</>
 	);
+}
+
+function componentDidMount() {
+	console.log("The Home component mounted.");
 }

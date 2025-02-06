@@ -9,15 +9,15 @@ export function Portfolio() {
 			<Navbar />
 			<Header />
 			<main id="mainTag">
-				<div class="alert alert-secondary alert-dismissible">
+				<div className="alert alert-secondary alert-dismissible">
 					<strong>Coming soon!</strong> In the near future, you'll be able to
 					click on the cards to view larger samples with greater detail.
 					<button
-						class="btn-close"
+						className="btn-close"
 						data-bs-dismiss="alert"></button>
 				</div>
-				<div class="container ms-2">
-					<div class="row">
+				<div className="container ms-2">
+					<div className="row">
 						<h2>Projects</h2>
 						<p>
 							Here's a sampling of current and past projects to which I've
@@ -35,8 +35,8 @@ export function Portfolio() {
 				</div>
 
 				<br />
-				<div class="container ms-2">
-					<div class="row">
+				<div className="container ms-2">
+					<div className="row">
 						<p>
 							For samples not represented here, please{" "}
 							<a href="contact.html#sendMessage">submit a request</a> by
@@ -45,7 +45,7 @@ export function Portfolio() {
 					</div>
 				</div>
 			</main>
-			<Footer/>
+			<Footer />
 		</>
 	);
 }
