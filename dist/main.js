@@ -3334,11 +3334,15 @@ function Home() {
   function componentDidMount() {
     setDidMount(true);
     console.log("The Home component mounted.");
+    return componentDidUnmount;
   }
   function componentDidUpdate() {
     if (didMount === true) console.log("The Home component updated.");
   }
   function componentDidUnmount() {
+    return logUnmount;
+  }
+  function logUnmount() {
     console.log("The Home component unmounted.");
   }
 }

@@ -127,6 +127,7 @@ export function Home() {
 	function componentDidMount() {
 		setDidMount(true);
 		console.log("The Home component mounted.");
+		return componentDidUnmount;
 	}
 
 	function componentDidUpdate() {
@@ -134,8 +135,10 @@ export function Home() {
 	}
 
 	function componentDidUnmount() {
-		console.log("The Home component unmounted.");
+		return logUnmount;
 	}
 
+	function logUnmount() {
+		console.log("The Home component unmounted.");
+	}
 }
-
