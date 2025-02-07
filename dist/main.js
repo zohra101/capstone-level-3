@@ -3111,17 +3111,17 @@ function Consultation() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)));
   function componentDidMount() {
     setDidMount(true);
-    console.log("The Home component mounted.");
+    console.log("The Consultation component mounted.");
     return componentDidUnmount;
   }
   function componentDidUpdate() {
-    if (didMount === true) console.log("The Home component updated.");
+    if (didMount === true) console.log("The Consultation component updated.");
   }
   function componentDidUnmount() {
     return logUnmount;
   }
   function logUnmount() {
-    console.log("The Home component unmounted.");
+    console.log("The Consultation component unmounted.");
   }
 }
 

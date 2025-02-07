@@ -126,12 +126,12 @@ export function Consultation() {
 
 	function componentDidMount() {
 		setDidMount(true);
-		console.log("The Home component mounted.");
+		console.log("The Consultation component mounted.");
 		return componentDidUnmount;
 	}
 
 	function componentDidUpdate() {
-		if (didMount === true) console.log("The Home component updated.");
+		if (didMount === true) console.log("The Consultation component updated.");
 	}
 
 	function componentDidUnmount() {
@@ -139,6 +139,6 @@ export function Consultation() {
 	}
 
 	function logUnmount() {
-		console.log("The Home component unmounted.");
+		console.log("The Consultation component unmounted.");
 	}
 }
