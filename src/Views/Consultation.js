@@ -17,7 +17,7 @@ export function Consultation() {
 			<Banner />
 			<main>
 				<div className="container m-3">
-					<div className="row cols-2">
+					<div className="row row-cols-2">
 						<h3 id="scheduleConsult">Schedule a consultation</h3>
 						<p>
 							{" "}
@@ -29,7 +29,7 @@ export function Consultation() {
 						<form
 							id="outputTag"
 							onSubmit={handleSubmitCall}>
-							<div className="row cols-2 p-2">
+							<div className="row row-cols-2 p-2">
 								<div className="col">
 									<span style={{ fontWeight: "bold" }}>Contact Type</span>
 									<br />
@@ -49,7 +49,7 @@ export function Consultation() {
 									<label htmlFor="company">Company</label>
 								</div>
 							</div>
-							<div className="row cols-2 p-2">
+							<div className="row row-cols-2 p-2">
 								<div className="col">
 									<span style={{ fontWeight: "bold" }}>
 										<label htmlFor="contactName">Contact Name</label>
@@ -64,7 +64,7 @@ export function Consultation() {
 									/>
 								</div>
 							</div>
-							<div className="row cols-2 p-2">
+							<div className="row row-cols-2 p-2">
 								<div className="col">
 									<span style={{ fontWeight: "bold" }}>
 										<label htmlFor="contactEmail">Contact Email</label>
@@ -79,7 +79,7 @@ export function Consultation() {
 									/>
 								</div>
 							</div>
-							<div className="row cols-2 p-2">
+							<div className="row row-cols-2 p-2">
 								<div className="col">
 									<span style={{ fontWeight: "bold" }}>
 										<label htmlFor="contactPhone">Contact Phone</label>
@@ -95,7 +95,7 @@ export function Consultation() {
 									/>
 								</div>
 							</div>
-							<div className="row cols-2 p-2">
+							<div className="row row-cols-2 p-2">
 								<div className="col">
 									<span style={{ fontWeight: "bold" }}>
 										<label htmlFor="scheduleConsult">
@@ -110,7 +110,7 @@ export function Consultation() {
 										className="inputs"></input>
 								</div>
 							</div>
-							<div className="row cols-2 p-2">
+							<div className="row row-cols-2 p-2">
 								<div className="col">
 									<button className="btn btn-dark">Submit</button>
 								</div>
