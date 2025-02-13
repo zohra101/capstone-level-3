@@ -24,7 +24,7 @@ export function Portfolio() {
 						data-bs-dismiss="alert"></button>
 				</div>
 				<div className="container ms-2">
-					<div className="row cols-2">
+					<div className="">
 						<h2>Projects</h2>
 						<p>
 							Here's a sampling of current and past projects to which I've
