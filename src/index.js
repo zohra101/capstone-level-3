@@ -7,42 +7,46 @@ import { AlexResume } from "./Views/AlexResume.js";
 import { Consultation } from "./Views/Consultation.js";
 import { Contact } from "./Views/Contact.js";
 import { Portfolio } from "./Views/Portfolio.js";
+import { getRootPath } from "../src/utils/getRootPath.js";
 
-const root = createRoot(window.bodyTag);
+// const root = createRoot(window.bodyTag);
+const bodyTag = document.getElementById("bodyTag");
+const root = createRoot(bodyTag);
+const rootPath = getRootPath();
 
 root.render(
 	<BrowserRouter>
 		<Routes>
 			<Route
-				path="/"
+				path={`${rootPath}/`}
 				element={<Home />}
 			/>
 			<Route
-				path="/capstone-level-3"
+				path={`${rootPath}/capstone-level-3`}
 				element={<Home />}
 			/>
 			<Route
-				path="/home"
+				path={`${rootPath}/home`}
 				element={<Home />}
 			/>
 			<Route
-				path="/portfolio"
+				path={`${rootPath}/portfolio`}
 				element={<Portfolio />}
 			/>
 			<Route
-				path="/alexresume"
+				path={`${rootPath}/alexresume`}
 				element={<AlexResume />}
 			/>
 			<Route
-				path="/contact"
+				path={`${rootPath}/contact`}
 				element={<Contact />}
 			/>
 			<Route
-				path="/Consultation"
+				path={`${rootPath}/Consultation`}
 				element={<Consultation />}
 			/>
 			<Route
-				path="/about"
+				path={`${rootPath}/about`}
 				element={<About />}
 			/>
 		</Routes>

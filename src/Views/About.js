@@ -57,7 +57,7 @@ export function About() {
 							writer since third grade, I served as the co-editor-in-chief of
 							both the school paper and yearbook (thankfully, not in the same
 							year!) and graduated with both journalism and programming
-							classNamees. At university, I dropped computer science because
+							classes. At university, I dropped computer science because
 							debugging made me miserable. I had more fun around books, old
 							things, and people so after a very brief fling with finance, I
 							majored in English and Italian language and literature, with a

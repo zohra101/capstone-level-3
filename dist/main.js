@@ -2864,7 +2864,7 @@ function About() {
     width: "100%"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col align-items-start"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "During high school (in New Jersey), my dad wanted to buy me a really big present. \"Do you want a computer like your cousins? Or something else?\" And so began my war between art and computing. A writer since third grade, I served as the co-editor-in-chief of both the school paper and yearbook (thankfully, not in the same year!) and graduated with both journalism and programming classNamees. At university, I dropped computer science because debugging made me miserable. I had more fun around books, old things, and people so after a very brief fling with finance, I majored in English and Italian language and literature, with a minor in Mediaeval Studies focused on European history. (Yes, I am less or more a member of the SCA.)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "What can you do with an English degree? Almost anything! After selling computers and office machines at Sears, I joined inbound sales and then technical supoort at a call center, until the company went out of business. On a sales force automation help desk, supporting CRM software and equipment for biotech and pharma sales representatives, I trainied new techs and wrote a lot of SOPs. Working directly with both clients and technical staff gave me unparalleled insight into the needs of users of different literacy levels (computer and verbal), backgrounds, experiences, and goals."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Have you tried explaining that after being on the phone all day, talking on the phone is the last thing you want to do? Yeah, only someone who has done it understands. Hoping an advanced degree would improve my social life, I researched programs in communications, creative writing, and Italian, and came across technical writing. Realizing this field could stop the war, combining my loves for literature and technology, plus allow more energy for people outside work, I enrolled in a fantastic certificate program at the New Jersey Institute of Technology, and rolled right into the Master's."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Computer-based training, knowledge management, and user-centered design research completed, I escaped the snow by moving to Baton Rouge, LA, to become a business intelligence developer. (You read that correctly, not a technical writer.) I always liked tinkering with databases, and spent work breaks with accountants and data analysts, so why not? When the BI team moved under the Application Development umbrella, developers and managers alike were excited to acquire a technical writer to take over documenting the software they produced. I've been at least a part-time technical writer in every role I've held since.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_js__WEBPACK_IMPORTED_MODULE_3__.Footer, null));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "During high school (in New Jersey), my dad wanted to buy me a really big present. \"Do you want a computer like your cousins? Or something else?\" And so began my war between art and computing. A writer since third grade, I served as the co-editor-in-chief of both the school paper and yearbook (thankfully, not in the same year!) and graduated with both journalism and programming classes. At university, I dropped computer science because debugging made me miserable. I had more fun around books, old things, and people so after a very brief fling with finance, I majored in English and Italian language and literature, with a minor in Mediaeval Studies focused on European history. (Yes, I am less or more a member of the SCA.)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "What can you do with an English degree? Almost anything! After selling computers and office machines at Sears, I joined inbound sales and then technical supoort at a call center, until the company went out of business. On a sales force automation help desk, supporting CRM software and equipment for biotech and pharma sales representatives, I trainied new techs and wrote a lot of SOPs. Working directly with both clients and technical staff gave me unparalleled insight into the needs of users of different literacy levels (computer and verbal), backgrounds, experiences, and goals."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Have you tried explaining that after being on the phone all day, talking on the phone is the last thing you want to do? Yeah, only someone who has done it understands. Hoping an advanced degree would improve my social life, I researched programs in communications, creative writing, and Italian, and came across technical writing. Realizing this field could stop the war, combining my loves for literature and technology, plus allow more energy for people outside work, I enrolled in a fantastic certificate program at the New Jersey Institute of Technology, and rolled right into the Master's."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Computer-based training, knowledge management, and user-centered design research completed, I escaped the snow by moving to Baton Rouge, LA, to become a business intelligence developer. (You read that correctly, not a technical writer.) I always liked tinkering with databases, and spent work breaks with accountants and data analysts, so why not? When the BI team moved under the Application Development umbrella, developers and managers alike were excited to acquire a technical writer to take over documenting the software they produced. I've been at least a part-time technical writer in every role I've held since.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_js__WEBPACK_IMPORTED_MODULE_3__.Footer, null));
   function componentDidMount() {
     setDidMount(true);
     console.log("The About component mounted.");
@@ -3005,10 +3005,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _assets_images_siteHeader_4kp_rev2_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/images/siteHeader_4kp_rev2.png */ "./src/assets/images/siteHeader_4kp_rev2.png");
-/* harmony import */ var _assets_icons_icon_linkedin_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/icons/icon_linkedin.png */ "./src/assets/icons/icon_linkedin.png");
-/* harmony import */ var _assets_icons_icon_email_coral_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/icons/icon_email_coral.png */ "./src/assets/icons/icon_email_coral.png");
-
-
 
 
 function Banner() {
@@ -3017,28 +3013,7 @@ function Banner() {
     alt: "siteHeader",
     width: "100%",
     src: _assets_images_siteHeader_4kp_rev2_png__WEBPACK_IMPORTED_MODULE_1__["default"]
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    class: "ms-2",
-    href: "https://www.linkedin.com/in/alexmarjanovic"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    id: "linkedInIcon",
-    alt: "LinkedIn",
-    style: {
-      height: "40px",
-      width: "40px"
-    },
-    src: _assets_icons_icon_linkedin_png__WEBPACK_IMPORTED_MODULE_2__["default"]
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "contact.html#sendMessage"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    id: "emailIcon",
-    alt: "email",
-    style: {
-      height: "30px",
-      width: "30px"
-    },
-    src: _assets_icons_icon_email_coral_png__WEBPACK_IMPORTED_MODULE_3__["default"]
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", null)));
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", null)));
 }
 
 /***/ }),
@@ -3504,23 +3479,61 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   Navbar: () => (/* binding */ Navbar)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
+/* harmony import */ var _utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/getRootPath.js */ "./src/utils/getRootPath.js");
+/* harmony import */ var _assets_icons_icon_linkedin_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/icons/icon_linkedin.png */ "./src/assets/icons/icon_linkedin.png");
+/* harmony import */ var _assets_icons_icon_email_coral_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/icons/icon_email_coral.png */ "./src/assets/icons/icon_email_coral.png");
+
+
+
 
 
 function Navbar() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/home"
-  }, "Home | "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/portfolio"
-  }, "Portfolio | "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/alexresume"
-  }, "Resume | "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/contact"
-  }, "Contact | "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/consultation"
-  }, "Consultation | "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_1__.Link, {
-    to: "/about"
-  }, "About ")));
+  const rootPath = (0,_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_1__.getRootPath)();
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
+    className: "nav nav-tabs nav-fill bg-dark "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+    className: "nav-link text-info",
+    to: `${rootPath}/home`
+  }, "Home", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+    className: "nav-link text-info",
+    to: `${rootPath}/portfolio`
+  }, "Portfolio", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+    className: "nav-link text-info",
+    to: `${rootPath}/alexresume`
+  }, "Resume", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+    className: "nav-link text-info",
+    to: `${rootPath}/contact`
+  }, "Contact", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+    className: "nav-link text-info",
+    to: `${rootPath}/consultation`
+  }, "Consultation", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+    className: "nav-link text-info",
+    to: `${rootPath}/about`
+  }, "About", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "me-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    className: "ms-2 bg-dark",
+    href: "https://www.linkedin.com/in/alexmarjanovic"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    id: "linkedInIcon",
+    alt: "LinkedIn",
+    style: {
+      height: "40px",
+      width: "40px"
+    },
+    src: _assets_icons_icon_linkedin_png__WEBPACK_IMPORTED_MODULE_2__["default"]
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
+    href: "contact.html#sendMessage"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    id: "emailIcon",
+    alt: "email",
+    style: {
+      height: "30px",
+      width: "30px"
+    },
+    src: _assets_icons_icon_email_coral_png__WEBPACK_IMPORTED_MODULE_3__["default"]
+  })))));
 }
 
 /***/ }),
@@ -3692,6 +3705,27 @@ function parseQotdResponse(resolveValue) {
   // const qotd = `${quote} -- ${author}`;
   (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)(quote, "qotdQuoteTag");
   (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)(author, "qotdAuthorTag");
+}
+
+/***/ }),
+
+/***/ "./src/utils/getRootPath.js":
+/*!**********************************!*\
+  !*** ./src/utils/getRootPath.js ***!
+  \**********************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   getRootPath: () => (/* binding */ getRootPath)
+/* harmony export */ });
+function getRootPath() {
+  const domain = window.location.hostname;
+  let rootPath = "";
+  console.log(`getRootPath domain: ${domain}`);
+  if (domain === "zohra101.github.io") rootPath = "/capstone-level-3/";
+  console.log(`getRootpath: ${rootPath}`);
+  return rootPath;
 }
 
 /***/ }),
@@ -14198,13 +14232,14 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
 /* harmony import */ var _Views_Home_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Views/Home.js */ "./src/Views/Home.js");
 /* harmony import */ var _Views_About_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Views/About.js */ "./src/Views/About.js");
 /* harmony import */ var _Views_AlexResume_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Views/AlexResume.js */ "./src/Views/AlexResume.js");
 /* harmony import */ var _Views_Consultation_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Views/Consultation.js */ "./src/Views/Consultation.js");
 /* harmony import */ var _Views_Contact_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Views/Contact.js */ "./src/Views/Contact.js");
 /* harmony import */ var _Views_Portfolio_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Views/Portfolio.js */ "./src/Views/Portfolio.js");
+/* harmony import */ var _src_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../src/utils/getRootPath.js */ "./src/utils/getRootPath.js");
 
 
 
@@ -14214,30 +14249,35 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(window.bodyTag);
-root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/",
+
+
+// const root = createRoot(window.bodyTag);
+const bodyTag = document.getElementById("bodyTag");
+const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(bodyTag);
+const rootPath = (0,_src_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_8__.getRootPath)();
+root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_9__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_9__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_9__.Route, {
+  path: `${rootPath}/`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_Home_js__WEBPACK_IMPORTED_MODULE_2__.Home, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/capstone-level-3",
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_9__.Route, {
+  path: `${rootPath}/capstone-level-3`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_Home_js__WEBPACK_IMPORTED_MODULE_2__.Home, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/home",
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_9__.Route, {
+  path: `${rootPath}/home`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_Home_js__WEBPACK_IMPORTED_MODULE_2__.Home, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/portfolio",
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_9__.Route, {
+  path: `${rootPath}/portfolio`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_Portfolio_js__WEBPACK_IMPORTED_MODULE_7__.Portfolio, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/alexresume",
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_9__.Route, {
+  path: `${rootPath}/alexresume`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_AlexResume_js__WEBPACK_IMPORTED_MODULE_4__.AlexResume, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/contact",
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_9__.Route, {
+  path: `${rootPath}/contact`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_Contact_js__WEBPACK_IMPORTED_MODULE_6__.Contact, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/Consultation",
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_9__.Route, {
+  path: `${rootPath}/Consultation`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_Consultation_js__WEBPACK_IMPORTED_MODULE_5__.Consultation, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_8__.Route, {
-  path: "/about",
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_9__.Route, {
+  path: `${rootPath}/about`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_About_js__WEBPACK_IMPORTED_MODULE_3__.About, null)
 }))));
 })();
