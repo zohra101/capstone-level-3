@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Navbar } from "./Navbar.js";
+import { NavbarCollapsible } from "./NavbarCollapsible.js";
 import { Banner } from "./Banner.js";
 import { Footer } from "./Footer.js";
 import "../css/resume.css";
@@ -13,7 +14,7 @@ export function AlexResume() {
 
 	return (
 		<>
-			<Navbar />
+			<NavbarCollapsible />
 			<Banner />
 			<main>
 				<div className="container ms-0">

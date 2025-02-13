@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Navbar } from "./Navbar.js";
+import { NavbarCollapsible } from "./NavbarCollapsible.js";
 import { Banner } from "./Banner.js";
 import { Footer } from "./Footer.js";
 
@@ -12,7 +13,7 @@ export function About() {
 
 	return (
 		<>
-			<Navbar />
+			<NavbarCollapsible />
 			<Banner />
 			<main className="p-1">
 				<div className="container ms-2">
@@ -56,13 +57,13 @@ export function About() {
 							something else?" And so began my war between art and computing. A
 							writer since third grade, I served as the co-editor-in-chief of
 							both the school paper and yearbook (thankfully, not in the same
-							year!) and graduated with both journalism and programming
-							classes. At university, I dropped computer science because
-							debugging made me miserable. I had more fun around books, old
-							things, and people so after a very brief fling with finance, I
-							majored in English and Italian language and literature, with a
-							minor in Mediaeval Studies focused on European history. (Yes, I am
-							less or more a member of the SCA.)
+							year!) and graduated with both journalism and programming classes.
+							At university, I dropped computer science because debugging made
+							me miserable. I had more fun around books, old things, and people
+							so after a very brief fling with finance, I majored in English and
+							Italian language and literature, with a minor in Mediaeval Studies
+							focused on European history. (Yes, I am less or more a member of
+							the SCA.)
 						</p>
 						<p>
 							What can you do with an English degree? Almost anything! After

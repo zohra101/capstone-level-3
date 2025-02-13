@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { handleSubmitCall } from "../modules/call/handleSubmitCall.js";
 import { Banner } from "./Banner.js";
 import { Navbar } from "./Navbar.js";
+import { NavbarCollapsible } from "./NavbarCollapsible.js";
 
 export function Consultation() {
 	const [didMount, setDidMount] = useState(false);
@@ -12,8 +13,8 @@ export function Consultation() {
 
 	return (
 		<>
-			<Navbar/>
-			<Banner/>
+			<NavbarCollapsible />
+			<Banner />
 			<main>
 				<div className="container m-3">
 					<div className="row ">

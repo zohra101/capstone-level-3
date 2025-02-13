@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Navbar } from "../Views/Navbar.js";
+import { NavbarCollapsible } from "./NavbarCollapsible.js";
 import { Banner } from "./Banner.js";
 import { Footer } from "./Footer.js";
 
@@ -12,7 +13,7 @@ export function Portfolio() {
 
 	return (
 		<>
-			<Navbar />
+			<NavbarCollapsible />
 			<Banner />
 			<main id="mainTag">
 				<div className="alert alert-secondary alert-dismissible">

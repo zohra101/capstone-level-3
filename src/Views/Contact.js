@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { handleSubmitEmail } from "../modules/email/handleSubmitEmail.js";
 import { Navbar } from "./Navbar.js";
+import { NavbarCollapsible } from "./NavbarCollapsible.js";
 import { Banner } from "./Banner.js";
 import { Footer } from "./Footer.js";
 
@@ -13,7 +14,7 @@ export function Contact() {
 
 	return (
 		<>
-			<Navbar />
+			<NavbarCollapsible />
 			<Banner />
 			<main>
 				<div className="container m-3">

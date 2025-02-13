@@ -2828,8 +2828,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _Navbar_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar.js */ "./src/Views/Navbar.js");
-/* harmony import */ var _Banner_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Banner.js */ "./src/Views/Banner.js");
-/* harmony import */ var _Footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer.js */ "./src/Views/Footer.js");
+/* harmony import */ var _NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NavbarCollapsible.js */ "./src/Views/NavbarCollapsible.js");
+/* harmony import */ var _Banner_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Banner.js */ "./src/Views/Banner.js");
+/* harmony import */ var _Footer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer.js */ "./src/Views/Footer.js");
+
 
 
 
@@ -2839,7 +2841,7 @@ function About() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Navbar_js__WEBPACK_IMPORTED_MODULE_1__.Navbar, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner_js__WEBPACK_IMPORTED_MODULE_2__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_2__.NavbarCollapsible, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner_js__WEBPACK_IMPORTED_MODULE_3__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     className: "p-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container ms-2"
@@ -2864,7 +2866,7 @@ function About() {
     width: "100%"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col align-items-start"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "During high school (in New Jersey), my dad wanted to buy me a really big present. \"Do you want a computer like your cousins? Or something else?\" And so began my war between art and computing. A writer since third grade, I served as the co-editor-in-chief of both the school paper and yearbook (thankfully, not in the same year!) and graduated with both journalism and programming classes. At university, I dropped computer science because debugging made me miserable. I had more fun around books, old things, and people so after a very brief fling with finance, I majored in English and Italian language and literature, with a minor in Mediaeval Studies focused on European history. (Yes, I am less or more a member of the SCA.)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "What can you do with an English degree? Almost anything! After selling computers and office machines at Sears, I joined inbound sales and then technical supoort at a call center, until the company went out of business. On a sales force automation help desk, supporting CRM software and equipment for biotech and pharma sales representatives, I trainied new techs and wrote a lot of SOPs. Working directly with both clients and technical staff gave me unparalleled insight into the needs of users of different literacy levels (computer and verbal), backgrounds, experiences, and goals."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Have you tried explaining that after being on the phone all day, talking on the phone is the last thing you want to do? Yeah, only someone who has done it understands. Hoping an advanced degree would improve my social life, I researched programs in communications, creative writing, and Italian, and came across technical writing. Realizing this field could stop the war, combining my loves for literature and technology, plus allow more energy for people outside work, I enrolled in a fantastic certificate program at the New Jersey Institute of Technology, and rolled right into the Master's."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Computer-based training, knowledge management, and user-centered design research completed, I escaped the snow by moving to Baton Rouge, LA, to become a business intelligence developer. (You read that correctly, not a technical writer.) I always liked tinkering with databases, and spent work breaks with accountants and data analysts, so why not? When the BI team moved under the Application Development umbrella, developers and managers alike were excited to acquire a technical writer to take over documenting the software they produced. I've been at least a part-time technical writer in every role I've held since.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_js__WEBPACK_IMPORTED_MODULE_3__.Footer, null));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "During high school (in New Jersey), my dad wanted to buy me a really big present. \"Do you want a computer like your cousins? Or something else?\" And so began my war between art and computing. A writer since third grade, I served as the co-editor-in-chief of both the school paper and yearbook (thankfully, not in the same year!) and graduated with both journalism and programming classes. At university, I dropped computer science because debugging made me miserable. I had more fun around books, old things, and people so after a very brief fling with finance, I majored in English and Italian language and literature, with a minor in Mediaeval Studies focused on European history. (Yes, I am less or more a member of the SCA.)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "What can you do with an English degree? Almost anything! After selling computers and office machines at Sears, I joined inbound sales and then technical supoort at a call center, until the company went out of business. On a sales force automation help desk, supporting CRM software and equipment for biotech and pharma sales representatives, I trainied new techs and wrote a lot of SOPs. Working directly with both clients and technical staff gave me unparalleled insight into the needs of users of different literacy levels (computer and verbal), backgrounds, experiences, and goals."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Have you tried explaining that after being on the phone all day, talking on the phone is the last thing you want to do? Yeah, only someone who has done it understands. Hoping an advanced degree would improve my social life, I researched programs in communications, creative writing, and Italian, and came across technical writing. Realizing this field could stop the war, combining my loves for literature and technology, plus allow more energy for people outside work, I enrolled in a fantastic certificate program at the New Jersey Institute of Technology, and rolled right into the Master's."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Computer-based training, knowledge management, and user-centered design research completed, I escaped the snow by moving to Baton Rouge, LA, to become a business intelligence developer. (You read that correctly, not a technical writer.) I always liked tinkering with databases, and spent work breaks with accountants and data analysts, so why not? When the BI team moved under the Application Development umbrella, developers and managers alike were excited to acquire a technical writer to take over documenting the software they produced. I've been at least a part-time technical writer in every role I've held since.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_js__WEBPACK_IMPORTED_MODULE_4__.Footer, null));
   function componentDidMount() {
     setDidMount(true);
     console.log("The About component mounted.");
@@ -2895,9 +2897,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _Navbar_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar.js */ "./src/Views/Navbar.js");
-/* harmony import */ var _Banner_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Banner.js */ "./src/Views/Banner.js");
-/* harmony import */ var _Footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer.js */ "./src/Views/Footer.js");
-/* harmony import */ var _css_resume_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../css/resume.css */ "./src/css/resume.css");
+/* harmony import */ var _NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NavbarCollapsible.js */ "./src/Views/NavbarCollapsible.js");
+/* harmony import */ var _Banner_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Banner.js */ "./src/Views/Banner.js");
+/* harmony import */ var _Footer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer.js */ "./src/Views/Footer.js");
+/* harmony import */ var _css_resume_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../css/resume.css */ "./src/css/resume.css");
+
 
 
 
@@ -2908,7 +2912,7 @@ function AlexResume() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Navbar_js__WEBPACK_IMPORTED_MODULE_1__.Navbar, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner_js__WEBPACK_IMPORTED_MODULE_2__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_2__.NavbarCollapsible, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner_js__WEBPACK_IMPORTED_MODULE_3__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container ms-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row"
@@ -2974,7 +2978,7 @@ function AlexResume() {
     className: "ms-5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Lowered incident resolution times by creating a knowledge management committee. Partnered with delivery managers to analyze gaps, and drafted 1st versions of best practices, policies, and procedures."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Engaged IT management to define configuration and security policy, executing 1st projects using new API."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Increased revenue from Open Lending interface by 100% over 8 months by taking ownership of interface and improving relationships with clients and vendor. Selected by VP to coordinate a new Vendor Relationship Management demo program.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Project Coordinator/Technical Writer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", null, "CB&I/The Shaw Group (Baton Rouge, LA) | Jul 2008\u2013 Sept 2014"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Blurb"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
     className: "ms-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Authored 40-page administrator and user guides for web-based. Recruited by business systems portfolio manager after producing a 300-page manual and other training materials as side projects."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Improved documentation management by maintaining a SharePoint catalog of specifications for 800+ business intelligence reports. Designed templates for requirements, specifications, test plans, and user guides to improve documentation usability."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Helped the Application Development director prepare for CMMI certification by performing gap analysis of documents from all teams and writing new and updated SOPs."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Managed a tool inventory application with over 120 users across more than 25 global sites on 9 web servers in the US and Australia. Spearheaded efforts to resolve network connectivity issue on a major nuclear power construction site and aided in creating steering committee to govern global initiatives."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_js__WEBPACK_IMPORTED_MODULE_3__.Footer, null));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Authored 40-page administrator and user guides for web-based. Recruited by business systems portfolio manager after producing a 300-page manual and other training materials as side projects."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Improved documentation management by maintaining a SharePoint catalog of specifications for 800+ business intelligence reports. Designed templates for requirements, specifications, test plans, and user guides to improve documentation usability."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Helped the Application Development director prepare for CMMI certification by performing gap analysis of documents from all teams and writing new and updated SOPs."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Managed a tool inventory application with over 120 users across more than 25 global sites on 9 web servers in the US and Australia. Spearheaded efforts to resolve network connectivity issue on a major nuclear power construction site and aided in creating steering committee to govern global initiatives."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_js__WEBPACK_IMPORTED_MODULE_4__.Footer, null));
   function componentDidMount() {
     setDidMount(true);
     console.log("The Resume component mounted.");
@@ -3032,6 +3036,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_call_handleSubmitCall_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/call/handleSubmitCall.js */ "./src/modules/call/handleSubmitCall.js");
 /* harmony import */ var _Banner_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Banner.js */ "./src/Views/Banner.js");
 /* harmony import */ var _Navbar_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Navbar.js */ "./src/Views/Navbar.js");
+/* harmony import */ var _NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./NavbarCollapsible.js */ "./src/Views/NavbarCollapsible.js");
+
 
 
 
@@ -3041,7 +3047,7 @@ function Consultation() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Navbar_js__WEBPACK_IMPORTED_MODULE_3__.Navbar, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner_js__WEBPACK_IMPORTED_MODULE_2__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_4__.NavbarCollapsible, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner_js__WEBPACK_IMPORTED_MODULE_2__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container m-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row "
@@ -3180,8 +3186,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _modules_email_handleSubmitEmail_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/email/handleSubmitEmail.js */ "./src/modules/email/handleSubmitEmail.js");
 /* harmony import */ var _Navbar_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Navbar.js */ "./src/Views/Navbar.js");
-/* harmony import */ var _Banner_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Banner.js */ "./src/Views/Banner.js");
-/* harmony import */ var _Footer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer.js */ "./src/Views/Footer.js");
+/* harmony import */ var _NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./NavbarCollapsible.js */ "./src/Views/NavbarCollapsible.js");
+/* harmony import */ var _Banner_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Banner.js */ "./src/Views/Banner.js");
+/* harmony import */ var _Footer_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Footer.js */ "./src/Views/Footer.js");
+
 
 
 
@@ -3192,7 +3200,7 @@ function Contact() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Navbar_js__WEBPACK_IMPORTED_MODULE_2__.Navbar, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner_js__WEBPACK_IMPORTED_MODULE_3__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_3__.NavbarCollapsible, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner_js__WEBPACK_IMPORTED_MODULE_4__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container m-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row "
@@ -3299,7 +3307,7 @@ function Contact() {
     id: "spinner"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "outputTag2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_js__WEBPACK_IMPORTED_MODULE_4__.Footer, null));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_js__WEBPACK_IMPORTED_MODULE_5__.Footer, null));
   function componentDidMount() {
     setDidMount(true);
     console.log("The Contact component mounted.");
@@ -3395,17 +3403,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   Home: () => (/* binding */ Home)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _Views_Navbar_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Views/Navbar.js */ "./src/Views/Navbar.js");
-/* harmony import */ var _Banner_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Banner.js */ "./src/Views/Banner.js");
-/* harmony import */ var _Footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer.js */ "./src/Views/Footer.js");
-/* harmony import */ var _HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./HandleQuoteOfTheDay.js */ "./src/Views/HandleQuoteOfTheDay.js");
-/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../css/index.scss */ "./src/css/index.scss");
+/* harmony import */ var _Banner_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Banner.js */ "./src/Views/Banner.js");
+/* harmony import */ var _Footer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer.js */ "./src/Views/Footer.js");
+/* harmony import */ var _HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./HandleQuoteOfTheDay.js */ "./src/Views/HandleQuoteOfTheDay.js");
+/* harmony import */ var _css_index_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../css/index.scss */ "./src/css/index.scss");
+/* harmony import */ var _NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./NavbarCollapsible.js */ "./src/Views/NavbarCollapsible.js");
 
-
+// import { Navbar } from "../Views/Navbar.js";
 
 
 
 // import { createServicesListGroup } from "../controllers/createServicesListGroup.js";
+
 
 function Home() {
   const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
@@ -3415,12 +3424,12 @@ function Home() {
   const domain = window.location.hostname;
   const port = window.location.port;
   console.log(`Domain: ${domain} Port: ${port}`);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Views_Navbar_js__WEBPACK_IMPORTED_MODULE_1__.Navbar, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner_js__WEBPACK_IMPORTED_MODULE_2__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_5__.NavbarCollapsible, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner_js__WEBPACK_IMPORTED_MODULE_1__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     id: "homeMain"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     id: "mixin-welcome",
     className: "m-2"
-  }, "Welcome"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_4__.HandleQuoteOfTheDay, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, "Welcome"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_3__.HandleQuoteOfTheDay, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container m-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "homeIntro",
@@ -3449,7 +3458,7 @@ function Home() {
     href: "contact.html#sendMessage"
   }, "send a message"), " using the Contact form."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Thanks for visiting!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "signature"
-  }, "Alex Marjanovic"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_js__WEBPACK_IMPORTED_MODULE_3__.Footer, null));
+  }, "Alex Marjanovic"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_js__WEBPACK_IMPORTED_MODULE_2__.Footer, null));
   function componentDidMount() {
     setDidMount(true);
     console.log("The Home component mounted.");
@@ -3538,6 +3547,102 @@ function Navbar() {
 
 /***/ }),
 
+/***/ "./src/Views/NavbarCollapsible.js":
+/*!****************************************!*\
+  !*** ./src/Views/NavbarCollapsible.js ***!
+  \****************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   NavbarCollapsible: () => (/* binding */ NavbarCollapsible)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
+/* harmony import */ var _utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/getRootPath.js */ "./src/utils/getRootPath.js");
+/* harmony import */ var _assets_icons_icon_linkedin_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/icons/icon_linkedin.png */ "./src/assets/icons/icon_linkedin.png");
+/* harmony import */ var _assets_icons_icon_email_coral_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/icons/icon_email_coral.png */ "./src/assets/icons/icon_email_coral.png");
+
+
+
+
+
+function NavbarCollapsible() {
+  const rootPath = (0,_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_1__.getRootPath)();
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
+    className: "navbar nav-tabs navbar-expand-sm",
+    style: {
+      backgroundColor: "rgb(2, 32, 54)"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "container-fluid"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+    className: "navbar-brand",
+    style: {
+      backgroundColor: "rgb(2, 32, 54)",
+      color: "rgb(188, 110, 14)"
+    },
+    to: "#"
+  }, "Alex Marjanovic"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    className: "navbar-toggler",
+    type: "button",
+    "data-bs-toggle": "collapse",
+    "data-bs-target": "#navbarNavAltMarkup",
+    "aria-controls": "navbarNavAltMarkup",
+    "aria-expanded": "false",
+    "aria-label": "Toggle navigation"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "navbar-toggler-icon",
+    style: {
+      backgroundColor: "rgb(150, 196, 231)"
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "collapse navbar-collapse",
+    id: "navbarNavAltMarkup"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "navbar-nav"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+    className: "nav-link",
+    style: {
+      color: "rgb(150, 196, 231)"
+    },
+    "aria-current": "page",
+    to: `${rootPath}/home`
+  }, " ", "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+    className: "nav-link",
+    style: {
+      color: "rgb(150, 196, 231)"
+    },
+    to: `${rootPath}/portfolio`
+  }, "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+    className: "nav-link",
+    style: {
+      color: "rgb(150, 196, 231)"
+    },
+    to: `${rootPath}/alexresume`
+  }, "Resume"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+    className: "nav-link",
+    style: {
+      color: "rgb(150, 196, 231)"
+    },
+    to: `${rootPath}/contact`
+  }, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+    className: "nav-link",
+    style: {
+      color: "rgb(150, 196, 231)"
+    },
+    to: `${rootPath}/consultation`
+  }, "Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+    className: "nav-link",
+    style: {
+      color: "rgb(150, 196, 231)"
+    },
+    to: `${rootPath}/about`
+  }, "About"))))));
+}
+
+/***/ }),
+
 /***/ "./src/Views/Portfolio.js":
 /*!********************************!*\
   !*** ./src/Views/Portfolio.js ***!
@@ -3550,8 +3655,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _Views_Navbar_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Views/Navbar.js */ "./src/Views/Navbar.js");
-/* harmony import */ var _Banner_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Banner.js */ "./src/Views/Banner.js");
-/* harmony import */ var _Footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer.js */ "./src/Views/Footer.js");
+/* harmony import */ var _NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NavbarCollapsible.js */ "./src/Views/NavbarCollapsible.js");
+/* harmony import */ var _Banner_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Banner.js */ "./src/Views/Banner.js");
+/* harmony import */ var _Footer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer.js */ "./src/Views/Footer.js");
+
 
 
 
@@ -3561,7 +3668,7 @@ function Portfolio() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Views_Navbar_js__WEBPACK_IMPORTED_MODULE_1__.Navbar, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner_js__WEBPACK_IMPORTED_MODULE_2__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_2__.NavbarCollapsible, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Banner_js__WEBPACK_IMPORTED_MODULE_3__.Banner, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     id: "mainTag"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "alert alert-secondary alert-dismissible"
@@ -3578,7 +3685,7 @@ function Portfolio() {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "For samples not represented here, please", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "contact.html#sendMessage"
-  }, "submit a request"), " by completing the form on my Contact page.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_js__WEBPACK_IMPORTED_MODULE_3__.Footer, null));
+  }, "submit a request"), " by completing the form on my Contact page.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Footer_js__WEBPACK_IMPORTED_MODULE_4__.Footer, null));
   function componentDidMount() {
     setDidMount(true);
     console.log("The Portfolio component mounted.");
