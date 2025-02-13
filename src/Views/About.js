@@ -15,8 +15,6 @@ export function About() {
 							id="aboutSite"
 							className="emphasis newSection">
 							<span className="badge text-bg-primary">New</span> About this website{" "}
-							className="emphasis newSection">
-							<span className="badge text-bg-primary">New</span> About this website{" "}
 						</h3>
 					</div>
 					<div className="row">
@@ -52,8 +50,8 @@ export function About() {
 							something else?" And so began my war between art and computing. A
 							writer since third grade, I served as the co-editor-in-chief of
 							both the school paper and yearbook (thankfully, not in the same
-							year!) and graduated with both journalism and programming classNamees.
-							year!) and graduated with both journalism and programming classNamees.
+							year!) and graduated with both journalism and programming classes.
+		
 							At university, I dropped computer science because debugging made
 							me miserable. I had more fun around books, old things, and people
 							so after a very brief fling with finance, I majored in English and
