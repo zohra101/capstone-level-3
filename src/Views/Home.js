@@ -63,10 +63,10 @@ export function Home() {
 				<div className="container m-2">
 					<div
 						id="homeHelp"
-						className="row row-cols-2">
+						className="row cols-2">
 						<h3>How I can help</h3>
 					</div>
-					<div className="row row-cols-2">
+					<div className="row cols-2">
 						<p>
 							I'm a specialist at translating technology: creating and
 							delivering information concisely, clearly, and effectively.
@@ -92,12 +92,12 @@ export function Home() {
 						</p>
 					</div>
 				</div>
-				<div className="row row-cols-2 m-2">
+				<div className="row cols-2 m-2">
 					<h3>Services</h3>
 				</div>
 				<div
 					id="homeServices"
-					className="row row-cols-2 m-2">
+					className="row cols-2 m-2">
 					<p>
 						Whether it's writing user manuals, creating process documentation,
 						developing training materials, or editing help files, I ensure that
@@ -111,7 +111,7 @@ export function Home() {
 						id="createServicesListGroupTag"
 						onLoad={createServicesListGroup}></output>
 				</div> */}
-				<div className="row row-cols-2 m-2">
+				<div className="row cols-2 m-2">
 					<p>
 						If my services seem like a good fit for your organization, please{" "}
 						<a href="contact.html#sendMessage">send a message</a> using the

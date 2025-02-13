@@ -24,7 +24,7 @@ export function Portfolio() {
 						data-bs-dismiss="alert"></button>
 				</div>
 				<div className="container ms-2">
-					<div className="row row-cols-2">
+					<div className="row cols-2">
 						<h2>Projects</h2>
 						<p>
 							Here's a sampling of current and past projects to which I've
@@ -43,7 +43,7 @@ export function Portfolio() {
 
 				<br />
 				<div className="container ms-2">
-					<div className="row row-cols-2">
+					<div className="row row-cols-2 row-cols-md-3">
 						<p>
 							For samples not represented here, please{" "}
 							<a href="contact.html#sendMessage">submit a request</a> by
