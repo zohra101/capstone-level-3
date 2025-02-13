@@ -12,9 +12,9 @@ export function Banner() {
 						alt="siteHeader"
 						width="100%"
 						src={siteHeader}
+						className="pb-4"
 					/>
 				</div>
-				<hr />
 			</header>
 		</>
 	);
