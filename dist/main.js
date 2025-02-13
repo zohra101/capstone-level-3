@@ -12403,7 +12403,7 @@ function About() {
     className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     id: "alexHoli",
-    src: _assets_images_alex_png__WEBPACK_IMPORTED_MODULE_4__.alexHoli,
+    src: _assets_images_alex_png__WEBPACK_IMPORTED_MODULE_4__["default"],
     alt: "alex",
     width: "100%"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {

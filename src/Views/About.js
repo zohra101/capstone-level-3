@@ -2,7 +2,7 @@ import React from "react";
 import { Navbar } from "./Navbar.js";
 import { Header } from "./Header.js";
 import { Footer } from "./Footer.js";
-import { alexHoli } from "../assets/images/alex.png";
+import alexHoli from "../assets/images/alex.png";
 
 export function About() {
 	return (
