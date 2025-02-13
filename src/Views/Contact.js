@@ -39,6 +39,8 @@ export function Contact() {
 										id="individual"
 										name="Contact Type"
 										className="p-2"
+										data-bs-title="Select this button if you represent an invidual."
+										data-bs-toggle="tooltip"
 									/>
 									<label htmlFor="individual">Individual</label>
 									<input
@@ -46,6 +48,8 @@ export function Contact() {
 										id="company"
 										name="Contact Type"
 										className="p-2 ms-2"
+										data-bs-title="Select this button if you represent an organization."
+										data-bs-toggle="tooltip"
 									/>
 									<label htmlFor="company">Company</label>
 								</div>
@@ -128,6 +132,11 @@ export function Contact() {
 	function componentDidMount() {
 		setDidMount(true);
 		console.log("The Contact component mounted.");
+		
+		const individualTag = document.getElementById("individual");
+		  new bootstrap.Tooltip(individualTag);
+		const companyTag = document.getElementById("company");
+		  new bootstrap.Tooltip(companyTag);
 		return componentDidUnmount;
 	}
 

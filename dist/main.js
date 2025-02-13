@@ -3353,14 +3353,18 @@ function Contact() {
     type: "radio",
     id: "individual",
     name: "Contact Type",
-    className: "p-2"
+    className: "p-2",
+    "data-bs-title": "Select this button if you represent an invidual.",
+    "data-bs-toggle": "tooltip"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
     htmlFor: "individual"
   }, "Individual"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
     type: "radio",
     id: "company",
     name: "Contact Type",
-    className: "p-2 ms-2"
+    className: "p-2 ms-2",
+    "data-bs-title": "Select this button if you represent an organization.",
+    "data-bs-toggle": "tooltip"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
     htmlFor: "company"
   }, "Company"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -3441,6 +3445,10 @@ function Contact() {
   function componentDidMount() {
     setDidMount(true);
     console.log("The Contact component mounted.");
+    const individualTag = document.getElementById("individual");
+    new bootstrap.Tooltip(individualTag);
+    const companyTag = document.getElementById("company");
+    new bootstrap.Tooltip(companyTag);
     return componentDidUnmount;
   }
   function componentDidUpdate() {
