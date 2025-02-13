@@ -4,7 +4,6 @@
 
 //Submit handler
 export function handleSubmitEmail(event) {
-    debugger;
     event.preventDefault();
     const inputs = event.target;
     const emailInput = inputs[3];

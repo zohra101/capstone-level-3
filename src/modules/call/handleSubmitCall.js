@@ -3,7 +3,6 @@
  // const scheduleSubmitMessage = "<br>" + "<h5>Your consultation request has been submitted. Confirmation will be sent to" + email + ".</h5>" + "<br>";
 
 export function handleSubmitCall(event) {
-    debugger;
     event.preventDefault();
     const inputs = event.target;
     const emailInput = inputs[3];
