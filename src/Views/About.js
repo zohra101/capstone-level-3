@@ -2,19 +2,21 @@ import React from "react";
 import { Navbar } from "./Navbar.js";
 import { Header } from "./Header.js";
 import { Footer } from "./Footer.js";
+import { alexHoli } from "../assets/images/alex.png";
 
 export function About() {
 	return (
 		<>
-        <Navbar/>
-		<Header/>
+			<Navbar />
+			<Header />
 			<main className="p-1">
 				<div className="container ms-2">
 					<div className="row">
 						<h3
 							id="aboutSite"
 							className="emphasis newSection">
-							<span className="badge text-bg-primary">New</span> About this website{" "}
+							<span className="badge text-bg-primary">New</span> About this
+							website{" "}
 						</h3>
 					</div>
 					<div className="row">
@@ -38,7 +40,8 @@ export function About() {
 
 					<div className="col">
 						<img
-							src="../src/assets/images/alex.png"
+							id="alexHoli"
+							src={alexHoli}
 							alt="alex"
 							width="100%"
 						/>
@@ -51,7 +54,6 @@ export function About() {
 							writer since third grade, I served as the co-editor-in-chief of
 							both the school paper and yearbook (thankfully, not in the same
 							year!) and graduated with both journalism and programming classes.
-		
 							At university, I dropped computer science because debugging made
 							me miserable. I had more fun around books, old things, and people
 							so after a very brief fling with finance, I majored in English and
@@ -98,7 +100,7 @@ export function About() {
 					</div>
 				</div>
 			</main>
-			<Footer/>
+			<Footer />
 		</>
 	);
 }

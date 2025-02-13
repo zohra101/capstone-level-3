@@ -394,6 +394,20 @@ module.exports = function (item) {
 
 /***/ }),
 
+/***/ "./src/assets/images/alex.png":
+/*!************************************!*\
+  !*** ./src/assets/images/alex.png ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "cd0d51e728bf4b06d7a4da2f8add7881.png");
+
+/***/ }),
+
 /***/ "./node_modules/react-dom/cjs/react-dom-client.development.js":
 /*!********************************************************************!*\
   !*** ./node_modules/react-dom/cjs/react-dom-client.development.js ***!
@@ -12361,6 +12375,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Navbar_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navbar.js */ "./src/Views/Navbar.js");
 /* harmony import */ var _Header_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header.js */ "./src/Views/Header.js");
 /* harmony import */ var _Footer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Footer.js */ "./src/Views/Footer.js");
+/* harmony import */ var _assets_images_alex_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/images/alex.png */ "./src/assets/images/alex.png");
+
 
 
 
@@ -12386,7 +12402,8 @@ function About() {
   }, "About me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: "../src/assets/images/alex.png",
+    id: "alexHoli",
+    src: _assets_images_alex_png__WEBPACK_IMPORTED_MODULE_4__.alexHoli,
     alt: "alex",
     width: "100%"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
