@@ -1,4 +1,5 @@
 import React from "react";
+import copyright from "../assets/icons/copyright_cGainsboro_nobg.png";
 
 export function Footer() {
 	return (
@@ -9,8 +10,9 @@ export function Footer() {
 					{" "}
 					2024{" "}
 					<img
+						id="copyright"
 						width="15px"
-						src="src/assets/icons/copyright_cGainsboro_nobg.png"
+						src={copyright}
 					/>{" "}
 					Aleksandra Marjanovic
 				</div>
