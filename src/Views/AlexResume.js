@@ -18,7 +18,7 @@ export function AlexResume() {
 			<Banner />
 			<main>
 				<div className="container ms-0">
-					<div className="row cols-2">
+					<div className="row row-cols-2">
 						<h2>SUMMARY</h2>
 						<p>
 							Experienced Technical Writer with over 10 years of expertise in
@@ -42,7 +42,7 @@ export function AlexResume() {
 							with subject matter experts and stakeholders.
 						</p>
 					</div>
-					<div className="row cols-2">
+					<div className="row row-cols-2">
 						<div className="col">
 							<h2>SKILLS</h2>
 							<p>
@@ -104,7 +104,7 @@ export function AlexResume() {
 							</p>
 						</div>
 					</div>
-					<div className="row cols-2">
+					<div className="row row-cols-2">
 						<div className="col">
 							<h2>EDUCATION</h2>
 							<p>
@@ -150,7 +150,7 @@ export function AlexResume() {
 							</p>
 						</div>
 					</div>
-					<div className="row cols-2">
+					<div className="row row-cols-2">
 						<h2>PROFESSIONAL EXPERIENCE</h2>
 						<h3>Owner/Technical Writer</h3>
 						<h4>
