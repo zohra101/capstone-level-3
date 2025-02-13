@@ -2401,6 +2401,62 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./src/assets/images/admin_guide_1_1024.png":
+/*!**************************************************!*\
+  !*** ./src/assets/images/admin_guide_1_1024.png ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "072c1efbf965ab38a86554b4fba4a52a.png");
+
+/***/ }),
+
+/***/ "./src/assets/images/help_file_1_1024.png":
+/*!************************************************!*\
+  !*** ./src/assets/images/help_file_1_1024.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "fa3bba4de45c091d64c4b96ab744f78c.png");
+
+/***/ }),
+
+/***/ "./src/assets/images/manual_1_1024.png":
+/*!*********************************************!*\
+  !*** ./src/assets/images/manual_1_1024.png ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "b515e8f1e93f724705cf9154183f10ec.png");
+
+/***/ }),
+
+/***/ "./src/assets/images/policy_IT_1_1024.png":
+/*!************************************************!*\
+  !*** ./src/assets/images/policy_IT_1_1024.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "15b28cd3f3d393e4182168bb1428a75e.png");
+
+/***/ }),
+
 /***/ "./src/assets/images/siteHeader_4kp_rev2.png":
 /*!***************************************************!*\
   !*** ./src/assets/images/siteHeader_4kp_rev2.png ***!
@@ -2412,6 +2468,62 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "6a3f3ccde67ffe0880b37380df070116.png");
+
+/***/ }),
+
+/***/ "./src/assets/images/storyboards.png":
+/*!*******************************************!*\
+  !*** ./src/assets/images/storyboards.png ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "5fd1f230e5c58cc9299d61dede3ae478.png");
+
+/***/ }),
+
+/***/ "./src/assets/images/ux_writing.png":
+/*!******************************************!*\
+  !*** ./src/assets/images/ux_writing.png ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "49e22c597e4e2d0f6cc71c0d766476c2.png");
+
+/***/ }),
+
+/***/ "./src/assets/images/wireframe.png":
+/*!*****************************************!*\
+  !*** ./src/assets/images/wireframe.png ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "9319dbacbd2641f784c85d6640333962.png");
+
+/***/ }),
+
+/***/ "./src/assets/images/workflow_diagram.png":
+/*!************************************************!*\
+  !*** ./src/assets/images/workflow_diagram.png ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "ee9295314bf8fc485031220c3d2cc5c6.png");
 
 /***/ }),
 
@@ -3658,6 +3770,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NavbarCollapsible.js */ "./src/Views/NavbarCollapsible.js");
 /* harmony import */ var _Banner_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Banner.js */ "./src/Views/Banner.js");
 /* harmony import */ var _Footer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Footer.js */ "./src/Views/Footer.js");
+/* harmony import */ var _assets_images_admin_guide_1_1024_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../assets/images/admin_guide_1_1024.png */ "./src/assets/images/admin_guide_1_1024.png");
+/* harmony import */ var _assets_images_help_file_1_1024_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../assets/images/help_file_1_1024.png */ "./src/assets/images/help_file_1_1024.png");
+/* harmony import */ var _assets_images_policy_IT_1_1024_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../assets/images/policy_IT_1_1024.png */ "./src/assets/images/policy_IT_1_1024.png");
+/* harmony import */ var _assets_images_manual_1_1024_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/images/manual_1_1024.png */ "./src/assets/images/manual_1_1024.png");
+/* harmony import */ var _assets_images_storyboards_png__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/images/storyboards.png */ "./src/assets/images/storyboards.png");
+/* harmony import */ var _assets_images_ux_writing_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../assets/images/ux_writing.png */ "./src/assets/images/ux_writing.png");
+/* harmony import */ var _assets_images_wireframe_png__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../assets/images/wireframe.png */ "./src/assets/images/wireframe.png");
+/* harmony import */ var _assets_images_workflow_diagram_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../assets/images/workflow_diagram.png */ "./src/assets/images/workflow_diagram.png");
+
+
+
+
+
+
+
+
 
 
 
@@ -3679,7 +3807,107 @@ function Portfolio() {
     className: "container ms-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: ""
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Here's a sampling of current and past projects to which I've contributed."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Many projects involve propietary information or sensitive data. To protect the confidentiality and privacy of my clients and/or employers, most samples are generic representations of the deliverables produced. Any samples that contain actual work are from defunct companies with any data redacted."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Here's a sampling of current and past projects to which I've contributed."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Many projects involve propietary information or sensitive data. To protect the confidentiality and privacy of my clients and/or employers, most samples are generic representations of the deliverables produced. Any samples that contain actual work are from defunct companies with any data redacted."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "portfolioCarousel",
+    className: "carousel carousel-dark slide",
+    "data-bs-ride": "carousel"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "carousel-indicators"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    type: "button",
+    "data-bs-target": "#portfolioCarousel",
+    "data-bs-slide-to": "0",
+    className: "active",
+    "aria-current": "true",
+    "aria-label": "Slide 1"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    type: "button",
+    "data-bs-target": "#portfolioCarousel",
+    "data-bs-slide-to": "1",
+    "aria-label": "Slide 2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    type: "button",
+    "data-bs-target": "#portfolioCarousel",
+    "data-bs-slide-to": "2",
+    "aria-label": "Slide 3"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    type: "button",
+    "data-bs-target": "#portfolioCarousel",
+    "data-bs-slide-to": "3",
+    "aria-label": "Slide 4"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    type: "button",
+    "data-bs-target": "#portfolioCarousel",
+    "data-bs-slide-to": "4",
+    "aria-label": "Slide 5"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "carousel-inner"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "carousel-item active",
+    "data-bs-interval": "10000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: _assets_images_admin_guide_1_1024_png__WEBPACK_IMPORTED_MODULE_5__["default"],
+    className: "d-block w-100",
+    alt: "adminGuide"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "carousel-caption d-none d-md-block"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Administrator guide for software"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "To reduce information overload, I separated the manuals for each application into an administrator guide and a user guide. I outlined the guides after reviewing the application's requirements and specifications, and delivered to the user acceptance testing leads for testing and signoff."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "carousel-item",
+    "data-bs-interval": "10000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: _assets_images_help_file_1_1024_png__WEBPACK_IMPORTED_MODULE_6__["default"],
+    className: "d-block w-100",
+    alt: "helpFile"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "carousel-caption d-none d-md-block"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Help file for a website"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Using RoboHelp, I created this help system as an assignment for a course on knowledge management and computer-based training design."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "carousel-item",
+    "data-bs-interval": "10000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: _assets_images_policy_IT_1_1024_png__WEBPACK_IMPORTED_MODULE_7__["default"],
+    className: "d-block w-100",
+    alt: "policyDoc"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "carousel-caption d-none d-md-block"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Policy for application development department"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I performed a gap analysis and drafted policy and procedure documents for an application development director working on the group's CMMI certification."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "carousel-item",
+    "data-bs-interval": "10000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: _assets_images_manual_1_1024_png__WEBPACK_IMPORTED_MODULE_8__["default"],
+    className: "d-block w-100",
+    alt: "softwareManual"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "carousel-caption d-none d-md-block"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Manual for custom software implementation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "For a custom implementation of cost accounting software, I was asked to consolidate a third-party vendor's help file and hundreds of documents from two business divisions into a user manual."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "carousel-item",
+    "data-bs-interval": "10000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    src: _assets_images_storyboards_png__WEBPACK_IMPORTED_MODULE_9__["default"],
+    className: "d-block w-100",
+    alt: "storyboards"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "carousel-caption d-none d-md-block"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Storyboards for help desk intranet"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "While in graduate schoool specializing in user-centered design, I worked as a help desk team lead. The support staff, myself included, often reported that keyword searching in the incident reporting system was...well, not good. I designed these storyboards to demonstrate how a centralized intranet site could improve efficiency and user satisfaction, by storing our policies and procuedures and by providing a robust searchable knowlesge base.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    className: "carousel-control-prev",
+    type: "button",
+    "data-bs-target": "#portfolioCarousel",
+    "data-bs-slide": "prev"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "carousel-control-prev-icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "visually-hidden"
+  }, "Previous")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    className: "carousel-control-next",
+    type: "button",
+    "data-bs-target": "#portfolioCarousel",
+    "data-bs-slide": "next"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "carousel-control-next-icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "visually-hidden"
+  }, "Next"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container ms-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-3 row-cols-lg-4"
