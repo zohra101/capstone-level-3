@@ -43,7 +43,7 @@ export function Portfolio() {
 
 				<br />
 				<div className="container ms-2">
-					<div className="row row-cols-2 row-cols-md-3">
+					<div className="row row-cols-2 row-cols-md-3 row-cols-lg-4">
 						<p>
 							For samples not represented here, please{" "}
 							<a href="contact.html#sendMessage">submit a request</a> by

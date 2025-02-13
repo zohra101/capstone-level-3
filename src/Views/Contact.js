@@ -18,7 +18,7 @@ export function Contact() {
 			<Banner />
 			<main>
 				<div className="container m-3">
-					<div className="row row-cols-2 row-cols-md-3">
+					<div className="row row-cols-2 row-cols-md-3 row-cols-lg-4">
 						<h3 id="sendEmail">Send an email</h3>
 						<p>
 							{" "}
@@ -30,7 +30,7 @@ export function Contact() {
 						<form
 							id="outputTag"
 							onSubmit={handleSubmitEmail}>
-							<div className="row row-cols-2 row-cols-md-3 p-2">
+							<div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 p-2">
 								<div className="col">
 									<span style={{ fontWeight: "bold" }}>Contact Type</span>
 									<br />
@@ -65,7 +65,7 @@ export function Contact() {
 									/>
 								</div>
 							</div>
-							<div className="row row-cols-2 row-cols-md-3 p-2">
+							<div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 p-2">
 								<div className="col">
 									<span style={{ fontWeight: "bold" }}>
 										<label htmlFor="contactEmail">Contact Email</label>
@@ -80,7 +80,7 @@ export function Contact() {
 									/>
 								</div>
 							</div>
-							<div className="row row-cols-2 row-cols-md-3 p-2">
+							<div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 p-2">
 								<div className="col">
 									<span style={{ fontWeight: "bold" }}>
 										<label htmlFor="contactPhone">Contact Phone</label>
@@ -109,7 +109,7 @@ export function Contact() {
 										placeholder="Enter your message here."></textarea>
 								</div>
 							</div>
-							<div className="row row-cols-2 row-cols-md-3 p-2">
+							<div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 p-2">
 								<div className="col">
 									<button className="btn btn-dark">Submit</button>
 								</div>

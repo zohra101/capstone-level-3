@@ -32,7 +32,7 @@ export function Home() {
 				<div className="container m-2">
 					<div
 						id="homeIntro"
-						className="row row-cols-2 row-cols-md-3">
+						className="row row-cols-2 row-cols-md-3 row-cols-lg-4">
 						<p>
 							Hi, I'm Alex Marjanovic, a technical communicator based out of
 							Baton Rouge, LA. Originally from New Jersey, I moved south to
@@ -63,10 +63,10 @@ export function Home() {
 				<div className="container m-2">
 					<div
 						id="homeHelp"
-						className="row row-cols-2 row-cols-md-3">
+						className="row row-cols-2 row-cols-md-3 row-cols-lg-4">
 						<h3>How I can help</h3>
 					</div>
-					<div className="row row-cols-2 row-cols-md-3">
+					<div className="row row-cols-2 row-cols-md-3 row-cols-lg-4">
 						<p>
 							I'm a specialist at translating technology: creating and
 							delivering information concisely, clearly, and effectively.
@@ -92,12 +92,12 @@ export function Home() {
 						</p>
 					</div>
 				</div>
-				<div className="row row-cols-2 row-cols-md-3 m-2">
+				<div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 m-2">
 					<h3>Services</h3>
 				</div>
 				<div
 					id="homeServices"
-					className="row row-cols-2 row-cols-md-3 m-2">
+					className="row row-cols-2 row-cols-md-3 row-cols-lg-4 m-2">
 					<p>
 						Whether it's writing user manuals, creating process documentation,
 						developing training materials, or editing help files, I ensure that
@@ -111,7 +111,7 @@ export function Home() {
 						id="createServicesListGroupTag"
 						onLoad={createServicesListGroup}></output>
 				</div> */}
-				<div className="row row-cols-2 row-cols-md-3 m-2">
+				<div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 m-2">
 					<p>
 						If my services seem like a good fit for your organization, please{" "}
 						<a href="contact.html#sendMessage">send a message</a> using the
