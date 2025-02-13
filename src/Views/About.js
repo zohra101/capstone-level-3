@@ -17,7 +17,7 @@ export function About() {
 			<Banner />
 			<main className="p-1">
 				<div className="container ms-2">
-					<div className="row cols-2">
+					<div className="row row-cols-2 row-cols-md-3">
 						<h3
 							id="aboutSite"
 							className="emphasis newSection">
@@ -25,7 +25,7 @@ export function About() {
 							website{" "}
 						</h3>
 					</div>
-					<div className="row cols-2">
+					<div className="row row-cols-2 row-cols-md-3">
 						{" "}
 						<p>
 							I created this website using CSS, HTML, and JavaScript, storing my
@@ -41,7 +41,7 @@ export function About() {
 						</p>
 					</div>
 				</div>
-				<div className="row cols-2 ms-2">
+				<div className="row row-cols-2 row-cols-md-3 ms-2">
 					<h3 id="aboutMe">About me</h3>
 					<div className="col">
 						<img
