@@ -91,34 +91,34 @@ export function Home() {
 							development, and state government.
 						</p>
 					</div>
-				</div>
-				<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1 m-2">
-					<h3>Services</h3>
-				</div>
-				<div
-					id="homeServices"
-					className="row row-cols-2 row-cols-md-1 row-cols-lg-1 m-2">
-					<p>
-						Whether it's writing user manuals, creating process documentation,
-						developing training materials, or editing help files, I ensure that
-						content is accessible and tailored to your audience's needs. Rates
-						are per hour or per project depending on the complexity, scope, and
-						estimated time for completion.
-					</p>
-				</div>
-				{/* <div className="row m-2">
+					<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+						<h3>Services</h3>
+					</div>
+					<div
+						id="homeServices"
+						className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+						<p>
+							Whether it's writing user manuals, creating process documentation,
+							developing training materials, or editing help files, I ensure
+							that content is accessible and tailored to your audience's needs.
+							Rates are per hour or per project depending on the complexity,
+							scope, and estimated time for completion.
+						</p>
+					</div>
+					{/* <div className="row m-2">
 					<output
 						id="createServicesListGroupTag"
 						onLoad={createServicesListGroup}></output>
 				</div> */}
-				<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1 m-2">
-					<p>
-						If my services seem like a good fit for your organization, please{" "}
-						<a href="contact.html#sendMessage">send a message</a> using the
-						Contact form.
-					</p>
-					<p>Thanks for visiting!</p>
-					<h2 className="signature">Alex Marjanovic</h2>
+					<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+						<p>
+							If my services seem like a good fit for your organization, please{" "}
+							<a href="contact.html#sendMessage">send a message</a> using the
+							Contact form.
+						</p>
+						<p>Thanks for visiting!</p>
+						<h2 className="signature">Alex Marjanovic</h2>
+					</div>
 				</div>
 			</main>
 			<Footer />

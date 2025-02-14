@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Navbar } from "../Views/Navbar.js";
+// import { Navbar } from "../Views/Navbar.js";
 import { NavbarCollapsible } from "./NavbarCollapsible.js";
 import { Banner } from "./Banner.js";
 import { Footer } from "./Footer.js";
@@ -11,6 +11,7 @@ import storyboards from "../assets/images/storyboards.png";
 import uxWriting from "../assets/images/ux_writing.png";
 import wireframe from "../assets/images/wireframe.png";
 import workflowDiagram from "../assets/images/workflow_diagram.png";
+import "../css/index.scss";
 
 export function Portfolio() {
 	const [didMount, setDidMount] = useState(false);
@@ -26,7 +27,7 @@ export function Portfolio() {
 			<main id="mainTag">
 				<div className="alert alert-secondary alert-dismissible">
 					<strong>Coming soon!</strong> In the near future, you'll be able to
-					click on the cards to view larger samples with greater detail.
+					click on the images to view larger samples with more details about the projects.
 					<button
 						className="btn-close"
 						data-bs-dismiss="alert"></button>
@@ -50,7 +51,7 @@ export function Portfolio() {
 				</div>
 				<div
 					id="portfolioCarousel"
-					className="carousel carousel-dark slide"
+					className="carousel carousel-dark slide m-4"
 					data-bs-ride="carousel">
 					<div className="carousel-indicators">
 						<button
@@ -199,7 +200,7 @@ export function Portfolio() {
 				</div>
 				<br />
 				<div className="container ms-2">
-					<div className="row row-cols-2 row-cols-md-3 row-cols-lg-4">
+					<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
 						<p>
 							For samples not represented here, please{" "}
 							<a href="contact.html#sendMessage">submit a request</a> by

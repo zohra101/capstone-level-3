@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { handleSubmitCall } from "../modules/call/handleSubmitCall.js";
 import { Banner } from "./Banner.js";
-import { Navbar } from "./Navbar.js";
+// import { Navbar } from "./Navbar.js";
 import { NavbarCollapsible } from "./NavbarCollapsible.js";
+import "../css/index.scss";
 
 export function Consultation() {
 	const [didMount, setDidMount] = useState(false);

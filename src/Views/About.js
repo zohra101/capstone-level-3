@@ -4,6 +4,7 @@ import { NavbarCollapsible } from "./NavbarCollapsible.js";
 import { Banner } from "./Banner.js";
 import { Footer } from "./Footer.js";
 import alexHoli from "../assets/images/alex.png";
+import "../css/index.scss";
 
 export function About() {
 	const [didMount, setDidMount] = useState(false);

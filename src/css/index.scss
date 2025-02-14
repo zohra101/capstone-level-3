@@ -1,15 +1,16 @@
 //Mixin
-@mixin orangeText {
-  color: rgb(232, 83, 30);
+@mixin welcomeTextColor {
+  color: rgb(30, 134, 165);
 }
 
-@mixin redTextShadow {
-  text-shadow: 1px 1px rgb(95, 85, 85);
+@mixin welcomeTextShadow {
+  text-shadow: 1px 1px rgb(211, 171, 138);
 }
 
 #mixin-welcome {
-  @include orangeText;
-  @include redTextShadow;
+  @include welcomeTextColor;
+  @include welcomeTextShadow;
+   font-size: 76px;
 }
 
 //Colors (use variables)
@@ -69,7 +70,7 @@ h1 {
 
 .signature {
   font-family: $handwrFont;
-  font-size: 86;
+  font-size: 50px;
 }
 
 //Color styles

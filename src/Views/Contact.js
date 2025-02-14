@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { handleSubmitEmail } from "../modules/email/handleSubmitEmail.js";
-import { Navbar } from "./Navbar.js";
+// import { Navbar } from "./Navbar.js";
 import { NavbarCollapsible } from "./NavbarCollapsible.js";
 import { Banner } from "./Banner.js";
 import { Footer } from "./Footer.js";
+import "../css/index.scss";
 
 export function Contact() {
 	const [didMount, setDidMount] = useState(false);
