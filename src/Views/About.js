@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import alexHoli from "../../assets/images/alex.png";
 
-
 export function About() {
 	const [didMount, setDidMount] = useState(false);
 
 	useEffect(componentDidMount, []);
-	useEffect(componentDidUpdate, []);
+	useEffect(componentDidUpdate);
 	useEffect(componentDidUnmount, []);
 
 	return (
@@ -104,6 +103,10 @@ export function About() {
 	function componentDidMount() {
 		setDidMount(true);
 		console.log("The About component mounted.");
+
+		const titleTag = document.getElementById("titleTag");
+		titleTag.innerHTML = "Alex M - About";
+		
 		return componentDidUnmount;
 	}
 
@@ -112,10 +115,8 @@ export function About() {
 	}
 
 	function componentDidUnmount() {
-		return logUnmount;
-	}
-
-	function logUnmount() {
-		console.log("The About component unmounted.");
+		return function displayMessage() {
+			console.log("he About component unmounted.");
+		};
 	}
 }

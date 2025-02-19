@@ -2908,7 +2908,7 @@ __webpack_require__.r(__webpack_exports__);
 function About() {
   const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     className: "p-1"
@@ -2940,16 +2940,17 @@ function About() {
   function componentDidMount() {
     setDidMount(true);
     console.log("The About component mounted.");
+    const titleTag = document.getElementById("titleTag");
+    titleTag.innerHTML = "Alex M - About";
     return componentDidUnmount;
   }
   function componentDidUpdate() {
     if (didMount === true) console.log("The About component updated.");
   }
   function componentDidUnmount() {
-    return logUnmount;
-  }
-  function logUnmount() {
-    console.log("The About component unmounted.");
+    return function displayMessage() {
+      console.log("he About component unmounted.");
+    };
   }
 }
 
@@ -2972,7 +2973,7 @@ __webpack_require__.r(__webpack_exports__);
 function AlexResume() {
   const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container ms-0"
@@ -3044,161 +3045,17 @@ function AlexResume() {
   function componentDidMount() {
     setDidMount(true);
     console.log("The Resume component mounted.");
+    const titleTag = document.getElementById("titleTag");
+    titleTag.innerHTML = "Alex M - Resume";
     return componentDidUnmount;
   }
   function componentDidUpdate() {
     if (didMount === true) console.log("The Resume component updated.");
   }
   function componentDidUnmount() {
-    return logUnmount;
-  }
-  function logUnmount() {
-    console.log("The Resume component unmounted.");
-  }
-}
-
-/***/ }),
-
-/***/ "./src/Views/Consultation.js":
-/*!***********************************!*\
-  !*** ./src/Views/Consultation.js ***!
-  \***********************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Consultation: () => (/* binding */ Consultation)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _modules_call_handleSubmitCall_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/call/handleSubmitCall.js */ "./src/modules/call/handleSubmitCall.js");
-
-
-function Consultation() {
-  const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container m-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    id: "scheduleConsult"
-  }, "Schedule a consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, " ", "To schedule a 30-minute free consultation to assess your needs, please complete the form below.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container ms-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", {
-    id: "outputTag",
-    onSubmit: _modules_call_handleSubmitCall_js__WEBPACK_IMPORTED_MODULE_1__.handleSubmitCall
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, "Contact Type"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    type: "radio",
-    id: "individual",
-    name: "Contact Type",
-    className: "p-2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "individual"
-  }, "Individual"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    type: "radio",
-    id: "company",
-    name: "Contact Type",
-    className: "p-2 ms-2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "company"
-  }, "Company"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "contactName"
-  }, "Contact Name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    required: true,
-    type: "text",
-    id: "contactName",
-    className: "inputs",
-    placeholder: "First Last"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "contactEmail"
-  }, "Contact Email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    required: true,
-    type: "email",
-    id: "contactEmail",
-    className: "inputs",
-    placeholder: "address@domain.com"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "contactPhone"
-  }, "Contact Phone"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    required: true,
-    type: "tel",
-    pattern: "[0-9]{3}-[0-9]{3}-[0-9]{4}",
-    id: "contactPhone",
-    className: "inputs",
-    placeholder: "01 5555555555"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "scheduleConsult"
-  }, "Select a Date & Time"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    required: true,
-    type: "datetime-local",
-    id: "scheduleConsult",
-    className: "inputs"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    className: "btn btn-dark"
-  }, "Submit")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "spinner"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "outputTag2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null));
-  function componentDidMount() {
-    setDidMount(true);
-    console.log("The Consultation component mounted.");
-    return componentDidUnmount;
-  }
-  function componentDidUpdate() {
-    if (didMount === true) console.log("The Consultation component updated.");
-  }
-  function componentDidUnmount() {
-    return logUnmount;
-  }
-  function logUnmount() {
-    console.log("The Consultation component unmounted.");
+    return function displayMessage() {
+      console.log("The Resume component unmounted.");
+    };
   }
 }
 
@@ -3221,7 +3078,7 @@ __webpack_require__.r(__webpack_exports__);
 function Contact() {
   const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container m-3"
@@ -3338,6 +3195,8 @@ function Contact() {
   function componentDidMount() {
     setDidMount(true);
     console.log("The Contact component mounted.");
+    const titleTag = document.getElementById("titleTag");
+    titleTag.innerHTML = "Alex M - Contact";
     const individualTag = document.getElementById("individual");
     new bootstrap.Tooltip(individualTag);
     const companyTag = document.getElementById("company");
@@ -3348,10 +3207,9 @@ function Contact() {
     if (didMount === true) console.log("The Contact component updated.");
   }
   function componentDidUnmount() {
-    return logUnmount;
-  }
-  function logUnmount() {
-    console.log("The Contact component unmounted.");
+    return function displayMessage() {
+      console.log("The Contact component unmounted.");
+    };
   }
 }
 
@@ -3379,53 +3237,6 @@ function Footer() {
     width: "15px",
     src: _assets_icons_copyright_cGainsboro_nobg_png__WEBPACK_IMPORTED_MODULE_1__
   }), " ", "Aleksandra Marjanovic")));
-}
-
-/***/ }),
-
-/***/ "./src/Views/HandleQuoteOfTheDay.js":
-/*!******************************************!*\
-  !*** ./src/Views/HandleQuoteOfTheDay.js ***!
-  \******************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   HandleQuoteOfTheDay: () => (/* binding */ HandleQuoteOfTheDay)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _modules_qotd_extractQotdResponse_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/qotd/extractQotdResponse.js */ "./src/modules/qotd/extractQotdResponse.js");
-//Fetch the response from the server and extract it
-
-
-function HandleQuoteOfTheDay() {
-  const [quoteFetched, setQuoteFetched] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false); // Track if the quote has been fetched
-
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(quoteWasFetched, []);
-  if (!quoteFetched) {
-    const proxy = "https://corsproxy.io/?url=";
-    const baseUrl = "https://favqs.com/api";
-    const endPoint = "/qotd";
-    const url = proxy + baseUrl + endPoint;
-    const promise = fetch(url);
-    promise.then(_modules_qotd_extractQotdResponse_js__WEBPACK_IMPORTED_MODULE_1__.extractQotdResponse);
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-      className: "card w-75 m-4"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-      className: "card-body text-center"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-      id: "qotdQuoteTag",
-      className: "card-text"
-    }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", {
-      id: "qotdAuthorTag",
-      className: "card-subtitle"
-    }, "-")));
-  }
-  function quoteWasFetched() {
-    setQuoteFetched(true);
-    // console.log("The Home component mounted.");
-    return quoteWasFetched;
-  }
 }
 
 /***/ }),
@@ -3469,16 +3280,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   Home: () => (/* binding */ Home)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HandleQuoteOfTheDay.js */ "./src/Views/HandleQuoteOfTheDay.js");
 
-// import { Navbar } from "../Views/Navbar.js";
-
+// import { HandleQuoteOfTheDay } from "./HandleQuoteOfTheDay.js";
 // import { createServicesListGroup } from "../controllers/createServicesListGroup.js";
 
 function Home() {
   const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
   const domain = window.location.hostname;
   const port = window.location.port;
@@ -3488,7 +3297,7 @@ function Home() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     id: "mixin-welcome",
     className: "m-2"
-  }, "Welcome"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_1__.HandleQuoteOfTheDay, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, "Welcome"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container m-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "homeIntro",
@@ -3521,16 +3330,17 @@ function Home() {
   function componentDidMount() {
     setDidMount(true);
     console.log("The Home component mounted.");
+    const titleTag = document.getElementById("titleTag");
+    titleTag.innerHTML = "Alex M - Home";
     return componentDidUnmount;
   }
   function componentDidUpdate() {
     if (didMount === true) console.log("The Home component updated.");
   }
   function componentDidUnmount() {
-    return logUnmount;
-  }
-  function logUnmount() {
-    console.log("The Home component unmounted.");
+    return function displayMessage() {
+      console.log("The Home component unmounted.");
+    };
   }
 }
 
@@ -3620,8 +3430,8 @@ function NavbarCollapsible() {
     style: {
       color: "rgb(150, 196, 231)"
     },
-    to: `${rootPath}/consultation`
-  }, "Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+    to: `${rootPath}/freeconsultation`
+  }, "Free Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
     className: "nav-link",
     style: {
       color: "rgb(150, 196, 231)"
@@ -3688,7 +3498,7 @@ __webpack_require__.r(__webpack_exports__);
 function Portfolio() {
   const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     id: "mainTag"
@@ -3811,16 +3621,163 @@ function Portfolio() {
   function componentDidMount() {
     setDidMount(true);
     console.log("The Portfolio component mounted.");
+    const titleTag = document.getElementById("titleTag");
+    titleTag.innerHTML = "Alex M - Portfolio";
     return componentDidUnmount;
   }
   function componentDidUpdate() {
     if (didMount === true) console.log("The Portfolio component updated.");
   }
   function componentDidUnmount() {
-    return logUnmount;
+    return function displayMessage() {
+      console.log("The Portfolio component unmounted.");
+    };
   }
-  function logUnmount() {
-    console.log("The Portfolio component unmounted.");
+}
+
+/***/ }),
+
+/***/ "./src/Views/ScheduleFreeConsultation.js":
+/*!***********************************************!*\
+  !*** ./src/Views/ScheduleFreeConsultation.js ***!
+  \***********************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ScheduleFreeConsultation: () => (/* binding */ ScheduleFreeConsultation)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _modules_call_handleSubmitCall_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/call/handleSubmitCall.js */ "./src/modules/call/handleSubmitCall.js");
+
+
+function ScheduleFreeConsultation() {
+  const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "container m-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
+    id: "scheduleConsult"
+  }, "Schedule a consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, " ", "To schedule a 30-minute free consultation to assess your needs, please complete the form below.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "container ms-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", {
+    id: "outputTag",
+    onSubmit: _modules_call_handleSubmitCall_js__WEBPACK_IMPORTED_MODULE_1__.handleSubmitCall
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    style: {
+      fontWeight: "bold"
+    }
+  }, "Contact Type"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    type: "radio",
+    id: "individual",
+    name: "Contact Type",
+    className: "p-2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
+    htmlFor: "individual"
+  }, "Individual"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    type: "radio",
+    id: "company",
+    name: "Contact Type",
+    className: "p-2 ms-2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
+    htmlFor: "company"
+  }, "Company"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    style: {
+      fontWeight: "bold"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
+    htmlFor: "contactName"
+  }, "Contact Name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    required: true,
+    type: "text",
+    id: "contactName",
+    className: "inputs",
+    placeholder: "First Last"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    style: {
+      fontWeight: "bold"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
+    htmlFor: "contactEmail"
+  }, "Contact Email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    required: true,
+    type: "email",
+    id: "contactEmail",
+    className: "inputs",
+    placeholder: "address@domain.com"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    style: {
+      fontWeight: "bold"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
+    htmlFor: "contactPhone"
+  }, "Contact Phone"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    required: true,
+    type: "tel",
+    pattern: "[0-9]{3}-[0-9]{3}-[0-9]{4}",
+    id: "contactPhone",
+    className: "inputs",
+    placeholder: "01 5555555555"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    style: {
+      fontWeight: "bold"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
+    htmlFor: "scheduleConsult"
+  }, "Select a Date & Time"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    required: true,
+    type: "datetime-local",
+    id: "scheduleConsult",
+    className: "inputs"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    className: "btn btn-dark"
+  }, "Submit")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "spinner"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "outputTag2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null));
+  function componentDidMount() {
+    setDidMount(true);
+    console.log("The Consultation component mounted.");
+    const titleTag = document.getElementById("titleTag");
+    titleTag.innerHTML = "Alex M - Free Consultation";
+    return componentDidUnmount;
+  }
+  function componentDidUpdate() {
+    if (didMount === true) console.log("The Consultation component updated.");
+  }
+  function componentDidUnmount() {
+    return function displayMessage() {
+      console.log("The Consultation component unmounted.");
+    };
   }
 }
 
@@ -3887,56 +3844,6 @@ function handleSubmitEmail(event) {
 
 /***/ }),
 
-/***/ "./src/modules/qotd/extractQotdResponse.js":
-/*!*************************************************!*\
-  !*** ./src/modules/qotd/extractQotdResponse.js ***!
-  \*************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   extractQotdResponse: () => (/* binding */ extractQotdResponse)
-/* harmony export */ });
-/* harmony import */ var _modules_qotd_parseQotdResponse_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../modules/qotd/parseQotdResponse.js */ "./src/modules/qotd/parseQotdResponse.js");
-//Extract the server resoponse and parse it
-
-function extractQotdResponse(resolveValue) {
-  const promise = resolveValue.text();
-  promise.then(_modules_qotd_parseQotdResponse_js__WEBPACK_IMPORTED_MODULE_0__.parseQotdResponse);
-}
-
-/***/ }),
-
-/***/ "./src/modules/qotd/parseQotdResponse.js":
-/*!***********************************************!*\
-  !*** ./src/modules/qotd/parseQotdResponse.js ***!
-  \***********************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   parseQotdResponse: () => (/* binding */ parseQotdResponse)
-/* harmony export */ });
-/* harmony import */ var _utils_output_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../utils/output.js */ "./src/utils/output.js");
-//Parse the response and display the qotd on the index page
-
-function parseQotdResponse(resolveValue) {
-  let quote = "";
-  let author = "";
-  debugger;
-  const response = JSON.parse(resolveValue);
-  const results = response.quote;
-  debugger;
-  quote = results.body;
-  console.log(`Quote: ${quote}`);
-  author = results.author;
-  console.log(`Author: ${author}`);
-  (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)(quote, "qotdQuoteTag");
-  (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)(author, "qotdAuthorTag");
-}
-
-/***/ }),
-
 /***/ "./src/utils/getRootPath.js":
 /*!**********************************!*\
   !*** ./src/utils/getRootPath.js ***!
@@ -3954,32 +3861,6 @@ function getRootPath() {
   if (domain === "zohra101.github.io") rootPath = "/capstone-level-3/";
   console.log(`getRootpath: ${rootPath}`);
   return rootPath;
-}
-
-/***/ }),
-
-/***/ "./src/utils/output.js":
-/*!*****************************!*\
-  !*** ./src/utils/output.js ***!
-  \*****************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   output: () => (/* binding */ output)
-/* harmony export */ });
-// export function output(   
-//     message = "",
-//     outputTag = "outputTag",
-//     shouldAppend = true
-//     ) {
-//         if (shouldAppend) window[outputTag].innerHTML += message;
-//         else window[outputTag].innerHTML = message;
-// }
-
-function output(message = "", outputTag = "outputTag", shouldAppend = true) {
-  const outputElement = document.getElementById(outputTag);
-  if (shouldAppend) outputElement.innerHTML += message;else outputElement.innerHTML += message;
 }
 
 /***/ }),
@@ -14465,7 +14346,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Views_Home_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Views/Home.js */ "./src/Views/Home.js");
 /* harmony import */ var _Views_About_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Views/About.js */ "./src/Views/About.js");
 /* harmony import */ var _Views_AlexResume_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Views/AlexResume.js */ "./src/Views/AlexResume.js");
-/* harmony import */ var _Views_Consultation_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Views/Consultation.js */ "./src/Views/Consultation.js");
+/* harmony import */ var _Views_ScheduleFreeConsultation_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Views/ScheduleFreeConsultation.js */ "./src/Views/ScheduleFreeConsultation.js");
 /* harmony import */ var _Views_Contact_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Views/Contact.js */ "./src/Views/Contact.js");
 /* harmony import */ var _Views_Portfolio_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Views/Portfolio.js */ "./src/Views/Portfolio.js");
 /* harmony import */ var _src_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../src/utils/getRootPath.js */ "./src/utils/getRootPath.js");
@@ -14506,8 +14387,8 @@ root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_
   path: `${rootPath}/contact`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_Contact_js__WEBPACK_IMPORTED_MODULE_7__.Contact, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: `${rootPath}/Consultation`,
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_Consultation_js__WEBPACK_IMPORTED_MODULE_6__.Consultation, null)
+  path: `${rootPath}/freeconsultation`,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_ScheduleFreeConsultation_js__WEBPACK_IMPORTED_MODULE_6__.ScheduleFreeConsultation, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
   path: `${rootPath}/about`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_About_js__WEBPACK_IMPORTED_MODULE_4__.About, null)

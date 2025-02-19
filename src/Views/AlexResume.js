@@ -5,7 +5,7 @@ export function AlexResume() {
 	const [didMount, setDidMount] = useState(false);
 
 	useEffect(componentDidMount, []);
-	useEffect(componentDidUpdate, []);
+	useEffect(componentDidUpdate);
 	useEffect(componentDidUnmount, []);
 
 	return (
@@ -275,6 +275,10 @@ export function AlexResume() {
 	function componentDidMount() {
 		setDidMount(true);
 		console.log("The Resume component mounted.");
+
+		const titleTag = document.getElementById("titleTag");
+		titleTag.innerHTML = "Alex M - Resume";
+
 		return componentDidUnmount;
 	}
 
@@ -283,10 +287,8 @@ export function AlexResume() {
 	}
 
 	function componentDidUnmount() {
-		return logUnmount;
-	}
-
-	function logUnmount() {
-		console.log("The Resume component unmounted.");
+		return function displayMessage() {
+			console.log("The Resume component unmounted.");
+		};
 	}
 }

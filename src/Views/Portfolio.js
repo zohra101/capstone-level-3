@@ -8,12 +8,11 @@ import uxWriting from "../../assets/images/ux_writing.png";
 import wireframe from "../../assets/images/wireframe.png";
 import workflowDiagram from "../../assets/images/workflow_diagram.png";
 
-
 export function Portfolio() {
 	const [didMount, setDidMount] = useState(false);
 
 	useEffect(componentDidMount, []);
-	useEffect(componentDidUpdate, []);
+	useEffect(componentDidUpdate);
 	useEffect(componentDidUnmount, []);
 
 	return (
@@ -208,18 +207,19 @@ export function Portfolio() {
 	function componentDidMount() {
 		setDidMount(true);
 		console.log("The Portfolio component mounted.");
+
+		const titleTag = document.getElementById("titleTag");
+		titleTag.innerHTML = "Alex M - Portfolio";
+
 		return componentDidUnmount;
 	}
 
 	function componentDidUpdate() {
 		if (didMount === true) console.log("The Portfolio component updated.");
 	}
-
 	function componentDidUnmount() {
-		return logUnmount;
-	}
-
-	function logUnmount() {
-		console.log("The Portfolio component unmounted.");
+		return function displayMessage() {
+			console.log("The Portfolio component unmounted.");
+		};
 	}
 }

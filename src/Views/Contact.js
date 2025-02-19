@@ -5,7 +5,7 @@ export function Contact() {
 	const [didMount, setDidMount] = useState(false);
 
 	useEffect(componentDidMount, []);
-	useEffect(componentDidUpdate, []);
+	useEffect(componentDidUpdate);
 	useEffect(componentDidUnmount, []);
 
 	return (
@@ -124,22 +124,23 @@ export function Contact() {
 		setDidMount(true);
 		console.log("The Contact component mounted.");
 
+		const titleTag = document.getElementById("titleTag");
+		titleTag.innerHTML = "Alex M - Contact";
+
 		const individualTag = document.getElementById("individual");
 		new bootstrap.Tooltip(individualTag);
 		const companyTag = document.getElementById("company");
 		new bootstrap.Tooltip(companyTag);
+		
 		return componentDidUnmount;
 	}
 
 	function componentDidUpdate() {
 		if (didMount === true) console.log("The Contact component updated.");
 	}
-
 	function componentDidUnmount() {
-		return logUnmount;
-	}
-
-	function logUnmount() {
-		console.log("The Contact component unmounted.");
+		return function displayMessage() {
+			console.log("The Contact component unmounted.");
+		};
 	}
 }

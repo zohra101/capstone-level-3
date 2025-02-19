@@ -5,7 +5,7 @@ import "../src/index.scss";
 import { Home } from "./Views/Home.js";
 import { About } from "./Views/About.js";
 import { AlexResume } from "./Views/AlexResume.js";
-import { Consultation } from "./Views/Consultation.js";
+import { ScheduleFreeConsultation } from "./Views/ScheduleFreeConsultation.js";
 import { Contact } from "./Views/Contact.js";
 import { Portfolio } from "./Views/Portfolio.js";
 import { getRootPath } from "../src/utils/getRootPath.js";
@@ -18,7 +18,7 @@ const rootPath = getRootPath();
 
 root.render(
 	<BrowserRouter>
-		<Header/>
+		<Header />
 		<Routes>
 			<Route
 				path={`${rootPath}/`}
@@ -45,14 +45,14 @@ root.render(
 				element={<Contact />}
 			/>
 			<Route
-				path={`${rootPath}/Consultation`}
-				element={<Consultation />}
+				path={`${rootPath}/freeconsultation`}
+				element={<ScheduleFreeConsultation />}
 			/>
 			<Route
 				path={`${rootPath}/about`}
 				element={<About />}
 			/>
 		</Routes>
-		<Footer/>
+		<Footer />
 	</BrowserRouter>
 );

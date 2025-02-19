@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { handleSubmitCall } from "../modules/call/handleSubmitCall.js";
 
-export function Consultation() {
+export function ScheduleFreeConsultation() {
 	const [didMount, setDidMount] = useState(false);
 
 	useEffect(componentDidMount, []);
-	useEffect(componentDidUpdate, []);
+	useEffect(componentDidUpdate);
 	useEffect(componentDidUnmount, []);
 
 	return (
@@ -119,6 +119,10 @@ export function Consultation() {
 	function componentDidMount() {
 		setDidMount(true);
 		console.log("The Consultation component mounted.");
+
+		const titleTag = document.getElementById("titleTag");
+		titleTag.innerHTML = "Alex M - Free Consultation";
+
 		return componentDidUnmount;
 	}
 
@@ -127,10 +131,8 @@ export function Consultation() {
 	}
 
 	function componentDidUnmount() {
-		return logUnmount;
-	}
-
-	function logUnmount() {
-		console.log("The Consultation component unmounted.");
+		return function displayMessage() {
+			console.log("The Consultation component unmounted.");
+		};
 	}
 }

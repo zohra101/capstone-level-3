@@ -1,14 +1,12 @@
 import React, { useEffect, useState } from "react";
-// import { Navbar } from "../Views/Navbar.js";
-import { HandleQuoteOfTheDay } from "./HandleQuoteOfTheDay.js";
+// import { HandleQuoteOfTheDay } from "./HandleQuoteOfTheDay.js";
 // import { createServicesListGroup } from "../controllers/createServicesListGroup.js";
-
 
 export function Home() {
 	const [didMount, setDidMount] = useState(false);
 
 	useEffect(componentDidMount, []);
-	useEffect(componentDidUpdate, []);
+	useEffect(componentDidUpdate);
 	useEffect(componentDidUnmount, []);
 
 	const domain = window.location.hostname;
@@ -23,7 +21,7 @@ export function Home() {
 					className="m-2">
 					Welcome
 				</h1>
-				<HandleQuoteOfTheDay />
+				{/* <HandleQuoteOfTheDay /> */}
 				<div className="container m-2">
 					<div
 						id="homeIntro"
@@ -122,6 +120,10 @@ export function Home() {
 	function componentDidMount() {
 		setDidMount(true);
 		console.log("The Home component mounted.");
+
+		const titleTag = document.getElementById("titleTag");
+		titleTag.innerHTML = "Alex M - Home";
+		
 		return componentDidUnmount;
 	}
 
@@ -130,10 +132,8 @@ export function Home() {
 	}
 
 	function componentDidUnmount() {
-		return logUnmount;
-	}
-
-	function logUnmount() {
-		console.log("The Home component unmounted.");
+		return function displayMessage() {
+			console.log("The Home component unmounted.");
+		};
 	}
 }
