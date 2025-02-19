@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from "react";
 // import { Navbar } from "../Views/Navbar.js";
-import { Banner } from "./Banner.js";
-import { Footer } from "./Footer.js";
 import { HandleQuoteOfTheDay } from "./HandleQuoteOfTheDay.js";
 // import { createServicesListGroup } from "../controllers/createServicesListGroup.js";
-import "../css/index.scss";
-import { NavbarCollapsible } from "./NavbarCollapsible.js";
+
 
 export function Home() {
 	const [didMount, setDidMount] = useState(false);
@@ -20,8 +17,6 @@ export function Home() {
 
 	return (
 		<>
-			<NavbarCollapsible />
-			<Banner />
 			<main id="homeMain">
 				<h1
 					id="mixin-welcome"
@@ -121,7 +116,6 @@ export function Home() {
 					</div>
 				</div>
 			</main>
-			<Footer />
 		</>
 	);
 
