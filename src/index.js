@@ -45,7 +45,7 @@ root.render(
 				element={<Contact />}
 			/>
 			<Route
-				path={`${rootPath}/freeconsultation`}
+				path={`${rootPath}/schedulefreeconsultation`}
 				element={<ScheduleFreeConsultation />}
 			/>
 			<Route

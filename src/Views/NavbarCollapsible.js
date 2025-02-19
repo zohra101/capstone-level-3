@@ -65,7 +65,7 @@ export function NavbarCollapsible() {
 						<NavLink
 							className="nav-link"
 							style={{ color: "rgb(150, 196, 231)" }}
-							to={`${rootPath}/freeconsultation`}>
+							to={`${rootPath}/schedulefreeconsultation`}>
 							Free Consultation
 						</NavLink>
 						<NavLink

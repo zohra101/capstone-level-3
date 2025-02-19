@@ -3430,7 +3430,7 @@ function NavbarCollapsible() {
     style: {
       color: "rgb(150, 196, 231)"
     },
-    to: `${rootPath}/freeconsultation`
+    to: `${rootPath}/schedulefreeconsultation`
   }, "Free Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
     className: "nav-link",
     style: {
@@ -14387,7 +14387,7 @@ root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_
   path: `${rootPath}/contact`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_Contact_js__WEBPACK_IMPORTED_MODULE_7__.Contact, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: `${rootPath}/freeconsultation`,
+  path: `${rootPath}/schedulefreeconsultation`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_Views_ScheduleFreeConsultation_js__WEBPACK_IMPORTED_MODULE_6__.ScheduleFreeConsultation, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
   path: `${rootPath}/about`,
