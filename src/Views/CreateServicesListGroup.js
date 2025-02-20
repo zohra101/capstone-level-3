@@ -1,12 +1,12 @@
 //Item chaining to pull Service Names and Service Descriptions from two different arrays
+import React from "react";
 import { ListGroup } from "../utils/ListGroup.js";
 import { ListGroupItem } from "../utils/ListGroupItem.js";
 import { output } from "../utils/output.js";
 
-window.createServicesListGroup = createServicesListGroup;
+// window.createServicesListGroup = createServicesListGroup;
 
-export function createServicesListGroup() {
-	debugger;
+export function CreateServicesListGroup() {
 	const services = [
 		[
 			"Content Development",
@@ -27,11 +27,9 @@ export function createServicesListGroup() {
 	];
 
 	const servicesListGroup = new ListGroup();
-	debugger;
 	let index = services[0].length;
 
 	for (index = 0; index < services[0].length; index++) {
-			debugger;
 		const serviceName = services[0][index];
 		const serviceDescription = services[1][index];
 		const listGroupItem = new ListGroupItem(
@@ -42,7 +40,7 @@ export function createServicesListGroup() {
 
 	// output(createServicesListGroup, "createServicesistGroupTag");
 
-	output("Hello World!", "createServicesistGroupTag");
+	output("createServicesistGroupTag");
 
 };
 

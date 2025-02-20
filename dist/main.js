@@ -3215,6 +3215,49 @@ function Contact() {
 
 /***/ }),
 
+/***/ "./src/Views/CreateServicesListGroup.js":
+/*!**********************************************!*\
+  !*** ./src/Views/CreateServicesListGroup.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   CreateServicesListGroup: () => (/* binding */ CreateServicesListGroup)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _utils_ListGroup_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/ListGroup.js */ "./src/utils/ListGroup.js");
+/* harmony import */ var _utils_ListGroupItem_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/ListGroupItem.js */ "./src/utils/ListGroupItem.js");
+/* harmony import */ var _utils_output_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../utils/output.js */ "./src/utils/output.js");
+//Item chaining to pull Service Names and Service Descriptions from two different arrays
+
+
+
+
+
+// window.createServicesListGroup = createServicesListGroup;
+
+function CreateServicesListGroup() {
+  const services = [["Content Development", "Information Design", "Editing and Proofreading", "Technical Marketing", "Technical Writing", "User Interface (UI) and User Experience (UX) Design"], ["Developing content for websites, intranets, and knowledge bases, ensuring that information is accurate, accessible, and user-friendly.", "Reviewing technical documents for clarity, consistency, grammar, and accuracy, ensuring they meet organizational standards and guidelines.", "Structuring and organizing information to make it easy to understand and navigate, often involving the use of charts, diagrams, mock-ups, screenshots, wire frames and other visual aids.", "Producing technical marketing materials such as case studies, technical brochures, and product specifications that help explain the benefits and features of technical products to potential customers.", "Creating user manuals, installation guides, help files, white papers, and other documentation that explains how to use products or services.", "Working with design and development teams to create interfaces that are intuitive and easy to use, and conducting usability testing to improve user experiences."]];
+  const servicesListGroup = new _utils_ListGroup_js__WEBPACK_IMPORTED_MODULE_1__.ListGroup();
+  let index = services[0].length;
+  for (index = 0; index < services[0].length; index++) {
+    const serviceName = services[0][index];
+    const serviceDescription = services[1][index];
+    const listGroupItem = new _utils_ListGroupItem_js__WEBPACK_IMPORTED_MODULE_2__.ListGroupItem(`${serviceName}: ${serviceDescription}`);
+    servicesListGroup.addItem(listGroupItem);
+  }
+
+  // output(createServicesListGroup, "createServicesistGroupTag");
+
+  (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_3__.output)("createServicesistGroupTag");
+}
+;
+
+//createServicesListGroup();
+
+/***/ }),
+
 /***/ "./src/Views/Footer.js":
 /*!*****************************!*\
   !*** ./src/Views/Footer.js ***!
@@ -3280,9 +3323,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   Home: () => (/* binding */ Home)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _CreateServicesListGroup_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CreateServicesListGroup.js */ "./src/Views/CreateServicesListGroup.js");
 
 // import { HandleQuoteOfTheDay } from "./HandleQuoteOfTheDay.js";
-// import { createServicesListGroup } from "../controllers/createServicesListGroup.js";
 
 function Home() {
   const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
@@ -3320,7 +3363,7 @@ function Home() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "homeServices",
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Whether it's writing user manuals, creating process documentation, developing training materials, or editing help files, I ensure that content is accessible and tailored to your audience's needs. Rates are per hour or per project depending on the complexity, scope, and estimated time for completion.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Whether it's writing user manuals, creating process documentation, developing training materials, or editing help files, I ensure that content is accessible and tailored to your audience's needs. Rates are per hour or per project depending on the complexity, scope, and estimated time for completion.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_CreateServicesListGroup_js__WEBPACK_IMPORTED_MODULE_1__.CreateServicesListGroup, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "If my services seem like a good fit for your organization, please", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "contact.html#sendMessage"
@@ -3844,6 +3887,55 @@ function handleSubmitEmail(event) {
 
 /***/ }),
 
+/***/ "./src/utils/ListGroup.js":
+/*!********************************!*\
+  !*** ./src/utils/ListGroup.js ***!
+  \********************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ListGroup: () => (/* binding */ ListGroup)
+/* harmony export */ });
+/* harmony import */ var _utils_ListGroupItem_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utils/ListGroupItem.js */ "./src/utils/ListGroupItem.js");
+
+class ListGroup {
+  openingTag = "<div className='row m-2'><ul className='container list-group ms-3'>";
+  closingTag = "</ul>	</div>";
+  innerHTML = "";
+  constructor() {
+    this.content;
+    return `${this.openingTag}${this.innerHTML}${this.closingTag}`;
+  }
+  addItem(listGroupItem = new _utils_ListGroupItem_js__WEBPACK_IMPORTED_MODULE_0__.ListGroupItem()) {
+    this.content += listGroupItem;
+  }
+}
+
+/***/ }),
+
+/***/ "./src/utils/ListGroupItem.js":
+/*!************************************!*\
+  !*** ./src/utils/ListGroupItem.js ***!
+  \************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ListGroupItem: () => (/* binding */ ListGroupItem)
+/* harmony export */ });
+class ListGroupItem {
+  openingTag = "<li className='list-group-item'>";
+  closingTag = "</li>";
+  innerHTML = "";
+  constructor() {
+    this.content;
+    return `${this.openingTag}${this.innerHTML}${this.closingTag}`;
+  }
+}
+
+/***/ }),
+
 /***/ "./src/utils/getRootPath.js":
 /*!**********************************!*\
   !*** ./src/utils/getRootPath.js ***!
@@ -3861,6 +3953,32 @@ function getRootPath() {
   if (domain === "zohra101.github.io") rootPath = "/capstone-level-3/";
   console.log(`getRootpath: ${rootPath}`);
   return rootPath;
+}
+
+/***/ }),
+
+/***/ "./src/utils/output.js":
+/*!*****************************!*\
+  !*** ./src/utils/output.js ***!
+  \*****************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   output: () => (/* binding */ output)
+/* harmony export */ });
+// export function output(   
+//     message = "",
+//     outputTag = "outputTag",
+//     shouldAppend = true
+//     ) {
+//         if (shouldAppend) window[outputTag].innerHTML += message;
+//         else window[outputTag].innerHTML = message;
+// }
+
+function output(message = "", outputTag = "outputTag", shouldAppend = true) {
+  const outputElement = document.getElementById(outputTag);
+  if (shouldAppend) outputElement.innerHTML += message;else outputElement.innerHTML += message;
 }
 
 /***/ }),

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 // import { HandleQuoteOfTheDay } from "./HandleQuoteOfTheDay.js";
-// import { createServicesListGroup } from "../controllers/createServicesListGroup.js";
+import { CreateServicesListGroup } from "./CreateServicesListGroup.js";
 
 export function Home() {
 	const [didMount, setDidMount] = useState(false);
@@ -98,11 +98,9 @@ export function Home() {
 							scope, and estimated time for completion.
 						</p>
 					</div>
-					{/* <div className="row m-2">
-					<output
-						id="createServicesListGroupTag"
-						onLoad={createServicesListGroup}></output>
-				</div> */}
+				
+					<CreateServicesListGroup />
+				
 					<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
 						<p>
 							If my services seem like a good fit for your organization, please{" "}
@@ -123,7 +121,7 @@ export function Home() {
 
 		const titleTag = document.getElementById("titleTag");
 		titleTag.innerHTML = "Alex M - Home";
-		
+
 		return componentDidUnmount;
 	}
 
