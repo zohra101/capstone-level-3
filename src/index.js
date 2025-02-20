@@ -25,10 +25,6 @@ root.render(
 				element={<Home />}
 			/>
 			<Route
-				path={`${rootPath}/capstone-level-3`}
-				element={<Home />}
-			/>
-			<Route
 				path={`${rootPath}/home`}
 				element={<Home />}
 			/>
