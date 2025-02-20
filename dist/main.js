@@ -2263,8 +2263,8 @@ var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_g
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `#mixin-welcome {
-  color: rgb(30, 134, 165);
-  text-shadow: 1px 1px rgb(211, 171, 138);
+  color: rgb(189, 69, 33);
+  text-shadow: 2px 2px rgb(215, 199, 57);
   font-size: 76px;
 }
 
@@ -2303,9 +2303,14 @@ h1 {
   opacity: 1;
 }
 
+h3 {
+  color: rgb(2, 31, 2);
+}
+
 .signature {
   font-family: ComforterBrush;
   font-size: 50px;
+  color: rgb(17, 75, 95);
 }
 
 .bold {
@@ -2313,10 +2318,9 @@ h1 {
 }
 
 .list-group-item-text1 {
-  color: rgb(229, 229, 233);
+  color: rgb(241, 241, 250);
 }
 
-h3,
 .list-group-item-text2 {
   color: black;
 }
@@ -2338,6 +2342,10 @@ a:hover {
   color: violet;
 }
 
+.nav-text {
+  color: rgb(181, 225, 241);
+}
+
 .fullOpacity {
   opacity: 1;
 }
@@ -2357,7 +2365,11 @@ a:hover {
 
 .textShadow {
   text-shadow: 1px 1px rgb(84, 80, 80);
-}`, "",{"version":3,"sources":["webpack://./src/index.scss"],"names":[],"mappings":"AASA;EAPE,wBAAA;EAIA,uCAAA;EAMC,eAAA;AARH;;AAoBA;EACE,uBAAA;EACA,qBAAA;AAjBF;AAkBE;EACI,aAAA;AAhBN;;AAqBA;EACA,6BAAA;EACA,4CAAA;AAlBA;AAqBA;EACE,yBAAA;EACA,4CAAA;AAnBF;AAsBA;EACE,uBAAA;EACA,4CAAA;AApBF;AA6BA;EACE,qBANY;EAOZ,uBAAA;EACA,oBAAA;EACA,UAAA;AA3BF;;AA+BA;EACE,uBAZO;EAaP,cAAA;EACA,gBAAA;EACA,kBAAA;EACA,UAAA;AA5BF;;AA+BA;EACE,2BAnBW;EAoBX,eAAA;AA5BF;;AA+BA;EACE,iBAAA;AA5BF;;AAgCA;EACE,yBAhES;AAmCX;;AAgCA;;EAEE,YAtEU;AAyCZ;;AAgCA;EACE,iCAtEuB;AAyCzB;;AAgCA;EACE,oCAzEuB;AA4CzB;;AAgCA;EACE,uBAAA;EACA,qBAAA;AA7BF;;AA+BA;EACE,aAAA;AA5BF;;AAgCA;EACE,UAAA;AA7BF;;AAiCC;EACC,iCAAA;EACA,wBAAA;AA9BF;;AAkCA;EACE,sCAAA;AA/BF;;AAkCA;EACE,sCAAA;AA/BF;;AAkCA;EACE,oCAAA;AA/BF","sourcesContent":["//Mixin\r\n@mixin welcomeTextColor {\r\n  color: rgb(30, 134, 165);\r\n}\r\n\r\n@mixin welcomeTextShadow {\r\n  text-shadow: 1px 1px rgb(211, 171, 138);\r\n}\r\n\r\n#mixin-welcome {\r\n  @include welcomeTextColor;\r\n  @include welcomeTextShadow;\r\n   font-size: 76px;\r\n}\r\n\r\n//Colors (use variables)\r\n$blackText: black;\r\n$greyText: rgb(229, 229, 233);\r\n\r\n//RGBA color variables\r\n$list-group-item-color1: rgb(17, 75, 95);\r\n$list-group-item-color2: rgb(204, 245, 226);\r\n\r\n//Nesting & parent syntax\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n  &:hover {\r\n      color: violet;\r\n  }\r\n}\r\n\r\n//Custom fonts \r\n@font-face {\r\nfont-family:\"ComforterBrush\";\r\nsrc: url(../assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"GreatVibes\";\r\n  src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"OpenSans\";\r\n  src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf); \r\n}\r\n\r\n//Font variables\r\n$primaryFont: OpenSans;\r\n$secondaryFont: sans-serif;\r\n$h1Font: GreatVibes;\r\n$handwrFont: ComforterBrush;\r\n\r\nbody {\r\n  font-family: $primaryFont;\r\n  background-color: ivory;\r\n  color: rgb(2, 5, 61, 1.0);\r\n  opacity: 1.0;\r\n}\r\n\r\n\r\nh1 {\r\n  font-family: $h1Font;\r\n  font-size: 102;\r\n  font-weight: 400;\r\n  position: relative;\r\n  opacity: 1.0;\r\n}\r\n\r\n.signature {\r\n  font-family: $handwrFont;\r\n  font-size: 50px;\r\n}\r\n\r\n.bold {\r\n  font-weight: bold;\r\n}\r\n\r\n//Color styles\r\n.list-group-item-text1 {\r\n  color: $greyText;\r\n}\r\n\r\nh3, \r\n.list-group-item-text2 {\r\n  color: $blackText;\r\n}\r\n\r\n.list-group-item-color1 { \r\n  background-color: $list-group-item-color1;\r\n}\r\n\r\n.list-group-item-color2 {\r\n  background-color: $list-group-item-color2;\r\n}\r\n\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n}\r\na:hover {\r\n  color: violet;\r\n}\r\n\r\n//Opacity\r\n.fullOpacity {\r\n  opacity: 1.0;\r\n}\r\n\r\n//Transform rotate and animate\r\n .animation:hover {\r\n  transform: scale(1) rotate(20deg);\r\n  transition: transform 1s;\r\n}\r\n\r\n//Text-shadow & Box-shadow\r\n.boxShadowUL {\r\n  box-shadow: 30px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.boxShadowLI {\r\n  box-shadow: 25px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.textShadow {\r\n  text-shadow: 1px 1px rgb(84, 80, 80);\r\n}\r\n\r\n"],"sourceRoot":""}]);
+}
+
+.boxShadow {
+  box-shadow: 15px 15px rgb(189, 69, 33);
+}`, "",{"version":3,"sources":["webpack://./src/index.scss"],"names":[],"mappings":"AASA;EAPE,uBAAA;EAIA,sCAAA;EAMC,eAAA;AARH;;AAoBA;EACE,uBAAA;EACA,qBAAA;AAjBF;AAkBE;EACI,aAAA;AAhBN;;AAqBA;EACA,6BAAA;EACA,4CAAA;AAlBA;AAqBA;EACE,yBAAA;EACA,4CAAA;AAnBF;AAsBA;EACE,uBAAA;EACA,4CAAA;AApBF;AA6BA;EACE,qBANY;EAOZ,uBAAA;EACA,oBAAA;EACA,UAAA;AA3BF;;AA+BA;EACE,uBAZO;EAaP,cAAA;EACA,gBAAA;EACA,kBAAA;EACA,UAAA;AA5BF;;AA+BA;EACE,oBAAA;AA5BF;;AA+BA;EACE,2BAvBW;EAwBX,eAAA;EACA,sBAAA;AA5BF;;AA+BA;EACE,iBAAA;AA5BF;;AAgCA;EACE,yBArES;AAwCX;;AAgCA;EACE,YA1EU;AA6CZ;;AAgCA;EACE,iCA1EuB;AA6CzB;;AAgCA;EACE,oCA7EuB;AAgDzB;;AAgCA;EACE,uBAAA;EACA,qBAAA;AA7BF;;AA+BA;EACE,aAAA;AA5BF;;AA+BA;EACE,yBAAA;AA5BF;;AAkCA;EACE,UAAA;AA/BF;;AAmCC;EACC,iCAAA;EACA,wBAAA;AAhCF;;AAoCA;EACE,sCAAA;AAjCF;;AAoCA;EACE,sCAAA;AAjCF;;AAoCA;EACE,oCAAA;AAjCF;;AAoCA;EACE,sCAAA;AAjCF","sourcesContent":["//Mixin\r\n@mixin welcomeTextColor {\r\n  color: rgb(189, 69, 33);\r\n}\r\n\r\n@mixin welcomeTextShadow {\r\n  text-shadow: 2px 2px rgb(215, 199, 57);\r\n}\r\n\r\n#mixin-welcome {\r\n  @include welcomeTextColor;\r\n  @include welcomeTextShadow;\r\n   font-size: 76px;\r\n}\r\n\r\n//Colors (use variables)\r\n$blackText: black;\r\n$greyText: rgb(241, 241, 250);\r\n\r\n//RGBA color variables\r\n$list-group-item-color1: rgb(17, 75, 95);\r\n$list-group-item-color2: rgb(204, 245, 226);\r\n\r\n//Nesting & parent syntax\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n  &:hover {\r\n      color: violet;\r\n  }\r\n}\r\n\r\n//Custom fonts \r\n@font-face {\r\nfont-family:\"ComforterBrush\";\r\nsrc: url(../assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"GreatVibes\";\r\n  src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"OpenSans\";\r\n  src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf); \r\n}\r\n\r\n//Font variables\r\n$primaryFont: OpenSans;\r\n$secondaryFont: sans-serif;\r\n$h1Font: GreatVibes;\r\n$handwrFont: ComforterBrush;\r\n\r\nbody {\r\n  font-family: $primaryFont;\r\n  background-color: ivory;\r\n  color: rgb(2, 5, 61, 1.0);\r\n  opacity: 1.0;\r\n}\r\n\r\n\r\nh1 {\r\n  font-family: $h1Font;\r\n  font-size: 102;\r\n  font-weight: 400;\r\n  position: relative;\r\n  opacity: 1.0;\r\n}\r\n\r\nh3 {\r\n  color: rgb(2, 31, 2)\r\n}\r\n\r\n.signature {\r\n  font-family: $handwrFont;\r\n  font-size: 50px;\r\n  color: rgb(17, 75, 95);\r\n}\r\n\r\n.bold {\r\n  font-weight: bold;\r\n}\r\n\r\n//Color styles\r\n.list-group-item-text1 {\r\n  color: $greyText;\r\n}\r\n\r\n.list-group-item-text2 {\r\n  color: $blackText;\r\n}\r\n\r\n.list-group-item-color1 { \r\n  background-color: $list-group-item-color1;\r\n}\r\n\r\n.list-group-item-color2 {\r\n  background-color: $list-group-item-color2;\r\n}\r\n\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n}\r\na:hover {\r\n  color: violet;\r\n}\r\n\r\n.nav-text {\r\n  color: rgb(181, 225, 241)\r\n}\r\n\r\n\r\n\r\n//Opacity\r\n.fullOpacity {\r\n  opacity: 1.0;\r\n}\r\n\r\n//Transform rotate and animate\r\n .animation:hover {\r\n  transform: scale(1) rotate(20deg);\r\n  transition: transform 1s;\r\n}\r\n\r\n//Text-shadow & Box-shadow\r\n.boxShadowUL {\r\n  box-shadow: 30px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.boxShadowLI {\r\n  box-shadow: 25px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.textShadow {\r\n  text-shadow: 1px 1px rgb(84, 80, 80);\r\n}\r\n\r\n.boxShadow {\r\n  box-shadow: 15px 15px rgb(189, 69, 33);\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -2949,7 +2961,7 @@ function About() {
     return componentDidUnmount;
   }
   function componentDidUpdate() {
-    if (didMount === true) console.log("The About component updated.");
+    if (didMount) console.log("The About component updated.");
   }
   function componentDidUnmount() {
     return function displayMessage() {
@@ -3054,7 +3066,7 @@ function AlexResume() {
     return componentDidUnmount;
   }
   function componentDidUpdate() {
-    if (didMount === true) console.log("The Resume component updated.");
+    if (didMount) console.log("The Resume component updated.");
   }
   function componentDidUnmount() {
     return function displayMessage() {
@@ -3208,7 +3220,7 @@ function Contact() {
     return componentDidUnmount;
   }
   function componentDidUpdate() {
-    if (didMount === true) console.log("The Contact component updated.");
+    if (didMount) console.log("The Contact component updated.");
   }
   function componentDidUnmount() {
     return function displayMessage() {
@@ -3241,6 +3253,60 @@ function Footer() {
     width: "15px",
     src: _assets_icons_copyright_cGainsboro_nobg_png__WEBPACK_IMPORTED_MODULE_1__
   }), " ", "Aleksandra Marjanovic")));
+}
+
+/***/ }),
+
+/***/ "./src/Views/HandleQuoteOfTheDay.js":
+/*!******************************************!*\
+  !*** ./src/Views/HandleQuoteOfTheDay.js ***!
+  \******************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   HandleQuoteOfTheDay: () => (/* binding */ HandleQuoteOfTheDay)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _modules_Qotd_extractQotdResponse_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/Qotd/extractQotdResponse.js */ "./src/modules/Qotd/extractQotdResponse.js");
+//Fetch the response from the server and extract it
+
+
+const proxy = "https://corsproxy.io/?url=";
+const baseUrl = "https://favqs.com/api";
+const endPoint = "/qotd";
+function HandleQuoteOfTheDay() {
+  const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
+  function componentDidMount() {
+    const url = proxy + baseUrl + endPoint;
+    const promise = fetch(url);
+    promise.then(_modules_Qotd_extractQotdResponse_js__WEBPACK_IMPORTED_MODULE_1__.extractQotdResponse);
+    setDidMount(true);
+    console.log("The HandleQuoteOfTheDay component mounted.");
+    return componentDidUnmount;
+  }
+  function componentDidUpdate() {
+    if (didMount) console.log("The HandleQuoteOfTheDay component updated.");
+  }
+  function componentDidUnmount() {
+    return function displayMessage() {
+      console.log("The  HandleQuoteOfTheDay component unmounted.");
+    };
+  }
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card w-75 m-5 list-group-item-color1 list-group-item-text1 boxShadow"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-body m-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "qotdQuoteTag",
+    className: "card-text m-1 mb-3"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "qotdAuthorTag",
+    className: "card-subtitle text-center"
+  }, "-")));
 }
 
 /***/ }),
@@ -3284,9 +3350,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   Home: () => (/* binding */ Home)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _Views_ServicesListGroup_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Views/ServicesListGroup.js */ "./src/Views/ServicesListGroup.js");
+/* harmony import */ var _HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HandleQuoteOfTheDay.js */ "./src/Views/HandleQuoteOfTheDay.js");
+/* harmony import */ var _Views_ServicesListGroup_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../Views/ServicesListGroup.js */ "./src/Views/ServicesListGroup.js");
 
-// import { HandleQuoteOfTheDay } from "./HandleQuoteOfTheDay.js";
+
 
 function Home() {
   const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
@@ -3300,14 +3367,14 @@ function Home() {
     id: "homeMain"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     id: "mixin-welcome",
-    className: "m-2"
-  }, "Welcome"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "m-2 "
+  }, "Welcome"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_1__.HandleQuoteOfTheDay, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container m-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "homeIntro",
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Hi, I'm Alex Marjanovic, a technical communicator based out of Baton Rouge, LA. Originally from New Jersey, I moved south to escape the cold and snow, after completing my Master's in Professional and Technical Communiction at the New Jersey Institute for Technology (NJIT)."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I started as a technical writer by documenting the standard operating procedures for the technical support and help desk teams on which I served, which reminded me that I not only enjoy writing and design but also excel. I've also been a video game beta tester, translator, business intelligence developer, business analyst, quality assurance tester, project manager, content writer, transaction developer/implementation specialist, and editor."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "In software development specifically, technical communication services are vital for ensuring that complex technical information is accessible to both technical and non-technical audiences, thereby improving user satisfaction and reducing the need for support. But the benefits of clear and effective communication apply to any industry."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container m-2"
+    className: "container m-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "homeHelp",
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
@@ -3324,7 +3391,7 @@ function Home() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "homeServices",
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Whether it's writing user manuals, creating process documentation, developing training materials, or editing help files, I ensure that content is accessible and tailored to your audience's needs. Rates are per hour or per project depending on the complexity, scope, and estimated time for completion.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Views_ServicesListGroup_js__WEBPACK_IMPORTED_MODULE_1__.ServicesListGroup, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Whether it's writing user manuals, creating process documentation, developing training materials, or editing help files, I ensure that content is accessible and tailored to your audience's needs. Rates are per hour or per project depending on the complexity, scope, and estimated time for completion.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Views_ServicesListGroup_js__WEBPACK_IMPORTED_MODULE_2__.ServicesListGroup, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "If my services seem like a good fit for your organization, please", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "contact.html#sendMessage"
@@ -3339,7 +3406,7 @@ function Home() {
     return componentDidUnmount;
   }
   function componentDidUpdate() {
-    if (didMount === true) console.log("The Home component updated.");
+    if (didMount) console.log("The Home component updated.");
   }
   function componentDidUnmount() {
     return function displayMessage() {
@@ -3383,7 +3450,7 @@ function NavbarCollapsible() {
     className: "navbar-brand",
     style: {
       backgroundColor: "rgb(2, 32, 54)",
-      color: "rgb(188, 110, 14)"
+      color: "rgb(220, 220, 170)"
     },
     to: "#"
   }, "Alex Marjanovic"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
@@ -3397,7 +3464,7 @@ function NavbarCollapsible() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     className: "navbar-toggler-icon",
     style: {
-      backgroundColor: "rgb(150, 196, 231)"
+      backgroundColor: "rgb(109, 154, 189)"
     }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "collapse navbar-collapse",
@@ -3405,41 +3472,23 @@ function NavbarCollapsible() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "navbar-nav"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
-    className: "nav-link",
-    style: {
-      color: "rgb(150, 196, 231)"
-    },
+    className: "nav-link nav-text",
     "aria-current": "page",
     to: `${rootPath}/home`
   }, " ", "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
-    className: "nav-link",
-    style: {
-      color: "rgb(150, 196, 231)"
-    },
+    className: "nav-link nav-text",
     to: `${rootPath}/portfolio`
   }, "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
-    className: "nav-link",
-    style: {
-      color: "rgb(150, 196, 231)"
-    },
+    className: "nav-link nav-text",
     to: `${rootPath}/alexresume`
   }, "Resume"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
-    className: "nav-link",
-    style: {
-      color: "rgb(150, 196, 231)"
-    },
+    className: "nav-link nav-text",
     to: `${rootPath}/contact`
   }, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
-    className: "nav-link",
-    style: {
-      color: "rgb(150, 196, 231)"
-    },
+    className: "nav-link nav-text",
     to: `${rootPath}/schedulefreeconsultation`
   }, "Free Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
-    className: "nav-link",
-    style: {
-      color: "rgb(150, 196, 231)"
-    },
+    className: "nav-link nav-text",
     to: `${rootPath}/about`
   }, "About")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "me-1"
@@ -3630,7 +3679,7 @@ function Portfolio() {
     return componentDidUnmount;
   }
   function componentDidUpdate() {
-    if (didMount === true) console.log("The Portfolio component updated.");
+    if (didMount) console.log("The Portfolio component updated.");
   }
   function componentDidUnmount() {
     return function displayMessage() {
@@ -3776,7 +3825,7 @@ function ScheduleFreeConsultation() {
     return componentDidUnmount;
   }
   function componentDidUpdate() {
-    if (didMount === true) console.log("The Consultation component updated.");
+    if (didMount) console.log("The Consultation component updated.");
   }
   function componentDidUnmount() {
     return function displayMessage() {
@@ -3801,32 +3850,103 @@ __webpack_require__.r(__webpack_exports__);
 
 function ServicesListGroup() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "m-4"
+    className: "m-5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row m-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
     className: "container list-group ms-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    class: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, "Content Development: ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    class: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null), "Information Design:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    class: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"
-  }, "Editing and Proofreading:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    class: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"
-  }, "Technical Marketing:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    class: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"
-  }, "Technical Writing:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    class: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI mb-4"
-  }, "User Interface (UI) and User Experience (UX) Design:"))));
+    className: "list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "bold"
+  }, "Artificial intelligence:", " "), "Leveraging generative AI to produce effective images and text, increasing efficiency and productivity. Writing cotent and rubrics to train Large Language Modals (LLMs)."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "bold"
+  }, "Content Development & Strategy: "), "Developing and maintaining content for knowledge bases, software, websites, and other uses, ensuring that information is accessible and user-friendly."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "bold"
+  }, "Information Architecture & Design: "), "Structuring and organizing information to make it easy to understand and navigate, often involving charts, diagrams, mock-ups, screenshots, wire frames, and other visual aids."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "bold"
+  }, "Editing and Proofreading: "), "Reviewing visual and written works for accuracy, clarity, consistency, and grammar, ensuring they meet organizational standards and guidelines."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "bold"
+  }, "Marketing: "), "Producing materials like brochures, case studies, course descriptions, and product information sheets that help explain benefits and features to potential customers."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "bold"
+  }, "Technical Writing: "), "Creating user manuals, installation guides, help files, white papers, and other documentation."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "bold"
+  }, "User Interface (UI) Design: "), "Working with subject matter expperts, designers, and developers to produce intuitive and easy to use interfaces."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
+    className: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI mb-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "bold"
+  }, "User Experience (UX) Design: "), "Designing products users will love by applying usability engineering and user-centered design principles, including task analysis and usability testing."))));
 }
 
-// "Developing content for websites, intranets, and knowledge bases, ensuring that information is accurate, accessible, and user-friendly.",
-// "Reviewing technical documents for clarity, consistency, grammar, and accuracy, ensuring they meet organizational standards and guidelines.",
-// "Structuring and organizing information to make it easy to understand and navigate, often involving the use of charts, diagrams, mock-ups, screenshots, wire frames and other visual aids.",
-// "Producing technical marketing materials such as case studies, technical brochures, and product specifications that help explain the benefits and features of technical products to potential customers.",
-// "Creating user manuals, installation guides, help files, white papers, and other documentation that explains how to use products or services.",
-// "Working with design and development teams to create interfaces that are intuitive and easy to use, and conducting usability testing to improve user experiences."
+// "",
+// "",
+// "",
+// "",
+// ".",
+// ""
+
+/***/ }),
+
+/***/ "./src/modules/Qotd/extractQotdResponse.js":
+/*!*************************************************!*\
+  !*** ./src/modules/Qotd/extractQotdResponse.js ***!
+  \*************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   extractQotdResponse: () => (/* binding */ extractQotdResponse)
+/* harmony export */ });
+/* harmony import */ var _parseQotdResponse_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./parseQotdResponse.js */ "./src/modules/Qotd/parseQotdResponse.js");
+//Extract the server resoponse and parse it
+
+function extractQotdResponse(resolveValue) {
+  const promise = resolveValue.text();
+  promise.then(_parseQotdResponse_js__WEBPACK_IMPORTED_MODULE_0__.parseQotdResponse);
+  console.log("Quote of the Day was extracted.");
+}
+
+/***/ }),
+
+/***/ "./src/modules/Qotd/parseQotdResponse.js":
+/*!***********************************************!*\
+  !*** ./src/modules/Qotd/parseQotdResponse.js ***!
+  \***********************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   parseQotdResponse: () => (/* binding */ parseQotdResponse)
+/* harmony export */ });
+/* harmony import */ var _utils_output_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../utils/output.js */ "./src/utils/output.js");
+//Parse the response and display the qotd on the index page
+
+function parseQotdResponse(resolveValue) {
+  let quote = "";
+  let author = "";
+  const response = JSON.parse(resolveValue); //Parse the JSON string\
+  const quoteData = response.quote; //Access the quote object that contains the quote data
+
+  quote = quoteData.body; //Access the property that contains the quote text
+  console.log(`Quote: ${quote}`);
+  author = quoteData.author; //Access the property that contains the author text
+  console.log(`Author: ${author}`);
+  console.log("Quote of the Day was parsed.");
+  (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)(quote, "qotdQuoteTag");
+  (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)(author, "qotdAuthorTag");
+}
 
 /***/ }),
 
@@ -3908,6 +4028,33 @@ function getRootPath() {
   if (domain === "zohra101.github.io") rootPath = "/capstone-level-3";
   console.log(`getRootpath: ${rootPath}`);
   return rootPath;
+}
+
+/***/ }),
+
+/***/ "./src/utils/output.js":
+/*!*****************************!*\
+  !*** ./src/utils/output.js ***!
+  \*****************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   output: () => (/* binding */ output)
+/* harmony export */ });
+// export function output(
+//     message = "",
+//     outputTag = "outputTag",
+//     shouldAppend = true
+//     ) {
+//         if (shouldAppend) window[outputTag].innerHTML += message;
+//         else window[outputTag].innerHTML = message;
+// }
+
+function output(message = "", outputTag = "outputTag", shouldAppend = true) {
+  const outputElement = document.getElementById(outputTag);
+  if (shouldAppend) outputElement.innerHTML += message;else outputElement.innerHTML + message;
+  console.log(`Output was generated for ${outputTag}.`);
 }
 
 /***/ }),
@@ -14415,10 +14562,25 @@ __webpack_require__.r(__webpack_exports__);
 const bodyTag = document.getElementById("bodyTag");
 const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(bodyTag);
 const rootPath = (0,_src_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_9__.getRootPath)();
-root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
+root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Header_js__WEBPACK_IMPORTED_MODULE_10__.Header, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
   path: `${rootPath}/`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Home_js__WEBPACK_IMPORTED_MODULE_3__.Home, null)
-}))));
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
+  path: `${rootPath}/portfolio`,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Portfolio_js__WEBPACK_IMPORTED_MODULE_8__.Portfolio, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
+  path: `${rootPath}/alexresume`,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_AlexResume_js__WEBPACK_IMPORTED_MODULE_5__.AlexResume, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
+  path: `${rootPath}/contact`,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Contact_js__WEBPACK_IMPORTED_MODULE_7__.Contact, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
+  path: `${rootPath}/schedulefreeconsultation`,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_ScheduleFreeConsultation_js__WEBPACK_IMPORTED_MODULE_6__.ScheduleFreeConsultation, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
+  path: `${rootPath}/about`,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_About_js__WEBPACK_IMPORTED_MODULE_4__.About, null)
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Footer_js__WEBPACK_IMPORTED_MODULE_11__.Footer, null)));
 })();
 
 /******/ })()

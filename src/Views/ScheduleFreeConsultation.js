@@ -127,7 +127,7 @@ export function ScheduleFreeConsultation() {
 	}
 
 	function componentDidUpdate() {
-		if (didMount === true) console.log("The Consultation component updated.");
+		if (didMount) console.log("The Consultation component updated.");
 	}
 
 	function componentDidUnmount() {

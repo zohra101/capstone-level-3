@@ -18,13 +18,13 @@ const rootPath = getRootPath();
 
 root.render(
 	<BrowserRouter>
-		{/* <Header /> */}
+		<Header />
 		<Routes>
 			<Route
 				path={`${rootPath}/`}
 				element={<Home />}
 			/>
-			{/* <Route
+			<Route
 				path={`${rootPath}/portfolio`}
 				element={<Portfolio />}
 			/>
@@ -43,8 +43,8 @@ root.render(
 			<Route
 				path={`${rootPath}/about`}
 				element={<About />}
-			/> */}
+			/>
 		</Routes>
-		{/* <Footer /> */}
+		<Footer />
 	</BrowserRouter>
 );

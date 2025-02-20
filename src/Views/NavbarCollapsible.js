@@ -15,7 +15,7 @@ export function NavbarCollapsible() {
 					className="navbar-brand"
 					style={{
 						backgroundColor: "rgb(2, 32, 54)",
-						color: "rgb(188, 110, 14)",
+						color: "rgb(220, 220, 170)",
 					}}
 					to="#">
 					Alex Marjanovic
@@ -30,47 +30,41 @@ export function NavbarCollapsible() {
 					aria-label="Toggle navigation">
 					<span
 						className="navbar-toggler-icon"
-						style={{ backgroundColor: "rgb(150, 196, 231)" }}></span>
+						style={{ backgroundColor: "rgb(109, 154, 189)" }}></span>
 				</button>
 				<div
 					className="collapse navbar-collapse"
 					id="navbarNavAltMarkup">
 					<div className="navbar-nav">
 						<NavLink
-							className="nav-link"
-							style={{ color: "rgb(150, 196, 231)" }}
+							className="nav-link nav-text"
 							aria-current="page"
 							to={`${rootPath}/home`}>
 							{" "}
 							Home
 						</NavLink>
 						<NavLink
-							className="nav-link"
-							style={{ color: "rgb(150, 196, 231)" }}
+							className="nav-link nav-text"
 							to={`${rootPath}/portfolio`}>
 							Portfolio
 						</NavLink>
 						<NavLink
-							className="nav-link"
-							style={{ color: "rgb(150, 196, 231)" }}
+							className="nav-link nav-text"
 							to={`${rootPath}/alexresume`}>
 							Resume
 						</NavLink>
 						<NavLink
-							className="nav-link"
-							style={{ color: "rgb(150, 196, 231)" }}
+							className="nav-link nav-text"
 							to={`${rootPath}/contact`}>
 							Contact
 						</NavLink>
 						<NavLink
-							className="nav-link"
-							style={{ color: "rgb(150, 196, 231)" }}
+							className="nav-link nav-text"
 							to={`${rootPath}/schedulefreeconsultation`}>
 							Free Consultation
 						</NavLink>
 						<NavLink
-							className="nav-link"
-							style={{ color: "rgb(150, 196, 231)" }}
+							className="nav-link nav-text"
 							to={`${rootPath}/about`}>
 							About
 						</NavLink>

@@ -1,39 +1,49 @@
 //Fetch the response from the server and extract it
 import React, { useState, useEffect } from "react";
-import { extractQotdResponse } from "../modules/qotd/extractQotdResponse.js";
+import { extractQotdResponse } from "../modules/Qotd/extractQotdResponse.js";
+
+const proxy = "https://corsproxy.io/?url=";
+const baseUrl = "https://favqs.com/api";
+const endPoint = "/qotd";
 
 export function HandleQuoteOfTheDay() {
-	const [quoteFetched, setQuoteFetched] = useState(false); // Track if the quote has been fetched
+	const [didMount, setDidMount] = useState(false);
 
-	useEffect(quoteWasFetched, []);
+	useEffect(componentDidMount, []);
+	useEffect(componentDidUpdate, []);
+	useEffect(componentDidUnmount, []);
 
-	if (!quoteFetched) {
-		const proxy = "https://corsproxy.io/?url=";
-		const baseUrl = "https://favqs.com/api";
-		const endPoint = "/qotd";
+	function componentDidMount() {
 		const url = proxy + baseUrl + endPoint;
 		const promise = fetch(url);
 		promise.then(extractQotdResponse);
+		setDidMount(true);
+		console.log("The HandleQuoteOfTheDay component mounted.");
+		return componentDidUnmount;
+	}
 
-		return (
-			<div className="card w-75 m-4">
-				<div className="card-body text-center">
-					<p
-						id="qotdQuoteTag"
-						className="card-text"></p>
-					<p
-						id="qotdAuthorTag"
-						className="card-subtitle">
-						-
-					</p>
+	function componentDidUpdate() {
+		if (didMount) console.log("The HandleQuoteOfTheDay component updated.");
+	}
+
+	function componentDidUnmount() {
+		return function displayMessage() {
+			console.log("The  HandleQuoteOfTheDay component unmounted.");
+		};
+	}
+
+	return (
+		<div className="card w-75 m-5 list-group-item-color1 list-group-item-text1 boxShadow">
+			<div className="card-body m-2">
+				<div
+					id="qotdQuoteTag"
+					className="card-text m-1 mb-3"></div>
+				<div
+					id="qotdAuthorTag"
+					className="card-subtitle text-center">
+					-
 				</div>
 			</div>
-		);
-	}
-
-	function quoteWasFetched() {
-		setQuoteFetched(true);
-		// console.log("The Home component mounted.");
-		return quoteWasFetched;
-	}
+		</div>
+	);
 }

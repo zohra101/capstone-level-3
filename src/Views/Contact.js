@@ -136,7 +136,7 @@ export function Contact() {
 	}
 
 	function componentDidUpdate() {
-		if (didMount === true) console.log("The Contact component updated.");
+		if (didMount) console.log("The Contact component updated.");
 	}
 	function componentDidUnmount() {
 		return function displayMessage() {

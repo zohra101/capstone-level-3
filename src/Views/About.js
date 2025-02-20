@@ -111,7 +111,7 @@ export function About() {
 	}
 
 	function componentDidUpdate() {
-		if (didMount === true) console.log("The About component updated.");
+		if (didMount) console.log("The About component updated.");
 	}
 
 	function componentDidUnmount() {

@@ -2,26 +2,55 @@ import React from "react";
 
 export function ServicesListGroup() {
 	return (
-		<div className="m-4">
+		<div className="m-5">
 			<div className="row m-2">
 				<ul className="container list-group ms-3">
-					<li class="list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI">
-						<span>Content Development: </span>
+					<li className="list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI">
+						<span className="bold">
+							Artificial intelligence:{" "}
+						</span>
+						Leveraging generative AI to produce effective images and text,
+						increasing efficiency and productivity. Writing cotent and rubrics
+						to train Large Language Modals (LLMs).
 					</li>
-					<li class="list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI">
-						<span></span>Information Design:
+					<li className="list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI">
+						<span className="bold">Content Development & Strategy: </span>
+						Developing and maintaining content for knowledge bases, software,
+						websites, and other uses, ensuring that information is accessible
+						and user-friendly.
 					</li>
-					<li class="list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI">
-						Editing and Proofreading:
+					<li className="list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI">
+						<span className="bold">Information Architecture & Design: </span>
+						Structuring and organizing information to make it easy to understand
+						and navigate, often involving charts, diagrams, mock-ups,
+						screenshots, wire frames, and other visual aids.
 					</li>
-					<li class="list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI">
-						Technical Marketing:
+					<li className="list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI">
+						<span className="bold">Editing and Proofreading: </span>Reviewing
+						visual and written works for accuracy, clarity, consistency, and
+						grammar, ensuring they meet organizational standards and guidelines.
 					</li>
-					<li class="list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI">
-						Technical Writing:
+
+					<li className="list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI">
+						<span className="bold">Marketing: </span>Producing materials like
+						brochures, case studies, course descriptions, and product
+						information sheets that help explain benefits and features to
+						potential customers.
 					</li>
-					<li class="list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI mb-4">
-						User Interface (UI) and User Experience (UX) Design:
+					<li className="list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI">
+						<span className="bold">Technical Writing: </span>Creating user
+						manuals, installation guides, help files, white papers, and other
+						documentation.
+					</li>
+					<li className="list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI">
+						<span className="bold">User Interface (UI) Design: </span>
+						Working with subject matter expperts, designers, and developers to
+						produce intuitive and easy to use interfaces.
+					</li>
+					<li className="list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI mb-4">
+						<span className="bold">User Experience (UX) Design: </span>
+						Designing products users will love by applying usability engineering and user-centered design principles, including task analysis and
+						usability testing.
 					</li>
 				</ul>
 			</div>
@@ -29,9 +58,9 @@ export function ServicesListGroup() {
 	);
 }
 
-// "Developing content for websites, intranets, and knowledge bases, ensuring that information is accurate, accessible, and user-friendly.",
-// "Reviewing technical documents for clarity, consistency, grammar, and accuracy, ensuring they meet organizational standards and guidelines.",
-// "Structuring and organizing information to make it easy to understand and navigate, often involving the use of charts, diagrams, mock-ups, screenshots, wire frames and other visual aids.",
-// "Producing technical marketing materials such as case studies, technical brochures, and product specifications that help explain the benefits and features of technical products to potential customers.",
-// "Creating user manuals, installation guides, help files, white papers, and other documentation that explains how to use products or services.",
-// "Working with design and development teams to create interfaces that are intuitive and easy to use, and conducting usability testing to improve user experiences."
+// "",
+// "",
+// "",
+// "",
+// ".",
+// ""

@@ -1,4 +1,4 @@
-// export function output(   
+// export function output(
 //     message = "",
 //     outputTag = "outputTag",
 //     shouldAppend = true
@@ -7,14 +7,13 @@
 //         else window[outputTag].innerHTML = message;
 // }
 
-    
- export function output(
-		message = "",
-		outputTag = "outputTag",
-		shouldAppend = true
- ) {
-		const outputElement = document.getElementById(outputTag);
-		if (shouldAppend) outputElement.innerHTML += message;
-		else outputElement.innerHTML += message;
- }   
-
+export function output(
+	message = "",
+	outputTag = "outputTag",
+	shouldAppend = true
+) {
+	const outputElement = document.getElementById(outputTag);
+	if (shouldAppend) outputElement.innerHTML += message;
+	else outputElement.innerHTML + message;
+	console.log(`Output was generated for ${outputTag}.`);
+}

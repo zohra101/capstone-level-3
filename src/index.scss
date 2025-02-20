@@ -1,10 +1,10 @@
 //Mixin
 @mixin welcomeTextColor {
-  color: rgb(30, 134, 165);
+  color: rgb(189, 69, 33);
 }
 
 @mixin welcomeTextShadow {
-  text-shadow: 1px 1px rgb(211, 171, 138);
+  text-shadow: 2px 2px rgb(215, 199, 57);
 }
 
 #mixin-welcome {
@@ -15,7 +15,7 @@
 
 //Colors (use variables)
 $blackText: black;
-$greyText: rgb(229, 229, 233);
+$greyText: rgb(241, 241, 250);
 
 //RGBA color variables
 $list-group-item-color1: rgb(17, 75, 95);
@@ -68,9 +68,14 @@ h1 {
   opacity: 1.0;
 }
 
+h3 {
+  color: rgb(2, 31, 2)
+}
+
 .signature {
   font-family: $handwrFont;
   font-size: 50px;
+  color: rgb(17, 75, 95);
 }
 
 .bold {
@@ -82,7 +87,6 @@ h1 {
   color: $greyText;
 }
 
-h3, 
 .list-group-item-text2 {
   color: $blackText;
 }
@@ -102,6 +106,12 @@ a {
 a:hover {
   color: violet;
 }
+
+.nav-text {
+  color: rgb(181, 225, 241)
+}
+
+
 
 //Opacity
 .fullOpacity {
@@ -127,3 +137,6 @@ a:hover {
   text-shadow: 1px 1px rgb(84, 80, 80);
 }
 
+.boxShadow {
+  box-shadow: 15px 15px rgb(189, 69, 33);
+}

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-// import { HandleQuoteOfTheDay } from "./HandleQuoteOfTheDay.js";
+import { HandleQuoteOfTheDay } from "./HandleQuoteOfTheDay.js";
 import { ServicesListGroup } from "../Views/ServicesListGroup.js";
 
 export function Home() {
@@ -18,10 +18,10 @@ export function Home() {
 			<main id="homeMain">
 				<h1
 					id="mixin-welcome"
-					className="m-2">
+					className="m-2 ">
 					Welcome
 				</h1>
-				{/* <HandleQuoteOfTheDay /> */}
+				<HandleQuoteOfTheDay />
 				<div className="container m-3">
 					<div
 						id="homeIntro"
@@ -53,7 +53,7 @@ export function Home() {
 						</p>
 					</div>
 				</div>
-				<div className="container m-2">
+				<div className="container m-3">
 					<div
 						id="homeHelp"
 						className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
@@ -126,7 +126,7 @@ export function Home() {
 	}
 
 	function componentDidUpdate() {
-		if (didMount === true) console.log("The Home component updated.");
+		if (didMount) console.log("The Home component updated.");
 	}
 
 	function componentDidUnmount() {

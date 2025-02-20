@@ -283,7 +283,7 @@ export function AlexResume() {
 	}
 
 	function componentDidUpdate() {
-		if (didMount === true) console.log("The Resume component updated.");
+		if (didMount) console.log("The Resume component updated.");
 	}
 
 	function componentDidUnmount() {

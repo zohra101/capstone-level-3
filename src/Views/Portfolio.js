@@ -215,7 +215,7 @@ export function Portfolio() {
 	}
 
 	function componentDidUpdate() {
-		if (didMount === true) console.log("The Portfolio component updated.");
+		if (didMount) console.log("The Portfolio component updated.");
 	}
 	function componentDidUnmount() {
 		return function displayMessage() {
