@@ -2,12 +2,12 @@ import { createRoot } from "react-dom/client";
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router";
 import "../src/index.scss";
-import { Home } from "./Views/Home.js";
-import { About } from "./Views/About.js";
-import { AlexResume } from "./Views/AlexResume.js";
-import { ScheduleFreeConsultation } from "./Views/ScheduleFreeConsultation.js";
-import { Contact } from "./Views/Contact.js";
-import { Portfolio } from "./Views/Portfolio.js";
+import { Home } from "../src//Views/Home.js";
+import { About } from "../src//Views/About.js";
+import { AlexResume } from "../src//Views/AlexResume.js";
+import { ScheduleFreeConsultation } from "../src//Views/ScheduleFreeConsultation.js";
+import { Contact } from "../src//Views/Contact.js";
+import { Portfolio } from "../src//Views/Portfolio.js";
 import { getRootPath } from "../src/utils/getRootPath.js";
 import { Header } from "../src/Views/Header.js";
 import { Footer } from "../src/Views/Footer.js";
@@ -18,17 +18,13 @@ const rootPath = getRootPath();
 
 root.render(
 	<BrowserRouter>
-		<Header />
+		{/* <Header /> */}
 		<Routes>
 			<Route
 				path={`${rootPath}/`}
 				element={<Home />}
 			/>
-			<Route
-				path={`${rootPath}/home`}
-				element={<Home />}
-			/>
-			<Route
+			{/* <Route
 				path={`${rootPath}/portfolio`}
 				element={<Portfolio />}
 			/>
@@ -47,8 +43,8 @@ root.render(
 			<Route
 				path={`${rootPath}/about`}
 				element={<About />}
-			/>
+			/> */}
 		</Routes>
-		<Footer />
+		{/* <Footer /> */}
 	</BrowserRouter>
 );

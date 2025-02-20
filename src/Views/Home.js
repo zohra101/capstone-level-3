@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 // import { HandleQuoteOfTheDay } from "./HandleQuoteOfTheDay.js";
-import { CreateServicesListGroup } from "./CreateServicesListGroup.js";
+import { ServicesListGroup } from "../Views/ServicesListGroup.js";
 
 export function Home() {
 	const [didMount, setDidMount] = useState(false);
@@ -22,7 +22,7 @@ export function Home() {
 					Welcome
 				</h1>
 				{/* <HandleQuoteOfTheDay /> */}
-				<div className="container m-2">
+				<div className="container m-3">
 					<div
 						id="homeIntro"
 						className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
@@ -99,7 +99,7 @@ export function Home() {
 						</p>
 					</div>
 				
-					<CreateServicesListGroup />
+					<ServicesListGroup />
 				
 					<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
 						<p>
@@ -108,7 +108,7 @@ export function Home() {
 							Contact form.
 						</p>
 						<p>Thanks for visiting!</p>
-						<h2 className="signature">Alex Marjanovic</h2>
+						<h2 className="signature ms-4 mt-2">Alex Marjanovic</h2>
 					</div>
 				</div>
 			</main>

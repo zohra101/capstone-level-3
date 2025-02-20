@@ -1,10 +1,6 @@
-//Item chaining to pull Service Names and Service Descriptions from two different arrays
+//hard-coded per Rolazar because the item chaining and the class imports are not working well in React
 import React from "react";
-import { ListGroup } from "../utils/ListGroup.js";
-import { ListGroupItem } from "../utils/ListGroupItem.js";
-import { output } from "../utils/output.js";
 
-// window.createServicesListGroup = createServicesListGroup;
 
 export function CreateServicesListGroup() {
 	const services = [
