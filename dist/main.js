@@ -3467,7 +3467,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/getRootPath.js */ "./src/utils/getRootPath.js");
 /* harmony import */ var _assets_icons_icon_linkedin_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/icons/icon_linkedin.png */ "./assets/icons/icon_linkedin.png");
 /* harmony import */ var _assets_icons_icon_email_coral_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/icons/icon_email_coral.png */ "./assets/icons/icon_email_coral.png");
-/* harmony import */ var _Views_SignInModal_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Views/SignInModal.js */ "./src/Views/SignInModal.js");
+/* harmony import */ var _SignInArea_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SignInArea.js */ "./src/Views/SignInArea.js");
 
 
 
@@ -3552,7 +3552,7 @@ function NavbarCollapsible() {
   }, "Free Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "nav-link nav-text",
     to: `${rootPath}/about`
-  }, "About"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Views_SignInModal_js__WEBPACK_IMPORTED_MODULE_4__.SignInModal, null)));
+  }, "About"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SignInArea_js__WEBPACK_IMPORTED_MODULE_4__.SignInArea, null), "/>"));
 }
 
 /***/ }),
@@ -3974,6 +3974,58 @@ function ServicesListGroup() {
 
 /***/ }),
 
+/***/ "./src/Views/SignInArea.js":
+/*!*********************************!*\
+  !*** ./src/Views/SignInArea.js ***!
+  \*********************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   SignInArea: () => (/* binding */ SignInArea)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _SignInModal_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./SignInModal.js */ "./src/Views/SignInModal.js");
+/* harmony import */ var _SignOutModal_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./SignOutModal.js */ "./src/Views/SignOutModal.js");
+
+
+
+function SignInArea() {
+  const [button, setButton] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null));
+  const [isSignedIn, setIsSignedIn] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, [isSignedIn]);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, button);
+  function componentDidMount() {
+    console.log("MOUNT PHASE: SignInArea");
+    if (isSignedIn) setButton(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SignOutModal_js__WEBPACK_IMPORTED_MODULE_2__.SignOutModal, {
+      onSignOut: handleSignOut
+    }));else setButton(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SignInModal_js__WEBPACK_IMPORTED_MODULE_1__.SignInModal, {
+      onSignIn: handleSignInAttempt
+    }));
+    setDidMount(true);
+  }
+  function componentDidUpdate() {
+    if (didMount) {
+      console.log("UPDATE PHASE: SignInArea");
+      if (isSignedIn) setButton(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SignOutModal_js__WEBPACK_IMPORTED_MODULE_2__.SignOutModal, {
+        onSignOut: handleSignOut
+      }));else setButton(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SignInModal_js__WEBPACK_IMPORTED_MODULE_1__.SignInModal, {
+        onSignIn: handleSignInAttempt
+      }));
+    }
+  }
+  function handleSignInAttempt() {
+    setIsSignedIn(true);
+  }
+  function handleSignOut() {
+    setIsSignedIn(false);
+  }
+}
+
+/***/ }),
+
 /***/ "./src/Views/SignInContent.js":
 /*!************************************!*\
   !*** ./src/Views/SignInContent.js ***!
@@ -4083,6 +4135,70 @@ function SignInModal(props) {
   }, "Sign In"))))));
   function handleSubmit(event) {
     (0,_controllers_handleSignInAttempt_js__WEBPACK_IMPORTED_MODULE_2__.handleSignInAttempt)(event, setErrorMessage, onSignIn);
+  }
+}
+
+/***/ }),
+
+/***/ "./src/Views/SignOutModal.js":
+/*!***********************************!*\
+  !*** ./src/Views/SignOutModal.js ***!
+  \***********************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   SignOutModal: () => (/* binding */ SignOutModal)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+function SignOutModal(props) {
+  const onSignOut = props.onSignOut;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    type: "button",
+    className: "btn btn-primary",
+    "data-bs-toggle": "modal",
+    "data-bs-target": "#signOutModal"
+  }, "Sign Out"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", {
+    onSubmit: handleSubmit,
+    className: "modal fade",
+    id: "signOutModal",
+    tabIndex: "-1",
+    "aria-labelledby": "signOutModalLabel",
+    "aria-hidden": "true"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "modal-dialog modal-style"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "modal-content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "modal-header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "modal-title fs-5",
+    id: "signOutModalLabel"
+  }, "Sign Out"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    type: "button",
+    className: "btn-close",
+    "data-bs-dismiss": "modal",
+    "aria-label": "Close"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "modal-body"
+  }, "Are you sure you want to sign out?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "modal-footer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    type: "button",
+    className: "btn btn-secondary",
+    "data-bs-dismiss": "modal"
+  }, "Close"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    id: "signOutSubmitButton",
+    type: "submit",
+    className: "btn btn-primary"
+  }, "Submit"))))));
+  function handleSubmit(event = new Event()) {
+    event.preventDefault();
+    const inputs = event.target;
+    const closeButton = inputs[1];
+    closeButton.click();
+    onSignOut();
   }
 }
 
