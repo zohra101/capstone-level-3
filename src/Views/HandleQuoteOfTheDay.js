@@ -33,15 +33,19 @@ export function HandleQuoteOfTheDay() {
 	}
 
 	return (
-		<div className="card w-75 m-5 list-group-item-color1 list-group-item-text1 boxShadow">
-			<div className="card-body m-2">
-				<div
-					id="qotdQuoteTag"
-					className="card-text m-1 mb-3"></div>
-				<div
-					id="qotdAuthorTag"
-					className="card-subtitle text-center">
-					-
+		<div className="center">
+			<div className="card w-50 m-4 list-group-item-color1 boxShadow ">
+				<div className="card-header blockquote-header text-center">
+					<i className="bi bi-book"></i>   Quote of the Day
+					<hr />
+				</div>
+				<div className="card-body">
+					<blockquote
+						id="qotdQuoteTag"
+						className="blockquote mb-3"></blockquote>
+					<footer
+						id="qotdAuthorTag"
+						className="blockquote-footer mt-2 list-group-item-text1"></footer>
 				</div>
 			</div>
 		</div>

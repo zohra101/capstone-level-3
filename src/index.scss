@@ -17,6 +17,7 @@
 $blackText: black;
 $greyText: rgb(241, 241, 250);
 
+
 //RGBA color variables
 $list-group-item-color1: rgb(17, 75, 95);
 $list-group-item-color2: rgb(204, 245, 226);
@@ -82,6 +83,21 @@ h3 {
   font-weight: bold;
 }
 
+.blockquote {
+    font-size: 20px;
+    color: rgb(197, 247, 233)
+}
+
+.blockquote-header {
+ color: rgb(231, 196, 185);
+}
+
+.blockquote-footer {
+    font-size: 15px;
+    color: rgb(181, 225, 241)
+}
+
+
 //Color styles
 .list-group-item-text1 {
   color: $greyText;
@@ -112,7 +128,6 @@ a:hover {
 }
 
 
-
 //Opacity
 .fullOpacity {
   opacity: 1.0;
@@ -139,4 +154,11 @@ a:hover {
 
 .boxShadow {
   box-shadow: 15px 15px rgb(189, 69, 33);
+}
+
+//Alignment
+.center {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
 }

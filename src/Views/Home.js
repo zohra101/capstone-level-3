@@ -18,7 +18,7 @@ export function Home() {
 			<main id="homeMain">
 				<h1
 					id="mixin-welcome"
-					className="m-2 ">
+					className="m-2">
 					Welcome
 				</h1>
 				<HandleQuoteOfTheDay />

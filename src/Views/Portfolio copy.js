@@ -17,7 +17,7 @@ export function Portfolio() {
 
 	return (
 		<main id="mainTag">
-			<div className="alert alert-secondary alert-dismissible w-75 center">
+			<div className="alert alert-secondary alert-dismissible">
 				<strong>Coming soon!</strong> In the near future, you'll be able to
 				click on the images to view larger samples with more details about the
 				projects.
@@ -85,25 +85,14 @@ export function Portfolio() {
 							alt="adminGuide"
 						/>
 						<div className="carousel-caption d-none d-md-block">
-							<div
-								id="adminGuideTag"
-								className="card w-50 m-5 list-group-item-color1 text-center">
-								<div className="card-body m-2">
-									<div className="card-title list-group-item-text1">
-										<h5>Administrator guide for software</h5>
-									</div>
-									<div className="card-text mb-3 list-group-item-text1 text-start">
-										To reduce information overload, I separate manuals for each
-										application into an administrator guide and a user guide.
-										After reviewing the application's requirements and
-										specifications, I outlined tha manuals and completed the
-										final drafts when the client signed off on quality
-										assurance. I then delivered the manuals to the user
-										acceptance testing leads for testing and documentationa
-										signoff.
-									</div>
-								</div>
-							</div>
+							<h5>Administrator guide for software</h5>
+							<p>
+								To reduce information overload, I separated the manuals for each
+								application into an administrator guide and a user guide. I
+								outlined the guides after reviewing the application's
+								requirements and specifications, and delivered to the user
+								acceptance testing leads for testing and signoff.
+							</p>
 						</div>
 					</div>
 					<div
@@ -115,20 +104,12 @@ export function Portfolio() {
 							alt="helpFile"
 						/>
 						<div className="carousel-caption d-none d-md-block">
-							<div
-								id="helpFileTag"
-								className="card w-50 m-5 list-group-item-color1 text-center">
-								<div className="card-body m-2">
-									<div className="card-title list-group-item-text1">
-										<h5>Help file for a website</h5>
-									</div>
-									<div className="card-text mb-3 list-group-item-text1 text-start">
-										Using RoboHelp, I created this help system as an assignment
-										for a course on knowledge management and computer-based
-										training design.
-									</div>
-								</div>
-							</div>
+							<h5>Help file for a website</h5>
+							<p>
+								Using RoboHelp, I created this help system as an assignment for
+								a course on knowledge management and computer-based training
+								design.
+							</p>
 						</div>
 					</div>
 					<div
@@ -140,20 +121,12 @@ export function Portfolio() {
 							alt="policyDoc"
 						/>
 						<div className="carousel-caption d-none d-md-block">
-							<div
-								id="policyTag"
-								className="card w-50 m-5 list-group-item-color1 text-center">
-								<div className="card-body m-2">
-									<div className="card-title list-group-item-text1">
-										<h5>Policy for software development department</h5>
-									</div>
-									<div className="card-text mb-3 list-group-item-text1 text-start">
-										I performed a gap analysis and drafted policy and procedure
-										documents for an application development director working on
-										the group's CMMI certification.
-									</div>
-								</div>
-							</div>
+							<h5>Policy for application development department</h5>
+							<p>
+								I performed a gap analysis and drafted policy and procedure
+								documents for an application development director working on the
+								group's CMMI certification.
+							</p>
 						</div>
 					</div>
 					<div
@@ -165,21 +138,13 @@ export function Portfolio() {
 							alt="softwareManual"
 						/>
 						<div className="carousel-caption d-none d-md-block">
-							<div
-								id="manualTag"
-								className="card w-50 m-5 list-group-item-color1 text-center">
-								<div className="card-body m-2">
-									<div className="card-title list-group-item-text1">
-										<h5>Manual for custom software implementation</h5>
-									</div>
-									<div className="card-text mb-3 list-group-item-text1 text-start">
-										For a custom implementation of cost accounting software, I
-										was asked to consolidate a third-party vendor's help file
-										and hundreds of documents from two business divisions into a
-										user manual.
-									</div>
-								</div>
-							</div>
+							<h5>Manual for custom software implementation</h5>
+							<p>
+								For a custom implementation of cost accounting software, I was
+								asked to consolidate a third-party vendor's help file and
+								hundreds of documents from two business divisions into a user
+								manual.
+							</p>
 						</div>
 					</div>
 					<div
@@ -191,14 +156,8 @@ export function Portfolio() {
 							alt="storyboards"
 						/>
 						<div className="carousel-caption d-none d-md-block">
-									<div
-								id="manualTag"
-								className="card w-50 m-5 list-group-item-color1 text-center">
-								<div className="card-body m-2">
-									<div className="card-title list-group-item-text1">
 							<h5>Storyboards for help desk intranet</h5>
-									</div>
-									<div className="card-text mb-3 list-group-item-text1 text-start">
+							<p>
 								While in graduate schoool specializing in user-centered design,
 								I worked as a help desk team lead. The support staff, myself
 								included, often reported that keyword searching in the incident
@@ -207,9 +166,7 @@ export function Portfolio() {
 								improve efficiency and user satisfaction, by storing our
 								policies and procuedures and by providing a robust searchable
 								knowlesge base.
-									</div>
-								</div>
-							</div>
+							</p>
 						</div>
 					</div>
 				</div>
