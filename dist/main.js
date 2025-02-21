@@ -2317,6 +2317,20 @@ h3 {
   font-weight: bold;
 }
 
+.blockquote {
+  font-size: 20px;
+  color: rgb(197, 247, 233);
+}
+
+.blockquote-header {
+  color: rgb(231, 196, 185);
+}
+
+.blockquote-footer {
+  font-size: 15px;
+  color: rgb(181, 225, 241);
+}
+
 .list-group-item-text1 {
   color: rgb(241, 241, 250);
 }
@@ -2369,7 +2383,13 @@ a:hover {
 
 .boxShadow {
   box-shadow: 15px 15px rgb(189, 69, 33);
-}`, "",{"version":3,"sources":["webpack://./src/index.scss"],"names":[],"mappings":"AASA;EAPE,uBAAA;EAIA,sCAAA;EAMC,eAAA;AARH;;AAoBA;EACE,uBAAA;EACA,qBAAA;AAjBF;AAkBE;EACI,aAAA;AAhBN;;AAqBA;EACA,6BAAA;EACA,4CAAA;AAlBA;AAqBA;EACE,yBAAA;EACA,4CAAA;AAnBF;AAsBA;EACE,uBAAA;EACA,4CAAA;AApBF;AA6BA;EACE,qBANY;EAOZ,uBAAA;EACA,oBAAA;EACA,UAAA;AA3BF;;AA+BA;EACE,uBAZO;EAaP,cAAA;EACA,gBAAA;EACA,kBAAA;EACA,UAAA;AA5BF;;AA+BA;EACE,oBAAA;AA5BF;;AA+BA;EACE,2BAvBW;EAwBX,eAAA;EACA,sBAAA;AA5BF;;AA+BA;EACE,iBAAA;AA5BF;;AAgCA;EACE,yBArES;AAwCX;;AAgCA;EACE,YA1EU;AA6CZ;;AAgCA;EACE,iCA1EuB;AA6CzB;;AAgCA;EACE,oCA7EuB;AAgDzB;;AAgCA;EACE,uBAAA;EACA,qBAAA;AA7BF;;AA+BA;EACE,aAAA;AA5BF;;AA+BA;EACE,yBAAA;AA5BF;;AAkCA;EACE,UAAA;AA/BF;;AAmCC;EACC,iCAAA;EACA,wBAAA;AAhCF;;AAoCA;EACE,sCAAA;AAjCF;;AAoCA;EACE,sCAAA;AAjCF;;AAoCA;EACE,oCAAA;AAjCF;;AAoCA;EACE,sCAAA;AAjCF","sourcesContent":["//Mixin\r\n@mixin welcomeTextColor {\r\n  color: rgb(189, 69, 33);\r\n}\r\n\r\n@mixin welcomeTextShadow {\r\n  text-shadow: 2px 2px rgb(215, 199, 57);\r\n}\r\n\r\n#mixin-welcome {\r\n  @include welcomeTextColor;\r\n  @include welcomeTextShadow;\r\n   font-size: 76px;\r\n}\r\n\r\n//Colors (use variables)\r\n$blackText: black;\r\n$greyText: rgb(241, 241, 250);\r\n\r\n//RGBA color variables\r\n$list-group-item-color1: rgb(17, 75, 95);\r\n$list-group-item-color2: rgb(204, 245, 226);\r\n\r\n//Nesting & parent syntax\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n  &:hover {\r\n      color: violet;\r\n  }\r\n}\r\n\r\n//Custom fonts \r\n@font-face {\r\nfont-family:\"ComforterBrush\";\r\nsrc: url(../assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"GreatVibes\";\r\n  src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"OpenSans\";\r\n  src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf); \r\n}\r\n\r\n//Font variables\r\n$primaryFont: OpenSans;\r\n$secondaryFont: sans-serif;\r\n$h1Font: GreatVibes;\r\n$handwrFont: ComforterBrush;\r\n\r\nbody {\r\n  font-family: $primaryFont;\r\n  background-color: ivory;\r\n  color: rgb(2, 5, 61, 1.0);\r\n  opacity: 1.0;\r\n}\r\n\r\n\r\nh1 {\r\n  font-family: $h1Font;\r\n  font-size: 102;\r\n  font-weight: 400;\r\n  position: relative;\r\n  opacity: 1.0;\r\n}\r\n\r\nh3 {\r\n  color: rgb(2, 31, 2)\r\n}\r\n\r\n.signature {\r\n  font-family: $handwrFont;\r\n  font-size: 50px;\r\n  color: rgb(17, 75, 95);\r\n}\r\n\r\n.bold {\r\n  font-weight: bold;\r\n}\r\n\r\n//Color styles\r\n.list-group-item-text1 {\r\n  color: $greyText;\r\n}\r\n\r\n.list-group-item-text2 {\r\n  color: $blackText;\r\n}\r\n\r\n.list-group-item-color1 { \r\n  background-color: $list-group-item-color1;\r\n}\r\n\r\n.list-group-item-color2 {\r\n  background-color: $list-group-item-color2;\r\n}\r\n\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n}\r\na:hover {\r\n  color: violet;\r\n}\r\n\r\n.nav-text {\r\n  color: rgb(181, 225, 241)\r\n}\r\n\r\n\r\n\r\n//Opacity\r\n.fullOpacity {\r\n  opacity: 1.0;\r\n}\r\n\r\n//Transform rotate and animate\r\n .animation:hover {\r\n  transform: scale(1) rotate(20deg);\r\n  transition: transform 1s;\r\n}\r\n\r\n//Text-shadow & Box-shadow\r\n.boxShadowUL {\r\n  box-shadow: 30px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.boxShadowLI {\r\n  box-shadow: 25px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.textShadow {\r\n  text-shadow: 1px 1px rgb(84, 80, 80);\r\n}\r\n\r\n.boxShadow {\r\n  box-shadow: 15px 15px rgb(189, 69, 33);\r\n}\r\n"],"sourceRoot":""}]);
+}
+
+.center {
+  margin: auto;
+  width: 75%;
+  padding: 10px;
+}`, "",{"version":3,"sources":["webpack://./src/index.scss"],"names":[],"mappings":"AASA;EAPE,uBAAA;EAIA,sCAAA;EAMC,eAAA;AARH;;AAqBA;EACE,uBAAA;EACA,qBAAA;AAlBF;AAmBE;EACI,aAAA;AAjBN;;AAsBA;EACA,6BAAA;EACA,4CAAA;AAnBA;AAsBA;EACE,yBAAA;EACA,4CAAA;AApBF;AAuBA;EACE,uBAAA;EACA,4CAAA;AArBF;AA8BA;EACE,qBANY;EAOZ,uBAAA;EACA,oBAAA;EACA,UAAA;AA5BF;;AAgCA;EACE,uBAZO;EAaP,cAAA;EACA,gBAAA;EACA,kBAAA;EACA,UAAA;AA7BF;;AAgCA;EACE,oBAAA;AA7BF;;AAgCA;EACE,2BAvBW;EAwBX,eAAA;EACA,sBAAA;AA7BF;;AAgCA;EACE,iBAAA;AA7BF;;AAgCA;EACI,eAAA;EACA,yBAAA;AA7BJ;;AAgCA;EACC,yBAAA;AA7BD;;AAgCA;EACI,eAAA;EACA,yBAAA;AA7BJ;;AAkCA;EACE,yBArFS;AAsDX;;AAkCA;EACE,YA1FU;AA2DZ;;AAkCA;EACE,iCAzFuB;AA0DzB;;AAkCA;EACE,oCA5FuB;AA6DzB;;AAkCA;EACE,uBAAA;EACA,qBAAA;AA/BF;;AAiCA;EACE,aAAA;AA9BF;;AAiCA;EACE,yBAAA;AA9BF;;AAmCA;EACE,UAAA;AAhCF;;AAoCC;EACC,iCAAA;EACA,wBAAA;AAjCF;;AAqCA;EACE,sCAAA;AAlCF;;AAqCA;EACE,sCAAA;AAlCF;;AAqCA;EACE,oCAAA;AAlCF;;AAqCA;EACE,sCAAA;AAlCF;;AAsCA;EACE,YAAA;EACA,UAAA;EACA,aAAA;AAnCF","sourcesContent":["//Mixin\r\n@mixin welcomeTextColor {\r\n  color: rgb(189, 69, 33);\r\n}\r\n\r\n@mixin welcomeTextShadow {\r\n  text-shadow: 2px 2px rgb(215, 199, 57);\r\n}\r\n\r\n#mixin-welcome {\r\n  @include welcomeTextColor;\r\n  @include welcomeTextShadow;\r\n   font-size: 76px;\r\n}\r\n\r\n//Colors (use variables)\r\n$blackText: black;\r\n$greyText: rgb(241, 241, 250);\r\n\r\n\r\n//RGBA color variables\r\n$list-group-item-color1: rgb(17, 75, 95);\r\n$list-group-item-color2: rgb(204, 245, 226);\r\n\r\n//Nesting & parent syntax\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n  &:hover {\r\n      color: violet;\r\n  }\r\n}\r\n\r\n//Custom fonts \r\n@font-face {\r\nfont-family:\"ComforterBrush\";\r\nsrc: url(../assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"GreatVibes\";\r\n  src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"OpenSans\";\r\n  src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf); \r\n}\r\n\r\n//Font variables\r\n$primaryFont: OpenSans;\r\n$secondaryFont: sans-serif;\r\n$h1Font: GreatVibes;\r\n$handwrFont: ComforterBrush;\r\n\r\nbody {\r\n  font-family: $primaryFont;\r\n  background-color: ivory;\r\n  color: rgb(2, 5, 61, 1.0);\r\n  opacity: 1.0;\r\n}\r\n\r\n\r\nh1 {\r\n  font-family: $h1Font;\r\n  font-size: 102;\r\n  font-weight: 400;\r\n  position: relative;\r\n  opacity: 1.0;\r\n}\r\n\r\nh3 {\r\n  color: rgb(2, 31, 2)\r\n}\r\n\r\n.signature {\r\n  font-family: $handwrFont;\r\n  font-size: 50px;\r\n  color: rgb(17, 75, 95);\r\n}\r\n\r\n.bold {\r\n  font-weight: bold;\r\n}\r\n\r\n.blockquote {\r\n    font-size: 20px;\r\n    color: rgb(197, 247, 233)\r\n}\r\n\r\n.blockquote-header {\r\n color: rgb(231, 196, 185);\r\n}\r\n\r\n.blockquote-footer {\r\n    font-size: 15px;\r\n    color: rgb(181, 225, 241)\r\n}\r\n\r\n\r\n//Color styles\r\n.list-group-item-text1 {\r\n  color: $greyText;\r\n}\r\n\r\n.list-group-item-text2 {\r\n  color: $blackText;\r\n}\r\n\r\n.list-group-item-color1 { \r\n  background-color: $list-group-item-color1;\r\n}\r\n\r\n.list-group-item-color2 {\r\n  background-color: $list-group-item-color2;\r\n}\r\n\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n}\r\na:hover {\r\n  color: violet;\r\n}\r\n\r\n.nav-text {\r\n  color: rgb(181, 225, 241)\r\n}\r\n\r\n\r\n//Opacity\r\n.fullOpacity {\r\n  opacity: 1.0;\r\n}\r\n\r\n//Transform rotate and animate\r\n .animation:hover {\r\n  transform: scale(1) rotate(20deg);\r\n  transition: transform 1s;\r\n}\r\n\r\n//Text-shadow & Box-shadow\r\n.boxShadowUL {\r\n  box-shadow: 30px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.boxShadowLI {\r\n  box-shadow: 25px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.textShadow {\r\n  text-shadow: 1px 1px rgb(84, 80, 80);\r\n}\r\n\r\n.boxShadow {\r\n  box-shadow: 15px 15px rgb(189, 69, 33);\r\n}\r\n\r\n//Alignment\r\n.center {\r\n  margin: auto;\r\n  width: 75%;\r\n  padding: 10px;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3297,16 +3317,22 @@ function HandleQuoteOfTheDay() {
     };
   }
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card w-75 m-5 list-group-item-color1 list-group-item-text1 boxShadow"
+    className: "center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-body m-2"
+    className: "card w-50 m-4 list-group-item-color1 boxShadow "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-header blockquote-header text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
+    className: "bi bi-book"
+  }), "   Quote of the Day", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("blockquote", {
     id: "qotdQuoteTag",
-    className: "card-text m-1 mb-3"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "blockquote mb-3"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
     id: "qotdAuthorTag",
-    className: "card-subtitle text-center"
-  }, "-")));
+    className: "blockquote-footer mt-2 list-group-item-text1"
+  }))));
 }
 
 /***/ }),
@@ -3367,7 +3393,7 @@ function Home() {
     id: "homeMain"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     id: "mixin-welcome",
-    className: "m-2 "
+    className: "m-2"
   }, "Welcome"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_1__.HandleQuoteOfTheDay, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container m-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -3499,8 +3525,8 @@ function NavbarCollapsible() {
     id: "linkedInIcon",
     alt: "LinkedIn",
     style: {
-      height: "40px",
-      width: "40px"
+      height: "45px",
+      width: "45px"
     },
     src: _assets_icons_icon_linkedin_png__WEBPACK_IMPORTED_MODULE_2__
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -3556,7 +3582,7 @@ function Portfolio() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     id: "mainTag"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "alert alert-secondary alert-dismissible"
+    className: "alert alert-secondary alert-dismissible w-75 center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Coming soon!"), " In the near future, you'll be able to click on the images to view larger samples with more details about the projects.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
     className: "btn-close",
     "data-bs-dismiss": "alert"
@@ -3608,7 +3634,16 @@ function Portfolio() {
     alt: "adminGuide"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Administrator guide for software"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "To reduce information overload, I separated the manuals for each application into an administrator guide and a user guide. I outlined the guides after reviewing the application's requirements and specifications, and delivered to the user acceptance testing leads for testing and signoff."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "adminGuideTag",
+    className: "card w-50 m-5 list-group-item-color1 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-body m-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-title list-group-item-text1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Administrator guide for software")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-text mb-3 list-group-item-text1 text-start"
+  }, "To reduce information overload, I separate manuals for each application into an administrator guide and a user guide. After reviewing the application's requirements and specifications, I outlined tha manuals and completed the final drafts when the client signed off on quality assurance. I then delivered the manuals to the user acceptance testing leads for testing and documentationa signoff."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-item",
     "data-bs-interval": "10000"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
@@ -3617,7 +3652,16 @@ function Portfolio() {
     alt: "helpFile"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Help file for a website"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Using RoboHelp, I created this help system as an assignment for a course on knowledge management and computer-based training design."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "helpFileTag",
+    className: "card w-50 m-5 list-group-item-color1 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-body m-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-title list-group-item-text1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Help file for a website")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-text mb-3 list-group-item-text1 text-start"
+  }, "Using RoboHelp, I created this help system as an assignment for a course on knowledge management and computer-based training design."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-item",
     "data-bs-interval": "10000"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
@@ -3626,7 +3670,16 @@ function Portfolio() {
     alt: "policyDoc"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Policy for application development department"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I performed a gap analysis and drafted policy and procedure documents for an application development director working on the group's CMMI certification."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "policyTag",
+    className: "card w-50 m-5 list-group-item-color1 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-body m-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-title list-group-item-text1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Policy for software development department")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-text mb-3 list-group-item-text1 text-start"
+  }, "I performed a gap analysis and drafted policy and procedure documents for an application development director working on the group's CMMI certification."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-item",
     "data-bs-interval": "10000"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
@@ -3635,7 +3688,16 @@ function Portfolio() {
     alt: "softwareManual"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Manual for custom software implementation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "For a custom implementation of cost accounting software, I was asked to consolidate a third-party vendor's help file and hundreds of documents from two business divisions into a user manual."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "manualTag",
+    className: "card w-50 m-5 list-group-item-color1 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-body m-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-title list-group-item-text1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Manual for custom software implementation")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-text mb-3 list-group-item-text1 text-start"
+  }, "For a custom implementation of cost accounting software, I was asked to consolidate a third-party vendor's help file and hundreds of documents from two business divisions into a user manual."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-item",
     "data-bs-interval": "10000"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
@@ -3644,7 +3706,16 @@ function Portfolio() {
     alt: "storyboards"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Storyboards for help desk intranet"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "While in graduate schoool specializing in user-centered design, I worked as a help desk team lead. The support staff, myself included, often reported that keyword searching in the incident reporting system was...well, not good. I designed these storyboards to demonstrate how a centralized intranet site could improve efficiency and user satisfaction, by storing our policies and procuedures and by providing a robust searchable knowlesge base.")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    id: "manualTag",
+    className: "card w-50 m-5 list-group-item-color1 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-body m-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-title list-group-item-text1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Storyboards for help desk intranet")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "card-text mb-3 list-group-item-text1 text-start"
+  }, "While in graduate schoool specializing in user-centered design, I worked as a help desk team lead. The support staff, myself included, often reported that keyword searching in the incident reporting system was...well, not good. I designed these storyboards to demonstrate how a centralized intranet site could improve efficiency and user satisfaction, by storing our policies and procuedures and by providing a robust searchable knowlesge base.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
     className: "carousel-control-prev",
     type: "button",
     "data-bs-target": "#portfolioCarousel",
@@ -3850,9 +3921,9 @@ __webpack_require__.r(__webpack_exports__);
 
 function ServicesListGroup() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "m-5"
+    className: "m-5 center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row m-2"
+    className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
     className: "container list-group ms-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
@@ -3889,13 +3960,6 @@ function ServicesListGroup() {
     className: "bold"
   }, "User Experience (UX) Design: "), "Designing products users will love by applying usability engineering and user-centered design principles, including task analysis and usability testing."))));
 }
-
-// "",
-// "",
-// "",
-// "",
-// ".",
-// ""
 
 /***/ }),
 

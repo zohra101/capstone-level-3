@@ -78,7 +78,7 @@ export function NavbarCollapsible() {
 					<img
 						id="linkedInIcon"
 						alt="LinkedIn"
-						style={{ height: "40px", width: "40px" }}
+						style={{ height: "45px", width: "45px" }}
 						src={linkedInIcon}
 					/>
 				</a>
