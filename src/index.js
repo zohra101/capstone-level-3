@@ -25,6 +25,10 @@ root.render(
 				element={<Home />}
 			/>
 			<Route
+				path={`${rootPath}/home`}
+				element={<Home />}
+			/>
+			<Route
 				path={`${rootPath}/portfolio`}
 				element={<Portfolio />}
 			/>

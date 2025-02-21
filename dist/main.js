@@ -2331,6 +2331,15 @@ h3 {
   color: rgb(181, 225, 241);
 }
 
+.modal-style {
+  background-color: ivory;
+  color: rgb(7, 58, 41);
+}
+.modal-style h1 {
+  font-family: OpenSans;
+  color: rgb(7, 58, 41);
+}
+
 .list-group-item-text1 {
   color: rgb(241, 241, 250);
 }
@@ -2389,7 +2398,7 @@ a:hover {
   margin: auto;
   width: 75%;
   padding: 10px;
-}`, "",{"version":3,"sources":["webpack://./src/index.scss"],"names":[],"mappings":"AASA;EAPE,uBAAA;EAIA,sCAAA;EAMC,eAAA;AARH;;AAqBA;EACE,uBAAA;EACA,qBAAA;AAlBF;AAmBE;EACI,aAAA;AAjBN;;AAsBA;EACA,6BAAA;EACA,4CAAA;AAnBA;AAsBA;EACE,yBAAA;EACA,4CAAA;AApBF;AAuBA;EACE,uBAAA;EACA,4CAAA;AArBF;AA8BA;EACE,qBANY;EAOZ,uBAAA;EACA,oBAAA;EACA,UAAA;AA5BF;;AAgCA;EACE,uBAZO;EAaP,cAAA;EACA,gBAAA;EACA,kBAAA;EACA,UAAA;AA7BF;;AAgCA;EACE,oBAAA;AA7BF;;AAgCA;EACE,2BAvBW;EAwBX,eAAA;EACA,sBAAA;AA7BF;;AAgCA;EACE,iBAAA;AA7BF;;AAgCA;EACI,eAAA;EACA,yBAAA;AA7BJ;;AAgCA;EACC,yBAAA;AA7BD;;AAgCA;EACI,eAAA;EACA,yBAAA;AA7BJ;;AAkCA;EACE,yBArFS;AAsDX;;AAkCA;EACE,YA1FU;AA2DZ;;AAkCA;EACE,iCAzFuB;AA0DzB;;AAkCA;EACE,oCA5FuB;AA6DzB;;AAkCA;EACE,uBAAA;EACA,qBAAA;AA/BF;;AAiCA;EACE,aAAA;AA9BF;;AAiCA;EACE,yBAAA;AA9BF;;AAmCA;EACE,UAAA;AAhCF;;AAoCC;EACC,iCAAA;EACA,wBAAA;AAjCF;;AAqCA;EACE,sCAAA;AAlCF;;AAqCA;EACE,sCAAA;AAlCF;;AAqCA;EACE,oCAAA;AAlCF;;AAqCA;EACE,sCAAA;AAlCF;;AAsCA;EACE,YAAA;EACA,UAAA;EACA,aAAA;AAnCF","sourcesContent":["//Mixin\r\n@mixin welcomeTextColor {\r\n  color: rgb(189, 69, 33);\r\n}\r\n\r\n@mixin welcomeTextShadow {\r\n  text-shadow: 2px 2px rgb(215, 199, 57);\r\n}\r\n\r\n#mixin-welcome {\r\n  @include welcomeTextColor;\r\n  @include welcomeTextShadow;\r\n   font-size: 76px;\r\n}\r\n\r\n//Colors (use variables)\r\n$blackText: black;\r\n$greyText: rgb(241, 241, 250);\r\n\r\n\r\n//RGBA color variables\r\n$list-group-item-color1: rgb(17, 75, 95);\r\n$list-group-item-color2: rgb(204, 245, 226);\r\n\r\n//Nesting & parent syntax\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n  &:hover {\r\n      color: violet;\r\n  }\r\n}\r\n\r\n//Custom fonts \r\n@font-face {\r\nfont-family:\"ComforterBrush\";\r\nsrc: url(../assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"GreatVibes\";\r\n  src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"OpenSans\";\r\n  src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf); \r\n}\r\n\r\n//Font variables\r\n$primaryFont: OpenSans;\r\n$secondaryFont: sans-serif;\r\n$h1Font: GreatVibes;\r\n$handwrFont: ComforterBrush;\r\n\r\nbody {\r\n  font-family: $primaryFont;\r\n  background-color: ivory;\r\n  color: rgb(2, 5, 61, 1.0);\r\n  opacity: 1.0;\r\n}\r\n\r\n\r\nh1 {\r\n  font-family: $h1Font;\r\n  font-size: 102;\r\n  font-weight: 400;\r\n  position: relative;\r\n  opacity: 1.0;\r\n}\r\n\r\nh3 {\r\n  color: rgb(2, 31, 2)\r\n}\r\n\r\n.signature {\r\n  font-family: $handwrFont;\r\n  font-size: 50px;\r\n  color: rgb(17, 75, 95);\r\n}\r\n\r\n.bold {\r\n  font-weight: bold;\r\n}\r\n\r\n.blockquote {\r\n    font-size: 20px;\r\n    color: rgb(197, 247, 233)\r\n}\r\n\r\n.blockquote-header {\r\n color: rgb(231, 196, 185);\r\n}\r\n\r\n.blockquote-footer {\r\n    font-size: 15px;\r\n    color: rgb(181, 225, 241)\r\n}\r\n\r\n\r\n//Color styles\r\n.list-group-item-text1 {\r\n  color: $greyText;\r\n}\r\n\r\n.list-group-item-text2 {\r\n  color: $blackText;\r\n}\r\n\r\n.list-group-item-color1 { \r\n  background-color: $list-group-item-color1;\r\n}\r\n\r\n.list-group-item-color2 {\r\n  background-color: $list-group-item-color2;\r\n}\r\n\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n}\r\na:hover {\r\n  color: violet;\r\n}\r\n\r\n.nav-text {\r\n  color: rgb(181, 225, 241)\r\n}\r\n\r\n\r\n//Opacity\r\n.fullOpacity {\r\n  opacity: 1.0;\r\n}\r\n\r\n//Transform rotate and animate\r\n .animation:hover {\r\n  transform: scale(1) rotate(20deg);\r\n  transition: transform 1s;\r\n}\r\n\r\n//Text-shadow & Box-shadow\r\n.boxShadowUL {\r\n  box-shadow: 30px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.boxShadowLI {\r\n  box-shadow: 25px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.textShadow {\r\n  text-shadow: 1px 1px rgb(84, 80, 80);\r\n}\r\n\r\n.boxShadow {\r\n  box-shadow: 15px 15px rgb(189, 69, 33);\r\n}\r\n\r\n//Alignment\r\n.center {\r\n  margin: auto;\r\n  width: 75%;\r\n  padding: 10px;\r\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/index.scss"],"names":[],"mappings":"AASA;EAPE,uBAAA;EAIA,sCAAA;EAMC,eAAA;AARH;;AAqBA;EACE,uBAAA;EACA,qBAAA;AAlBF;AAmBE;EACI,aAAA;AAjBN;;AAsBA;EACA,6BAAA;EACA,4CAAA;AAnBA;AAsBA;EACE,yBAAA;EACA,4CAAA;AApBF;AAuBA;EACE,uBAAA;EACA,4CAAA;AArBF;AA8BA;EACE,qBANY;EAOZ,uBAAA;EACA,oBAAA;EACA,UAAA;AA5BF;;AAgCA;EACE,uBAZO;EAaP,cAAA;EACA,gBAAA;EACA,kBAAA;EACA,UAAA;AA7BF;;AAgCA;EACE,oBAAA;AA7BF;;AAgCA;EACE,2BAvBW;EAwBX,eAAA;EACA,sBAAA;AA7BF;;AAgCA;EACE,iBAAA;AA7BF;;AAgCA;EACI,eAAA;EACA,yBAAA;AA7BJ;;AAgCA;EACC,yBAAA;AA7BD;;AAgCA;EACI,eAAA;EACA,yBAAA;AA7BJ;;AAgCA;EACE,uBAAA;EACA,qBAAA;AA7BF;AA8BE;EACM,qBArDM;EAsDN,qBAAA;AA5BR;;AAiCA;EACE,yBA7FS;AA+DX;;AAiCA;EACE,YAlGU;AAoEZ;;AAiCA;EACE,iCAjGuB;AAmEzB;;AAiCA;EACE,oCApGuB;AAsEzB;;AAiCA;EACE,uBAAA;EACA,qBAAA;AA9BF;;AAgCA;EACE,aAAA;AA7BF;;AAgCA;EACE,yBAAA;AA7BF;;AAkCA;EACE,UAAA;AA/BF;;AAmCC;EACC,iCAAA;EACA,wBAAA;AAhCF;;AAoCA;EACE,sCAAA;AAjCF;;AAoCA;EACE,sCAAA;AAjCF;;AAoCA;EACE,oCAAA;AAjCF;;AAoCA;EACE,sCAAA;AAjCF;;AAqCA;EACE,YAAA;EACA,UAAA;EACA,aAAA;AAlCF","sourcesContent":["//Mixin\r\n@mixin welcomeTextColor {\r\n  color: rgb(189, 69, 33);\r\n}\r\n\r\n@mixin welcomeTextShadow {\r\n  text-shadow: 2px 2px rgb(215, 199, 57);\r\n}\r\n\r\n#mixin-welcome {\r\n  @include welcomeTextColor;\r\n  @include welcomeTextShadow;\r\n   font-size: 76px;\r\n}\r\n\r\n//Colors (use variables)\r\n$blackText: black;\r\n$greyText: rgb(241, 241, 250);\r\n\r\n\r\n//RGBA color variables\r\n$list-group-item-color1: rgb(17, 75, 95);\r\n$list-group-item-color2: rgb(204, 245, 226);\r\n\r\n//Nesting & parent syntax\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n  &:hover {\r\n      color: violet;\r\n  }\r\n}\r\n\r\n//Custom fonts \r\n@font-face {\r\nfont-family:\"ComforterBrush\";\r\nsrc: url(../assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"GreatVibes\";\r\n  src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"OpenSans\";\r\n  src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf); \r\n}\r\n\r\n//Font variables\r\n$primaryFont: OpenSans;\r\n$secondaryFont: sans-serif;\r\n$h1Font: GreatVibes;\r\n$handwrFont: ComforterBrush;\r\n\r\nbody {\r\n  font-family: $primaryFont;\r\n  background-color: ivory;\r\n  color: rgb(2, 5, 61, 1.0);\r\n  opacity: 1.0;\r\n}\r\n\r\n\r\nh1 {\r\n  font-family: $h1Font;\r\n  font-size: 102;\r\n  font-weight: 400;\r\n  position: relative;\r\n  opacity: 1.0;\r\n}\r\n\r\nh3 {\r\n  color: rgb(2, 31, 2)\r\n}\r\n\r\n.signature {\r\n  font-family: $handwrFont;\r\n  font-size: 50px;\r\n  color: rgb(17, 75, 95);\r\n}\r\n\r\n.bold {\r\n  font-weight: bold;\r\n}\r\n\r\n.blockquote {\r\n    font-size: 20px;\r\n    color: rgb(197, 247, 233)\r\n}\r\n\r\n.blockquote-header {\r\n color: rgb(231, 196, 185);\r\n}\r\n\r\n.blockquote-footer {\r\n    font-size: 15px;\r\n    color: rgb(181, 225, 241)\r\n}\r\n\r\n.modal-style {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n  & h1 {\r\n        font-family: $primaryFont;\r\n        color: rgb(7, 58, 41);\r\n  }\r\n}\r\n\r\n//Color styles\r\n.list-group-item-text1 {\r\n  color: $greyText;\r\n}\r\n\r\n.list-group-item-text2 {\r\n  color: $blackText;\r\n}\r\n\r\n.list-group-item-color1 { \r\n  background-color: $list-group-item-color1;\r\n}\r\n\r\n.list-group-item-color2 {\r\n  background-color: $list-group-item-color2;\r\n}\r\n\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n}\r\na:hover {\r\n  color: violet;\r\n}\r\n\r\n.nav-text {\r\n  color: rgb(181, 225, 241)\r\n}\r\n\r\n\r\n//Opacity\r\n.fullOpacity {\r\n  opacity: 1.0;\r\n}\r\n\r\n//Transform rotate and animate\r\n .animation:hover {\r\n  transform: scale(1) rotate(20deg);\r\n  transition: transform 1s;\r\n}\r\n\r\n//Text-shadow & Box-shadow\r\n.boxShadowUL {\r\n  box-shadow: 30px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.boxShadowLI {\r\n  box-shadow: 25px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.textShadow {\r\n  text-shadow: 1px 1px rgb(84, 80, 80);\r\n}\r\n\r\n.boxShadow {\r\n  box-shadow: 15px 15px rgb(189, 69, 33);\r\n}\r\n\r\n//Alignment\r\n.center {\r\n  margin: auto;\r\n  width: 75%;\r\n  padding: 10px;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -3454,10 +3463,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   NavbarCollapsible: () => (/* binding */ NavbarCollapsible)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
 /* harmony import */ var _utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../utils/getRootPath.js */ "./src/utils/getRootPath.js");
 /* harmony import */ var _assets_icons_icon_linkedin_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/icons/icon_linkedin.png */ "./assets/icons/icon_linkedin.png");
 /* harmony import */ var _assets_icons_icon_email_coral_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/icons/icon_email_coral.png */ "./assets/icons/icon_email_coral.png");
+/* harmony import */ var _Views_SignInModal_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../Views/SignInModal.js */ "./src/Views/SignInModal.js");
+
 
 
 
@@ -3472,51 +3483,14 @@ function NavbarCollapsible() {
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container-fluid"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "navbar-brand",
     style: {
       backgroundColor: "rgb(2, 32, 54)",
       color: "rgb(220, 220, 170)"
     },
     to: "#"
-  }, "Alex Marjanovic"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    className: "navbar-toggler",
-    type: "button",
-    "data-bs-toggle": "collapse",
-    "data-bs-target": "#navbarNavAltMarkup",
-    "aria-controls": "navbarNavAltMarkup",
-    "aria-expanded": "false",
-    "aria-label": "Toggle navigation"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "navbar-toggler-icon",
-    style: {
-      backgroundColor: "rgb(109, 154, 189)"
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "collapse navbar-collapse",
-    id: "navbarNavAltMarkup"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "navbar-nav"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
-    className: "nav-link nav-text",
-    "aria-current": "page",
-    to: `${rootPath}/home`
-  }, " ", "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
-    className: "nav-link nav-text",
-    to: `${rootPath}/portfolio`
-  }, "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
-    className: "nav-link nav-text",
-    to: `${rootPath}/alexresume`
-  }, "Resume"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
-    className: "nav-link nav-text",
-    to: `${rootPath}/contact`
-  }, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
-    className: "nav-link nav-text",
-    to: `${rootPath}/schedulefreeconsultation`
-  }, "Free Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_4__.NavLink, {
-    className: "nav-link nav-text",
-    to: `${rootPath}/about`
-  }, "About")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, "Alex Marjanovic"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "me-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     className: "ms-2 bg-dark",
@@ -3541,7 +3515,44 @@ function NavbarCollapsible() {
       width: "30px"
     },
     src: _assets_icons_icon_email_coral_png__WEBPACK_IMPORTED_MODULE_3__
-  }))));
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    className: "navbar-toggler",
+    type: "button",
+    "data-bs-toggle": "collapse",
+    "data-bs-target": "#navbarNavAltMarkup",
+    "aria-controls": "navbarNavAltMarkup",
+    "aria-expanded": "false",
+    "aria-label": "Toggle navigation"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "navbar-toggler-icon",
+    style: {
+      backgroundColor: "rgb(109, 154, 189)"
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "collapse navbar-collapse",
+    id: "navbarNavAltMarkup"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "navbar-nav"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+    className: "nav-link nav-text",
+    "aria-current": "page",
+    to: `${rootPath}/home`
+  }, " ", "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+    className: "nav-link nav-text",
+    to: `${rootPath}/portfolio`
+  }, "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+    className: "nav-link nav-text",
+    to: `${rootPath}/alexresume`
+  }, "Resume"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+    className: "nav-link nav-text",
+    to: `${rootPath}/contact`
+  }, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+    className: "nav-link nav-text",
+    to: `${rootPath}/schedulefreeconsultation`
+  }, "Free Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+    className: "nav-link nav-text",
+    to: `${rootPath}/about`
+  }, "About"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Views_SignInModal_js__WEBPACK_IMPORTED_MODULE_4__.SignInModal, null)));
 }
 
 /***/ }),
@@ -3963,6 +3974,153 @@ function ServicesListGroup() {
 
 /***/ }),
 
+/***/ "./src/Views/SignInContent.js":
+/*!************************************!*\
+  !*** ./src/Views/SignInContent.js ***!
+  \************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   SignInContent: () => (/* binding */ SignInContent)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+function SignInContent(props) {
+  const errorMessage = props.errorMessage;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    class: "mb-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
+    for: "exampleFormControlInput1",
+    class: "form-label"
+  }, "Email address"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    type: "email",
+    required: true,
+    class: "form-control",
+    id: "exampleFormControlInput1",
+    placeholder: "name@example.com"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    class: "mb-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
+    for: "exampleFormControlInput1",
+    class: "form-label"
+  }, "Password"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    type: "password",
+    required: true,
+    class: "form-control",
+    id: "exampleFormControlInput1",
+    placeholder: "************"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "m-1",
+    style: {
+      color: "red"
+    }
+  }, " ", errorMessage));
+}
+
+/***/ }),
+
+/***/ "./src/Views/SignInModal.js":
+/*!**********************************!*\
+  !*** ./src/Views/SignInModal.js ***!
+  \**********************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   SignInModal: () => (/* binding */ SignInModal)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _Views_SignInContent_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Views/SignInContent.js */ "./src/Views/SignInContent.js");
+/* harmony import */ var _controllers_handleSignInAttempt_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../controllers/handleSignInAttempt.js */ "./src/controllers/handleSignInAttempt.js");
+
+
+
+function SignInModal(props) {
+  const onSignIn = props.onSignIn;
+  const [errorMessage, setErrorMessage] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)("");
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    type: "submit",
+    className: "btn btn-light",
+    "data-bs-toggle": "modal",
+    "data-bs-target": "#signInModal"
+  }, "Sign In"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", {
+    onSubmit: handleSubmit,
+    className: "modal fade",
+    id: "signInModal",
+    tabIndex: "-1",
+    "aria-labelledby": "signInModalLabel",
+    "aria-hidden": "true"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "modal-dialog "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "modal-content modal-style"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "modal-header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
+    className: "modal-title fs-5",
+    id: "signInModalLabel"
+  }, "Sign In"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    type: "button",
+    className: "btn-close",
+    "data-bs-dismiss": "modal",
+    "aria-label": "Close"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "modal-body m-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Views_SignInContent_js__WEBPACK_IMPORTED_MODULE_1__.SignInContent, {
+    errorMessage: errorMessage
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "modal-footer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    id: "signInCloseButton",
+    type: "button",
+    className: "btn btn-secondary",
+    "data-bs-dismiss": "modal"
+  }, "Close"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+    id: "signInSubmitButton",
+    type: "submit",
+    className: "btn btn-primary"
+  }, "Sign In"))))));
+  function handleSubmit(event) {
+    (0,_controllers_handleSignInAttempt_js__WEBPACK_IMPORTED_MODULE_2__.handleSignInAttempt)(event, setErrorMessage, onSignIn);
+  }
+}
+
+/***/ }),
+
+/***/ "./src/controllers/handleSignInAttempt.js":
+/*!************************************************!*\
+  !*** ./src/controllers/handleSignInAttempt.js ***!
+  \************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   handleSignInAttempt: () => (/* binding */ handleSignInAttempt)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _modules_authentication_authenticationSimulation_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/authentication/authenticationSimulation.js */ "./src/modules/authentication/authenticationSimulation.js");
+
+
+function handleSignInAttempt(event = new Event(), setErrorMessage, onSignIn) {
+  event.preventDefault();
+  debugger;
+  const inputs = event.target;
+  const emailInput = inputs[1];
+  const passwordInput = inputs[2];
+  const closeButton = inputs[3];
+  const email = emailInput.value;
+  const password = passwordInput.value;
+  const isAuthenticated = (0,_modules_authentication_authenticationSimulation_js__WEBPACK_IMPORTED_MODULE_1__.authenticationSimulation)(email, password);
+  if (isAuthenticated) {
+    closeButton.click();
+    inputs.reset();
+    onSignIn();
+  } else setErrorMessage("The email and password entered do not match the authorized users list.");
+}
+
+/***/ }),
+
 /***/ "./src/modules/Qotd/extractQotdResponse.js":
 /*!*************************************************!*\
   !*** ./src/modules/Qotd/extractQotdResponse.js ***!
@@ -4011,6 +4169,66 @@ function parseQotdResponse(resolveValue) {
   (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)(quote, "qotdQuoteTag");
   (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)(author, "qotdAuthorTag");
 }
+
+/***/ }),
+
+/***/ "./src/modules/authentication/authenticationSimulation.js":
+/*!****************************************************************!*\
+  !*** ./src/modules/authentication/authenticationSimulation.js ***!
+  \****************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   authenticationSimulation: () => (/* binding */ authenticationSimulation)
+/* harmony export */ });
+/* harmony import */ var _logins_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./logins.js */ "./src/modules/authentication/logins.js");
+
+function authenticationSimulation(email = "", password = "") {
+  // RETURNS TRUE IF EMAIL AND PASSWORD MATCH A LOGIN
+  // RETURNS FALSE IF EMAIL AND PASSWORD DON'T MATCH A LOGIN
+
+  for (const login of _logins_js__WEBPACK_IMPORTED_MODULE_0__.logins) {
+    const currentEmail = login.email;
+    const currentPassword = login.password;
+    if (email === currentEmail && password === currentPassword) return true;
+  }
+}
+
+/***/ }),
+
+/***/ "./src/modules/authentication/logins.js":
+/*!**********************************************!*\
+  !*** ./src/modules/authentication/logins.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   logins: () => (/* binding */ logins)
+/* harmony export */ });
+// export const logins = [
+// 	[{ email: "abc@logins.com", password: "aaa"}],
+// 	[{ email: "123@logins.com", password: "bbb"}],
+// 	[{ email: "abc123@logins.com", password: "ccc"}],
+// 	[{ email: "starfire8152@gmail.com", password: "abc123"}],
+// ];
+
+const logins = [{
+  email: "abc@logins.com",
+  password: "aaa"
+},
+// <-- Directly objects
+{
+  email: "123@logins.com",
+  password: "bbb"
+}, {
+  email: "abc123@logins.com",
+  password: "ccc"
+}, {
+  email: "starfire8152@gmail.com",
+  password: "abc123"
+}];
 
 /***/ }),
 
@@ -14628,6 +14846,9 @@ const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(bodyTa
 const rootPath = (0,_src_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_9__.getRootPath)();
 root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Header_js__WEBPACK_IMPORTED_MODULE_10__.Header, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
   path: `${rootPath}/`,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Home_js__WEBPACK_IMPORTED_MODULE_3__.Home, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
+  path: `${rootPath}/home`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Home_js__WEBPACK_IMPORTED_MODULE_3__.Home, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
   path: `${rootPath}/portfolio`,

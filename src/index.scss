@@ -97,6 +97,14 @@ h3 {
     color: rgb(181, 225, 241)
 }
 
+.modal-style {
+  background-color: ivory;
+  color: rgb(7, 58, 41);
+  & h1 {
+        font-family: $primaryFont;
+        color: rgb(7, 58, 41);
+  }
+}
 
 //Color styles
 .list-group-item-text1 {
