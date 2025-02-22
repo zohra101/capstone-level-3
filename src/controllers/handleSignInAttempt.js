@@ -1,14 +1,8 @@
-import React from "react";
-import { authenticationSimulation } from "../modules/authentication/authenticationSimulation.js";
+import { authenticationAws } from "../modules/authentication/authenticationAws.js";
 
-export function handleSignInAttempt(
-	event = new Event(),
-	setErrorMessage,
-	onSignIn
-) {
+export async function handleSignInAttempt(event = new Event(), setErrorMessage, onSignIn) {
 	event.preventDefault();
 
-	debugger;
 	const inputs = event.target;
 	const emailInput = inputs[1];
 	const passwordInput = inputs[2];
@@ -17,13 +11,15 @@ export function handleSignInAttempt(
 	const email = emailInput.value;
 	const password = passwordInput.value;
 
-	const isAuthenticated = authenticationSimulation(email, password);
+	// const resolveValue = await authenticationSimulationDB(email, password);
+	// const isAuthenticated = resolveValue;
+	const isAuthenticated = await authenticationAws(email, password);
 	if (isAuthenticated) {
 		closeButton.click();
 		inputs.reset();
 		onSignIn();
 	} else
 		setErrorMessage(
-			"The email and password entered do not match the authorized users list."
+			"The email and password entered do not match any authorized login."
 		);
 }

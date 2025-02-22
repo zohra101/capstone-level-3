@@ -1,6 +1,8 @@
 {
 	"type": "module",
 	"dependencies": {
+		"@aws-sdk/client-dynamodb": "^3.751.0",
+		"@aws-sdk/lib-dynamodb": "^3.751.0",
 		"@jest/globals": "^29.7.0",
 		"babel-loader": "^9.2.1",
 		"css-loader": "^7.1.2",
