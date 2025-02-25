@@ -11,6 +11,7 @@ import { Portfolio } from "../src//Views/Portfolio.js";
 import { getRootPath } from "../src/utils/getRootPath.js";
 import { Header } from "../src/Views/Header.js";
 import { Footer } from "../src/Views/Footer.js";
+import { HandleRefresh } from "../src/Views/HandleRefresh.js";
 
 const bodyTag = document.getElementById("bodyTag");
 const root = createRoot(bodyTag);
@@ -18,37 +19,39 @@ const rootPath = getRootPath();
 
 root.render(
 	<BrowserRouter>
-		<Header />
-		<Routes>
-			<Route
-				path={`${rootPath}/`}
-				element={<Home />}
-			/>
+		<HandleRefresh>
+			<Header />
+			<Routes>
+				<Route
+					path={`${rootPath}/`}
+					element={<Home />}
+				/>
 			{/* <Route
 				path={`${rootPath}/home`}
 				element={<Home />}
-			/> */}
-			<Route
-				path={`${rootPath}/portfolio`}
-				element={<Portfolio />}
-			/>
-			<Route
-				path={`${rootPath}/alexresume`}
-				element={<AlexResume />}
-			/>
-			<Route
-				path={`${rootPath}/contact`}
-				element={<Contact />}
-			/>
-			<Route
-				path={`${rootPath}/schedulefreeconsultation`}
-				element={<ScheduleFreeConsultation />}
-			/>
-			<Route
-				path={`${rootPath}/about`}
-				element={<About />}
-			/>
-		</Routes>
-		<Footer />
+				/> */}
+				<Route
+					path={`${rootPath}/portfolio`}
+					element={<Portfolio />}
+				/>
+				<Route
+					path={`${rootPath}/alexresume`}
+					element={<AlexResume />}
+				/>
+				<Route
+					path={`${rootPath}/contact`}
+					element={<Contact />}
+				/>
+				<Route
+					path={`${rootPath}/schedulefreeconsultation`}
+					element={<ScheduleFreeConsultation />}
+				/>
+				<Route
+					path={`${rootPath}/about`}
+					element={<About />}
+				/>
+			</Routes>
+			<Footer />
+		</HandleRefresh>
 	</BrowserRouter>
 );

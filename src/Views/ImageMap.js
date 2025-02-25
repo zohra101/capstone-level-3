@@ -1,10 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import siteHeader from "../../assets/images/siteHeader_4kp_rev2.png";
+import { useNavigate } from "react-router";
 
 export function ImageMap() {
-	const [didMount, setDidMount] = useState(false);
-
-	useEffect(componentDidMount, []);
+	const navigateTo = useNavigate(); //Allow function to access BrowserRouter
+	const [didMount, setDidMount] = useState(false); //set useState to false because component has not mounted
+	useEffect(componentDidMount, []); //only track a single mount
 	useEffect(componentDidUpdate);
 	useEffect(componentDidUnmount, []);
 
@@ -23,12 +24,12 @@ export function ImageMap() {
 					title="portfolio"
 					coords="634,305,382"
 					shape="circle"
-					href="contact.html"></area>
+					onClick={() => navigateTo("/contact")}></area>
 				<area
 					title="portfolio"
 					coords="2851,294,300"
 					shape="circle"
-					href="portfolio.html"></area>
+					onClick={() => navigateTo("/portfolio")}></area>
 			</map>
 		</div>
 	);
@@ -36,11 +37,11 @@ export function ImageMap() {
 	function componentDidMount() {
 		setDidMount(true);
 		console.log("The Image Map component mounted.");
-			imageMapResize();
+		imageMapResize();
 	}
 
 	function componentDidUpdate() {
-		if (didMount) console.log("The Image Map component updated.");
+		if (didMount) console.log("The Image Map  component updated.");
 	}
 
 	function componentDidUnmount() {
