@@ -24,10 +24,10 @@ root.render(
 				path={`${rootPath}/`}
 				element={<Home />}
 			/>
-			<Route
+			{/* <Route
 				path={`${rootPath}/home`}
 				element={<Home />}
-			/>
+			/> */}
 			<Route
 				path={`${rootPath}/portfolio`}
 				element={<Portfolio />}

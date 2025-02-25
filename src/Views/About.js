@@ -106,8 +106,6 @@ export function About() {
 
 		const titleTag = document.getElementById("titleTag");
 		titleTag.innerHTML = "Alex M - About";
-		
-		return componentDidUnmount;
 	}
 
 	function componentDidUpdate() {
@@ -116,7 +114,7 @@ export function About() {
 
 	function componentDidUnmount() {
 		return function displayMessage() {
-			console.log("he About component unmounted.");
+			console.log("The About component unmounted.");
 		};
 	}
 }

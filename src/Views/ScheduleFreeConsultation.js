@@ -104,7 +104,7 @@ export function ScheduleFreeConsultation() {
 						</div>
 						<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2">
 							<div className="col">
-								<button className="btn btn-dark">Submit</button>
+								<button className="btn btn-dark animation">Submit</button>
 							</div>
 						</div>
 					</form>
@@ -122,8 +122,6 @@ export function ScheduleFreeConsultation() {
 
 		const titleTag = document.getElementById("titleTag");
 		titleTag.innerHTML = "Alex M - Free Consultation";
-
-		return componentDidUnmount;
 	}
 
 	function componentDidUpdate() {

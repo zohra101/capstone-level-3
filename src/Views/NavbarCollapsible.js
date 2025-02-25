@@ -62,7 +62,7 @@ export function NavbarCollapsible() {
 						<NavLink
 							className="nav-link nav-text"
 							aria-current="page"
-							to={`${rootPath}/home`}>
+							to={`${rootPath}/`}>
 							{" "}
 							Home
 						</NavLink>

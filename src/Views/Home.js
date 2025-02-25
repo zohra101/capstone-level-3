@@ -14,13 +14,15 @@ export function Home() {
 	console.log(`Domain: ${domain} Port: ${port}`);
 
 	return (
-		<>
 			<main id="homeMain">
 				<h1
 					id="mixin-welcome"
 					className="m-2">
 					Welcome
 				</h1>
+				<h3>
+				
+				</h3>
 				<HandleQuoteOfTheDay />
 				<div className="container m-3">
 					<div
@@ -98,9 +100,9 @@ export function Home() {
 							scope, and estimated time for completion.
 						</p>
 					</div>
-				
+
 					<ServicesListGroup />
-				
+
 					<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
 						<p>
 							If my services seem like a good fit for your organization, please{" "}
@@ -112,7 +114,6 @@ export function Home() {
 					</div>
 				</div>
 			</main>
-		</>
 	);
 
 	function componentDidMount() {
@@ -121,8 +122,6 @@ export function Home() {
 
 		const titleTag = document.getElementById("titleTag");
 		titleTag.innerHTML = "Alex M - Home";
-
-		return componentDidUnmount;
 	}
 
 	function componentDidUpdate() {

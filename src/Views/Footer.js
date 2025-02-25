@@ -3,9 +3,8 @@ import copyright from "../../assets/icons/copyright_cGainsboro_nobg.png";
 
 export function Footer() {
 	return (
-		<>
-			<hr />
 			<footer>
+				<hr />
 				<div className="m-2">
 					{" "}
 					2024{" "}
@@ -17,6 +16,5 @@ export function Footer() {
 					Aleksandra Marjanovic
 				</div>
 			</footer>
-		</>
 	);
 }

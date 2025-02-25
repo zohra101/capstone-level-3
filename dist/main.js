@@ -26549,14 +26549,13 @@ function About() {
     console.log("The About component mounted.");
     const titleTag = document.getElementById("titleTag");
     titleTag.innerHTML = "Alex M - About";
-    return componentDidUnmount;
   }
   function componentDidUpdate() {
     if (didMount) console.log("The About component updated.");
   }
   function componentDidUnmount() {
     return function displayMessage() {
-      console.log("he About component unmounted.");
+      console.log("The About component unmounted.");
     };
   }
 }
@@ -26655,7 +26654,6 @@ function AlexResume() {
     console.log("The Resume component mounted.");
     const titleTag = document.getElementById("titleTag");
     titleTag.innerHTML = "Alex M - Resume";
-    return componentDidUnmount;
   }
   function componentDidUpdate() {
     if (didMount) console.log("The Resume component updated.");
@@ -26795,7 +26793,7 @@ function Contact() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    className: "btn btn-dark"
+    className: "btn btn-dark animation"
   }, "Submit")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "spinner"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -26810,7 +26808,6 @@ function Contact() {
     new bootstrap.Tooltip(individualTag);
     const companyTag = document.getElementById("company");
     new bootstrap.Tooltip(companyTag);
-    return componentDidUnmount;
   }
   function componentDidUpdate() {
     if (didMount) console.log("The Contact component updated.");
@@ -26840,13 +26837,13 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Footer() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "m-2"
   }, " ", "2024", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     id: "copyright",
     width: "15px",
     src: _assets_icons_copyright_cGainsboro_nobg_png__WEBPACK_IMPORTED_MODULE_1__
-  }), " ", "Aleksandra Marjanovic")));
+  }), " ", "Aleksandra Marjanovic"));
 }
 
 /***/ }),
@@ -26873,7 +26870,7 @@ const endPoint = "/qotd";
 function HandleQuoteOfTheDay() {
   const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, [didMount]);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
   function componentDidMount() {
     const url = proxy + baseUrl + endPoint;
@@ -26897,7 +26894,9 @@ function HandleQuoteOfTheDay() {
     className: "card w-50 m-4 list-group-item-color1 boxShadow "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "card-header blockquote-header text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
+    className: "badge text-bg-primary m-1"
+  }, "NEW!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
     className: "bi bi-book"
   }), "   Quote of the Day", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "card-body"
@@ -26926,17 +26925,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _assets_images_siteHeader_4kp_rev2_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/siteHeader_4kp_rev2.png */ "./assets/images/siteHeader_4kp_rev2.png");
 /* harmony import */ var _NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./NavbarCollapsible.js */ "./src/Views/NavbarCollapsible.js");
+/* harmony import */ var _ImageMap_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ImageMap.js */ "./src/Views/ImageMap.js");
+
 
 
 
 function Header() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_2__.NavbarCollapsible, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    id: "siteHeader",
-    alt: "siteHeader",
-    width: "100%",
-    src: _assets_images_siteHeader_4kp_rev2_png__WEBPACK_IMPORTED_MODULE_1__,
-    className: "pb-4"
-  })));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_2__.NavbarCollapsible, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ImageMap_js__WEBPACK_IMPORTED_MODULE_3__.ImageMap, null));
 }
 
 /***/ }),
@@ -26966,12 +26961,12 @@ function Home() {
   const domain = window.location.hostname;
   const port = window.location.port;
   console.log(`Domain: ${domain} Port: ${port}`);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     id: "homeMain"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     id: "mixin-welcome",
     className: "m-2"
-  }, "Welcome"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_1__.HandleQuoteOfTheDay, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, "Welcome"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_1__.HandleQuoteOfTheDay, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container m-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "homeIntro",
@@ -27000,13 +26995,12 @@ function Home() {
     href: "contact.html#sendMessage"
   }, "send a message"), " using the Contact form."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Thanks for visiting!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
     className: "signature ms-4 mt-2"
-  }, "Alex Marjanovic")))));
+  }, "Alex Marjanovic"))));
   function componentDidMount() {
     setDidMount(true);
     console.log("The Home component mounted.");
     const titleTag = document.getElementById("titleTag");
     titleTag.innerHTML = "Alex M - Home";
-    return componentDidUnmount;
   }
   function componentDidUpdate() {
     if (didMount) console.log("The Home component updated.");
@@ -27015,6 +27009,50 @@ function Home() {
     return function displayMessage() {
       console.log("The Home component unmounted.");
     };
+  }
+}
+
+/***/ }),
+
+/***/ "./src/Views/ImageMap.js":
+/*!*******************************!*\
+  !*** ./src/Views/ImageMap.js ***!
+  \*******************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ImageMap: () => (/* binding */ ImageMap)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _assets_images_siteHeader_4kp_rev2_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/siteHeader_4kp_rev2.png */ "./assets/images/siteHeader_4kp_rev2.png");
+
+
+function ImageMap() {
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
+    id: "siteHeader",
+    alt: "siteHeader",
+    width: "100%",
+    src: _assets_images_siteHeader_4kp_rev2_png__WEBPACK_IMPORTED_MODULE_1__,
+    className: "pb-4",
+    usemap: "#tc-image-map"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("map", {
+    name: "tc-image-map"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("area", {
+    title: "portfolio",
+    coords: "634,305,382",
+    shape: "circle",
+    href: "contact.html"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("area", {
+    title: "portfolio",
+    coords: "2851,294,300",
+    shape: "circle",
+    href: "portfolio.html"
+  })));
+  function componentDidMount() {
+    imageMapResize();
   }
 }
 
@@ -27105,7 +27143,7 @@ function NavbarCollapsible() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "nav-link nav-text",
     "aria-current": "page",
-    to: `${rootPath}/home`
+    to: `${rootPath}/`
   }, " ", "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "nav-link nav-text",
     to: `${rootPath}/portfolio`
@@ -27328,7 +27366,6 @@ function Portfolio() {
     console.log("The Portfolio component mounted.");
     const titleTag = document.getElementById("titleTag");
     titleTag.innerHTML = "Alex M - Portfolio";
-    return componentDidUnmount;
   }
   function componentDidUpdate() {
     if (didMount) console.log("The Portfolio component updated.");
@@ -27464,7 +27501,7 @@ function ScheduleFreeConsultation() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    className: "btn btn-dark"
+    className: "btn btn-dark animation"
   }, "Submit")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "spinner"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -27475,7 +27512,6 @@ function ScheduleFreeConsultation() {
     console.log("The Consultation component mounted.");
     const titleTag = document.getElementById("titleTag");
     titleTag.innerHTML = "Alex M - Free Consultation";
-    return componentDidUnmount;
   }
   function componentDidUpdate() {
     if (didMount) console.log("The Consultation component updated.");
@@ -39004,9 +39040,6 @@ const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(bodyTa
 const rootPath = (0,_src_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_9__.getRootPath)();
 root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Header_js__WEBPACK_IMPORTED_MODULE_10__.Header, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
   path: `${rootPath}/`,
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Home_js__WEBPACK_IMPORTED_MODULE_3__.Home, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: `${rootPath}/home`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Home_js__WEBPACK_IMPORTED_MODULE_3__.Home, null)
 }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
   path: `${rootPath}/portfolio`,

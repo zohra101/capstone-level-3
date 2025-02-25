@@ -10,7 +10,7 @@ export function HandleQuoteOfTheDay() {
 	const [didMount, setDidMount] = useState(false);
 
 	useEffect(componentDidMount, []);
-	useEffect(componentDidUpdate, []);
+	useEffect(componentDidUpdate, [didMount]);
 	useEffect(componentDidUnmount, []);
 
 	function componentDidMount() {
@@ -36,7 +36,7 @@ export function HandleQuoteOfTheDay() {
 		<div className="center">
 			<div className="card w-50 m-4 list-group-item-color1 boxShadow ">
 				<div className="card-header blockquote-header text-center">
-					<i className="bi bi-book"></i>   Quote of the Day
+					<span className="badge text-bg-primary m-1">NEW!</span><i className="bi bi-book"></i>   Quote of the Day
 					<hr />
 				</div>
 				<div className="card-body">

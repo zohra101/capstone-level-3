@@ -253,8 +253,6 @@ export function Portfolio() {
 
 		const titleTag = document.getElementById("titleTag");
 		titleTag.innerHTML = "Alex M - Portfolio";
-
-		return componentDidUnmount;
 	}
 
 	function componentDidUpdate() {

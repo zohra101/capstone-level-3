@@ -278,8 +278,6 @@ export function AlexResume() {
 
 		const titleTag = document.getElementById("titleTag");
 		titleTag.innerHTML = "Alex M - Resume";
-
-		return componentDidUnmount;
 	}
 
 	function componentDidUpdate() {
