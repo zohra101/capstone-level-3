@@ -27030,7 +27030,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function ImageMap() {
+  const [didMount, setDidMount] = useState(false);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     id: "siteHeader",
     alt: "siteHeader",
@@ -27052,7 +27055,17 @@ function ImageMap() {
     href: "portfolio.html"
   })));
   function componentDidMount() {
+    setDidMount(true);
+    console.log("The Image Map component mounted.");
     imageMapResize();
+  }
+  function componentDidUpdate() {
+    if (didMount) console.log("The Image Map component updated.");
+  }
+  function componentDidUnmount() {
+    return function displayMessage() {
+      console.log("The Image Map component unmounted.");
+    };
   }
 }
 
