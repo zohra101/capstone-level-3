@@ -26,10 +26,6 @@ root.render(
 					path={`${rootPath}/`}
 					element={<Home />}
 				/>
-			{/* <Route
-				path={`${rootPath}/home`}
-				element={<Home />}
-				/> */}
 				<Route
 					path={`${rootPath}/portfolio`}
 					element={<Portfolio />}
@@ -51,7 +47,7 @@ root.render(
 					element={<About />}
 				/>
 			</Routes>
-			<Footer />
+			<Footer />,
 		</HandleRefresh>
 	</BrowserRouter>
 );

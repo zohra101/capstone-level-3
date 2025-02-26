@@ -36253,6 +36253,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
@@ -36264,21 +36270,26 @@ __webpack_require__.r(__webpack_exports__);
  * In redirect.js, properly set the root path.
  */
 function HandleRefresh(props) {
-  const children = props.children; //Render children 
-  const navigateTo = (0,react_router__WEBPACK_IMPORTED_MODULE_1__.useNavigate)(); //Allow function to access BrowserRouter
-  const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false); //set useState to false because component has not mounted
+  var children = props.children; //Render children 
+  var navigateTo = (0,react_router__WEBPACK_IMPORTED_MODULE_1__.useNavigate)(); //Allow function to access BrowserRouter
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    didMount = _useState2[0],
+    setDidMount = _useState2[1]; //set useState to false because component has not mounted
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []); //only track a single mount
 
   if (didMount) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, children); //if the component mounted, render the children
   else return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null); //if the component did not mount, don't load anything
 
   function componentDidMount() {
-    const redirectPath = localStorage.getItem("redirect"); //Check the path name
+    var redirectPath = localStorage.getItem("redirect"); //Check the path name
     if (redirectPath) {
       //if there's a path
       navigateTo(redirectPath); //navigate to it
       localStorage.setItem("redirect", "");
-      setTimeout(() => setDidMount(true), 1000); //Delay the rendering of children if  
+      setTimeout(function () {
+        return setDidMount(true);
+      }, 1000); //Delay the rendering of children if  
     } else setDidMount(true);
   }
 }
@@ -36341,10 +36352,10 @@ function Home() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  const domain = window.location.hostname;
-  const port = window.location.port;
-  console.log(`Domain: ${domain} Port: ${port}`);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
+  var domain = window.location.hostname;
+  var port = window.location.port;
+  console.log("Domain: ".concat(domain, " Port: ").concat(port));
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     id: "homeMain"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     id: "mixin-welcome",
@@ -36389,7 +36400,7 @@ function Home() {
     if (didMount) console.log("The Home component updated.");
   }
   function componentDidUnmount() {
-    return function displayMessage() {
+    return function () {
       console.log("The Home component unmounted.");
     };
   }
@@ -36412,14 +36423,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_images_siteHeader_4kp_rev2_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/siteHeader_4kp_rev2.png */ "./assets/images/siteHeader_4kp_rev2.png");
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
 /* harmony import */ var _utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/getRootPath.js */ "./src/utils/getRootPath.js");
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 
 
 
 function ImageMap() {
-  const navigateTo = (0,react_router__WEBPACK_IMPORTED_MODULE_3__.useNavigate)(); //Allow function to access BrowserRouter
-  const rootPath = (0,_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_2__.getRootPath)();
-  const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false); //set useState to false because component has not mounted
+  var navigateTo = (0,react_router__WEBPACK_IMPORTED_MODULE_3__.useNavigate)(); //Allow function to access BrowserRouter
+  var rootPath = (0,_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_2__.getRootPath)();
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    didMount = _useState2[0],
+    setDidMount = _useState2[1]; //set useState to false because component has not mounted
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []); //only track a single mount
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
@@ -36429,19 +36449,23 @@ function ImageMap() {
     width: "100%",
     src: _assets_images_siteHeader_4kp_rev2_png__WEBPACK_IMPORTED_MODULE_1__,
     className: "pb-4",
-    usemap: "#tc-image-map"
+    useMap: "#tc-image-map"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("map", {
     name: "tc-image-map"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("area", {
     title: "portfolio",
     coords: "634,305,382",
     shape: "circle",
-    onClick: () => navigateTo(`${rootPath}/portfolio`)
+    onClick: function onClick() {
+      return navigateTo("".concat(rootPath, "/portfolio"));
+    }
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("area", {
     title: "contact",
     coords: "2851,294,300",
     shape: "circle",
-    onClick: () => navigateTo(`${rootPath}/contact`)
+    onClick: function onClick() {
+      return navigateTo("".concat(rootPath, "/contact"));
+    }
   })));
   function componentDidMount() {
     setDidMount(true);
@@ -36545,7 +36569,7 @@ function NavbarCollapsible() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "nav-link nav-text",
     "aria-current": "page",
-    to: `${rootPath}/home`
+    to: "".concat(rootPath, "/")
   }, " ", "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "nav-link nav-text",
     to: "".concat(rootPath, "/portfolio")
@@ -36560,8 +36584,8 @@ function NavbarCollapsible() {
     to: "".concat(rootPath, "/schedulefreeconsultation")
   }, "Free Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "nav-link nav-text",
-    to: `${rootPath}/about`
-  }, "About"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SignInArea_js__WEBPACK_IMPORTED_MODULE_4__.SignInArea, null), "/>"));
+    to: "".concat(rootPath, "/about")
+  }, "About"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SignInArea_js__WEBPACK_IMPORTED_MODULE_4__.SignInArea, null)));
 }
 
 /***/ }),
@@ -48554,31 +48578,28 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const bodyTag = document.getElementById("bodyTag");
-const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(bodyTag);
-const rootPath = (0,_src_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_9__.getRootPath)();
-root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Header_js__WEBPACK_IMPORTED_MODULE_10__.Header, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: `${rootPath}/`,
+var bodyTag = document.getElementById("bodyTag");
+var root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(bodyTag);
+var rootPath = (0,_src_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_9__.getRootPath)();
+root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_HandleRefresh_js__WEBPACK_IMPORTED_MODULE_12__.HandleRefresh, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Header_js__WEBPACK_IMPORTED_MODULE_10__.Header, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+  path: "".concat(rootPath, "/"),
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Home_js__WEBPACK_IMPORTED_MODULE_3__.Home, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: `${rootPath}/home`,
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Home_js__WEBPACK_IMPORTED_MODULE_3__.Home, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: `${rootPath}/portfolio`,
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+  path: "".concat(rootPath, "/portfolio"),
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Portfolio_js__WEBPACK_IMPORTED_MODULE_8__.Portfolio, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: `${rootPath}/alexresume`,
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+  path: "".concat(rootPath, "/alexresume"),
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_AlexResume_js__WEBPACK_IMPORTED_MODULE_5__.AlexResume, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: `${rootPath}/contact`,
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+  path: "".concat(rootPath, "/contact"),
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Contact_js__WEBPACK_IMPORTED_MODULE_7__.Contact, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: `${rootPath}/schedulefreeconsultation`,
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+  path: "".concat(rootPath, "/schedulefreeconsultation"),
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_ScheduleFreeConsultation_js__WEBPACK_IMPORTED_MODULE_6__.ScheduleFreeConsultation, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: `${rootPath}/about`,
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+  path: "".concat(rootPath, "/about"),
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_About_js__WEBPACK_IMPORTED_MODULE_4__.About, null)
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Footer_js__WEBPACK_IMPORTED_MODULE_11__.Footer, null))));
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Footer_js__WEBPACK_IMPORTED_MODULE_11__.Footer, null), ",")));
 })();
 
 /******/ })()

@@ -129,7 +129,7 @@ export function Home() {
 	}
 
 	function componentDidUnmount() {
-		return function displayMessage() {
+		return ()=> {
 			console.log("The Home component unmounted.");
 		};
 	}

@@ -19,7 +19,7 @@ export function ImageMap() {
 				width="100%"
 				src={siteHeader}
 				className="pb-4"
-				usemap="#tc-image-map"
+				useMap="#tc-image-map"
 			/>
 			<map name="tc-image-map">
 				<area
