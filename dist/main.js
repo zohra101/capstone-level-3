@@ -36341,17 +36341,10 @@ function Home() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-<<<<<<< HEAD
   const domain = window.location.hostname;
   const port = window.location.port;
   console.log(`Domain: ${domain} Port: ${port}`);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
-=======
-  var domain = window.location.hostname;
-  var port = window.location.port;
-  console.log("Domain: ".concat(domain, " Port: ").concat(port));
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
->>>>>>> unit-testing
     id: "homeMain"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
     id: "mixin-welcome",
@@ -36552,11 +36545,7 @@ function NavbarCollapsible() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "nav-link nav-text",
     "aria-current": "page",
-<<<<<<< HEAD
-    to: `${rootPath}/`
-=======
-    to: "".concat(rootPath, "/home")
->>>>>>> unit-testing
+    to: `${rootPath}/home`
   }, " ", "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "nav-link nav-text",
     to: "".concat(rootPath, "/portfolio")
@@ -36571,13 +36560,8 @@ function NavbarCollapsible() {
     to: "".concat(rootPath, "/schedulefreeconsultation")
   }, "Free Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "nav-link nav-text",
-<<<<<<< HEAD
     to: `${rootPath}/about`
-  }, "About"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SignInArea_js__WEBPACK_IMPORTED_MODULE_4__.SignInArea, null)));
-=======
-    to: "".concat(rootPath, "/about")
   }, "About"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SignInArea_js__WEBPACK_IMPORTED_MODULE_4__.SignInArea, null), "/>"));
->>>>>>> unit-testing
 }
 
 /***/ }),
@@ -48570,52 +48554,29 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-<<<<<<< HEAD
 const bodyTag = document.getElementById("bodyTag");
 const root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(bodyTag);
 const rootPath = (0,_src_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_9__.getRootPath)();
-root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_HandleRefresh_js__WEBPACK_IMPORTED_MODULE_12__.HandleRefresh, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Header_js__WEBPACK_IMPORTED_MODULE_10__.Header, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Header_js__WEBPACK_IMPORTED_MODULE_10__.Header, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
   path: `${rootPath}/`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Home_js__WEBPACK_IMPORTED_MODULE_3__.Home, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
+  path: `${rootPath}/home`,
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Home_js__WEBPACK_IMPORTED_MODULE_3__.Home, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
   path: `${rootPath}/portfolio`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Portfolio_js__WEBPACK_IMPORTED_MODULE_8__.Portfolio, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
   path: `${rootPath}/alexresume`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_AlexResume_js__WEBPACK_IMPORTED_MODULE_5__.AlexResume, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
   path: `${rootPath}/contact`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Contact_js__WEBPACK_IMPORTED_MODULE_7__.Contact, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
   path: `${rootPath}/schedulefreeconsultation`,
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_ScheduleFreeConsultation_js__WEBPACK_IMPORTED_MODULE_6__.ScheduleFreeConsultation, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
   path: `${rootPath}/about`,
-=======
-var bodyTag = document.getElementById("bodyTag");
-var root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(bodyTag);
-var rootPath = (0,_src_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_9__.getRootPath)();
-root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Header_js__WEBPACK_IMPORTED_MODULE_10__.Header, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: "".concat(rootPath, "/"),
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Home_js__WEBPACK_IMPORTED_MODULE_3__.Home, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: "".concat(rootPath, "/home"),
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Home_js__WEBPACK_IMPORTED_MODULE_3__.Home, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: "".concat(rootPath, "/portfolio"),
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Portfolio_js__WEBPACK_IMPORTED_MODULE_8__.Portfolio, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: "".concat(rootPath, "/alexresume"),
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_AlexResume_js__WEBPACK_IMPORTED_MODULE_5__.AlexResume, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: "".concat(rootPath, "/contact"),
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Contact_js__WEBPACK_IMPORTED_MODULE_7__.Contact, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: "".concat(rootPath, "/schedulefreeconsultation"),
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_ScheduleFreeConsultation_js__WEBPACK_IMPORTED_MODULE_6__.ScheduleFreeConsultation, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_12__.Route, {
-  path: "".concat(rootPath, "/about"),
->>>>>>> unit-testing
   element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_About_js__WEBPACK_IMPORTED_MODULE_4__.About, null)
 })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Footer_js__WEBPACK_IMPORTED_MODULE_11__.Footer, null))));
 })();
