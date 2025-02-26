@@ -27072,12 +27072,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var _assets_images_siteHeader_4kp_rev2_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/siteHeader_4kp_rev2.png */ "./assets/images/siteHeader_4kp_rev2.png");
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
+/* harmony import */ var _utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../utils/getRootPath.js */ "./src/utils/getRootPath.js");
+
 
 
 
 function ImageMap() {
-  const navigateTo = (0,react_router__WEBPACK_IMPORTED_MODULE_2__.useNavigate)(); //Allow function to access BrowserRouter
+  const navigateTo = (0,react_router__WEBPACK_IMPORTED_MODULE_3__.useNavigate)(); //Allow function to access BrowserRouter
+  const rootPath = (0,_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_2__.getRootPath)();
   const [didMount, setDidMount] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false); //set useState to false because component has not mounted
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []); //only track a single mount
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
@@ -27095,12 +27098,12 @@ function ImageMap() {
     title: "portfolio",
     coords: "634,305,382",
     shape: "circle",
-    onClick: () => navigateTo("/contact")
+    onClick: () => navigateTo(`${rootPath}/portfolio`)
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("area", {
-    title: "portfolio",
+    title: "contact",
     coords: "2851,294,300",
     shape: "circle",
-    onClick: () => navigateTo("/portfolio")
+    onClick: () => navigateTo(`${rootPath}/contact`)
   })));
   function componentDidMount() {
     setDidMount(true);
@@ -27220,7 +27223,7 @@ function NavbarCollapsible() {
   }, "Free Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "nav-link nav-text",
     to: `${rootPath}/about`
-  }, "About"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SignInArea_js__WEBPACK_IMPORTED_MODULE_4__.SignInArea, null), "/>"));
+  }, "About"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_SignInArea_js__WEBPACK_IMPORTED_MODULE_4__.SignInArea, null)));
 }
 
 /***/ }),

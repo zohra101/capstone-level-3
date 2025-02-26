@@ -94,8 +94,6 @@ export function NavbarCollapsible() {
 					</div>
 				</div>
 				<SignInArea/>
-				
-				/>
 			</div>
 		</nav>
 	);
