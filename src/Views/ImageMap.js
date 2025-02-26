@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
 import siteHeader from "../../assets/images/siteHeader_4kp_rev2.png";
 import { useNavigate } from "react-router";
+import { getRootPath } from "../utils/getRootPath.js";
 
 export function ImageMap() {
 	const navigateTo = useNavigate(); //Allow function to access BrowserRouter
+	const rootPath = getRootPath();
 	const [didMount, setDidMount] = useState(false); //set useState to false because component has not mounted
 	useEffect(componentDidMount, []); //only track a single mount
 	useEffect(componentDidUpdate);
@@ -24,12 +26,12 @@ export function ImageMap() {
 					title="portfolio"
 					coords="634,305,382"
 					shape="circle"
-					onClick={() => navigateTo("/contact")}></area>
+					onClick={() => navigateTo(`${rootPath}/portfolio`)}></area>
 				<area
-					title="portfolio"
+					title="contact"
 					coords="2851,294,300"
 					shape="circle"
-					onClick={() => navigateTo("/portfolio")}></area>
+					onClick={() => navigateTo(`${rootPath}/contact`)}></area>
 			</map>
 		</div>
 	);
