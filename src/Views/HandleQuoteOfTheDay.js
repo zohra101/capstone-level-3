@@ -13,25 +13,6 @@ export function HandleQuoteOfTheDay() {
 	useEffect(componentDidUpdate, [didMount]);
 	useEffect(componentDidUnmount, []);
 
-	function componentDidMount() {
-		const url = proxy + baseUrl + endPoint;
-		const promise = fetch(url);
-		promise.then(extractQotdResponse);
-		setDidMount(true);
-		console.log("The HandleQuoteOfTheDay component mounted.");
-		return componentDidUnmount;
-	}
-
-	function componentDidUpdate() {
-		if (didMount) console.log("The HandleQuoteOfTheDay component updated.");
-	}
-
-	function componentDidUnmount() {
-		return function displayMessage() {
-			console.log("The  HandleQuoteOfTheDay component unmounted.");
-		};
-	}
-
 	return (
 		<div className="center">
 			<div className="card w-50 m-4 list-group-item-color1 boxShadow ">
@@ -50,4 +31,24 @@ export function HandleQuoteOfTheDay() {
 			</div>
 		</div>
 	);
+
+		function componentDidMount() {
+			const url = proxy + baseUrl + endPoint;
+			const promise = fetch(url);
+			promise.then(extractQotdResponse);
+			setDidMount(true);
+			console.log("The HandleQuoteOfTheDay component mounted.");
+			return componentDidUnmount;
+		}
+
+		function componentDidUpdate() {
+			if (didMount) console.log("The HandleQuoteOfTheDay component updated.");
+		}
+
+		function componentDidUnmount() {
+			return function displayMessage() {
+				console.log("The  HandleQuoteOfTheDay component unmounted.");
+			};
+		}
+
 }

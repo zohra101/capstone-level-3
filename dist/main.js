@@ -36189,22 +36189,6 @@ function HandleQuoteOfTheDay() {
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, [didMount]);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  function componentDidMount() {
-    var url = proxy + baseUrl + endPoint;
-    var promise = fetch(url);
-    promise.then(_modules_Qotd_extractQotdResponse_js__WEBPACK_IMPORTED_MODULE_1__.extractQotdResponse);
-    setDidMount(true);
-    console.log("The HandleQuoteOfTheDay component mounted.");
-    return componentDidUnmount;
-  }
-  function componentDidUpdate() {
-    if (didMount) console.log("The HandleQuoteOfTheDay component updated.");
-  }
-  function componentDidUnmount() {
-    return function displayMessage() {
-      console.log("The  HandleQuoteOfTheDay component unmounted.");
-    };
-  }
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -36224,6 +36208,22 @@ function HandleQuoteOfTheDay() {
     id: "qotdAuthorTag",
     className: "blockquote-footer mt-2 list-group-item-text1"
   }))));
+  function componentDidMount() {
+    var url = proxy + baseUrl + endPoint;
+    var promise = fetch(url);
+    promise.then(_modules_Qotd_extractQotdResponse_js__WEBPACK_IMPORTED_MODULE_1__.extractQotdResponse);
+    setDidMount(true);
+    console.log("The HandleQuoteOfTheDay component mounted.");
+    return componentDidUnmount;
+  }
+  function componentDidUpdate() {
+    if (didMount) console.log("The HandleQuoteOfTheDay component updated.");
+  }
+  function componentDidUnmount() {
+    return function displayMessage() {
+      console.log("The  HandleQuoteOfTheDay component unmounted.");
+    };
+  }
 }
 
 /***/ }),
