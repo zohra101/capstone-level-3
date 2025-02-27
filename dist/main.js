@@ -36021,10 +36021,14 @@ function Contact() {
     className: "container m-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     id: "sendEmail"
   }, "Send an email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, " ", "If you have any questions about my services, please fill out and submit the form below.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container ms-3"
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", {
     id: "outputTag",
     onSubmit: _modules_email_handleSubmitEmail_js__WEBPACK_IMPORTED_MODULE_1__.handleSubmitEmail
@@ -36118,7 +36122,7 @@ function Contact() {
     id: "spinner"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "outputTag2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null))));
   function componentDidMount() {
     setDidMount(true);
     console.log("The Contact component mounted.");
