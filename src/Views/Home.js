@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { HandleQuoteOfTheDay } from "./HandleQuoteOfTheDay.js";
 import { ServicesListGroup } from "../Views/ServicesListGroup.js";
+import "../Views/index.scss";
+
 
 export function Home() {
 	const [didMount, setDidMount] = useState(false);

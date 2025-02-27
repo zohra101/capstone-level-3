@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { handleSubmitEmail } from "../modules/email/handleSubmitEmail.js";
+import "../Views/index.scss";
 
 export function Contact() {
 	const [didMount, setDidMount] = useState(false);
