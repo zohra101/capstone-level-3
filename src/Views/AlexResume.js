@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../Views/alexresume.css";
+import "../Views/alexresume.scss";
 
 export function AlexResume() {
 	const [didMount, setDidMount] = useState(false);

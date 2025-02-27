@@ -34961,10 +34961,10 @@ function validate(uuid) {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/alexresume.css":
-/*!***************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/alexresume.css ***!
-  \***************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/alexresume.scss":
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/alexresume.scss ***!
+  \****************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -35030,14 +35030,7 @@ ul {
   color: #191970;
   width: 85%;
   margin: 15px;
-}
-
-td {
-  width: 50vw;
-  padding: 1px;
-  margin: 15px;
-  align-content: start;
-}`, "",{"version":3,"sources":["webpack://./src/Views/alexresume.css"],"names":[],"mappings":"AACA;EACE,eAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AAAF;;AAGA;EACE,eAAA;EACA,cAAA;EACA,iBAAA;AAAF;;AAGA;;;;;;;GAAA;AASA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AADF;;AAIA;EACE,WAAA;EACA,YAAA;EACA,YAAA;EACA,oBAAA;AADF","sourcesContent":["\r\nh2 {\r\n  font-size: 25px;\r\n  color: #CD5C5C;\r\n  margin: 15px;\r\n}\r\n\r\nh3 {\r\n  text-align: left;\r\n  font-size: 20px;\r\n  color: #228B22;\r\n  margin: 15px;\r\n}\r\n\r\nh4 {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  margin: 15px;\r\n}\r\n\r\np {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  margin: 15px;\r\n}\r\n\r\n#skill {\r\n  font-size: 15px;\r\n  color: #008B8B;\r\n  font-weight: bold;\r\n}\r\n\r\n/* a {\r\n  text-align: left;\r\n  font-family: \"Helvetica\", sans-serif;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  padding: 5px;\r\n} */\r\n\r\nul {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 85%;\r\n  margin: 15px;\r\n}\r\n\r\ntd {\r\n  width: 50vw;\r\n  padding: 1px;\r\n  margin: 15px;\r\n  align-content: start;\r\n}\r\n\r\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/Views/alexresume.scss"],"names":[],"mappings":"AACA;EACE,eAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AAAF;;AAGA;EACE,eAAA;EACA,cAAA;EACA,iBAAA;AAAF;;AAGA;;;;;;;GAAA;AASA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AADF","sourcesContent":["\r\nh2 {\r\n  font-size: 25px;\r\n  color: #CD5C5C;\r\n  margin: 15px;\r\n}\r\n\r\nh3 {\r\n  text-align: left;\r\n  font-size: 20px;\r\n  color: #228B22;\r\n  margin: 15px;\r\n}\r\n\r\nh4 {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  margin: 15px;\r\n}\r\n\r\np {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  margin: 15px;\r\n}\r\n\r\n#skill {\r\n  font-size: 15px;\r\n  color: #008B8B;\r\n  font-weight: bold;\r\n}\r\n\r\n/* a {\r\n  text-align: left;\r\n  font-family: \"Helvetica\", sans-serif;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  padding: 5px;\r\n} */\r\n\r\nul {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 85%;\r\n  margin: 15px;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -35221,10 +35214,10 @@ a:hover {
 
 /***/ }),
 
-/***/ "./src/Views/alexresume.css":
-/*!**********************************!*\
-  !*** ./src/Views/alexresume.css ***!
-  \**********************************/
+/***/ "./src/Views/alexresume.scss":
+/*!***********************************!*\
+  !*** ./src/Views/alexresume.scss ***!
+  \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -35244,7 +35237,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./alexresume.css */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/alexresume.css");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./alexresume.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/alexresume.scss");
 
       
       
@@ -35264,12 +35257,12 @@ options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WE
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_css__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_css__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_css__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -35881,7 +35874,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   AlexResume: () => (/* binding */ AlexResume)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _Views_alexresume_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Views/alexresume.css */ "./src/Views/alexresume.css");
+/* harmony import */ var _Views_alexresume_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Views/alexresume.scss */ "./src/Views/alexresume.scss");
 function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
@@ -37494,14 +37487,17 @@ __webpack_require__.r(__webpack_exports__);
 function handleSubmitCall(event) {
   event.preventDefault();
   var inputs = event.target;
-  var emailInput = inputs[3];
-  var email = emailInput.value;
-  window.spinner.innerHTML = "<div class='spinner-border text-primary'></div>";
-  output2("<br>" + "<h5>Submitting scheduling request for " + email + "...</h5><br>");
-  var promise = new Promise(callServerResponse);
+  var emailInput = inputs[3]; //Targets the array location
+  var email = emailInput.value; //Gets the value of the array location
+  window.spinner.innerHTML = "<div class='spinner-border text-primary'></div>"; //Loads the spinner
+  output2("<br>" + "<h5>Submitting scheduling request for " + email + "...</h5><br>"); //Displays the "please wait" message
+  var promise = new Promise(callServerResponse); //Initiates a new promise
+  //Then handles the fulfilled state of a promise by executing the callback function argument when the promise resolves. Chaining then methods creates a sequence of async operations where the output of the previous then becomes the input of the next.
   promise.then(callParseResponse).then(function hideSpinner(resolveValue2) {
-    window.spinner.innerHTML = "";
-    return resolveValue2;
+    //Attaches callParseResponse as the argument/callback function to be called when callServerResponse is fulfilled. When callParseResponse is fulfilled, hideSpinner is the new promise. 
+
+    window.spinner.innerHTML = ""; //Removes the spinner from the HTML tag
+    return resolveValue2; //Returns the argument of the second, hideSpinner promise so that the app knows the promise is fullfilled. 
   });
 }
 
@@ -37526,14 +37522,16 @@ __webpack_require__.r(__webpack_exports__);
 function handleSubmitEmail(event) {
   event.preventDefault();
   var inputs = event.target;
-  var emailInput = inputs[3];
-  var email = emailInput.value;
-  window.spinner.innerHTML = "<div class='spinner-border text-primary'></div>";
-  output1("<br>" + "<h5>Submitting for " + email + "...</h5><br>");
-  var promise = new Promise(emailServerResponse);
+  var emailInput = inputs[3]; //Targets the array location
+  var email = emailInput.value; //Gets the value of the array location
+  window.spinner.innerHTML = "<div class='spinner-border text-primary'></div>"; //Loads the spinner
+  output1("<br>" + "<h5>Submitting for " + email + "...</h5><br>"); //Displays the "please wait" message
+  var promise = new Promise(emailServerResponse); //Initiates a new promise
+  //Then handles the fulfilled state of a promise by executing the callback function argument when the promise resolves. Chaining then methods creates a sequence of async operations where the output of the previous then becomes the input of the next.
   promise.then(emailParseResponse).then(function hideSpinner(resolveValue) {
-    window.spinner.innerHTML = "";
-    return resolveValue;
+    //Attaches emailParseResponse as the argument/callback function to be called when emailServerResponse is fulfilled. When emailParseResponse is fulfilled, hideSpinner is the new promise.
+    window.spinner.innerHTML = ""; //Removes the spinner from the HTML tag
+    return resolveValue; //Returns the argument of the second, hideSpinner promise so that the app knows the promise is fullfilled.
   });
 }
 
