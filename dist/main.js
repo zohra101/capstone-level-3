@@ -35151,6 +35151,11 @@ h3 {
   color: rgb(7, 58, 41);
 }
 
+#legend {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .list-group-item-text1 {
   color: rgb(241, 241, 250);
 }
@@ -35209,7 +35214,7 @@ a:hover {
   margin: auto;
   width: 75%;
   padding: 10px;
-}`, "",{"version":3,"sources":["webpack://./src/index.scss"],"names":[],"mappings":"AASA;EAPE,uBAAA;EAIA,sCAAA;EAMC,eAAA;AARH;;AAqBA;EACE,uBAAA;EACA,qBAAA;AAlBF;AAmBE;EACI,aAAA;AAjBN;;AAsBA;EACA,6BAAA;EACA,4CAAA;AAnBA;AAsBA;EACE,yBAAA;EACA,4CAAA;AApBF;AAuBA;EACE,uBAAA;EACA,4CAAA;AArBF;AA8BA;EACE,qBANY;EAOZ,uBAAA;EACA,oBAAA;EACA,UAAA;AA5BF;;AAgCA;EACE,uBAZO;EAaP,cAAA;EACA,gBAAA;EACA,kBAAA;EACA,UAAA;AA7BF;;AAgCA;EACE,oBAAA;AA7BF;;AAgCA;EACE,2BAvBW;EAwBX,eAAA;EACA,sBAAA;AA7BF;;AAgCA;EACE,iBAAA;AA7BF;;AAgCA;EACI,eAAA;EACA,yBAAA;AA7BJ;;AAgCA;EACC,yBAAA;AA7BD;;AAgCA;EACI,eAAA;EACA,yBAAA;AA7BJ;;AAgCA;EACE,uBAAA;EACA,qBAAA;AA7BF;AA8BE;EACM,qBArDM;EAsDN,qBAAA;AA5BR;;AAiCA;EACE,yBA7FS;AA+DX;;AAiCA;EACE,YAlGU;AAoEZ;;AAiCA;EACE,iCAjGuB;AAmEzB;;AAiCA;EACE,oCApGuB;AAsEzB;;AAiCA;EACE,uBAAA;EACA,qBAAA;AA9BF;;AAgCA;EACE,aAAA;AA7BF;;AAgCA;EACE,yBAAA;AA7BF;;AAkCA;EACE,UAAA;AA/BF;;AAmCC;EACC,iCAAA;EACA,wBAAA;AAhCF;;AAoCA;EACE,sCAAA;AAjCF;;AAoCA;EACE,sCAAA;AAjCF;;AAoCA;EACE,oCAAA;AAjCF;;AAoCA;EACE,sCAAA;AAjCF;;AAqCA;EACE,YAAA;EACA,UAAA;EACA,aAAA;AAlCF","sourcesContent":["//Mixin\r\n@mixin welcomeTextColor {\r\n  color: rgb(189, 69, 33);\r\n}\r\n\r\n@mixin welcomeTextShadow {\r\n  text-shadow: 2px 2px rgb(215, 199, 57);\r\n}\r\n\r\n#mixin-welcome {\r\n  @include welcomeTextColor;\r\n  @include welcomeTextShadow;\r\n   font-size: 76px;\r\n}\r\n\r\n//Colors (use variables)\r\n$blackText: black;\r\n$greyText: rgb(241, 241, 250);\r\n\r\n\r\n//RGBA color variables\r\n$list-group-item-color1: rgb(17, 75, 95);\r\n$list-group-item-color2: rgb(204, 245, 226);\r\n\r\n//Nesting & parent syntax\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n  &:hover {\r\n      color: violet;\r\n  }\r\n}\r\n\r\n//Custom fonts \r\n@font-face {\r\nfont-family:\"ComforterBrush\";\r\nsrc: url(../assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"GreatVibes\";\r\n  src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"OpenSans\";\r\n  src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf); \r\n}\r\n\r\n//Font variables\r\n$primaryFont: OpenSans;\r\n$secondaryFont: sans-serif;\r\n$h1Font: GreatVibes;\r\n$handwrFont: ComforterBrush;\r\n\r\nbody {\r\n  font-family: $primaryFont;\r\n  background-color: ivory;\r\n  color: rgb(2, 5, 61, 1.0);\r\n  opacity: 1.0;\r\n}\r\n\r\n\r\nh1 {\r\n  font-family: $h1Font;\r\n  font-size: 102;\r\n  font-weight: 400;\r\n  position: relative;\r\n  opacity: 1.0;\r\n}\r\n\r\nh3 {\r\n  color: rgb(2, 31, 2)\r\n}\r\n\r\n.signature {\r\n  font-family: $handwrFont;\r\n  font-size: 50px;\r\n  color: rgb(17, 75, 95);\r\n}\r\n\r\n.bold {\r\n  font-weight: bold;\r\n}\r\n\r\n.blockquote {\r\n    font-size: 20px;\r\n    color: rgb(197, 247, 233)\r\n}\r\n\r\n.blockquote-header {\r\n color: rgb(231, 196, 185);\r\n}\r\n\r\n.blockquote-footer {\r\n    font-size: 15px;\r\n    color: rgb(181, 225, 241)\r\n}\r\n\r\n.modal-style {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n  & h1 {\r\n        font-family: $primaryFont;\r\n        color: rgb(7, 58, 41);\r\n  }\r\n}\r\n\r\n//Color styles\r\n.list-group-item-text1 {\r\n  color: $greyText;\r\n}\r\n\r\n.list-group-item-text2 {\r\n  color: $blackText;\r\n}\r\n\r\n.list-group-item-color1 { \r\n  background-color: $list-group-item-color1;\r\n}\r\n\r\n.list-group-item-color2 {\r\n  background-color: $list-group-item-color2;\r\n}\r\n\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n}\r\na:hover {\r\n  color: violet;\r\n}\r\n\r\n.nav-text {\r\n  color: rgb(181, 225, 241)\r\n}\r\n\r\n\r\n//Opacity\r\n.fullOpacity {\r\n  opacity: 1.0;\r\n}\r\n\r\n//Transform rotate and animate\r\n .animation:hover {\r\n  transform: scale(1) rotate(20deg);\r\n  transition: transform 1s;\r\n}\r\n\r\n//Text-shadow & Box-shadow\r\n.boxShadowUL {\r\n  box-shadow: 30px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.boxShadowLI {\r\n  box-shadow: 25px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.textShadow {\r\n  text-shadow: 1px 1px rgb(84, 80, 80);\r\n}\r\n\r\n.boxShadow {\r\n  box-shadow: 15px 15px rgb(189, 69, 33);\r\n}\r\n\r\n//Alignment\r\n.center {\r\n  margin: auto;\r\n  width: 75%;\r\n  padding: 10px;\r\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/index.scss"],"names":[],"mappings":"AASA;EAPE,uBAAA;EAIA,sCAAA;EAMC,eAAA;AARH;;AAqBA;EACE,uBAAA;EACA,qBAAA;AAlBF;AAmBE;EACI,aAAA;AAjBN;;AAsBA;EACA,6BAAA;EACA,4CAAA;AAnBA;AAsBA;EACE,yBAAA;EACA,4CAAA;AApBF;AAuBA;EACE,uBAAA;EACA,4CAAA;AArBF;AA8BA;EACE,qBANY;EAOZ,uBAAA;EACA,oBAAA;EACA,UAAA;AA5BF;;AAgCA;EACE,uBAZO;EAaP,cAAA;EACA,gBAAA;EACA,kBAAA;EACA,UAAA;AA7BF;;AAgCA;EACE,oBAAA;AA7BF;;AAgCA;EACE,2BAvBW;EAwBX,eAAA;EACA,sBAAA;AA7BF;;AAgCA;EACE,iBAAA;AA7BF;;AAgCA;EACI,eAAA;EACA,yBAAA;AA7BJ;;AAgCA;EACC,yBAAA;AA7BD;;AAgCA;EACI,eAAA;EACA,yBAAA;AA7BJ;;AAgCA;EACE,uBAAA;EACA,qBAAA;AA7BF;AA8BE;EACM,qBArDM;EAsDN,qBAAA;AA5BR;;AAgCA;EACE,eAAA;EACA,iBAAA;AA7BF;;AAiCA;EACE,yBAlGS;AAoEX;;AAiCA;EACE,YAvGU;AAyEZ;;AAiCA;EACE,iCAtGuB;AAwEzB;;AAiCA;EACE,oCAzGuB;AA2EzB;;AAiCA;EACE,uBAAA;EACA,qBAAA;AA9BF;;AAgCA;EACE,aAAA;AA7BF;;AAgCA;EACE,yBAAA;AA7BF;;AAkCA;EACE,UAAA;AA/BF;;AAmCC;EACC,iCAAA;EACA,wBAAA;AAhCF;;AAoCA;EACE,sCAAA;AAjCF;;AAoCA;EACE,sCAAA;AAjCF;;AAoCA;EACE,oCAAA;AAjCF;;AAoCA;EACE,sCAAA;AAjCF;;AAqCA;EACE,YAAA;EACA,UAAA;EACA,aAAA;AAlCF","sourcesContent":["//Mixin\r\n@mixin welcomeTextColor {\r\n  color: rgb(189, 69, 33);\r\n}\r\n\r\n@mixin welcomeTextShadow {\r\n  text-shadow: 2px 2px rgb(215, 199, 57);\r\n}\r\n\r\n#mixin-welcome {\r\n  @include welcomeTextColor;\r\n  @include welcomeTextShadow;\r\n   font-size: 76px;\r\n}\r\n\r\n//Colors (use variables)\r\n$blackText: black;\r\n$greyText: rgb(241, 241, 250);\r\n\r\n\r\n//RGBA color variables\r\n$list-group-item-color1: rgb(17, 75, 95);\r\n$list-group-item-color2: rgb(204, 245, 226);\r\n\r\n//Nesting & parent syntax\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n  &:hover {\r\n      color: violet;\r\n  }\r\n}\r\n\r\n//Custom fonts \r\n@font-face {\r\nfont-family:\"ComforterBrush\";\r\nsrc: url(../assets/fonts/Comforter_Brush/ComforterBrush-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"GreatVibes\";\r\n  src: url(../assets/fonts/Great_Vibes/GreatVibes-Regular.ttf); \r\n}\r\n\r\n@font-face {\r\n  font-family:\"OpenSans\";\r\n  src: url(../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf); \r\n}\r\n\r\n//Font variables\r\n$primaryFont: OpenSans;\r\n$secondaryFont: sans-serif;\r\n$h1Font: GreatVibes;\r\n$handwrFont: ComforterBrush;\r\n\r\nbody {\r\n  font-family: $primaryFont;\r\n  background-color: ivory;\r\n  color: rgb(2, 5, 61, 1.0);\r\n  opacity: 1.0;\r\n}\r\n\r\n\r\nh1 {\r\n  font-family: $h1Font;\r\n  font-size: 102;\r\n  font-weight: 400;\r\n  position: relative;\r\n  opacity: 1.0;\r\n}\r\n\r\nh3 {\r\n  color: rgb(2, 31, 2)\r\n}\r\n\r\n.signature {\r\n  font-family: $handwrFont;\r\n  font-size: 50px;\r\n  color: rgb(17, 75, 95);\r\n}\r\n\r\n.bold {\r\n  font-weight: bold;\r\n}\r\n\r\n.blockquote {\r\n    font-size: 20px;\r\n    color: rgb(197, 247, 233)\r\n}\r\n\r\n.blockquote-header {\r\n color: rgb(231, 196, 185);\r\n}\r\n\r\n.blockquote-footer {\r\n    font-size: 15px;\r\n    color: rgb(181, 225, 241)\r\n}\r\n\r\n.modal-style {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n  & h1 {\r\n        font-family: $primaryFont;\r\n        color: rgb(7, 58, 41);\r\n  }\r\n}\r\n\r\n#legend {\r\n  font-size: 16px;\r\n  font-weight: bold;\r\n}\r\n\r\n//Color styles\r\n.list-group-item-text1 {\r\n  color: $greyText;\r\n}\r\n\r\n.list-group-item-text2 {\r\n  color: $blackText;\r\n}\r\n\r\n.list-group-item-color1 { \r\n  background-color: $list-group-item-color1;\r\n}\r\n\r\n.list-group-item-color2 {\r\n  background-color: $list-group-item-color2;\r\n}\r\n\r\na {\r\n  background-color: ivory;\r\n  color: rgb(7, 58, 41);\r\n}\r\na:hover {\r\n  color: violet;\r\n}\r\n\r\n.nav-text {\r\n  color: rgb(181, 225, 241)\r\n}\r\n\r\n\r\n//Opacity\r\n.fullOpacity {\r\n  opacity: 1.0;\r\n}\r\n\r\n//Transform rotate and animate\r\n .animation:hover {\r\n  transform: scale(1) rotate(20deg);\r\n  transition: transform 1s;\r\n}\r\n\r\n//Text-shadow & Box-shadow\r\n.boxShadowUL {\r\n  box-shadow: 30px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.boxShadowLI {\r\n  box-shadow: 25px 20px rgb(189, 69, 33);\r\n}\r\n\r\n.textShadow {\r\n  text-shadow: 1px 1px rgb(84, 80, 80);\r\n}\r\n\r\n.boxShadow {\r\n  box-shadow: 15px 15px rgb(189, 69, 33);\r\n}\r\n\r\n//Alignment\r\n.center {\r\n  margin: auto;\r\n  width: 75%;\r\n  padding: 10px;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -36020,31 +36025,21 @@ function Contact() {
     onSubmit: _modules_email_handleSubmitEmail_js__WEBPACK_IMPORTED_MODULE_1__.handleSubmitEmail
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, "Contact Type"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+  }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("fieldset", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("legend", {
+    id: "legend"
+  }, "Contact Type"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
     type: "radio",
     id: "individual",
     name: "Contact Type",
     className: "p-2",
-    "data-bs-title": "Select this button if you represent an invidual.",
-    "data-bs-toggle": "tooltip"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "individual"
-  }, "Individual"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    "aria-label": "Individual"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Individual"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
     type: "radio",
     id: "company",
     name: "Contact Type",
     className: "p-2 ms-2",
-    "data-bs-title": "Select this button if you represent an organization.",
-    "data-bs-toggle": "tooltip"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "company"
-  }, "Company"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    "aria-label": "Company"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Company"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row cols-2 p-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col"
@@ -36856,27 +36851,21 @@ function ScheduleFreeConsultation() {
     onSubmit: _modules_call_handleSubmitCall_js__WEBPACK_IMPORTED_MODULE_1__.handleSubmitCall
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, "Contact Type"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+  }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("fieldset", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("legend", {
+    id: "legend"
+  }, "Contact Type"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
     type: "radio",
     id: "individual",
     name: "Contact Type",
-    className: "p-2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "individual"
-  }, "Individual"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    className: "p-2",
+    "aria-label": "Individual"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Individual"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
     type: "radio",
     id: "company",
     name: "Contact Type",
-    className: "p-2 ms-2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "company"
-  }, "Company"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "p-2 ms-2",
+    "aria-label": "Company"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Company"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col"
@@ -36885,7 +36874,7 @@ function ScheduleFreeConsultation() {
       fontWeight: "bold"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "contactName"
+    htmlFor: "contactEmail"
   }, "Contact Name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
     required: true,
     type: "text",

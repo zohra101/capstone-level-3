@@ -24,28 +24,26 @@ export function Contact() {
 						id="outputTag"
 						onSubmit={handleSubmitEmail}>
 						<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2">
-							<div className="col">
-								<span style={{ fontWeight: "bold" }}>Contact Type</span>
-								<br />
+							{" "}
+							<fieldset>
+								<legend id="legend">Contact Type</legend>
 								<input
 									type="radio"
 									id="individual"
 									name="Contact Type"
 									className="p-2"
-									data-bs-title="Select this button if you represent an invidual."
-									data-bs-toggle="tooltip"
+									aria-label="Individual"
 								/>
-								<label htmlFor="individual">Individual</label>
+								<span> Individual</span>
 								<input
 									type="radio"
 									id="company"
 									name="Contact Type"
 									className="p-2 ms-2"
-									data-bs-title="Select this button if you represent an organization."
-									data-bs-toggle="tooltip"
+									aria-label="Company"
 								/>
-								<label htmlFor="company">Company</label>
-							</div>
+								<span> Company</span>
+							</fieldset>
 						</div>
 						<div className="row cols-2 p-2">
 							<div className="col">
