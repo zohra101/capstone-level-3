@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { HandleQuoteOfTheDay } from "./HandleQuoteOfTheDay.js";
 import { ServicesListGroup } from "../Views/ServicesListGroup.js";
-import "../Views/index.scss";
+import "../../src/index.scss";
 
 
 export function Home() {

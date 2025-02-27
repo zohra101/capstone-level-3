@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { handleSubmitCall } from "../modules/call/handleSubmitCall.js";
-import "../Views/index.scss";
+import "../../src/index.scss";
 
 export function ScheduleFreeConsultation() {
 	const [didMount, setDidMount] = useState(false);

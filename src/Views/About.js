@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import alexHoli from "../../assets/images/alex.png";
-import "../Views/index.scss";
+import "../../src/index.scss";
 
 export function About() {
 	const [didMount, setDidMount] = useState(false);
