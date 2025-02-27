@@ -35825,17 +35825,25 @@ function About() {
     className: "container ms-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     id: "aboutSite",
     className: "emphasis newSection"
-  }, "About this website", " ")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, "About this website", " "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I created this website using CSS, HTML, and JavaScript, storing my code in GitHub and using VS Code for coding and debugging. For CSS, I used a mix of Bootstrap, an external sheet for the resume page, and internal styles. Very few elenents have inline styles, to make maintenance and updates easier and more efficient."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "For the resume page, I used an external style sheet instead of Bootstrap to have more selection of colors. I designed the PDF version of the resume using Adobe InDesign.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 border"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I created this website using CSS, HTML, and JavaScript, storing my code in GitHub and using VS Code for coding and debugging. For CSS, I used a mix of Bootstrap, an external sheet for the resume page, and internal styles. Very few elenents have inline styles, to make maintenance and updates easier and more efficient."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "For the resume page, I used an external style sheet instead of Bootstrap to have more selection of colors. I designed the PDF version of the resume using Adobe InDesign."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     id: "aboutMe"
-  }, "About me"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col border"
+  }, "About me"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row row-cols-2 "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _assets_images_alex_png__WEBPACK_IMPORTED_MODULE_1__,
     alt: "alex",
@@ -35844,7 +35852,7 @@ function About() {
     },
     className: "ms-3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col border"
+    className: "col "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "During high school (in New Jersey), my dad wanted to buy me a really big present. \"Do you want a computer like your cousins? Or something else?\" And so began my war between art and computing. A writer since third grade, I served as the co-editor-in-chief of both the school paper and yearbook (thankfully, not in the same year!) and graduated with both journalism and programming classes. At university, I dropped computer science because debugging made me miserable. I had more fun around books, old things, and people so after a very brief fling with finance, I majored in English and Italian language and literature, with a minor in Mediaeval Studies focused on European history. (Yes, I am less or more a member of the SCA.)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "What can you do with an English degree? Almost anything! After selling computers and office machines at Sears, I joined inbound sales and then technical supoort at a call center, until the company went out of business. On a sales force automation help desk, supporting CRM software and equipment for biotech and pharma sales representatives, I trainied new techs and wrote a lot of SOPs. Working directly with both clients and technical staff gave me unparalleled insight into the needs of users of different literacy levels (computer and verbal), backgrounds, experiences, and goals."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Have you tried explaining that after being on the phone all day, talking on the phone is the last thing you want to do? Yeah, only someone who has done it understands. Hoping an advanced degree would improve my social life, I researched programs in communications, creative writing, and Italian, and came across technical writing. Realizing this field could stop the war, combining my loves for literature and technology, plus allow more energy for people outside work, I enrolled in a fantastic certificate program at the New Jersey Institute of Technology, and rolled right into the Master's."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Computer-based training, knowledge management, and user-centered design research completed, I escaped the snow by moving to Baton Rouge, LA, to become a business intelligence developer. (You read that correctly, not a technical writer.) I always liked tinkering with databases, and spent work breaks with accountants and data analysts, so why not? When the BI team moved under the Application Development umbrella, developers and managers alike were excited to acquire a technical writer to take over documenting the software they produced. I've been at least a part-time technical writer in every role I've held since.")))));
   function componentDidMount() {
     setDidMount(true);

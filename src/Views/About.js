@@ -13,30 +13,37 @@ export function About() {
 		<main className="p-1">
 			<div className="container ms-2">
 				<div className="row row-cols-2 row-cols-md-2 row-cols-lg-2">
-					<h3
-						id="aboutSite"
-						className="emphasis newSection">
-						About this website{" "}
-					</h3>
+					<div className="col ">
+						<h3
+							id="aboutSite"
+							className="emphasis newSection">
+							About this website{" "}
+						</h3>
+					</div>
 				</div>
 				<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
-					<p>
-						I created this website using CSS, HTML, and JavaScript, storing my
-						code in GitHub and using VS Code for coding and debugging. For CSS,
-						I used a mix of Bootstrap, an external sheet for the resume page,
-						and internal styles. Very few elenents have inline styles, to make
-						maintenance and updates easier and more efficient.
-					</p>
-					<p>
-						For the resume page, I used an external style sheet instead of
-						Bootstrap to have more selection of colors. I designed the PDF
-						version of the resume using Adobe InDesign.
-					</p>
+					<div className="col ">
+						<p>
+							I created this website using CSS, HTML, and JavaScript, storing my
+							code in GitHub and using VS Code for coding and debugging. For
+							CSS, I used a mix of Bootstrap, an external sheet for the resume
+							page, and internal styles. Very few elenents have inline styles,
+							to make maintenance and updates easier and more efficient.
+						</p>
+						<p>
+							For the resume page, I used an external style sheet instead of
+							Bootstrap to have more selection of colors. I designed the PDF
+							version of the resume using Adobe InDesign.
+						</p>
+					</div>
 				</div>
-
-				<div className="row row-cols-2 border">
-					<h3 id="aboutMe">About me</h3>
-					<div className="col border">
+				<div className="row row-cols-2 row-cols-md-2 row-cols-lg-2">
+					<div className="col ">
+						<h3 id="aboutMe">About me</h3>
+					</div>
+				</div>
+				<div className="row row-cols-2 ">
+					<div className="col ">
 						<img
 							src={alexHoli}
 							alt="alex"
@@ -44,7 +51,7 @@ export function About() {
 							className="ms-3"
 						/>
 					</div>
-					<div className="col border">
+					<div className="col ">
 						<p>
 							During high school (in New Jersey), my dad wanted to buy me a
 							really big present. "Do you want a computer like your cousins? Or
