@@ -16,20 +16,19 @@ export function Home() {
 	console.log(`Domain: ${domain} Port: ${port}`);
 
 	return (
-			<main id="homeMain">
-				<h1
-					id="mixin-welcome"
-					className="m-2">
-					Welcome
-				</h1>
-				<h3>
-				
-				</h3>
-				<HandleQuoteOfTheDay />
-				<div className="container m-3">
-					<div
-						id="homeIntro"
-						className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+		<main id="homeMain">
+			<h1
+				id="mixin-welcome"
+				className="m-2">
+				Welcome
+			</h1>
+			<h3></h3>
+			<HandleQuoteOfTheDay />
+			<div className="container m-3">
+				<div
+					id="homeIntro"
+					className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+					<div className="col">
 						<p>
 							Hi, I'm Alex Marjanovic, a technical communicator based out of
 							Baton Rouge, LA. Originally from New Jersey, I moved south to
@@ -57,13 +56,11 @@ export function Home() {
 						</p>
 					</div>
 				</div>
-				<div className="container m-3">
-					<div
-						id="homeHelp"
-						className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+				<div
+					id="homeHelp"
+					className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+					<div className="col">
 						<h3>How I can help</h3>
-					</div>
-					<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
 						<p>
 							I'm a specialist at translating technology: creating and
 							delivering information concisely, clearly, and effectively.
@@ -88,12 +85,10 @@ export function Home() {
 							development, and state government.
 						</p>
 					</div>
-					<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+				</div>
+				<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+					<div className="col">
 						<h3>Services</h3>
-					</div>
-					<div
-						id="homeServices"
-						className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
 						<p>
 							Whether it's writing user manuals, creating process documentation,
 							developing training materials, or editing help files, I ensure
@@ -102,10 +97,16 @@ export function Home() {
 							scope, and estimated time for completion.
 						</p>
 					</div>
-
-					<ServicesListGroup />
-
-					<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+				</div>
+				<div
+					id="homeServices"
+					className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+					<div className="col">
+						<ServicesListGroup />
+					</div>
+				</div>
+				<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+					<div className="col">
 						<p>
 							If my services seem like a good fit for your organization, please{" "}
 							<a href="contact.html#sendMessage">send a message</a> using the
@@ -115,7 +116,8 @@ export function Home() {
 						<h2 className="signature ms-4 mt-2">Alex Marjanovic</h2>
 					</div>
 				</div>
-			</main>
+			</div>
+		</main>
 	);
 
 	function componentDidMount() {
