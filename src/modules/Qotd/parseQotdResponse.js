@@ -5,7 +5,7 @@ export function parseQotdResponse(resolveValue) {
 	let quote = "";
 	let author = "";
 
-	const response = JSON.parse(resolveValue); //Parse the JSON string\
+	const response = JSON.parse(resolveValue); //Parse the JSON string
 	const quoteData = response.quote; //Access the quote object that contains the quote data
 
 	quote = quoteData.body; //Access the property that contains the quote text
