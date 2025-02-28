@@ -19,7 +19,7 @@ export default {
 		],
 	},
 	watch: true, //WATCH FOR CHANGES. PRESS CTRL+C TO CANCEL WATCH.
-	watchOptions: { aggregateTimeout: 1000 }, //GIVING WEBPACK MORE TIME TO COMPILE PREVENTS BUILD ERRORS
+	watchOptions: { aggregateTimeout: 3000 }, //GIVING WEBPACK MORE TIME TO COMPILE PREVENTS BUILD ERRORS
 	mode: "development", //SET TO DEVELOPMENT MODE NOT PRODUCTION
 	devtool: "source-map", //ENABLES THE DEBUGGER CODE TO MATCH ACTUAL CODE
 };

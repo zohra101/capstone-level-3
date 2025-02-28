@@ -8,12 +8,8 @@ export function Home() {
 	const [didMount, setDidMount] = useState(false);
 
 	useEffect(componentDidMount, []);
-	useEffect(componentDidUpdate);
+	useEffect(componentDidUpdate, [didMount]);
 	useEffect(componentDidUnmount, []);
-
-	const domain = window.location.hostname;
-	const port = window.location.port;
-	console.log(`Domain: ${domain} Port: ${port}`);
 
 	return (
 		<main id="homeMain">

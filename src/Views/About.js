@@ -13,7 +13,7 @@ export function About() {
 		<main className="p-1">
 			<div className="container ms-2">
 				<div className="row row-cols-2 row-cols-md-2 row-cols-lg-2">
-					<div className="col ">
+					<div className="col">
 						<h3
 							id="aboutSite"
 							className="emphasis newSection">
@@ -22,7 +22,7 @@ export function About() {
 					</div>
 				</div>
 				<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
-					<div className="col ">
+					<div className="col">
 						<p>
 							I created this website using CSS, HTML, and JavaScript, storing my
 							code in GitHub and using VS Code for coding and debugging. For
@@ -38,12 +38,12 @@ export function About() {
 					</div>
 				</div>
 				<div className="row row-cols-2 row-cols-md-2 row-cols-lg-2">
-					<div className="col ">
+					<div className="col">
 						<h3 id="aboutMe">About me</h3>
 					</div>
 				</div>
 				<div className="row row-cols-2 ">
-					<div className="col ">
+					<div className="col">
 						<img
 							src={alexHoli}
 							alt="alex"
@@ -51,7 +51,7 @@ export function About() {
 							className="ms-3"
 						/>
 					</div>
-					<div className="col ">
+					<div className="col">
 						<p>
 							During high school (in New Jersey), my dad wanted to buy me a
 							really big present. "Do you want a computer like your cousins? Or

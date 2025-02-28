@@ -25,6 +25,6 @@ export async function authenticationAws(email = "", password = "") {
         console.log("User not found.")
         return false; //Handle user not found
     }
-	const isAuthenticated = (password = matchingLogin.password);
+	const isAuthenticated = (password === matchingLogin.password);
 	return isAuthenticated;
 }
