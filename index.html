@@ -2,126 +2,22 @@
 <html lang="en">
 
 <head>
-  <title>Alex Marjanovic Technical Communicator Home</title>
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <!-- External CSS -->
-  <link href="../css/index.css" rel="stylesheet">
-  <!-- JavaScript Modules -->
-  <script src="./utils/output.js" type="module"></script>
-  <script src="./controllers/handleQuoteOfTheDay.js" type="module"></script>
+    <title id="titleTag"></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </link>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js">
+    </script>
+    <script src="./dist/main.js" defer> </script>
 </head>
 
-<body class="p-3">
-  <header>
-    <nav class="nav nav-tabs">
-      <a class="nav-link active bg-dark text-light" href="index.html">Home</a>
-      <a class="nav-link" href="portfolio.html">Portfolio</a>
-      <a class="nav-link" href="resume.html">Resume</a>
-      <a class="nav-link" href="send-email.html">Send Email</a>
-      <a class="nav-link" href="schedule-call.html">Schedule</a>
-      <a class="nav-link" href="about.html">About</a>
-    </nav>
-    <div>
-      <img alt="siteHeader" width="100%" src="assets\images\siteHeader_4kp_rev2.png"/>
-      <br>
-    </div>
-    <div>
-      <a class="ms-2" href="https://www.linkedin.com/in/alexmarjanovic">
-        <img alt="LinkedIn" style="height:40px; width: 40px" src="assets\icons\icon_linkedin.png" /></a>
-      <a href="contact.html#sendMessage">
-        <img alt="email" style="height:30px; width: 30px" src="assets\images\email_coral.png" /></a>
-    </div>
-    <hr />
-  </header>
-  <main>
-   <br> <br>
-   <div>
-    <h1 id="mixin-welcome">Welcome</h1> 
-   </div>
-   <div class="p-3">
-      <button class="animation btn btn-outline-dark" onclick="handleQuoteOfTheDay()">Quote of the Day</button><br><br>
-      <div id="QotdTag"></div>
-   </div>
-    <div class="container m-2 bg-image">
-      <div class="row">
-        <p>Hi, I'm Alex Marjanovic, a technical communicator based out of Baton Rouge, LA. Originally from New Jersey, I
-        moved south to escape the cold and snow, after completing my Master's in Professional and Technical
-        Communiction at the New Jersey Institute for Technology (NJIT).</p>
-        <p>I started as a technical writer by documenting the standard operating procedures for the technical support
-        and help desk teams on which I served, which reminded me that I not only enjoy writing and design but also
-        excel. I've also been a video game beta tester, translator, business intelligence developer, business analyst,
-        quality assurance tester, project manager, content writer, transaction developer/implementation specialist,
-        and editor.</p>
-        <p>In software development specifically, technical communication services are vital for ensuring that complex
-        technical information is accessible to both technical and non-technical audiences, thereby improving user
-        satisfaction and reducing the need for support. But the benefits of clear and effective communication apply to
-        any industry.</p></div>
-      <br>
-    </div>
-    <div class="container m-2">
-      <div class="row">
-        <h3>How I can help</h3>
-      </div>
-      <div class="row">
-        <p>
-          I'm a specialist at translating technology: creating and delivering
-          information concisely, clearly, and effectively. Bridging the gap
-          between end users and technical experts, primarily I create <a href="portfolio.html#helpFile">help files</a>,
-          design <a href="portfolio.html#adminGuide">administrator and user guides</a>, and write <a
-            href="portfolio.html#manual">manuals</a> that explain how to use
-          products or services. In addition to writing the content, I also carefully select
-          or create visual aids (charts, diagrams, screenshots, etc.) that help
-          readers understand the information presented.
-        </p>
-        <p>During my career in information techonology, I've worked for and with organizations in the following
-          industries: retail, mail-order, biotechnology and pharamceutical services, construction and engineering, loan
-          origination, software development, and state government.</p>
-      </div>
-      <div class="row"> 
-        <h3>Services</h3></div> 
-      <div class="row">
-        <p>Whether it's writing user manuals, creating process documentation, developing training materials, or editing
-          help files, I ensure that content is accessible and tailored to your audience's needs. Rates are per hour or
-          per project depending on the complexity, scope, and estimated time for completion.</p>
-      </div>
-      <div>
-        <output id="servicesListGroupTag"></output>
-        <script src="./controllers/servicesListGroup.js" type="module"></script>
-      </div>
-    </div>
-      <br>
-      <br><br>
-      <div class="row m-2">
-        <p>If my services seem like a good fit for your organization, please <a href="contact.html#sendMessage">send a
-            message</a> using the Contact form. </p>
-        <p>Thanks for visiting!</p><br>
-        <h2 class="signature">Alex Marjanovic</h2>
-      </div>
-    </div>
-  </main>
-  <hr />
-  <footer>
-    <div class="m-5"> <b>Sitemap</b>
-      <p>
-        <a href="index.html">Home</a><br>
-        <a href="portfolio.html">Portfolio</a><br>
-        <a href="resume.html">Resume</a><br>
-        <a href="contact.html">Contact</a><br>
-        <a href="about.html">About</a>
-      </p>
-    </div>
-    <div>
-      <hr />
-    </div>
-    <div> 2024
-      <img width="15px"
-      src="/assets/icons/copyright_cGainsboro_nobg.png"/>
-      Aleksandra Marjanovic
-    </div>
-  </footer>
+<body id="bodyTag">
 </body>
 
 </html>
