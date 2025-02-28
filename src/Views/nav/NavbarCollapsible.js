@@ -59,7 +59,7 @@ export function NavbarCollapsible() {
 					className="collapse navbar-collapse"
 					id="navbarNavAltMarkup">
 					<div className="navbar-nav">
-						<NavLink
+						<NavLink end
 							className="nav-link nav-text"
 							aria-current="page"
 							to={`${rootPath}/`}>
