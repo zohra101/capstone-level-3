@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router";
-import { getRootPath } from "../utils/getRootPath.js";
+import { getRootPath } from "../../utils/getRootPath.js";
 import linkedInIcon from "../../assets/icons/icon_linkedin.png";
 import emailIcon from "../../assets/icons/icon_email_coral.png";
-import { SignInArea } from "./SignInArea.js";
+import { SignInArea } from "../SignInArea.js";
 
 export function NavbarCollapsible() {
 	const rootPath = getRootPath();

@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { HandleQuoteOfTheDay } from "./HandleQuoteOfTheDay.js";
-import { ServicesListGroup } from "../Views/ServicesListGroup.js";
+import { ServicesListGroup } from "./ServicesListGroup.js";
 import "../../src/index.scss";
-
 
 export function Home() {
 	const [didMount, setDidMount] = useState(false);
@@ -15,7 +14,8 @@ export function Home() {
 		<main id="homeMain">
 			<h1
 				id="mixin-welcome"
-				className="m-2">
+				className="m-2"
+			>
 				Welcome
 			</h1>
 			<h3></h3>
@@ -23,7 +23,8 @@ export function Home() {
 			<div className="container m-3">
 				<div
 					id="homeIntro"
-					className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+					className="row row-cols-2 row-cols-md-1 row-cols-lg-1"
+				>
 					<div className="col">
 						<p>
 							Hi, I'm Alex Marjanovic, a technical communicator based out of
@@ -54,7 +55,8 @@ export function Home() {
 				</div>
 				<div
 					id="homeHelp"
-					className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+					className="row row-cols-2 row-cols-md-1 row-cols-lg-1"
+				>
 					<div className="col">
 						<h3>How I can help</h3>
 						<p>
@@ -96,7 +98,8 @@ export function Home() {
 				</div>
 				<div
 					id="homeServices"
-					className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+					className="row row-cols-2 row-cols-md-1 row-cols-lg-1"
+				>
 					<div className="col">
 						<ServicesListGroup />
 					</div>
@@ -129,7 +132,7 @@ export function Home() {
 	}
 
 	function componentDidUnmount() {
-		return ()=> {
+		return () => {
 			console.log("The Home component unmounted.");
 		};
 	}

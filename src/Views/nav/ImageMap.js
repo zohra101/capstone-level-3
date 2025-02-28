@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import siteHeader from "../../assets/images/siteHeader_4kp_rev2.png";
 import { useNavigate } from "react-router";
-import { getRootPath } from "../utils/getRootPath.js";
+import { getRootPath } from "../../utils/getRootPath.js";
 
 export function ImageMap() {
 	const navigateTo = useNavigate(); //Allow function to access BrowserRouter
@@ -26,12 +26,14 @@ export function ImageMap() {
 					title="portfolio"
 					coords="634,305,382"
 					shape="circle"
-					onClick={() => navigateTo(`${rootPath}/portfolio`)}></area>
+					onClick={() => navigateTo(`${rootPath}/portfolio`)}
+				></area>
 				<area
 					title="contact"
 					coords="2851,294,300"
 					shape="circle"
-					onClick={() => navigateTo(`${rootPath}/contact`)}></area>
+					onClick={() => navigateTo(`${rootPath}/contact`)}
+				></area>
 			</map>
 		</div>
 	);

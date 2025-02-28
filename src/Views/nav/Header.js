@@ -3,7 +3,6 @@ import siteHeader from "../../assets/images/siteHeader_4kp_rev2.png";
 import { NavbarCollapsible } from "./NavbarCollapsible.js";
 import { ImageMap } from "./ImageMap.js";
 
-
 export function Header() {
 	return (
 		<header>
@@ -17,7 +16,7 @@ export function Header() {
 					className="pb-4"
 				/>
 			</div> */}
-			<ImageMap/>
+			<ImageMap />
 		</header>
 	);
 }

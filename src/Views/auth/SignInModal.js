@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { SignInContent } from "../Views/SignInContent.js";
-import { handleSignInAttempt } from "../controllers/handleSignInAttempt.js";
+import { handleSignInAttempt } from "../../controllers/handleSignInAttempt.js";
 
 export function SignInModal(props) {
 	const onSignIn = props.onSignIn;
