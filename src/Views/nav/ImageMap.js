@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import siteHeader from "../../assets/images/siteHeader_4kp_rev2.png";
+import siteHeader from "../../../assets/images/siteHeader_4kp_rev2.png";
 import { useNavigate } from "react-router";
 import { getRootPath } from "../../utils/getRootPath.js";
 

@@ -1,5 +1,5 @@
 import React from "react";
-import copyright from "../../assets/icons/copyright_cGainsboro_nobg.png";
+import copyright from "../../../assets/icons/copyright_cGainsboro_nobg.png";
 
 export function Footer() {
 	return (

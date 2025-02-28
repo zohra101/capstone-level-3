@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { SignInModal } from "./SignInModal.js";
-import { SignOutModal } from "./SignOutModal.js";
+import { SignInModal } from "../auth/SignInModal.js";
+import { SignOutModal } from "../auth/SignOutModal.js";
 
 export function SignInArea() {
 	const [button, setButton] = useState(<></>);
