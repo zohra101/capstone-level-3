@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Alex Marjanovic Technical Communicator Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="utility-functions.js"></script>
+    <style>
+      body {background-color: ivory;}
+      .inputs {width: 35%}
+    </style>
+</head>
+
+//  function bootstrapCard(card) {  
+  //    //declare cardString variable that outputs HTML with Bootstrap CSS and pulls card data from an array
+  //    const cardString = `<div class="card m-4 p-4 bg-dark text-light">
+  //                             <img class="card-img-top" 
+  //                                 id="${card.id}"
+  //                              <div class="card-body">
+  //                                 <h5 class="card-title p-1">${card.title}</h5>
+  //                                 <p class="card-text p-1">${card.description}</p>
+  //                                 <a class="card-text p-1" href="${card.form}" target="_blank">${card.linkName}</a>
+  //                             </div>
+  //                         </div>`;
+  //     return cardString;
+  
+
+  
+<body class="p-3">
+  <header>
+      <nav class="nav nav-tabs">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+        <a class="nav-link" href="resume.html">Resume</a>
+        <a class="nav-link active bg-dark text-light" href="send-email.html">Contact</a>
+        <a class="nav-link" href="about.html">About</a>
+      </nav>
+    <img alt="siteHeader" width="100%" src="assets\images\siteHeader_4kp_rev2.png" />
+  </header>
+  <main>
+    <div class="container m-3">
+      <div class="row ">
+        <div class="width:50% alert alert-warning alert-dismissible">
+          <span class="spinner-grow spinner-grow-sm"></span>
+          <strong>Warning!</strong> This page is still under construction; submissions are currently disabled.
+          <button class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+        <h3 id="sendMessage">Send an email</h3>
+       <p> If you have any questions about my services, please fill out and submit the form below.</p>
+        </div>
+        <div class="container ms-3">
+          <form id="outputTag">
+            <div class="row p-2">
+              <div class="col">
+                <span style="font-weight:bold;">Contact Type</span><br>
+                <input type="radio" id="individual" name="Contact Type" class="p-2"/>   
+                <label for="individual">Individual</label>
+                <input type="radio" id="company" name="Contact Type" class="p-2 ms-2"/> 
+                <label for="company">Company</label>
+              </div>
+            </div>
+            <div class="row p-2">
+              <div class="col">
+                <span style="font-weight:bold;"><label for="contactName">Contact Name</label><br></span> 
+                <input type="text" id="contactName" class="inputs" placeholder="First Last"/>
+              </div>
+            </div>
+            <div class="row p-2">
+              <div class="col">
+                <span style="font-weight:bold;"><label for="contactEmail">Contact Email</label><br></span> 
+                <input type="text" id="contactEmail" class="inputs" placeholder="address@domain.com"/>
+              </div>
+            </div>
+            <div class="row p-2">
+              <div class="col">
+                <span style="font-weight:bold;"><label for="contactPhone">Contact Phone</label><br></span> 
+                <input type="text" id="contactPhone" class="inputs" placeholder="5555555555"/>
+              </div>
+            </div>
+            <div class="row p-2">
+              <div class="col">
+                <span style="font-weight:bold;"><label for="userMessage">Message</label><br></span> 
+                <textarea id="userMessage" class="inputs" placeholder="Enter your message here."></textarea>
+              </div>
+            </div>
+            <div class="row p-2">
+              <div class="col">
+                <!-- CALLS A FUNCTION THAT DISPLAYS A MESSAGE WHEN THE SUBMIT BUTTON IS CLICKED -->
+                <button class="btn btn-dark" onclick="displaySentMessage()">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+    </div>
+
+  <div id="message"></div>
+  <br />
+  <hr>
+  </main>
+
+  <footer>
+    <div class="m-5"> <b>Sitemap</b>
+      <p>
+        <a href="index.html">Home</a><br>
+        <a href="portfolio.html">Portfolio</a><br>
+        <a href="resume.html">Resume</a><br>
+        <a href="contact.html">Contact</a><br>
+        <a href="about.html">About</a>
+      </p>
+    </div>
+    <div>
+      <hr />
+    </div>
+    <div> 2024
+      <img width="15px"
+      src="/assets/icons/copyright_cGainsboro_nobg.png" />
+      Aleksandra Marjanovic
+    </div>
+  </footer>
+</body>
+
+</html>
