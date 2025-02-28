@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import { Navbar } from "../Views/Navbar.js";
 
@@ -16,6 +17,33 @@ export function About() {
 					</div>
 					<div class="row">
 						{" "}
+=======
+import React, { useEffect, useState } from "react";
+import alexHoli from "../../assets/images/alex.png";
+import "../../src/index.scss";
+
+export function About() {
+	const [didMount, setDidMount] = useState(false);
+
+	useEffect(componentDidMount, []);
+	useEffect(componentDidUpdate);
+	useEffect(componentDidUnmount, []);
+
+	return (
+		<main className="p-1">
+			<div className="container ms-2">
+				<div className="row row-cols-1 row-cols-md-1 row-cols-lg-1">
+					<div className="col">
+						<h3
+							id="aboutSite"
+							className="emphasis newSection">
+							About this website{" "}
+						</h3>
+					</div>
+				</div>
+				<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+					<div className="col">
+>>>>>>> main
 						<p>
 							I created this website using CSS, HTML, and JavaScript, storing my
 							code in GitHub and using VS Code for coding and debugging. For
@@ -30,6 +58,7 @@ export function About() {
 						</p>
 					</div>
 				</div>
+<<<<<<< HEAD
 				<div class="row ms-2">
 					<h3 id="aboutMe">About me</h3>
 					<div class="col">
@@ -40,6 +69,23 @@ export function About() {
 						/>
 					</div>
 					<div class="col align-items-start">
+=======
+				<div className="row row-cols-2 row-cols-md-2 row-cols-lg-2">
+					<div className="col">
+						<h3 id="aboutMe">About me</h3>
+					</div>
+				</div>
+				<div className="row row-cols-2 ">
+					<div className="col">
+						<img
+							src={alexHoli}
+							alt="alex"
+							style={{ width: "75%" }}
+							className="ms-3"
+						/>
+					</div>
+					<div className="col">
+>>>>>>> main
 						<p>
 							During high school (in New Jersey), my dad wanted to buy me a
 							really big present. "Do you want a computer like your cousins? Or
@@ -92,7 +138,31 @@ export function About() {
 						</p>
 					</div>
 				</div>
+<<<<<<< HEAD
 			</main>
 		</>
 	);
+=======
+			</div>
+		</main>
+	);
+
+	function componentDidMount() {
+		setDidMount(true);
+		console.log("The About component mounted.");
+
+		const titleTag = document.getElementById("titleTag");
+		titleTag.innerHTML = "Alex M - About";
+	}
+
+	function componentDidUpdate() {
+		if (didMount) console.log("The About component updated.");
+	}
+
+	function componentDidUnmount() {
+		return function displayMessage() {
+			console.log("The About component unmounted.");
+		};
+	}
+>>>>>>> main
 }
