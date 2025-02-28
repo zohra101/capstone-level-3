@@ -34961,9 +34961,9 @@ function validate(uuid) {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/alexresume.scss":
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/AlexResume.scss":
 /*!****************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/alexresume.scss ***!
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/AlexResume.scss ***!
   \****************************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -35030,7 +35030,7 @@ ul {
   color: #191970;
   width: 85%;
   margin: 15px;
-}`, "",{"version":3,"sources":["webpack://./src/Views/alexresume.scss"],"names":[],"mappings":"AACA;EACE,eAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AAAF;;AAGA;EACE,eAAA;EACA,cAAA;EACA,iBAAA;AAAF;;AAGA;;;;;;;GAAA;AASA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AADF","sourcesContent":["\r\nh2 {\r\n  font-size: 25px;\r\n  color: #CD5C5C;\r\n  margin: 15px;\r\n}\r\n\r\nh3 {\r\n  text-align: left;\r\n  font-size: 20px;\r\n  color: #228B22;\r\n  margin: 15px;\r\n}\r\n\r\nh4 {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  margin: 15px;\r\n}\r\n\r\np {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  margin: 15px;\r\n}\r\n\r\n#skill {\r\n  font-size: 15px;\r\n  color: #008B8B;\r\n  font-weight: bold;\r\n}\r\n\r\n/* a {\r\n  text-align: left;\r\n  font-family: \"Helvetica\", sans-serif;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  padding: 5px;\r\n} */\r\n\r\nul {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 85%;\r\n  margin: 15px;\r\n}\r\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/Views/AlexResume.scss"],"names":[],"mappings":"AACA;EACE,eAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AAAF;;AAGA;EACE,eAAA;EACA,cAAA;EACA,iBAAA;AAAF;;AAGA;;;;;;;GAAA;AASA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AADF","sourcesContent":["\r\nh2 {\r\n  font-size: 25px;\r\n  color: #CD5C5C;\r\n  margin: 15px;\r\n}\r\n\r\nh3 {\r\n  text-align: left;\r\n  font-size: 20px;\r\n  color: #228B22;\r\n  margin: 15px;\r\n}\r\n\r\nh4 {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  margin: 15px;\r\n}\r\n\r\np {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  margin: 15px;\r\n}\r\n\r\n#skill {\r\n  font-size: 15px;\r\n  color: #008B8B;\r\n  font-weight: bold;\r\n}\r\n\r\n/* a {\r\n  text-align: left;\r\n  font-family: \"Helvetica\", sans-serif;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  padding: 5px;\r\n} */\r\n\r\nul {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 85%;\r\n  margin: 15px;\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -35214,9 +35214,9 @@ a:hover {
 
 /***/ }),
 
-/***/ "./src/Views/alexresume.scss":
+/***/ "./src/Views/AlexResume.scss":
 /*!***********************************!*\
-  !*** ./src/Views/alexresume.scss ***!
+  !*** ./src/Views/AlexResume.scss ***!
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -35237,7 +35237,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./alexresume.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/alexresume.scss");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_AlexResume_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./AlexResume.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/AlexResume.scss");
 
       
       
@@ -35257,12 +35257,12 @@ options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WE
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_AlexResume_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_alexresume_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_AlexResume_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_AlexResume_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_AlexResume_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -35824,26 +35824,26 @@ function About() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container ms-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
+    className: "row row-cols-1 row-cols-md-1 row-cols-lg-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col "
+    className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     id: "aboutSite",
     className: "emphasis newSection"
   }, "About this website", " "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col "
+    className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I created this website using CSS, HTML, and JavaScript, storing my code in GitHub and using VS Code for coding and debugging. For CSS, I used a mix of Bootstrap, an external sheet for the resume page, and internal styles. Very few elenents have inline styles, to make maintenance and updates easier and more efficient."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "For the resume page, I used an external style sheet instead of Bootstrap to have more selection of colors. I designed the PDF version of the resume using Adobe InDesign."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col "
+    className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     id: "aboutMe"
   }, "About me"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 "
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col "
+    className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _assets_images_alex_png__WEBPACK_IMPORTED_MODULE_1__,
     alt: "alex",
@@ -35852,7 +35852,7 @@ function About() {
     },
     className: "ms-3"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col "
+    className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "During high school (in New Jersey), my dad wanted to buy me a really big present. \"Do you want a computer like your cousins? Or something else?\" And so began my war between art and computing. A writer since third grade, I served as the co-editor-in-chief of both the school paper and yearbook (thankfully, not in the same year!) and graduated with both journalism and programming classes. At university, I dropped computer science because debugging made me miserable. I had more fun around books, old things, and people so after a very brief fling with finance, I majored in English and Italian language and literature, with a minor in Mediaeval Studies focused on European history. (Yes, I am less or more a member of the SCA.)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "What can you do with an English degree? Almost anything! After selling computers and office machines at Sears, I joined inbound sales and then technical supoort at a call center, until the company went out of business. On a sales force automation help desk, supporting CRM software and equipment for biotech and pharma sales representatives, I trainied new techs and wrote a lot of SOPs. Working directly with both clients and technical staff gave me unparalleled insight into the needs of users of different literacy levels (computer and verbal), backgrounds, experiences, and goals."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Have you tried explaining that after being on the phone all day, talking on the phone is the last thing you want to do? Yeah, only someone who has done it understands. Hoping an advanced degree would improve my social life, I researched programs in communications, creative writing, and Italian, and came across technical writing. Realizing this field could stop the war, combining my loves for literature and technology, plus allow more energy for people outside work, I enrolled in a fantastic certificate program at the New Jersey Institute of Technology, and rolled right into the Master's."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Computer-based training, knowledge management, and user-centered design research completed, I escaped the snow by moving to Baton Rouge, LA, to become a business intelligence developer. (You read that correctly, not a technical writer.) I always liked tinkering with databases, and spent work breaks with accountants and data analysts, so why not? When the BI team moved under the Application Development umbrella, developers and managers alike were excited to acquire a technical writer to take over documenting the software they produced. I've been at least a part-time technical writer in every role I've held since.")))));
   function componentDidMount() {
     setDidMount(true);
@@ -35884,7 +35884,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   AlexResume: () => (/* binding */ AlexResume)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _Views_alexresume_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Views/alexresume.scss */ "./src/Views/alexresume.scss");
+/* harmony import */ var _Views_AlexResume_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Views/AlexResume.scss */ "./src/Views/AlexResume.scss");
 function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
@@ -35904,9 +35904,11 @@ function AlexResume() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "container ms-0"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "SUMMARY"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Experienced Technical Writer with over 10 years of expertise in transforming complex information into clear, user-friendly documentation that enhances product usability and customer satisfaction.", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "With a sharp eye for detail and a design philosophy centered on clean, intuitive layouts, I enhance user experience while translating complex technology into accessible language; I\u2019m an expert in creating and maintaining documentation standards, help files, policies, procedures, style guides, system manuals, templates, and user guides."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "My strong background in software development, project management, technical support, and training\u2014coupled with excellent communication, analytical, and interpersonal skills\u2014helps me succeed in fostering alignment across teams and in collaborating with subject matter experts and stakeholders.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row"
+    className: "row row-cols-1 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "SUMMARY"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Experienced Technical Writer with over 10 years of expertise in transforming complex information into clear, user-friendly documentation that enhances product usability and customer satisfaction.", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "With a sharp eye for detail and a design philosophy centered on clean, intuitive layouts, I enhance user experience while translating complex technology into accessible language; I\u2019m an expert in creating and maintaining documentation standards, help files, policies, procedures, style guides, system manuals, templates, and user guides."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "My strong background in software development, project management, technical support, and training\u2014coupled with excellent communication, analytical, and interpersonal skills\u2014helps me succeed in fostering alignment across teams and in collaborating with subject matter experts and stakeholders."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "SKILLS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
@@ -35934,7 +35936,7 @@ function AlexResume() {
   }, "Master Writer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "Society for Technical Communication"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     id: "skill"
   }, "A+ and Network+"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "(CompTIA)"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row"
+    className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "EDUCATION"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
@@ -35950,8 +35952,10 @@ function AlexResume() {
   }, "Employee of the Quarter"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "CRIF Lending Solutions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
     id: "skill"
   }, "Garden State Distinguished Scholar"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "State of New Jersey"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "PROFESSIONAL EXPERIENCE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Owner/Technical Writer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", null, " Nivedana Consulting/Freelancer (Remote) | Nov 2014 \u2013 Present"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Blurb"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
+    className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "PROFESSIONAL EXPERIENCE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Owner/Technical Writer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", null, " Nivedana Consulting/Freelancer (Remote) | Nov 2014 \u2013 Present"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Blurb"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
     className: "ms-5"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Enhanced readability of an environmental solutions firm\u2019s IT policies and procedures, including disaster recovery plan, by revising content and layout of 24 documents."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Penned 17 best of, how-to, and review articles on Android and iOS apps for a web magazine."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Implemented communication standards on a wellness company website by composing privacy policy, translating content, and managing ISO code data.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Consultant"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
     href: "https://insightglobal.com/"
@@ -36025,7 +36029,7 @@ function Contact() {
     className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     id: "sendEmail"
-  }, "Send an email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, " ", "If you have any questions about my services, please fill out and submit the form below.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, "Send an email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "If you have any questions about my services, please fill out and submit the form below."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col"
@@ -36034,7 +36038,11 @@ function Contact() {
     onSubmit: _modules_email_handleSubmitEmail_js__WEBPACK_IMPORTED_MODULE_1__.handleSubmitEmail
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("fieldset", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("legend", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("fieldset", {
+    className: "ms-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("legend", {
     id: "legend"
   }, "Contact Type"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
     type: "radio",
@@ -36048,8 +36056,8 @@ function Contact() {
     name: "Contact Type",
     className: "p-2 ms-2",
     "aria-label": "Company"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Company"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row cols-2 p-2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Company")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row row-cols-2 p-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
@@ -36098,7 +36106,7 @@ function Contact() {
     className: "inputs",
     placeholder: "01 5555555555"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row cols-2 p-2"
+    className: "row row-cols-2 p-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
@@ -36122,7 +36130,7 @@ function Contact() {
     id: "spinner"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "outputTag2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null))));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)));
   function componentDidMount() {
     setDidMount(true);
     console.log("The Contact component mounted.");
@@ -36293,7 +36301,7 @@ function HandleRefresh(props) {
       localStorage.setItem("redirect", "");
       setTimeout(function () {
         return setDidMount(true);
-      }, 1000); //Delay the rendering of children if  
+      }, 1000); //Delay the rendering of children if 
     } else setDidMount(true);
   }
 }
@@ -36356,11 +36364,8 @@ function Home() {
     didMount = _useState2[0],
     setDidMount = _useState2[1];
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, [didMount]);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  var domain = window.location.hostname;
-  var port = window.location.port;
-  console.log("Domain: ".concat(domain, " Port: ").concat(port));
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     id: "homeMain"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
@@ -36582,7 +36587,7 @@ function NavbarCollapsible() {
     className: "nav-link nav-text",
     "aria-current": "page",
     to: "".concat(rootPath, "/")
-  }, " ", "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+  }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
     className: "nav-link nav-text",
     to: "".concat(rootPath, "/portfolio")
   }, "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
@@ -36850,7 +36855,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   ScheduleFreeConsultation: () => (/* binding */ ScheduleFreeConsultation)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _modules_call_handleSubmitCall_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/call/handleSubmitCall.js */ "./src/modules/call/handleSubmitCall.js");
+/* harmony import */ var _modules_consultation_handleSubmitCall_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/consultation/handleSubmitCall.js */ "./src/modules/consultation/handleSubmitCall.js");
 /* harmony import */ var _src_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../src/index.scss */ "./src/index.scss");
 function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -36873,16 +36878,24 @@ function ScheduleFreeConsultation() {
     className: "container m-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     id: "scheduleConsult"
-  }, "Schedule a consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, " ", "To schedule a 30-minute free consultation to assess your needs, please complete the form below.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container ms-3"
+  }, "Schedule a consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "To schedule a 30-minute free consultation to assess your needs, please complete the form below."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", {
     id: "outputTag",
-    onSubmit: _modules_call_handleSubmitCall_js__WEBPACK_IMPORTED_MODULE_1__.handleSubmitCall
+    onSubmit: _modules_consultation_handleSubmitCall_js__WEBPACK_IMPORTED_MODULE_1__.handleSubmitCall
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("fieldset", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("legend", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+    className: "col"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("fieldset", {
+    className: "ms-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("legend", {
     id: "legend"
   }, "Contact Type"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
     type: "radio",
@@ -36905,7 +36918,7 @@ function ScheduleFreeConsultation() {
       fontWeight: "bold"
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "contactEmail"
+    htmlFor: "contactName"
   }, "Contact Name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
     required: true,
     type: "text",
@@ -36970,7 +36983,7 @@ function ScheduleFreeConsultation() {
     id: "spinner"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "outputTag2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)));
   function componentDidMount() {
     setDidMount(true);
     console.log("The Consultation component mounted.");
@@ -37411,7 +37424,7 @@ __webpack_require__.r(__webpack_exports__);
 function parseQotdResponse(resolveValue) {
   var quote = "";
   var author = "";
-  var response = JSON.parse(resolveValue); //Parse the JSON string\
+  var response = JSON.parse(resolveValue); //Parse the JSON string
   var quoteData = response.quote; //Access the quote object that contains the quote data
 
   quote = quoteData.body; //Access the property that contains the quote text
@@ -37494,7 +37507,7 @@ function _authenticationAws() {
           console.log("User not found.");
           return _context.abrupt("return", false);
         case 13:
-          isAuthenticated = password = matchingLogin.password;
+          isAuthenticated = password === matchingLogin.password;
           return _context.abrupt("return", isAuthenticated);
         case 15:
         case "end":
@@ -37507,10 +37520,10 @@ function _authenticationAws() {
 
 /***/ }),
 
-/***/ "./src/modules/call/handleSubmitCall.js":
-/*!**********************************************!*\
-  !*** ./src/modules/call/handleSubmitCall.js ***!
-  \**********************************************/
+/***/ "./src/modules/consultation/handleSubmitCall.js":
+/*!******************************************************!*\
+  !*** ./src/modules/consultation/handleSubmitCall.js ***!
+  \******************************************************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
 "use strict";

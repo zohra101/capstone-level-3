@@ -11,31 +11,33 @@ export function AlexResume() {
 	return (
 		<main>
 			<div className="container ms-0">
-				<div className="row">
-					<h2>SUMMARY</h2>
-					<p>
-						Experienced Technical Writer with over 10 years of expertise in
-						transforming complex information into clear, user-friendly
-						documentation that enhances product usability and customer
-						satisfaction.{" "}
-					</p>
-					<p>
-						With a sharp eye for detail and a design philosophy centered on
-						clean, intuitive layouts, I enhance user experience while
-						translating complex technology into accessible language; I’m an
-						expert in creating and maintaining documentation standards, help
-						files, policies, procedures, style guides, system manuals,
-						templates, and user guides.
-					</p>
-					<p>
-						My strong background in software development, project management,
-						technical support, and training—coupled with excellent
-						communication, analytical, and interpersonal skills—helps me succeed
-						in fostering alignment across teams and in collaborating with
-						subject matter experts and stakeholders.
-					</p>
+				<div className="row row-cols-1 row-cols-md-1 row-cols-lg-1">
+					<div className="col">
+						<h2>SUMMARY</h2>
+						<p>
+							Experienced Technical Writer with over 10 years of expertise in
+							transforming complex information into clear, user-friendly
+							documentation that enhances product usability and customer
+							satisfaction.{" "}
+						</p>
+						<p>
+							With a sharp eye for detail and a design philosophy centered on
+							clean, intuitive layouts, I enhance user experience while
+							translating complex technology into accessible language; I’m an
+							expert in creating and maintaining documentation standards, help
+							files, policies, procedures, style guides, system manuals,
+							templates, and user guides.
+						</p>
+						<p>
+							My strong background in software development, project management,
+							technical support, and training—coupled with excellent
+							communication, analytical, and interpersonal skills—helps me
+							succeed in fostering alignment across teams and in collaborating
+							with subject matter experts and stakeholders.
+						</p>
+					</div>
 				</div>
-				<div className="row">
+				<div className="row row-cols-2 row-cols-md-2 row-cols-lg-2">
 					<div className="col">
 						<h2>SKILLS</h2>
 						<p>
@@ -97,7 +99,7 @@ export function AlexResume() {
 						</p>
 					</div>
 				</div>
-				<div className="row">
+				<div className="row row-cols-2 row-cols-md-2 row-cols-lg-2">
 					<div className="col">
 						<h2>EDUCATION</h2>
 						<p>
@@ -143,7 +145,8 @@ export function AlexResume() {
 						</p>
 					</div>
 				</div>
-				<div className="row">
+				<div className="row row-cols-2 row-cols-md-2 row-cols-lg-2">
+						<div className="col"></div>
 					<h2>PROFESSIONAL EXPERIENCE</h2>
 					<h3>Owner/Technical Writer</h3>
 					<h4> Nivedana Consulting/Freelancer (Remote) | Nov 2014 – Present</h4>

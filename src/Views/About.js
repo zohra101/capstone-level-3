@@ -12,7 +12,7 @@ export function About() {
 	return (
 		<main className="p-1">
 			<div className="container ms-2">
-				<div className="row row-cols-2 row-cols-md-2 row-cols-lg-2">
+				<div className="row row-cols-1 row-cols-md-1 row-cols-lg-1">
 					<div className="col">
 						<h3
 							id="aboutSite"
