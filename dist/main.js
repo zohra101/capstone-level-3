@@ -36030,7 +36030,7 @@ function Contact() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     id: "sendEmail"
   }, "Send an email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "If you have any questions about my services, please fill out and submit the form below."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", {
@@ -36058,21 +36058,7 @@ function Contact() {
     "aria-label": "Company"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Company")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "contactName"
-  }, "Contact Name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    required: true,
-    type: "text",
-    id: "contactName",
-    className: "inputs",
-    placeholder: "First Last"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col"
@@ -36201,14 +36187,14 @@ function Portfolio() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     id: "mainTag"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container ms-2"
+    className: "container ms-2 center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     classNanme: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "alert alert-secondary alert-dismissible w-75 center mb-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Coming soon!"), " In the near future, you'll be able to click on the images to view larger samples with more details about the projects.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Coming soon!"), " You'll be able to click on the images to view larger samples with more details about the projects.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
     className: "btn-close",
     "data-bs-dismiss": "alert"
   })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -36216,12 +36202,12 @@ function Portfolio() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     classNanme: "col"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Here's a sampling of current and past projects to which I've contributed."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Many projects involve propietary information or sensitive data. To protect the confidentiality and privacy of my clients and/or employers, most samples are generic representations of the deliverables produced. Any samples that contain actual work are from defunct companies with any data redacted."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     classNanme: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "portfolioCarousel",
-    className: "carousel carousel-dark slide m-4",
+    className: "carousel carousel-dark slide m-4 ",
     "data-bs-ride": "carousel"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-indicators"
@@ -36259,7 +36245,7 @@ function Portfolio() {
     "data-bs-interval": "10000"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _assets_images_admin_guide_1_1024_png__WEBPACK_IMPORTED_MODULE_1__,
-    className: "d-block w-100",
+    className: "d-block w-75",
     alt: "adminGuide"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
@@ -36272,12 +36258,12 @@ function Portfolio() {
     className: "card-title list-group-item-text1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Administrator guide for software")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "card-text mb-3 list-group-item-text1 text-start"
-  }, "To reduce information overload, I separate manuals for each application into an administrator guide and a user guide. After reviewing the application's requirements and specifications, I outlined tha manuals and completed the final drafts when the client signed off on quality assurance. I then delivered the manuals to the user acceptance testing leads for testing and documentationa signoff."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, "To reduce information overload, I separate manuals for each application into an administrator guide and a user guide."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-item",
     "data-bs-interval": "10000"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _assets_images_help_file_1_1024_png__WEBPACK_IMPORTED_MODULE_2__,
-    className: "d-block w-100",
+    className: "d-block w-75",
     alt: "helpFile"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
@@ -36295,7 +36281,7 @@ function Portfolio() {
     "data-bs-interval": "10000"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _assets_images_policy_IT_1_1024_png__WEBPACK_IMPORTED_MODULE_3__,
-    className: "d-block w-100",
+    className: "d-block w-75",
     alt: "policyDoc"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
@@ -36313,7 +36299,7 @@ function Portfolio() {
     "data-bs-interval": "10000"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _assets_images_manual_1_1024_png__WEBPACK_IMPORTED_MODULE_4__,
-    className: "d-block w-100",
+    className: "d-block w-75",
     alt: "softwareManual"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
@@ -36326,12 +36312,12 @@ function Portfolio() {
     className: "card-title list-group-item-text1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Manual for custom software implementation")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "card-text mb-3 list-group-item-text1 text-start"
-  }, "For a custom implementation of cost accounting software, I was asked to consolidate a third-party vendor's help file and hundreds of documents from two business divisions into a user manual."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }, "I was asked to consolidate a third-party vendor's help file and hundreds of documents from two business divisions into a user manual."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-item",
     "data-bs-interval": "10000"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _assets_images_storyboards_png__WEBPACK_IMPORTED_MODULE_5__,
-    className: "d-block w-100",
+    className: "d-block w-75",
     alt: "storyboards"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
@@ -36344,7 +36330,7 @@ function Portfolio() {
     className: "card-title list-group-item-text1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Storyboards for help desk intranet")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "card-text mb-3 list-group-item-text1 text-start"
-  }, "While in graduate schoool specializing in user-centered design, I worked as a help desk team lead. The support staff, myself included, often reported that keyword searching in the incident reporting system was...well, not good. I designed these storyboards to demonstrate how a centralized intranet site could improve efficiency and user satisfaction, by storing our policies and procuedures and by providing a robust searchable knowlesge base.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+  }, "While in graduate schoool specializing in user-centered design,  I designed these storyboards to demonstrate how a centralized intranet site could improve efficiency and satisfaction among help desk employees, by storing our policies and procuedures and by providing a robust searchable knowlesge base.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
     className: "carousel-control-prev",
     type: "button",
     "data-bs-target": "#portfolioCarousel",
@@ -36429,7 +36415,7 @@ function ScheduleFreeConsultation() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
     id: "scheduleConsult"
   }, "Schedule a consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "To schedule a 30-minute free consultation to assess your needs, please complete the form below."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", {
@@ -36631,35 +36617,52 @@ __webpack_require__.r(__webpack_exports__);
 
 function SignInContent(props) {
   var errorMessage = props.errorMessage;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("fieldset", {
+    className: "ms-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mb-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "examplehtmlFormControlInput1",
+    htmlFor: "email",
     className: "htmlForm-label"
   }, "Email address"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
     type: "email",
     required: true,
-    className: "htmlForm-control",
-    id: "examplehtmlFormControlInput1",
+    className: "htmlForm-control ms-3",
+    id: "email",
     placeholder: "name@example.com"
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "mb-3"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "examplehtmlFormControlInput1",
+    htmlFor: "password",
     className: "htmlForm-label"
   }, "Password"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
     type: "password",
     required: true,
-    className: "htmlForm-control",
-    id: "examplehtmlFormControlInput1",
+    className: "htmlForm-control ms-5",
+    id: "password",
     placeholder: "************"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "m-1",
     style: {
       color: "red"
     }
   }, " ", errorMessage));
 }
+/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("fieldset", {
+  className: "ms-1"
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+  type: "radio",
+  id: "individual",
+  name: "Contact Type",
+  className: "p-2",
+  "aria-label": "Individual"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Individual"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+  type: "radio",
+  id: "company",
+  name: "Contact Type",
+  className: "p-2 ms-2",
+  "aria-label": "Company"
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Company"));
 
 /***/ }),
 
@@ -37621,21 +37624,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   output: () => (/* binding */ output)
 /* harmony export */ });
-// export function output(
-//     message = "",
-//     outputTag = "outputTag",
-//     shouldAppend = true
-//     ) {
-//         if (shouldAppend) window[outputTag].innerHTML += message;
-//         else window[outputTag].innerHTML = message;
-// }
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
 
 function output() {
   var message = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "";
   var outputTag = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "outputTag";
   var shouldAppend = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(""),
+    _useState2 = _slicedToArray(_useState, 2),
+    outputMessage = _useState2[0],
+    setOutputMessage = _useState2[1];
   var outputElement = document.getElementById(outputTag);
-  if (shouldAppend) outputElement.innerHTML += message;else outputElement.innerHTML + message;
+  setOutputMessage(function (prevMessage) {
+    if (shouldAppend) {
+      return prevMessage + message;
+    } else {
+      return message;
+    }
+  });
   console.log("Output was generated for ".concat(outputTag, "."));
 }
 

@@ -1,19 +1,19 @@
-// export function output(
-//     message = "",
-//     outputTag = "outputTag",
-//     shouldAppend = true
-//     ) {
-//         if (shouldAppend) window[outputTag].innerHTML += message;
-//         else window[outputTag].innerHTML = message;
-// }
+import React, {useState} from "react";
 
 export function output(
 	message = "",
 	outputTag = "outputTag",
 	shouldAppend = true
 ) {
+	const [outputMessage, setOutputMessage] = useState("");
+
 	const outputElement = document.getElementById(outputTag);
-	if (shouldAppend) outputElement.innerHTML += message;
-	else outputElement.innerHTML + message;
+	setOutputMessage((prevMessage) => {
+		if (shouldAppend) {
+			return prevMessage + message;
+		} else {
+			return message;
+		}
+	});
 	console.log(`Output was generated for ${outputTag}.`);
 }

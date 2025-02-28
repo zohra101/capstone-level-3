@@ -21,7 +21,7 @@ export function ScheduleFreeConsultation() {
 						</p>
 					</div>
 				</div>
-				<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+				<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1 center">
 					<div className="col">
 						<form
 							id="outputTag"

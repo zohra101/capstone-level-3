@@ -21,7 +21,7 @@ export function Contact() {
 						</p>
 					</div>
 				</div>
-				<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
+				<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1 center">
 					<div className="col">
 						<form
 							id="outputTag"
@@ -51,19 +51,7 @@ export function Contact() {
 								</div>
 							</div>
 							<div className="row row-cols-2 p-2">
-								<div className="col">
-									<span style={{ fontWeight: "bold" }}>
-										<label htmlFor="contactName">Contact Name</label>
-										<br />
-									</span>
-									<input
-										required
-										type="text"
-										id="contactName"
-										className="inputs"
-										placeholder="First Last"
-									/>
-								</div>
+							
 							</div>
 							<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2">
 								<div className="col">
