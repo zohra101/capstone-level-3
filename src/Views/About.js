@@ -16,7 +16,8 @@ export function About() {
 					<div className="col">
 						<h3
 							id="aboutSite"
-							className="emphasis newSection">
+							className="emphasis newSection"
+						>
 							About this website{" "}
 						</h3>
 					</div>
@@ -42,16 +43,16 @@ export function About() {
 						<h3 id="aboutMe">About me</h3>
 					</div>
 				</div>
-				<div className="row row-cols-2 ">
-					<div className="col">
+				<div className="row row-cols-2 row-cols-md-2 row-cols-lg-2">
+					<div className="col-3">
 						<img
 							src={alexHoli}
 							alt="alex"
 							style={{ width: "75%" }}
-							className="ms-3"
+							className="ms-1"
 						/>
 					</div>
-					<div className="col">
+					<div className="col-9">
 						<p>
 							During high school (in New Jersey), my dad wanted to buy me a
 							really big present. "Do you want a computer like your cousins? Or
