@@ -35732,7 +35732,7 @@ module.exports = __webpack_require__.p + "6a3f3ccde67ffe0880b3.png";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "5fd1f230e5c58cc9299d.png";
+module.exports = __webpack_require__.p + "db7dc9573a13ff380c62.png";
 
 /***/ }),
 
@@ -36245,13 +36245,13 @@ function Portfolio() {
     "data-bs-interval": "10000"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _assets_images_admin_guide_1_1024_png__WEBPACK_IMPORTED_MODULE_1__,
-    className: "d-block w-75",
+    className: "d-block w-75 center",
     alt: "adminGuide"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "adminGuideTag",
-    className: "card w-50 m-5 list-group-item-color1 text-center"
+    className: "card w-75 m-5 list-group-item-color1 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "card-body m-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -36263,13 +36263,13 @@ function Portfolio() {
     "data-bs-interval": "10000"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _assets_images_help_file_1_1024_png__WEBPACK_IMPORTED_MODULE_2__,
-    className: "d-block w-75",
+    className: "d-block w-75 center",
     alt: "helpFile"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "helpFileTag",
-    className: "card w-50 m-5 list-group-item-color1 text-center"
+    className: "card w-75 m-5 list-group-item-color1 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "card-body m-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -36281,13 +36281,13 @@ function Portfolio() {
     "data-bs-interval": "10000"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _assets_images_policy_IT_1_1024_png__WEBPACK_IMPORTED_MODULE_3__,
-    className: "d-block w-75",
+    className: "d-block w-75 center",
     alt: "policyDoc"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "policyTag",
-    className: "card w-50 m-5 list-group-item-color1 text-center"
+    className: "card w-75 m-5 list-group-item-color1 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "card-body m-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -36299,13 +36299,13 @@ function Portfolio() {
     "data-bs-interval": "10000"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _assets_images_manual_1_1024_png__WEBPACK_IMPORTED_MODULE_4__,
-    className: "d-block w-75",
+    className: "d-block w-75 center",
     alt: "softwareManual"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "manualTag",
-    className: "card w-50 m-5 list-group-item-color1 text-center"
+    className: "card w-75 m-5 list-group-item-color1 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "card-body m-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
@@ -36317,20 +36317,20 @@ function Portfolio() {
     "data-bs-interval": "10000"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
     src: _assets_images_storyboards_png__WEBPACK_IMPORTED_MODULE_5__,
-    className: "d-block w-75",
+    className: "d-block w-100 center",
     alt: "storyboards"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "carousel-caption d-none d-md-block"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     id: "manualTag",
-    className: "card w-50 m-5 list-group-item-color1 text-center"
+    className: "card w-75 m-5 list-group-item-color1 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "card-body m-2"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "card-title list-group-item-text1"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Storyboards for help desk intranet")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     className: "card-text mb-3 list-group-item-text1 text-start"
-  }, "While in graduate schoool specializing in user-centered design,  I designed these storyboards to demonstrate how a centralized intranet site could improve efficiency and satisfaction among help desk employees, by storing our policies and procuedures and by providing a robust searchable knowlesge base.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
+  }, "While at graduate schoool specializing in user-centered design, I designed these storyboards to illustrate how a centralized intranet could improve efficiency and satisfaction among help desk employees.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
     className: "carousel-control-prev",
     type: "button",
     "data-bs-target": "#portfolioCarousel",

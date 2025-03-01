@@ -22,9 +22,9 @@ export function Portfolio() {
 				<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1">
 					<div classNanme="col">
 						<div className="alert alert-secondary alert-dismissible w-75 center mb-5">
-							<strong>Coming soon!</strong> You'll be able
-							to click on the images to view larger samples with more details
-							about the projects.
+							<strong>Coming soon!</strong> You'll be able to click on the
+							images to view larger samples with more details about the
+							projects.
 							<button
 								className="btn-close"
 								data-bs-dismiss="alert"
@@ -96,13 +96,13 @@ export function Portfolio() {
 								>
 									<img
 										src={adminGuide}
-										className="d-block w-75"
+										className="d-block w-75 center"
 										alt="adminGuide"
 									/>
 									<div className="carousel-caption d-none d-md-block">
 										<div
 											id="adminGuideTag"
-											className="card w-50 m-5 list-group-item-color1 text-center"
+											className="card w-75 m-5 list-group-item-color1 text-center"
 										>
 											<div className="card-body m-2">
 												<div className="card-title list-group-item-text1">
@@ -111,7 +111,7 @@ export function Portfolio() {
 												<div className="card-text mb-3 list-group-item-text1 text-start">
 													To reduce information overload, I separate manuals for
 													each application into an administrator guide and a
-													user guide. 
+													user guide.
 												</div>
 											</div>
 										</div>
@@ -123,13 +123,13 @@ export function Portfolio() {
 								>
 									<img
 										src={helpFile}
-										className="d-block w-75"
+										className="d-block w-75 center"
 										alt="helpFile"
 									/>
 									<div className="carousel-caption d-none d-md-block">
 										<div
 											id="helpFileTag"
-											className="card w-50 m-5 list-group-item-color1 text-center"
+											className="card w-75 m-5 list-group-item-color1 text-center"
 										>
 											<div className="card-body m-2">
 												<div className="card-title list-group-item-text1">
@@ -150,13 +150,13 @@ export function Portfolio() {
 								>
 									<img
 										src={policyDoc}
-										className="d-block w-75"
+										className="d-block w-75 center"
 										alt="policyDoc"
 									/>
 									<div className="carousel-caption d-none d-md-block">
 										<div
 											id="policyTag"
-											className="card w-50 m-5 list-group-item-color1 text-center"
+											className="card w-75 m-5 list-group-item-color1 text-center"
 										>
 											<div className="card-body m-2">
 												<div className="card-title list-group-item-text1">
@@ -177,22 +177,22 @@ export function Portfolio() {
 								>
 									<img
 										src={softwareManual}
-										className="d-block w-75"
+										className="d-block w-75 center"
 										alt="softwareManual"
 									/>
 									<div className="carousel-caption d-none d-md-block">
 										<div
 											id="manualTag"
-											className="card w-50 m-5 list-group-item-color1 text-center"
+											className="card w-75 m-5 list-group-item-color1 text-center"
 										>
 											<div className="card-body m-2">
 												<div className="card-title list-group-item-text1">
 													<h5>Manual for custom software implementation</h5>
 												</div>
 												<div className="card-text mb-3 list-group-item-text1 text-start">
-													I was asked to consolidate a third-party
-													vendor's help file and hundreds of documents from two
-													business divisions into a user manual.
+													I was asked to consolidate a third-party vendor's help
+													file and hundreds of documents from two business
+													divisions into a user manual.
 												</div>
 											</div>
 										</div>
@@ -204,25 +204,23 @@ export function Portfolio() {
 								>
 									<img
 										src={storyboards}
-										className="d-block w-75"
+										className="d-block w-100 center"
 										alt="storyboards"
 									/>
 									<div className="carousel-caption d-none d-md-block">
 										<div
 											id="manualTag"
-											className="card w-50 m-5 list-group-item-color1 text-center"
+											className="card w-75 m-5 list-group-item-color1 text-center"
 										>
 											<div className="card-body m-2">
 												<div className="card-title list-group-item-text1">
 													<h5>Storyboards for help desk intranet</h5>
 												</div>
 												<div className="card-text mb-3 list-group-item-text1 text-start">
-													While in graduate schoool specializing in
-													user-centered design,  I designed
-													these storyboards to demonstrate how a centralized
-													intranet site could improve efficiency and 
-													satisfaction among help desk employees, by storing our policies and procuedures
-													and by providing a robust searchable knowlesge base.
+													While at graduate schoool specializing in
+													user-centered design, I designed these storyboards to
+													illustrate how a centralized intranet could improve
+													efficiency and satisfaction among help desk employees.
 												</div>
 											</div>
 										</div>
