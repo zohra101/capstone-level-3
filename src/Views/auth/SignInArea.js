@@ -15,7 +15,7 @@ export function SignInArea() {
 	function componentDidMount() {
 		console.log("MOUNT PHASE: SignInArea");
 		if (isSignedIn) setButton(<SignOutModal onSignOut={handleSignOut} />);
-		else setButton(<SignInModal onSignIn={handleSignInAttempt} />);
+		else setButton(<SignInModal onSignIn={handleSignIn} />);
 		setDidMount(true);
 	}
 
@@ -23,11 +23,11 @@ export function SignInArea() {
 		if (didMount) {
 			console.log("UPDATE PHASE: SignInArea");
 			if (isSignedIn) setButton(<SignOutModal onSignOut={handleSignOut} />);
-			else setButton(<SignInModal onSignIn={handleSignInAttempt} />);
+			else setButton(<SignInModal onSignIn={handleSignIn} />);
 		}
 	}
 
-	function handleSignInAttempt() {
+	function handleSignIn() {
 		setIsSignedIn(true);
 	}
 

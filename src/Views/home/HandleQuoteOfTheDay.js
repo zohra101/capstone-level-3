@@ -41,7 +41,6 @@ export function HandleQuoteOfTheDay() {
 		promise.then(extractQotdResponse);
 		setDidMount(true);
 		console.log("The HandleQuoteOfTheDay component mounted.");
-		return componentDidUnmount;
 	}
 
 	function componentDidUpdate() {

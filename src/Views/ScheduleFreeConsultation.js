@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { handleSubmitCall } from "../modules/consultation/handleSubmitCall.js";
+import { handleSubmitConsultation } from "../modules/consultation/handleSubmitConsultation.js";
 import "../../src/index.scss";
 
 export function ScheduleFreeConsultation() {
@@ -25,7 +25,7 @@ export function ScheduleFreeConsultation() {
 					<div className="col">
 						<form
 							id="outputTag"
-							onSubmit={handleSubmitCall}
+							onSubmit={handleSubmitConsultation}
 						>
 							<div className="row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2">
 								<div className="col"></div>

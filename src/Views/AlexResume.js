@@ -9,7 +9,7 @@ export function AlexResume() {
 	useEffect(componentDidUnmount, []);
 
 	return (
-		<main>
+		<main id="resumeMain">
 			<div className="container ms-0">
 				<div className="row row-cols-1 row-cols-md-1 row-cols-lg-1">
 					<div className="col">

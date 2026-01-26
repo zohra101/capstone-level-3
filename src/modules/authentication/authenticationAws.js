@@ -16,7 +16,7 @@ export async function authenticationAws(email = "", password = "") {
 
 	const request = {
 		TableName: "logins",
-		Key: { email: "abc@logins.com" },
+		Key: { email: email },
 	};
 
 	const response = await niceClient.get(request);

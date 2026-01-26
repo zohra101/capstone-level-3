@@ -1,175 +1,30 @@
 import { describe, it, expect } from "@jest/globals";
-import { DynamoDB } from "@aws-sdk/client-dynamodb";
-import * as credentials from "../../../.aws/credentials.js";
+import { authenticationAws } from "./authenticationAws";
 
-//AWS Region Testing
+//AWS Login Testing
 
-describe("The authenticationAws function region", () => {
-	it("connects when the region is correct", async () => {
+describe("The authenticationAws function", () => {
+	it("connects when the email and password are correct", async () => {
 		//ARRANGE
-		const apiKey = {
-			region: credentials.region,
-			credentials: {
-				accessKeyId: credentials.accessKeyId,
-				secretAccessKey: credentials.secretAccessKey,
-			},
-		};
+		const email = "abc@logins.com";
+		const password = "aaa123";
 
 		//ACT
-		const client = new DynamoDB(apiKey);
+		const isAuthenticated = await authenticationAws(email, password);
 
 		//ASSERT
-		expect(client.isConnected).toBe(true);
+		expect(isAuthenticated).toBe(true);
 	});
 
-	it("doesn't connect when the region is wrong", async () => {
+	it("does not connect when the email is incorrect", async () => {
 		//ARRANGE
-		const apiKey = {
-			region: "ap-south-1",
-			credentials: {
-				accessKeyId: credentials.accessKeyId,
-				secretAccessKey: credentials.secretAccessKey,
-			},
-		};
+		const email = "xyz@logins.com";
+		const password = "aaa123";
 
 		//ACT
-		const client = new DynamoDB(apiKey);
+		const isAuthenticated = await authenticationAws(email, password);
 
 		//ASSERT
-		expect(client.isConnected).toBe(false);
-	});
-
-	it("doesn't connect when the region is empty", async () => {
-		//ARRANGE
-		const apiKey = {
-			region: "",
-			credentials: {
-				accessKeyId: credentials.accessKeyId,
-				secretAccessKey: credentials.secretAccessKey,
-			},
-		};
-
-		//ACT
-		const client = new DynamoDB(apiKey);
-
-		//ASSERT
-		expect(client.isConnected).toBe(false);
+		expect(isAuthenticated).toBe(false);
 	});
 });
-
-//AWS Access Key ID Testing
-
-describe("The authenticationAws function accessKeyId", () => {
-	it("connects when the access key is correct", async () => {
-		//ARRANGE
-		const apiKey = {
-			region: credentials.region,
-			credentials: {
-				accessKeyId: credentials.accessKeyId,
-				secretAccessKey: credentials.secretAccessKey,
-			},
-		};
-
-		//ACT
-		const client = new DynamoDB(apiKey);
-
-		//ASSERT
-		expect(client.isConnected).toBe(true);
-	});
-	it("doesn't connect when the access key is wrong", async () => {
-		//ARRANGE
-		const apiKey = {
-			region: credentials.region,
-			credentials: {
-				accessKeyId: "1234",
-				secretAccessKey: credentials.secretAccessKey,
-			},
-		};
-
-		//ACT
-		const client = new DynamoDB(apiKey);
-
-		//ASSERT
-		expect(client.isConnected).toBe(false);
-	});
-	it("doesn't connect when the access key is empty", async () => {
-		//ARRANGE
-		const apiKey = {
-			region: credentials.region,
-			credentials: {
-				accessKeyId: "",
-				secretAccessKey: credentials.secretAccessKey,
-			},
-		};
-
-		//ACT
-		const client = new DynamoDB(apiKey);
-
-		//ASSERT
-		expect(client.isConnected).toBe(false);
-	});
-	// it("doesn't connect when the access key is a number", async () => {});
-	// it("doesn't connect when the access key is a boolean", async () => {});
-	// it("doesn't connect when the access key is a object", async () => {});
-});
-
-//AWS API Key Testing
-
-describe("The authenticationAws function apiKey", () => {
-	
-	it("connects when the api key is correct", async () => {
-		//ARRANGE
-		const apiKey = {
-			region: credentials.region,
-			credentials: {
-				accessKeyId: credentials.accessKeyId,
-				secretAccessKey: credentials.secretAccessKey,
-			},
-		};
-
-		//ACT
-		const client = new DynamoDB(apiKey);
-
-		//ASSERT
-		expect(client.isConnected).toBe(true);
-	});
-
-	it("doesn't connect when the api key is wrong", async () => {
-		//ARRANGE
-		const apiKey = {
-			region: credentials.region,
-			credentials: {
-				accessKeyId: credentials.accessKeyId,
-				secretAccessKey: "secretAccessKey2",
-			},
-		};
-
-		//ACT
-		const client = new DynamoDB(apiKey);
-
-
-		//ASSERT
-		expect(client.isConnected).toBe(false);
-	});
-	
-	it("doesn't connect when the api key is empty", async () => {
-		//ARRANGE
-		const apiKey = {
-			region: credentials.region,
-			credentials: {
-				accessKeyId: credentials.accessKeyId,
-				secretAccessKey: "",
-			},
-		};
-
-		//ACT
-		const client = new DynamoDB(apiKey);
-
-		//ASSERT
-		expect(client.isConnected).toBe(false);
-	});
-	// it("doesn't connect when the api key is a number", async () => {});
-	// it("doesn't connect when the api key is a boolean", async () => {});
-	// it("doesn't connect when the api key is a object", async () => {});
-});
-

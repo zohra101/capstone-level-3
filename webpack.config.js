@@ -23,3 +23,4 @@ export default {
 	mode: "development", //SET TO DEVELOPMENT MODE NOT PRODUCTION
 	devtool: "source-map", //ENABLES THE DEBUGGER CODE TO MATCH ACTUAL CODE
 };
+

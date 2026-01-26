@@ -46,22 +46,3 @@ export function SignInContent(props) {
 		</>
 	);
 }
-
-<fieldset className="ms-1">
-	<input
-		type="radio"
-		id="individual"
-		name="Contact Type"
-		className="p-2"
-		aria-label="Individual"
-	/>
-	<span> Individual</span>
-	<input
-		type="radio"
-		id="company"
-		name="Contact Type"
-		className="p-2 ms-2"
-		aria-label="Company"
-	/>
-	<span> Company</span>
-</fieldset>;

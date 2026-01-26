@@ -1,6 +1,25 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./.aws/credentials.js":
+/*!*****************************!*\
+  !*** ./.aws/credentials.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   accessKeyId: () => (/* binding */ accessKeyId),
+/* harmony export */   region: () => (/* binding */ region),
+/* harmony export */   secretAccessKey: () => (/* binding */ secretAccessKey)
+/* harmony export */ });
+var accessKeyId = "AKIAXEVXYRV6CY6IOSIC";
+var secretAccessKey = "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";
+var region = "us-east-2";
+
+/***/ }),
+
 /***/ "./node_modules/@aws-crypto/sha256-browser/build/module/constants.js":
 /*!***************************************************************************!*\
   !*** ./node_modules/@aws-crypto/sha256-browser/build/module/constants.js ***!
@@ -34961,6 +34980,1924 @@ function validate(uuid) {
 
 /***/ }),
 
+/***/ "./src/Views/About.js":
+/*!****************************!*\
+  !*** ./src/Views/About.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   About: () => (/* binding */ About)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_images_alex_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/alex.png */ "./assets/images/alex.png");
+/* harmony import */ var _src_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../src/index.scss */ "./src/index.scss");
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+
+
+
+function About() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    didMount = _useState2[0],
+    setDidMount = _useState2[1];
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
+    className: "p-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-12 border"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    id: "aboutSite",
+    className: "emphasis newSection"
+  }, "About this website")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-12 border"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I created this website using CSS, HTML, and JavaScript, storing my code in GitHub and using VS Code for coding and debugging. For CSS, I used a mix of Bootstrap, an external sheet for the resume page, and internal styles. Very few elenents have inline styles, to make maintenance and updates easier and more efficient."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "For the resume page, I used an external style sheet instead of Bootstrap to have more selection of colors. I designed the PDF version of the resume using Adobe InDesign.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-12 border"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    id: "aboutMe"
+  }, "About me")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-3 border"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _assets_images_alex_png__WEBPACK_IMPORTED_MODULE_1__,
+    alt: "alex",
+    style: {
+      width: "100%"
+    },
+    className: "ms-1"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col-9 border"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "During high school (in New Jersey), my dad wanted to buy me a really big present. \"Do you want a computer like your cousins? Or something else?\" And so began my war between art and computing. A writer since third grade, I served as the co-editor-in-chief of both the school paper and yearbook (thankfully, not in the same year!) and graduated with both journalism and programming classes. At university, I dropped computer science because debugging made me miserable. I had more fun around books, old things, and people so after a very brief fling with finance, I majored in English and Italian language and literature, with a minor in Mediaeval Studies focused on European history. (Yes, I am less or more a member of the SCA.)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "What can you do with an English degree? Almost anything! After selling computers and office machines at Sears, I joined inbound sales and then technical supoort at a call center, until the company went out of business. On a sales force automation help desk, supporting CRM software and equipment for biotech and pharma sales representatives, I trainied new techs and wrote a lot of SOPs. Working directly with both clients and technical staff gave me unparalleled insight into the needs of users of different literacy levels (computer and verbal), backgrounds, experiences, and goals."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Have you tried explaining that after being on the phone all day, talking on the phone is the last thing you want to do? Yeah, only someone who has done it understands. Hoping an advanced degree would improve my social life, I researched programs in communications, creative writing, and Italian, and came across technical writing. Realizing this field could stop the war, combining my loves for literature and technology, plus allow more energy for people outside work, I enrolled in a fantastic certificate program at the New Jersey Institute of Technology, and rolled right into the Master's."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Computer-based training, knowledge management, and user-centered design research completed, I escaped the snow by moving to Baton Rouge, LA, to become a business intelligence developer. (You read that correctly, not a technical writer.) I always liked tinkering with databases, and spent work breaks with accountants and data analysts, so why not? When the BI team moved under the Application Development umbrella, developers and managers alike were excited to acquire a technical writer to take over documenting the software they produced. I've been at least a part-time technical writer in every role I've held since.")))));
+  function componentDidMount() {
+    setDidMount(true);
+    console.log("The About component mounted.");
+    var titleTag = document.getElementById("titleTag");
+    titleTag.innerHTML = "Alex M - About";
+  }
+  function componentDidUpdate() {
+    if (didMount) console.log("The About component updated.");
+  }
+  function componentDidUnmount() {
+    return function displayMessage() {
+      console.log("The About component unmounted.");
+    };
+  }
+}
+
+/***/ }),
+
+/***/ "./src/Views/AlexResume.js":
+/*!*********************************!*\
+  !*** ./src/Views/AlexResume.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   AlexResume: () => (/* binding */ AlexResume)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Views_AlexResume_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Views/AlexResume.scss */ "./src/Views/AlexResume.scss");
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+
+
+function AlexResume() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    didMount = _useState2[0],
+    setDidMount = _useState2[1];
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
+    id: "resumeMain"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container ms-0"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-1 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "SUMMARY"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Experienced Technical Writer with over 10 years of expertise in transforming complex information into clear, user-friendly documentation that enhances product usability and customer satisfaction.", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "With a sharp eye for detail and a design philosophy centered on clean, intuitive layouts, I enhance user experience while translating complex technology into accessible language; I\u2019m an expert in creating and maintaining documentation standards, help files, policies, procedures, style guides, system manuals, templates, and user guides."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "My strong background in software development, project management, technical support, and training\u2014coupled with excellent communication, analytical, and interpersonal skills\u2014helps me succeed in fostering alignment across teams and in collaborating with subject matter experts and stakeholders."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "SKILLS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "Collaboration: "), "Dropbox, Google Drive, Docs, Sheets; Discord, GoogleMeet, Slack, Teams, WebEx, Zoom"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "Design: "), "Adobe Acrobat, FrameMaker, InDesign, Photoshop, RoboHelp; DocuSign, Figma, FoxIt, Help and Manual, MadCap Flare; Microsoft Excel, PowerPoint, Visio, Word"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "Development: "), "CSS, GitHub, Glitch, HTML, JavaScript, SQL, XML; SQL Server Management Studio, SQL Server Reporting Services (SSRS), Team Foundation Server (TFS), Test Manager, VS Code"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "Languages: "), "English, French, Italian"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "Project Management: "), "Asana, Jira, Microsoft Project; SQL Server Management Studio, SQL Server Reporting Services (SSRS), Team Foundation Server (TFS), Test Manager, Visual Studio")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "CERTIFICATIONS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "Full Stack Developer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), " CodeX Academy (in progress)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "Cybersecurity Foundations"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "LinkedIn"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "Rajasthani Dance"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Council of International Dance - UNESCO"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "RYT200 Registered Yoga Teacher"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Yoga Path/Yoga Alliance"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "Master Writer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Society for Technical Communication"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "A+ and Network+"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "(CompTIA)"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "EDUCATION"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "Master's in Professional and Technical Communication"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "(MS) New Jersey Institute of Technology"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Specialized in user-centered design and usability engineering"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Researched a help desk knowledge management system and developed storyboards")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "Bachelor's in English and Italian"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "(BA) Rutgers University")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "HONORS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "Embracing Worldwide Differences Certificate"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "CRIF Lending Solutions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "Employee of the Quarter"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "CRIF Lending Solutions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    id: "skill"
+  }, "Garden State Distinguished Scholar"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "State of New Jersey"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "PROFESSIONAL EXPERIENCE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Owner/Technical Writer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, " Nivedana Consulting/Freelancer (Remote) | Nov 2014 \u2013 Present"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Blurb"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "ms-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Enhanced readability of an environmental solutions firm\u2019s IT policies and procedures, including disaster recovery plan, by revising content and layout of 24 documents."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Penned 17 best of, how-to, and review articles on Android and iOS apps for a web magazine."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Implemented communication standards on a wellness company website by composing privacy policy, translating content, and managing ISO code data.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Consultant"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://insightglobal.com/"
+  }, "Insight Global"), " (Remote) | Nov 2021 \u2013 Apr 2024"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Led business analysis for a state agency\u2019s Agile modernization project, updating Unisys mainframe functions to a web-based application suite."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "ms-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Championed consistency and user-centered design on a Scrum modernization project by adhering to style guides, advocating for end users, performing usability testing, and researching trends."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Supplemented documentation by developing security diagrams, editing release notes and technical specifications, and clarifying functionality for end user training."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Reduced user story errors by creating a Jira template, training business analysts on best practices, and creating priority lists. Produced 300+ user stories in 2.5 years.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Business Analyst/Technical Writer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://www.dbsysgraph.com/"
+  }, "DB Sysgraph"), " (Baton Rouge, LA) | Oct 2018 \u2013 Jul 2021"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Blurb"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "ms-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Cut help file delivery time 35% by training 3 colleagues on content creation. Created product marketing presentations, promotional materials, release notes, and workflow diagrams."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Managed an Agile team of 5 to deliver a suite of applications, developing close relationships with the client\u2019s CTO and industry experts by creating storyboards, specifications, test plans, and workshops."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Designed a clean and easy to use interface to automate collection of complex data for export to a federal agency. Promoted from Quality Assurance to Business Analyst after only 6 months.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Technical Specialist"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "https://www.meridianlink.com/"
+  }, "MeridianLink"), "/CRIF Lending Solutions (Hybrid) | Jun 2015 \u2013 Aug 2018"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Blurb"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "ms-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Lowered incident resolution times by creating a knowledge management committee. Partnered with delivery managers to analyze gaps, and drafted 1st versions of best practices, policies, and procedures."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Engaged IT management to define configuration and security policy, executing 1st projects using new API."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Increased revenue from Open Lending interface by 100% over 8 months by taking ownership of interface and improving relationships with clients and vendor. Selected by VP to coordinate a new Vendor Relationship Management demo program.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Project Coordinator/Technical Writer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h4", null, "CB&I/The Shaw Group (Baton Rouge, LA) | Jul 2008\u2013 Sept 2014"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Blurb"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "ms-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Authored 40-page administrator and user guides for web-based. Recruited by business systems portfolio manager after producing a 300-page manual and other training materials as side projects."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Improved documentation management by maintaining a SharePoint catalog of specifications for 800+ business intelligence reports. Designed templates for requirements, specifications, test plans, and user guides to improve documentation usability."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Helped the Application Development director prepare for CMMI certification by performing gap analysis of documents from all teams and writing new and updated SOPs."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, "Managed a tool inventory application with over 120 users across more than 25 global sites on 9 web servers in the US and Australia. Spearheaded efforts to resolve network connectivity issue on a major nuclear power construction site and aided in creating steering committee to govern global initiatives.")))));
+  function componentDidMount() {
+    setDidMount(true);
+    console.log("The Resume component mounted.");
+    var titleTag = document.getElementById("titleTag");
+    titleTag.innerHTML = "Alex M - Resume";
+  }
+  function componentDidUpdate() {
+    if (didMount) console.log("The Resume component updated.");
+  }
+  function componentDidUnmount() {
+    return function displayMessage() {
+      console.log("The Resume component unmounted.");
+    };
+  }
+}
+
+/***/ }),
+
+/***/ "./src/Views/Contact.js":
+/*!******************************!*\
+  !*** ./src/Views/Contact.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Contact: () => (/* binding */ Contact)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _modules_email_handleSubmitEmail_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/email/handleSubmitEmail.js */ "./src/modules/email/handleSubmitEmail.js");
+/* harmony import */ var _src_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../src/index.scss */ "./src/index.scss");
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+
+
+
+function Contact() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    didMount = _useState2[0],
+    setDidMount = _useState2[1];
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container m-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    id: "sendEmail"
+  }, "Send an email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "If you have any questions about my services, please fill out and submit the form below."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    id: "outputTag",
+    onSubmit: _modules_email_handleSubmitEmail_js__WEBPACK_IMPORTED_MODULE_1__.handleSubmitEmail
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("fieldset", {
+    className: "ms-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("legend", {
+    id: "legend"
+  }, "Contact Type"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "radio",
+    id: "individual",
+    name: "Contact Type",
+    className: "p-2",
+    "aria-label": "Individual"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " Individual"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "radio",
+    id: "company",
+    name: "Contact Type",
+    className: "p-2 ms-2",
+    "aria-label": "Company"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " Company")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 p-2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    style: {
+      fontWeight: "bold"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    htmlFor: "contactEmail"
+  }, "Contact Email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    type: "email",
+    id: "contactEmail",
+    className: "inputs",
+    placeholder: "address@domain.com"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    style: {
+      fontWeight: "bold"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    htmlFor: "contactPhone"
+  }, "Contact Phone"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    type: "tel",
+    pattern: "[0-9]{3}-[0-9]{3}-[0-9]{4}",
+    id: "contactPhone",
+    className: "inputs",
+    placeholder: "01 5555555555"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    style: {
+      fontWeight: "bold"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    htmlFor: "userMessage"
+  }, "Message"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("textarea", {
+    required: true,
+    id: "userMessage",
+    className: "inputs",
+    placeholder: "Enter your message here."
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "btn btn-dark animation"
+  }, "Submit")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "spinner"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "outputTag2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)));
+  function componentDidMount() {
+    setDidMount(true);
+    console.log("The Contact component mounted.");
+    var titleTag = document.getElementById("titleTag");
+    titleTag.innerHTML = "Alex M - Contact";
+    var individualTag = document.getElementById("individual");
+    new bootstrap.Tooltip(individualTag);
+    var companyTag = document.getElementById("company");
+    new bootstrap.Tooltip(companyTag);
+  }
+  function componentDidUpdate() {
+    if (didMount) console.log("The Contact component updated.");
+  }
+  function componentDidUnmount() {
+    return function displayMessage() {
+      console.log("The Contact component unmounted.");
+    };
+  }
+}
+
+/***/ }),
+
+/***/ "./src/Views/Portfolio.js":
+/*!********************************!*\
+  !*** ./src/Views/Portfolio.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Portfolio: () => (/* binding */ Portfolio)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_images_admin_guide_1_1024_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/admin_guide_1_1024.png */ "./assets/images/admin_guide_1_1024.png");
+/* harmony import */ var _assets_images_help_file_1_1024_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/help_file_1_1024.png */ "./assets/images/help_file_1_1024.png");
+/* harmony import */ var _assets_images_policy_IT_1_1024_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/images/policy_IT_1_1024.png */ "./assets/images/policy_IT_1_1024.png");
+/* harmony import */ var _assets_images_manual_1_1024_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/manual_1_1024.png */ "./assets/images/manual_1_1024.png");
+/* harmony import */ var _assets_images_storyboards_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/images/storyboards.png */ "./assets/images/storyboards.png");
+/* harmony import */ var _assets_images_ux_writing_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/images/ux_writing.png */ "./assets/images/ux_writing.png");
+/* harmony import */ var _assets_images_wireframe_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/images/wireframe.png */ "./assets/images/wireframe.png");
+/* harmony import */ var _assets_images_workflow_diagram_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/images/workflow_diagram.png */ "./assets/images/workflow_diagram.png");
+/* harmony import */ var _src_index_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../src/index.scss */ "./src/index.scss");
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+
+
+
+
+
+
+
+
+
+
+function Portfolio() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    didMount = _useState2[0],
+    setDidMount = _useState2[1];
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
+    id: "mainTag"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container ms-2 center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    classNanme: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "alert alert-secondary alert-dismissible w-75 center mb-5"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("strong", null, "Coming soon!"), " You'll be able to click on the images to view larger samples with more details about the projects.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "btn-close",
+    "data-bs-dismiss": "alert"
+  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    classNanme: "col"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", null, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Here's a sampling of current and past projects to which I've contributed."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Many projects involve propietary information or sensitive data. To protect the confidentiality and privacy of my clients and/or employers, most samples are generic representations of the deliverables produced. Any samples that contain actual work are from defunct companies with any data redacted."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    classNanme: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "portfolioCarousel",
+    className: "carousel carousel-dark slide m-4 ",
+    "data-bs-ride": "carousel"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-indicators"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "button",
+    "data-bs-target": "#portfolioCarousel",
+    "data-bs-slide-to": "0",
+    className: "active",
+    "aria-current": "true",
+    "aria-label": "Slide 1"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "button",
+    "data-bs-target": "#portfolioCarousel",
+    "data-bs-slide-to": "1",
+    "aria-label": "Slide 2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "button",
+    "data-bs-target": "#portfolioCarousel",
+    "data-bs-slide-to": "2",
+    "aria-label": "Slide 3"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "button",
+    "data-bs-target": "#portfolioCarousel",
+    "data-bs-slide-to": "3",
+    "aria-label": "Slide 4"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "button",
+    "data-bs-target": "#portfolioCarousel",
+    "data-bs-slide-to": "4",
+    "aria-label": "Slide 5"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-inner"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-item active",
+    "data-bs-interval": "10000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _assets_images_admin_guide_1_1024_png__WEBPACK_IMPORTED_MODULE_1__,
+    className: "d-block w-75 center",
+    alt: "adminGuide"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-caption d-none d-md-block"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "adminGuideTag",
+    className: "card w-75 m-5 list-group-item-color1 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body m-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-title list-group-item-text1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Administrator guide for software")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-text mb-3 list-group-item-text1 text-start"
+  }, "To reduce information overload, I separate manuals for each application into an administrator guide and a user guide."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-item",
+    "data-bs-interval": "10000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _assets_images_help_file_1_1024_png__WEBPACK_IMPORTED_MODULE_2__,
+    className: "d-block w-75 center",
+    alt: "helpFile"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-caption d-none d-md-block"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "helpFileTag",
+    className: "card w-75 m-5 list-group-item-color1 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body m-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-title list-group-item-text1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Help file for a website")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-text mb-3 list-group-item-text1 text-start"
+  }, "Using RoboHelp, I created this help system as an assignment for a course on knowledge management and computer-based training design."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-item",
+    "data-bs-interval": "10000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _assets_images_policy_IT_1_1024_png__WEBPACK_IMPORTED_MODULE_3__,
+    className: "d-block w-75 center",
+    alt: "policyDoc"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-caption d-none d-md-block"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "policyTag",
+    className: "card w-75 m-5 list-group-item-color1 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body m-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-title list-group-item-text1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Policy for software development department")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-text mb-3 list-group-item-text1 text-start"
+  }, "I performed a gap analysis and drafted policy and procedure documents for an application development director working on the group's CMMI certification."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-item",
+    "data-bs-interval": "10000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _assets_images_manual_1_1024_png__WEBPACK_IMPORTED_MODULE_4__,
+    className: "d-block w-75 center",
+    alt: "softwareManual"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-caption d-none d-md-block"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "manualTag",
+    className: "card w-75 m-5 list-group-item-color1 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body m-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-title list-group-item-text1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Manual for custom software implementation")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-text mb-3 list-group-item-text1 text-start"
+  }, "I was asked to consolidate a third-party vendor's help file and hundreds of documents from two business divisions into a user manual."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-item",
+    "data-bs-interval": "10000"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    src: _assets_images_storyboards_png__WEBPACK_IMPORTED_MODULE_5__,
+    className: "d-block w-100 center",
+    alt: "storyboards"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "carousel-caption d-none d-md-block"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "manualTag",
+    className: "card w-75 m-5 list-group-item-color1 text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body m-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-title list-group-item-text1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h5", null, "Storyboards for help desk intranet")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-text mb-3 list-group-item-text1 text-start"
+  }, "While at graduate schoool specializing in user-centered design, I designed these storyboards to illustrate how a centralized intranet could improve efficiency and satisfaction among help desk employees.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "carousel-control-prev",
+    type: "button",
+    "data-bs-target": "#portfolioCarousel",
+    "data-bs-slide": "prev"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "carousel-control-prev-icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "visually-hidden"
+  }, "Previous")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "carousel-control-next",
+    type: "button",
+    "data-bs-target": "#portfolioCarousel",
+    "data-bs-slide": "next"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "carousel-control-next-icon",
+    "aria-hidden": "true"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "visually-hidden"
+  }, "Next"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    classNanme: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "For samples not represented here, please", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "contact.html#sendMessage"
+  }, "submit a request"), " by completing the form on my Contact page.")))));
+  function componentDidMount() {
+    setDidMount(true);
+    console.log("The Portfolio component mounted.");
+    var titleTag = document.getElementById("titleTag");
+    titleTag.innerHTML = "Alex M - Portfolio";
+  }
+  function componentDidUpdate() {
+    if (didMount) console.log("The Portfolio component updated.");
+  }
+  function componentDidUnmount() {
+    return function displayMessage() {
+      console.log("The Portfolio component unmounted.");
+    };
+  }
+}
+
+/***/ }),
+
+/***/ "./src/Views/ScheduleFreeConsultation.js":
+/*!***********************************************!*\
+  !*** ./src/Views/ScheduleFreeConsultation.js ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ScheduleFreeConsultation: () => (/* binding */ ScheduleFreeConsultation)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _modules_consultation_handleSubmitConsultation_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/consultation/handleSubmitConsultation.js */ "./src/modules/consultation/handleSubmitConsultation.js");
+/* harmony import */ var _src_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../src/index.scss */ "./src/index.scss");
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+
+
+
+function ScheduleFreeConsultation() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    didMount = _useState2[0],
+    setDidMount = _useState2[1];
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container m-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    id: "scheduleConsult"
+  }, "Schedule a consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "To schedule a 30-minute free consultation to assess your needs, please complete the form below."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    id: "outputTag",
+    onSubmit: _modules_consultation_handleSubmitConsultation_js__WEBPACK_IMPORTED_MODULE_1__.handleSubmitConsultation
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("fieldset", {
+    className: "ms-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("legend", {
+    id: "legend"
+  }, "Contact Type"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "radio",
+    id: "individual",
+    name: "Contact Type",
+    className: "p-2",
+    "aria-label": "Individual"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " Individual"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "radio",
+    id: "company",
+    name: "Contact Type",
+    className: "p-2 ms-2",
+    "aria-label": "Company"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", null, " Company"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    style: {
+      fontWeight: "bold"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    htmlFor: "contactName"
+  }, "Contact Name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    type: "text",
+    id: "contactName",
+    className: "inputs",
+    placeholder: "First Last"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    style: {
+      fontWeight: "bold"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    htmlFor: "contactEmail"
+  }, "Contact Email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    type: "email",
+    id: "contactEmail",
+    className: "inputs",
+    placeholder: "address@domain.com"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    style: {
+      fontWeight: "bold"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    htmlFor: "contactPhone"
+  }, "Contact Phone"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    type: "tel",
+    pattern: "[0-9]{3}-[0-9]{3}-[0-9]{4}",
+    id: "contactPhone",
+    className: "inputs",
+    placeholder: "01 5555555555"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    style: {
+      fontWeight: "bold"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    htmlFor: "scheduleConsult"
+  }, "Select a Date & Time"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    required: true,
+    type: "datetime-local",
+    id: "scheduleConsult",
+    className: "inputs"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "btn btn-dark animation"
+  }, "Submit")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "spinner"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "outputTag2"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null)));
+  function componentDidMount() {
+    setDidMount(true);
+    console.log("The Consultation component mounted.");
+    var titleTag = document.getElementById("titleTag");
+    titleTag.innerHTML = "Alex M - Free Consultation";
+  }
+  function componentDidUpdate() {
+    if (didMount) console.log("The Consultation component updated.");
+  }
+  function componentDidUnmount() {
+    return function displayMessage() {
+      console.log("The Consultation component unmounted.");
+    };
+  }
+}
+
+/***/ }),
+
+/***/ "./src/Views/auth/SignInArea.js":
+/*!**************************************!*\
+  !*** ./src/Views/auth/SignInArea.js ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   SignInArea: () => (/* binding */ SignInArea)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _auth_SignInModal_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../auth/SignInModal.js */ "./src/Views/auth/SignInModal.js");
+/* harmony import */ var _auth_SignOutModal_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../auth/SignOutModal.js */ "./src/Views/auth/SignOutModal.js");
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+
+
+
+function SignInArea() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null)),
+    _useState2 = _slicedToArray(_useState, 2),
+    button = _useState2[0],
+    setButton = _useState2[1];
+  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState4 = _slicedToArray(_useState3, 2),
+    isSignedIn = _useState4[0],
+    setIsSignedIn = _useState4[1];
+  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState6 = _slicedToArray(_useState5, 2),
+    didMount = _useState6[0],
+    setDidMount = _useState6[1];
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, [isSignedIn]);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, button);
+  function componentDidMount() {
+    console.log("MOUNT PHASE: SignInArea");
+    if (isSignedIn) setButton(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_auth_SignOutModal_js__WEBPACK_IMPORTED_MODULE_2__.SignOutModal, {
+      onSignOut: handleSignOut
+    }));else setButton(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_auth_SignInModal_js__WEBPACK_IMPORTED_MODULE_1__.SignInModal, {
+      onSignIn: handleSignIn
+    }));
+    setDidMount(true);
+  }
+  function componentDidUpdate() {
+    if (didMount) {
+      console.log("UPDATE PHASE: SignInArea");
+      if (isSignedIn) setButton(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_auth_SignOutModal_js__WEBPACK_IMPORTED_MODULE_2__.SignOutModal, {
+        onSignOut: handleSignOut
+      }));else setButton(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_auth_SignInModal_js__WEBPACK_IMPORTED_MODULE_1__.SignInModal, {
+        onSignIn: handleSignIn
+      }));
+    }
+  }
+  function handleSignIn() {
+    setIsSignedIn(true);
+  }
+  function handleSignOut() {
+    setIsSignedIn(false);
+  }
+}
+
+/***/ }),
+
+/***/ "./src/Views/auth/SignInContent.js":
+/*!*****************************************!*\
+  !*** ./src/Views/auth/SignInContent.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   SignInContent: () => (/* binding */ SignInContent)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function SignInContent(props) {
+  var errorMessage = props.errorMessage;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("fieldset", {
+    className: "ms-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mb-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    htmlFor: "email",
+    className: "htmlForm-label"
+  }, "Email address"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "email",
+    required: true,
+    className: "htmlForm-control ms-3",
+    id: "email",
+    placeholder: "name@example.com"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "mb-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
+    htmlFor: "password",
+    className: "htmlForm-label"
+  }, "Password"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    type: "password",
+    required: true,
+    className: "htmlForm-control ms-5",
+    id: "password",
+    placeholder: "************"
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "m-1",
+    style: {
+      color: "red"
+    }
+  }, " ", errorMessage));
+}
+
+/***/ }),
+
+/***/ "./src/Views/auth/SignInModal.js":
+/*!***************************************!*\
+  !*** ./src/Views/auth/SignInModal.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   SignInModal: () => (/* binding */ SignInModal)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Views_auth_SignInContent_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Views/auth/SignInContent.js */ "./src/Views/auth/SignInContent.js");
+/* harmony import */ var _controllers_handleSignInAttempt_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../controllers/handleSignInAttempt.js */ "./src/controllers/handleSignInAttempt.js");
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+
+
+
+function SignInModal(props) {
+  var onSignIn = props.onSignIn;
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(""),
+    _useState2 = _slicedToArray(_useState, 2),
+    errorMessage = _useState2[0],
+    setErrorMessage = _useState2[1];
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "submit",
+    className: "btn btn-light",
+    "data-bs-toggle": "modal",
+    "data-bs-target": "#signInModal"
+  }, "Sign In"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    onSubmit: handleSubmit,
+    className: "modal fade",
+    id: "signInModal",
+    tabIndex: "-1",
+    "aria-labelledby": "signInModalLabel",
+    "aria-hidden": "true"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "modal-dialog "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "modal-content modal-style"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "modal-header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    className: "modal-title fs-5",
+    id: "signInModalLabel"
+  }, "Sign In"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "button",
+    className: "btn-close",
+    "data-bs-dismiss": "modal",
+    "aria-label": "Close"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "modal-body m-2"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Views_auth_SignInContent_js__WEBPACK_IMPORTED_MODULE_1__.SignInContent, {
+    errorMessage: errorMessage
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "modal-footer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    id: "signInCloseButton",
+    type: "button",
+    className: "btn btn-secondary",
+    "data-bs-dismiss": "modal"
+  }, "Close"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    id: "signInSubmitButton",
+    type: "submit",
+    className: "btn btn-primary"
+  }, "Sign In"))))));
+  function handleSubmit(event) {
+    (0,_controllers_handleSignInAttempt_js__WEBPACK_IMPORTED_MODULE_2__.handleSignInAttempt)(event, setErrorMessage, onSignIn);
+  }
+}
+
+/***/ }),
+
+/***/ "./src/Views/auth/SignOutModal.js":
+/*!****************************************!*\
+  !*** ./src/Views/auth/SignOutModal.js ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   SignOutModal: () => (/* binding */ SignOutModal)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function SignOutModal(props) {
+  var onSignOut = props.onSignOut;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "button",
+    className: "btn btn-primary",
+    "data-bs-toggle": "modal",
+    "data-bs-target": "#signOutModal"
+  }, "Sign Out"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    onSubmit: handleSubmit,
+    className: "modal fade",
+    id: "signOutModal",
+    tabIndex: "-1",
+    "aria-labelledby": "signOutModalLabel",
+    "aria-hidden": "true"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "modal-dialog modal-style"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "modal-content"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "modal-header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    className: "modal-title fs-5",
+    id: "signOutModalLabel"
+  }, "Sign Out"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "button",
+    className: "btn-close",
+    "data-bs-dismiss": "modal",
+    "aria-label": "Close"
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "modal-body"
+  }, "Are you sure you want to sign out?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "modal-footer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "button",
+    className: "btn btn-secondary",
+    "data-bs-dismiss": "modal"
+  }, "Close"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    id: "signOutSubmitButton",
+    type: "submit",
+    className: "btn btn-primary"
+  }, "Submit"))))));
+  function handleSubmit() {
+    var event = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : new Event();
+    event.preventDefault();
+    var inputs = event.target;
+    var closeButton = inputs[1];
+    closeButton.click();
+    onSignOut();
+  }
+}
+
+/***/ }),
+
+/***/ "./src/Views/home/HandleQuoteOfTheDay.js":
+/*!***********************************************!*\
+  !*** ./src/Views/home/HandleQuoteOfTheDay.js ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   HandleQuoteOfTheDay: () => (/* binding */ HandleQuoteOfTheDay)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _modules_Qotd_extractQotdResponse_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../modules/Qotd/extractQotdResponse.js */ "./src/modules/Qotd/extractQotdResponse.js");
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+//Fetch the response from the server and extract it
+
+
+var proxy = "https://corsproxy.io/?url=";
+var baseUrl = "https://favqs.com/api";
+var endPoint = "/qotd";
+function HandleQuoteOfTheDay() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    didMount = _useState2[0],
+    setDidMount = _useState2[1];
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, [didMount]);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card w-50 m-4 list-group-item-color1 boxShadow "
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-header blockquote-header text-center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "badge text-bg-primary m-1"
+  }, "NEW!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("i", {
+    className: "bi bi-book"
+  }), " Quote of the Day", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "card-body"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("blockquote", {
+    id: "qotdQuoteTag",
+    className: "blockquote mb-3"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", {
+    id: "qotdAuthorTag",
+    className: "blockquote-footer mt-2 list-group-item-text1"
+  }))));
+  function componentDidMount() {
+    var url = proxy + baseUrl + endPoint;
+    var promise = fetch(url);
+    promise.then(_modules_Qotd_extractQotdResponse_js__WEBPACK_IMPORTED_MODULE_1__.extractQotdResponse);
+    setDidMount(true);
+    console.log("The HandleQuoteOfTheDay component mounted.");
+  }
+  function componentDidUpdate() {
+    if (didMount) console.log("The HandleQuoteOfTheDay component updated.");
+  }
+  function componentDidUnmount() {
+    return function displayMessage() {
+      console.log("The  HandleQuoteOfTheDay component unmounted.");
+    };
+  }
+}
+
+/***/ }),
+
+/***/ "./src/Views/home/Home.js":
+/*!********************************!*\
+  !*** ./src/Views/home/Home.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Home: () => (/* binding */ Home)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HandleQuoteOfTheDay.js */ "./src/Views/home/HandleQuoteOfTheDay.js");
+/* harmony import */ var _ServicesListGroup_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ServicesListGroup.js */ "./src/Views/home/ServicesListGroup.js");
+/* harmony import */ var _src_index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../src/index.scss */ "./src/index.scss");
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+
+
+
+
+function Home() {
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    didMount = _useState2[0],
+    setDidMount = _useState2[1];
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, [didMount]);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("main", {
+    id: "homeMain"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    id: "mixin-welcome",
+    className: "m-2"
+  }, "Welcome"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_1__.HandleQuoteOfTheDay, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container m-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "homeIntro",
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Hi, I'm Alex Marjanovic, a technical communicator based out of Baton Rouge, LA. Originally from New Jersey, I moved south to escape the cold and snow, after completing my Master's in Professional and Technical Communiction at the New Jersey Institute for Technology (NJIT)."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I started as a technical writer by documenting the standard operating procedures for the technical support and help desk teams on which I served, which reminded me that I not only enjoy writing and design but also excel. I've also been a video game beta tester, translator, business intelligence developer, business analyst, quality assurance tester, project manager, content writer, transaction developer/implementation specialist, and editor."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "In software development specifically, technical communication services are vital for ensuring that complex technical information is accessible to both technical and non-technical audiences, thereby improving user satisfaction and reducing the need for support. But the benefits of clear and effective communication apply to any industry."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "homeHelp",
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "How I can help"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "I'm a specialist at translating technology: creating and delivering information concisely, clearly, and effectively. Bridging the gap between end users and technical experts, primarily I create", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "portfolio.html#helpFile"
+  }, "help files"), ", design", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "portfolio.html#adminGuide"
+  }, " ", "administrator and user guides"), ", and write ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "portfolio.html#manual"
+  }, "manuals"), " that explain how to use products or services. In addition to writing the content, I also carefully select or create visual aids (charts, diagrams, screenshots, etc.) that help readers understand the information presented."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "During my career in information techonology, I've worked for and with organizations in the following industries: retail, mail-order, biotechnology and pharamceutical services, construction and engineering, loan origination, software development, and state government."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "homeServices",
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", null, "Services"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Whether it's writing user manuals, creating process documentation, developing training materials, or editing help files, I ensure that content is accessible and tailored to your audience's needs. Rates are per hour or per project depending on the complexity, scope, and estimated time for completion."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    id: "homeServicesList",
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ServicesListGroup_js__WEBPACK_IMPORTED_MODULE_2__.ServicesListGroup, null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "If my services seem like a good fit for your organization, please", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "contact.html#sendMessage"
+  }, "send a message"), " using the Contact form."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Thanks for visiting!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+    className: "signature ms-4 mt-2"
+  }, "Alex Marjanovic")))));
+  function componentDidMount() {
+    setDidMount(true);
+    console.log("The Home component mounted.");
+    var titleTag = document.getElementById("titleTag");
+    titleTag.innerHTML = "Alex M - Home";
+  }
+  function componentDidUpdate() {
+    if (didMount) console.log("The Home component updated.");
+  }
+  function componentDidUnmount() {
+    return function () {
+      console.log("The Home component unmounted.");
+    };
+  }
+}
+
+/***/ }),
+
+/***/ "./src/Views/home/ServicesListGroup.js":
+/*!*********************************************!*\
+  !*** ./src/Views/home/ServicesListGroup.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ServicesListGroup: () => (/* binding */ ServicesListGroup)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+function ServicesListGroup() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "m-5 center"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", {
+    className: "container list-group ms-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "bold"
+  }, "Artificial intelligence:", " "), "Leveraging generative AI to produce effective images and text, increasing efficiency and productivity. Writing cotent and rubrics to train Large Language Modals (LLMs)."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "bold"
+  }, "Content Development & Strategy: "), "Developing and maintaining content for knowledge bases, software, websites, and other uses, ensuring that information is accessible and user-friendly."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "bold"
+  }, "Information Architecture & Design: "), "Structuring and organizing information to make it easy to understand and navigate, often involving charts, diagrams, mock-ups, screenshots, wire frames, and other visual aids."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "bold"
+  }, "Editing and Proofreading: "), "Reviewing visual and written works for accuracy, clarity, consistency, and grammar, ensuring they meet organizational standards and guidelines."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "bold"
+  }, "Marketing: "), "Producing materials like brochures, case studies, course descriptions, and product information sheets that help explain benefits and features to potential customers."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "bold"
+  }, "Technical Writing: "), "Creating user manuals, installation guides, help files, white papers, and other documentation."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "bold"
+  }, "User Interface (UI) Design: "), "Working with subject matter expperts, designers, and developers to produce intuitive and easy to use interfaces."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI mb-4"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "bold"
+  }, "User Experience (UX) Design: "), "Designing products users will love by applying usability engineering and user-centered design principles, including task analysis and usability testing."))));
+}
+
+/***/ }),
+
+/***/ "./src/Views/nav/Footer.js":
+/*!*********************************!*\
+  !*** ./src/Views/nav/Footer.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Footer: () => (/* binding */ Footer)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_icons_copyright_cGainsboro_nobg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/icons/copyright_cGainsboro_nobg.png */ "./assets/icons/copyright_cGainsboro_nobg.png");
+
+
+function Footer() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "m-2"
+  }, " ", "2024", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "copyright",
+    width: "15px",
+    src: _assets_icons_copyright_cGainsboro_nobg_png__WEBPACK_IMPORTED_MODULE_1__
+  }), " ", "Aleksandra Marjanovic"));
+}
+
+/***/ }),
+
+/***/ "./src/Views/nav/HandleRefresh.js":
+/*!****************************************!*\
+  !*** ./src/Views/nav/HandleRefresh.js ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   HandleRefresh: () => (/* binding */ HandleRefresh)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+
+
+
+/*************************************************
+ * @summary Removes the 404 error on SPA refresh
+ * @param props.children The elements to render on refresh
+ * @description
+ * This component depends on the local storage used by redirect.js
+ * In redirect.js, properly set the root path.
+ */
+function HandleRefresh(props) {
+  var children = props.children; //Render children 
+  var navigateTo = (0,react_router__WEBPACK_IMPORTED_MODULE_1__.useNavigate)(); //Allow function to access BrowserRouter
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    didMount = _useState2[0],
+    setDidMount = _useState2[1]; //set useState to false because component has not mounted
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []); //only track a single mount
+
+  if (didMount) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, children); //if the component mounted, render the children
+  else return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null); //if the component did not mount, don't load anything
+
+  function componentDidMount() {
+    var redirectPath = localStorage.getItem("redirect"); //Check the path name
+    if (redirectPath) {
+      //if there's a path
+      navigateTo(redirectPath); //navigate to it
+      localStorage.setItem("redirect", "");
+      setTimeout(function () {
+        return setDidMount(true);
+      }, 1000); //Delay the rendering of children if 
+    } else setDidMount(true);
+  }
+}
+
+/***/ }),
+
+/***/ "./src/Views/nav/Header.js":
+/*!*********************************!*\
+  !*** ./src/Views/nav/Header.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   Header: () => (/* binding */ Header)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavbarCollapsible.js */ "./src/Views/nav/NavbarCollapsible.js");
+/* harmony import */ var _ImageMap_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ImageMap.js */ "./src/Views/nav/ImageMap.js");
+
+
+
+function Header() {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_1__.NavbarCollapsible, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_ImageMap_js__WEBPACK_IMPORTED_MODULE_2__.ImageMap, null));
+}
+
+/***/ }),
+
+/***/ "./src/Views/nav/ImageMap.js":
+/*!***********************************!*\
+  !*** ./src/Views/nav/ImageMap.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   ImageMap: () => (/* binding */ ImageMap)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_images_siteHeader_4kp_rev2_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/images/siteHeader_4kp_rev2.png */ "./assets/images/siteHeader_4kp_rev2.png");
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
+/* harmony import */ var _utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utils/getRootPath.js */ "./src/utils/getRootPath.js");
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+
+
+
+
+function ImageMap() {
+  var navigateTo = (0,react_router__WEBPACK_IMPORTED_MODULE_3__.useNavigate)(); //Allow function to access BrowserRouter
+  var rootPath = (0,_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_2__.getRootPath)();
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
+    _useState2 = _slicedToArray(_useState, 2),
+    didMount = _useState2[0],
+    setDidMount = _useState2[1]; //set useState to false because component has not mounted
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []); //only track a single mount
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
+  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "siteHeader",
+    alt: "siteHeader",
+    width: "100%",
+    src: _assets_images_siteHeader_4kp_rev2_png__WEBPACK_IMPORTED_MODULE_1__,
+    className: "pb-4",
+    useMap: "#tc-image-map"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("map", {
+    name: "tc-image-map"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("area", {
+    title: "portfolio",
+    coords: "634,305,382",
+    shape: "circle",
+    onClick: function onClick() {
+      return navigateTo("".concat(rootPath, "/portfolio"));
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("area", {
+    title: "contact",
+    coords: "2851,294,300",
+    shape: "circle",
+    onClick: function onClick() {
+      return navigateTo("".concat(rootPath, "/contact"));
+    }
+  })));
+  function componentDidMount() {
+    setDidMount(true);
+    console.log("The Image Map component mounted.");
+    imageMapResize();
+  }
+  function componentDidUpdate() {
+    if (didMount) console.log("The Image Map  component updated.");
+  }
+  function componentDidUnmount() {
+    return function displayMessage() {
+      console.log("The Image Map component unmounted.");
+    };
+  }
+}
+
+/***/ }),
+
+/***/ "./src/Views/nav/NavbarCollapsible.js":
+/*!********************************************!*\
+  !*** ./src/Views/nav/NavbarCollapsible.js ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   NavbarCollapsible: () => (/* binding */ NavbarCollapsible)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
+/* harmony import */ var _utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utils/getRootPath.js */ "./src/utils/getRootPath.js");
+/* harmony import */ var _assets_icons_icon_linkedin_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../assets/icons/icon_linkedin.png */ "./assets/icons/icon_linkedin.png");
+/* harmony import */ var _assets_icons_icon_email_coral_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../assets/icons/icon_email_coral.png */ "./assets/icons/icon_email_coral.png");
+/* harmony import */ var _auth_SignInArea_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../auth/SignInArea.js */ "./src/Views/auth/SignInArea.js");
+
+
+
+
+
+
+function NavbarCollapsible() {
+  var rootPath = (0,_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_1__.getRootPath)();
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
+    className: "navbar nav-tabs navbar-expand-sm",
+    style: {
+      backgroundColor: "rgb(2, 32, 54)"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "container-fluid"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+    className: "navbar-brand",
+    style: {
+      backgroundColor: "rgb(2, 32, 54)",
+      color: "rgb(220, 220, 170)"
+    },
+    to: "#"
+  }, "Alex Marjanovic"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "me-1"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    className: "ms-2 bg-dark",
+    href: "https://www.linkedin.com/in/alexmarjanovic"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "linkedInIcon",
+    alt: "LinkedIn",
+    style: {
+      height: "45px",
+      width: "45px"
+    },
+    src: _assets_icons_icon_linkedin_png__WEBPACK_IMPORTED_MODULE_2__
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "me-3"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
+    href: "contact.html#sendMessage"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    id: "emailIcon",
+    alt: "email",
+    style: {
+      height: "30px",
+      width: "30px"
+    },
+    src: _assets_icons_icon_email_coral_png__WEBPACK_IMPORTED_MODULE_3__
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    className: "navbar-toggler",
+    type: "button",
+    "data-bs-toggle": "collapse",
+    "data-bs-target": "#navbarNavAltMarkup",
+    "aria-controls": "navbarNavAltMarkup",
+    "aria-expanded": "false",
+    "aria-label": "Toggle navigation"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    className: "navbar-toggler-icon",
+    style: {
+      backgroundColor: "rgb(109, 154, 189)"
+    }
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "collapse navbar-collapse",
+    id: "navbarNavAltMarkup"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "navbar-nav"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+    end: true,
+    className: "nav-link nav-text",
+    "aria-current": "page",
+    to: "".concat(rootPath, "/")
+  }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+    className: "nav-link nav-text",
+    to: "".concat(rootPath, "/portfolio")
+  }, "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+    className: "nav-link nav-text",
+    to: "".concat(rootPath, "/alexresume")
+  }, "Resume"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+    className: "nav-link nav-text",
+    to: "".concat(rootPath, "/contact")
+  }, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+    className: "nav-link nav-text",
+    to: "".concat(rootPath, "/schedulefreeconsultation")
+  }, "Free Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
+    className: "nav-link nav-text",
+    to: "".concat(rootPath, "/about")
+  }, "About"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_auth_SignInArea_js__WEBPACK_IMPORTED_MODULE_4__.SignInArea, null)));
+}
+
+/***/ }),
+
+/***/ "./src/controllers/handleSignInAttempt.js":
+/*!************************************************!*\
+  !*** ./src/controllers/handleSignInAttempt.js ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   handleSignInAttempt: () => (/* binding */ handleSignInAttempt)
+/* harmony export */ });
+/* harmony import */ var _modules_authentication_authenticationAws_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/authentication/authenticationAws.js */ "./src/modules/authentication/authenticationAws.js");
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return e; }; var t, e = {}, r = Object.prototype, n = r.hasOwnProperty, o = Object.defineProperty || function (t, e, r) { t[e] = r.value; }, i = "function" == typeof Symbol ? Symbol : {}, a = i.iterator || "@@iterator", c = i.asyncIterator || "@@asyncIterator", u = i.toStringTag || "@@toStringTag"; function define(t, e, r) { return Object.defineProperty(t, e, { value: r, enumerable: !0, configurable: !0, writable: !0 }), t[e]; } try { define({}, ""); } catch (t) { define = function define(t, e, r) { return t[e] = r; }; } function wrap(t, e, r, n) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype), c = new Context(n || []); return o(a, "_invoke", { value: makeInvokeMethod(t, r, c) }), a; } function tryCatch(t, e, r) { try { return { type: "normal", arg: t.call(e, r) }; } catch (t) { return { type: "throw", arg: t }; } } e.wrap = wrap; var h = "suspendedStart", l = "suspendedYield", f = "executing", s = "completed", y = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var p = {}; define(p, a, function () { return this; }); var d = Object.getPrototypeOf, v = d && d(d(values([]))); v && v !== r && n.call(v, a) && (p = v); var g = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(p); function defineIteratorMethods(t) { ["next", "throw", "return"].forEach(function (e) { define(t, e, function (t) { return this._invoke(e, t); }); }); } function AsyncIterator(t, e) { function invoke(r, o, i, a) { var c = tryCatch(t[r], t, o); if ("throw" !== c.type) { var u = c.arg, h = u.value; return h && "object" == _typeof(h) && n.call(h, "__await") ? e.resolve(h.__await).then(function (t) { invoke("next", t, i, a); }, function (t) { invoke("throw", t, i, a); }) : e.resolve(h).then(function (t) { u.value = t, i(u); }, function (t) { return invoke("throw", t, i, a); }); } a(c.arg); } var r; o(this, "_invoke", { value: function value(t, n) { function callInvokeWithMethodAndArg() { return new e(function (e, r) { invoke(t, n, e, r); }); } return r = r ? r.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(e, r, n) { var o = h; return function (i, a) { if (o === f) throw Error("Generator is already running"); if (o === s) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var c = n.delegate; if (c) { var u = maybeInvokeDelegate(c, n); if (u) { if (u === y) continue; return u; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (o === h) throw o = s, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = f; var p = tryCatch(e, r, n); if ("normal" === p.type) { if (o = n.done ? s : l, p.arg === y) continue; return { value: p.arg, done: n.done }; } "throw" === p.type && (o = s, n.method = "throw", n.arg = p.arg); } }; } function maybeInvokeDelegate(e, r) { var n = r.method, o = e.iterator[n]; if (o === t) return r.delegate = null, "throw" === n && e.iterator["return"] && (r.method = "return", r.arg = t, maybeInvokeDelegate(e, r), "throw" === r.method) || "return" !== n && (r.method = "throw", r.arg = new TypeError("The iterator does not provide a '" + n + "' method")), y; var i = tryCatch(o, e.iterator, r.arg); if ("throw" === i.type) return r.method = "throw", r.arg = i.arg, r.delegate = null, y; var a = i.arg; return a ? a.done ? (r[e.resultName] = a.value, r.next = e.nextLoc, "return" !== r.method && (r.method = "next", r.arg = t), r.delegate = null, y) : a : (r.method = "throw", r.arg = new TypeError("iterator result is not an object"), r.delegate = null, y); } function pushTryEntry(t) { var e = { tryLoc: t[0] }; 1 in t && (e.catchLoc = t[1]), 2 in t && (e.finallyLoc = t[2], e.afterLoc = t[3]), this.tryEntries.push(e); } function resetTryEntry(t) { var e = t.completion || {}; e.type = "normal", delete e.arg, t.completion = e; } function Context(t) { this.tryEntries = [{ tryLoc: "root" }], t.forEach(pushTryEntry, this), this.reset(!0); } function values(e) { if (e || "" === e) { var r = e[a]; if (r) return r.call(e); if ("function" == typeof e.next) return e; if (!isNaN(e.length)) { var o = -1, i = function next() { for (; ++o < e.length;) if (n.call(e, o)) return next.value = e[o], next.done = !1, next; return next.value = t, next.done = !0, next; }; return i.next = i; } } throw new TypeError(_typeof(e) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, o(g, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), o(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, u, "GeneratorFunction"), e.isGeneratorFunction = function (t) { var e = "function" == typeof t && t.constructor; return !!e && (e === GeneratorFunction || "GeneratorFunction" === (e.displayName || e.name)); }, e.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, define(t, u, "GeneratorFunction")), t.prototype = Object.create(g), t; }, e.awrap = function (t) { return { __await: t }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, c, function () { return this; }), e.AsyncIterator = AsyncIterator, e.async = function (t, r, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(wrap(t, r, n, o), i); return e.isGeneratorFunction(r) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, defineIteratorMethods(g), define(g, u, "Generator"), define(g, a, function () { return this; }), define(g, "toString", function () { return "[object Generator]"; }), e.keys = function (t) { var e = Object(t), r = []; for (var n in e) r.push(n); return r.reverse(), function next() { for (; r.length;) { var t = r.pop(); if (t in e) return next.value = t, next.done = !1, next; } return next.done = !0, next; }; }, e.values = values, Context.prototype = { constructor: Context, reset: function reset(e) { if (this.prev = 0, this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(resetTryEntry), !e) for (var r in this) "t" === r.charAt(0) && n.call(this, r) && !isNaN(+r.slice(1)) && (this[r] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0].completion; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(e) { if (this.done) throw e; var r = this; function handle(n, o) { return a.type = "throw", a.arg = e, r.next = n, o && (r.method = "next", r.arg = t), !!o; } for (var o = this.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i.completion; if ("root" === i.tryLoc) return handle("end"); if (i.tryLoc <= this.prev) { var c = n.call(i, "catchLoc"), u = n.call(i, "finallyLoc"); if (c && u) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } else if (c) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); } else { if (!u) throw Error("try statement without catch or finally"); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } } } }, abrupt: function abrupt(t, e) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var o = this.tryEntries[r]; if (o.tryLoc <= this.prev && n.call(o, "finallyLoc") && this.prev < o.finallyLoc) { var i = o; break; } } i && ("break" === t || "continue" === t) && i.tryLoc <= e && e <= i.finallyLoc && (i = null); var a = i ? i.completion : {}; return a.type = t, a.arg = e, i ? (this.method = "next", this.next = i.finallyLoc, y) : this.complete(a); }, complete: function complete(t, e) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), y; }, finish: function finish(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.finallyLoc === t) return this.complete(r.completion, r.afterLoc), resetTryEntry(r), y; } }, "catch": function _catch(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.tryLoc === t) { var n = r.completion; if ("throw" === n.type) { var o = n.arg; resetTryEntry(r); } return o; } } throw Error("illegal catch attempt"); }, delegateYield: function delegateYield(e, r, n) { return this.delegate = { iterator: values(e), resultName: r, nextLoc: n }, "next" === this.method && (this.arg = t), y; } }, e; }
+function asyncGeneratorStep(n, t, e, r, o, a, c) { try { var i = n[a](c), u = i.value; } catch (n) { return void e(n); } i.done ? t(u) : Promise.resolve(u).then(r, o); }
+function _asyncToGenerator(n) { return function () { var t = this, e = arguments; return new Promise(function (r, o) { var a = n.apply(t, e); function _next(n) { asyncGeneratorStep(a, r, o, _next, _throw, "next", n); } function _throw(n) { asyncGeneratorStep(a, r, o, _next, _throw, "throw", n); } _next(void 0); }); }; }
+
+function handleSignInAttempt() {
+  return _handleSignInAttempt.apply(this, arguments);
+}
+function _handleSignInAttempt() {
+  _handleSignInAttempt = _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
+    var event,
+      setErrorMessage,
+      onSignIn,
+      inputs,
+      emailInput,
+      passwordInput,
+      closeButton,
+      email,
+      password,
+      isAuthenticated,
+      _args = arguments;
+    return _regeneratorRuntime().wrap(function _callee$(_context) {
+      while (1) switch (_context.prev = _context.next) {
+        case 0:
+          event = _args.length > 0 && _args[0] !== undefined ? _args[0] : new Event();
+          setErrorMessage = _args.length > 1 ? _args[1] : undefined;
+          onSignIn = _args.length > 2 ? _args[2] : undefined;
+          event.preventDefault();
+          inputs = event.target;
+          emailInput = inputs[1];
+          passwordInput = inputs[2];
+          closeButton = inputs[3];
+          email = emailInput.value;
+          password = passwordInput.value; // const resolveValue = await authenticationSimulationDB(email, password);
+          // const isAuthenticated = resolveValue;
+          _context.next = 12;
+          return (0,_modules_authentication_authenticationAws_js__WEBPACK_IMPORTED_MODULE_0__.authenticationAws)(email, password);
+        case 12:
+          isAuthenticated = _context.sent;
+          if (isAuthenticated) {
+            closeButton.click();
+            inputs.reset();
+            onSignIn();
+          } else setErrorMessage("The email and password entered do not match any authorized login.");
+        case 14:
+        case "end":
+          return _context.stop();
+      }
+    }, _callee);
+  }));
+  return _handleSignInAttempt.apply(this, arguments);
+}
+
+/***/ }),
+
+/***/ "./src/modules/Qotd/extractQotdResponse.js":
+/*!*************************************************!*\
+  !*** ./src/modules/Qotd/extractQotdResponse.js ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   extractQotdResponse: () => (/* binding */ extractQotdResponse)
+/* harmony export */ });
+/* harmony import */ var _parseQotdResponse_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./parseQotdResponse.js */ "./src/modules/Qotd/parseQotdResponse.js");
+//Extract the server resoponse and parse it
+
+function extractQotdResponse(resolveValue) {
+  var promise = resolveValue.text();
+  promise.then(_parseQotdResponse_js__WEBPACK_IMPORTED_MODULE_0__.parseQotdResponse);
+  console.log("Quote of the Day was extracted.");
+}
+
+/***/ }),
+
+/***/ "./src/modules/Qotd/parseQotdResponse.js":
+/*!***********************************************!*\
+  !*** ./src/modules/Qotd/parseQotdResponse.js ***!
+  \***********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   parseQotdResponse: () => (/* binding */ parseQotdResponse)
+/* harmony export */ });
+/* harmony import */ var _utils_output_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../utils/output.js */ "./src/utils/output.js");
+//Parse the response and display the qotd on the index page
+
+function parseQotdResponse(resolveValue) {
+  var quote = "";
+  var author = "";
+  var response = JSON.parse(resolveValue); //Parse the JSON string
+  var quoteData = response.quote; //Access the quote object that contains the quote data
+
+  quote = quoteData.body; //Access the property that contains the quote text
+  console.log("Quote: ".concat(quote));
+  author = quoteData.author; //Access the property that contains the author text
+  console.log("Author: ".concat(author));
+  console.log("Quote of the Day was parsed.");
+  (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)(quote, "qotdQuoteTag");
+  (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)(author, "qotdAuthorTag");
+}
+
+/***/ }),
+
+/***/ "./src/modules/authentication/authenticationAws.js":
+/*!*********************************************************!*\
+  !*** ./src/modules/authentication/authenticationAws.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   authenticationAws: () => (/* binding */ authenticationAws)
+/* harmony export */ });
+/* harmony import */ var _aws_sdk_client_dynamodb__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @aws-sdk/client-dynamodb */ "./node_modules/@aws-sdk/client-dynamodb/dist-es/DynamoDB.js");
+/* harmony import */ var _aws_sdk_lib_dynamodb__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @aws-sdk/lib-dynamodb */ "./node_modules/@aws-sdk/lib-dynamodb/dist-es/index.js");
+/* harmony import */ var _aws_credentials_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../.aws/credentials.js */ "./.aws/credentials.js");
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return e; }; var t, e = {}, r = Object.prototype, n = r.hasOwnProperty, o = Object.defineProperty || function (t, e, r) { t[e] = r.value; }, i = "function" == typeof Symbol ? Symbol : {}, a = i.iterator || "@@iterator", c = i.asyncIterator || "@@asyncIterator", u = i.toStringTag || "@@toStringTag"; function define(t, e, r) { return Object.defineProperty(t, e, { value: r, enumerable: !0, configurable: !0, writable: !0 }), t[e]; } try { define({}, ""); } catch (t) { define = function define(t, e, r) { return t[e] = r; }; } function wrap(t, e, r, n) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype), c = new Context(n || []); return o(a, "_invoke", { value: makeInvokeMethod(t, r, c) }), a; } function tryCatch(t, e, r) { try { return { type: "normal", arg: t.call(e, r) }; } catch (t) { return { type: "throw", arg: t }; } } e.wrap = wrap; var h = "suspendedStart", l = "suspendedYield", f = "executing", s = "completed", y = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var p = {}; define(p, a, function () { return this; }); var d = Object.getPrototypeOf, v = d && d(d(values([]))); v && v !== r && n.call(v, a) && (p = v); var g = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(p); function defineIteratorMethods(t) { ["next", "throw", "return"].forEach(function (e) { define(t, e, function (t) { return this._invoke(e, t); }); }); } function AsyncIterator(t, e) { function invoke(r, o, i, a) { var c = tryCatch(t[r], t, o); if ("throw" !== c.type) { var u = c.arg, h = u.value; return h && "object" == _typeof(h) && n.call(h, "__await") ? e.resolve(h.__await).then(function (t) { invoke("next", t, i, a); }, function (t) { invoke("throw", t, i, a); }) : e.resolve(h).then(function (t) { u.value = t, i(u); }, function (t) { return invoke("throw", t, i, a); }); } a(c.arg); } var r; o(this, "_invoke", { value: function value(t, n) { function callInvokeWithMethodAndArg() { return new e(function (e, r) { invoke(t, n, e, r); }); } return r = r ? r.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(e, r, n) { var o = h; return function (i, a) { if (o === f) throw Error("Generator is already running"); if (o === s) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var c = n.delegate; if (c) { var u = maybeInvokeDelegate(c, n); if (u) { if (u === y) continue; return u; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (o === h) throw o = s, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = f; var p = tryCatch(e, r, n); if ("normal" === p.type) { if (o = n.done ? s : l, p.arg === y) continue; return { value: p.arg, done: n.done }; } "throw" === p.type && (o = s, n.method = "throw", n.arg = p.arg); } }; } function maybeInvokeDelegate(e, r) { var n = r.method, o = e.iterator[n]; if (o === t) return r.delegate = null, "throw" === n && e.iterator["return"] && (r.method = "return", r.arg = t, maybeInvokeDelegate(e, r), "throw" === r.method) || "return" !== n && (r.method = "throw", r.arg = new TypeError("The iterator does not provide a '" + n + "' method")), y; var i = tryCatch(o, e.iterator, r.arg); if ("throw" === i.type) return r.method = "throw", r.arg = i.arg, r.delegate = null, y; var a = i.arg; return a ? a.done ? (r[e.resultName] = a.value, r.next = e.nextLoc, "return" !== r.method && (r.method = "next", r.arg = t), r.delegate = null, y) : a : (r.method = "throw", r.arg = new TypeError("iterator result is not an object"), r.delegate = null, y); } function pushTryEntry(t) { var e = { tryLoc: t[0] }; 1 in t && (e.catchLoc = t[1]), 2 in t && (e.finallyLoc = t[2], e.afterLoc = t[3]), this.tryEntries.push(e); } function resetTryEntry(t) { var e = t.completion || {}; e.type = "normal", delete e.arg, t.completion = e; } function Context(t) { this.tryEntries = [{ tryLoc: "root" }], t.forEach(pushTryEntry, this), this.reset(!0); } function values(e) { if (e || "" === e) { var r = e[a]; if (r) return r.call(e); if ("function" == typeof e.next) return e; if (!isNaN(e.length)) { var o = -1, i = function next() { for (; ++o < e.length;) if (n.call(e, o)) return next.value = e[o], next.done = !1, next; return next.value = t, next.done = !0, next; }; return i.next = i; } } throw new TypeError(_typeof(e) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, o(g, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), o(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, u, "GeneratorFunction"), e.isGeneratorFunction = function (t) { var e = "function" == typeof t && t.constructor; return !!e && (e === GeneratorFunction || "GeneratorFunction" === (e.displayName || e.name)); }, e.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, define(t, u, "GeneratorFunction")), t.prototype = Object.create(g), t; }, e.awrap = function (t) { return { __await: t }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, c, function () { return this; }), e.AsyncIterator = AsyncIterator, e.async = function (t, r, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(wrap(t, r, n, o), i); return e.isGeneratorFunction(r) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, defineIteratorMethods(g), define(g, u, "Generator"), define(g, a, function () { return this; }), define(g, "toString", function () { return "[object Generator]"; }), e.keys = function (t) { var e = Object(t), r = []; for (var n in e) r.push(n); return r.reverse(), function next() { for (; r.length;) { var t = r.pop(); if (t in e) return next.value = t, next.done = !1, next; } return next.done = !0, next; }; }, e.values = values, Context.prototype = { constructor: Context, reset: function reset(e) { if (this.prev = 0, this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(resetTryEntry), !e) for (var r in this) "t" === r.charAt(0) && n.call(this, r) && !isNaN(+r.slice(1)) && (this[r] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0].completion; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(e) { if (this.done) throw e; var r = this; function handle(n, o) { return a.type = "throw", a.arg = e, r.next = n, o && (r.method = "next", r.arg = t), !!o; } for (var o = this.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i.completion; if ("root" === i.tryLoc) return handle("end"); if (i.tryLoc <= this.prev) { var c = n.call(i, "catchLoc"), u = n.call(i, "finallyLoc"); if (c && u) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } else if (c) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); } else { if (!u) throw Error("try statement without catch or finally"); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } } } }, abrupt: function abrupt(t, e) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var o = this.tryEntries[r]; if (o.tryLoc <= this.prev && n.call(o, "finallyLoc") && this.prev < o.finallyLoc) { var i = o; break; } } i && ("break" === t || "continue" === t) && i.tryLoc <= e && e <= i.finallyLoc && (i = null); var a = i ? i.completion : {}; return a.type = t, a.arg = e, i ? (this.method = "next", this.next = i.finallyLoc, y) : this.complete(a); }, complete: function complete(t, e) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), y; }, finish: function finish(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.finallyLoc === t) return this.complete(r.completion, r.afterLoc), resetTryEntry(r), y; } }, "catch": function _catch(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.tryLoc === t) { var n = r.completion; if ("throw" === n.type) { var o = n.arg; resetTryEntry(r); } return o; } } throw Error("illegal catch attempt"); }, delegateYield: function delegateYield(e, r, n) { return this.delegate = { iterator: values(e), resultName: r, nextLoc: n }, "next" === this.method && (this.arg = t), y; } }, e; }
+function asyncGeneratorStep(n, t, e, r, o, a, c) { try { var i = n[a](c), u = i.value; } catch (n) { return void e(n); } i.done ? t(u) : Promise.resolve(u).then(r, o); }
+function _asyncToGenerator(n) { return function () { var t = this, e = arguments; return new Promise(function (r, o) { var a = n.apply(t, e); function _next(n) { asyncGeneratorStep(a, r, o, _next, _throw, "next", n); } function _throw(n) { asyncGeneratorStep(a, r, o, _next, _throw, "throw", n); } _next(void 0); }); }; }
+
+
+
+function authenticationAws() {
+  return _authenticationAws.apply(this, arguments);
+}
+function _authenticationAws() {
+  _authenticationAws = _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
+    var email,
+      password,
+      apiKey,
+      client,
+      niceClient,
+      request,
+      response,
+      matchingLogin,
+      isAuthenticated,
+      _args = arguments;
+    return _regeneratorRuntime().wrap(function _callee$(_context) {
+      while (1) switch (_context.prev = _context.next) {
+        case 0:
+          email = _args.length > 0 && _args[0] !== undefined ? _args[0] : "";
+          password = _args.length > 1 && _args[1] !== undefined ? _args[1] : "";
+          apiKey = {
+            region: _aws_credentials_js__WEBPACK_IMPORTED_MODULE_1__.region,
+            credentials: {
+              accessKeyId: _aws_credentials_js__WEBPACK_IMPORTED_MODULE_1__.accessKeyId,
+              secretAccessKey: _aws_credentials_js__WEBPACK_IMPORTED_MODULE_1__.secretAccessKey
+            }
+          };
+          client = new _aws_sdk_client_dynamodb__WEBPACK_IMPORTED_MODULE_2__.DynamoDB(apiKey);
+          niceClient = _aws_sdk_lib_dynamodb__WEBPACK_IMPORTED_MODULE_0__.DynamoDBDocument.from(client);
+          request = {
+            TableName: "logins",
+            Key: {
+              email: email
+            }
+          };
+          _context.next = 8;
+          return niceClient.get(request);
+        case 8:
+          response = _context.sent;
+          matchingLogin = response.Item;
+          if (matchingLogin) {
+            _context.next = 13;
+            break;
+          }
+          //Handles undefined error from password field
+          console.log("User not found.");
+          return _context.abrupt("return", false);
+        case 13:
+          isAuthenticated = password === matchingLogin.password;
+          return _context.abrupt("return", isAuthenticated);
+        case 15:
+        case "end":
+          return _context.stop();
+      }
+    }, _callee);
+  }));
+  return _authenticationAws.apply(this, arguments);
+}
+
+/***/ }),
+
+/***/ "./src/modules/consultation/handleSubmitConsultation.js":
+/*!**************************************************************!*\
+  !*** ./src/modules/consultation/handleSubmitConsultation.js ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   handleSubmitConsultation: () => (/* binding */ handleSubmitConsultation)
+/* harmony export */ });
+/* harmony import */ var _parseResponseConsultation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./parseResponseConsultation */ "./src/modules/consultation/parseResponseConsultation.js");
+/* harmony import */ var _resolveServerResponseConsultation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./resolveServerResponseConsultation */ "./src/modules/consultation/resolveServerResponseConsultation.js");
+//Form processing messages
+//  const emailSubmitMessage = "<br>" + "<h5>Your message has been sent from" + email + ".</h5>" + "<br>";
+// const scheduleSubmitMessage = "<br>" + "<h5>Your consultation request has been submitted. Confirmation will be sent to" + email + ".</h5>" + "<br>";
+
+
+
+function handleSubmitConsultation(event) {
+  event.preventDefault();
+  var inputs = event.target;
+  var emailInput = inputs[3]; //Targets the array location
+  var email = emailInput.value; //Gets the value of the array location
+  window.spinner.innerHTML = "<div class='spinner-border text-primary'></div>"; //Loads the spinner
+  output2("<br>" + "<h5>Submitting scheduling request for " + email + "...</h5><br>"); //Displays the "please wait" message
+  var promise = new Promise(_resolveServerResponseConsultation__WEBPACK_IMPORTED_MODULE_1__.resolveServerResponseConsultation); //Initiates a new promise
+  //Then handles the fulfilled state of a promise by executing the callback function argument when the promise resolves. Chaining then methods creates a sequence of async operations where the output of the previous then becomes the input of the next.
+  promise.then(_parseResponseConsultation__WEBPACK_IMPORTED_MODULE_0__.parseResponseConsultation).then(function hideSpinner(resolveValue2) {
+    //Attaches callParseResponse as the argument/callback function to be called when callServerResponse is fulfilled. When callParseResponse is fulfilled, hideSpinner is the new promise. 
+
+    window.spinner.innerHTML = ""; //Removes the spinner from the HTML tag
+    return resolveValue2; //Returns the argument of the second, hideSpinner promise so that the app knows the promise is fullfilled. 
+  });
+}
+
+/***/ }),
+
+/***/ "./src/modules/consultation/parseResponseConsultation.js":
+/*!***************************************************************!*\
+  !*** ./src/modules/consultation/parseResponseConsultation.js ***!
+  \***************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   parseResponseConsultation: () => (/* binding */ parseResponseConsultation)
+/* harmony export */ });
+//Form processing messages
+//  const emailSubmitMessage = "<br>" + "<h5>Your message has been sent from" + email + ".</h5>" + "<br>";
+// const scheduleSubmitMessage = "<br>" + "<h5>Your consultation request has been submitted. Confirmation will be sent to" + email + ".</h5>" + "<br>";
+
+function parseResponseConsultation(resolveValue2) {
+  var response = JSON.parse(resolveValue2);
+  var message = response.message;
+  output2(message);
+}
+
+/***/ }),
+
+/***/ "./src/modules/consultation/resolveServerResponseConsultation.js":
+/*!***********************************************************************!*\
+  !*** ./src/modules/consultation/resolveServerResponseConsultation.js ***!
+  \***********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   resolveServerResponseConsultation: () => (/* binding */ resolveServerResponseConsultation)
+/* harmony export */ });
+//Form processing messages
+//  const emailSubmitMessage = "<br>" + "<h5>Your message has been sent from" + email + ".</h5>" + "<br>";
+// const scheduleSubmitMessage = "<br>" + "<h5>Your consultation request has been submitted. Confirmation will be sent to" + email + ".</h5>" + "<br>";
+
+function resolveServerResponseConsultation(resolve) {
+  setTimeout(activateResolve, 2000);
+  function activateResolve() {
+    var response = {
+      message: "<h5>Your consultation scheduling request was sent successfully.</h5>"
+    };
+    var finalResponse = JSON.stringify(response);
+    resolve(finalResponse);
+  }
+}
+
+/***/ }),
+
+/***/ "./src/modules/email/handleSubmitEmail.js":
+/*!************************************************!*\
+  !*** ./src/modules/email/handleSubmitEmail.js ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   handleSubmitEmail: () => (/* binding */ handleSubmitEmail)
+/* harmony export */ });
+//Form processing messages
+//  const emailSubmitMessage = "<br>" + "<h5>Your message has been sent from" + email + ".</h5>" + "<br>";
+// const scheduleSubmitMessage = "<br>" + "<h5>Your consultation request has been submitted. Confirmation will be sent to" + email + ".</h5>" + "<br>";
+
+//Submit handler
+function handleSubmitEmail(event) {
+  event.preventDefault();
+  var inputs = event.target;
+  var emailInput = inputs[3]; //Targets the array location
+  var email = emailInput.value; //Gets the value of the array location
+  window.spinner.innerHTML = "<div class='spinner-border text-primary'></div>"; //Loads the spinner
+  output1("<br>" + "<h5>Submitting for " + email + "...</h5><br>"); //Displays the "please wait" message
+  var promise = new Promise(emailServerResponse); //Initiates a new promise
+  //Then handles the fulfilled state of a promise by executing the callback function argument when the promise resolves. Chaining then methods creates a sequence of async operations where the output of the previous then becomes the input of the next.
+  promise.then(emailParseResponse).then(function hideSpinner(resolveValue) {
+    //Attaches emailParseResponse as the argument/callback function to be called when emailServerResponse is fulfilled. When emailParseResponse is fulfilled, hideSpinner is the new promise.
+    window.spinner.innerHTML = ""; //Removes the spinner from the HTML tag
+    return resolveValue; //Returns the argument of the second, hideSpinner promise so that the app knows the promise is fullfilled.
+  });
+}
+
+/***/ }),
+
+/***/ "./src/utils/getRootPath.js":
+/*!**********************************!*\
+  !*** ./src/utils/getRootPath.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   getRootPath: () => (/* binding */ getRootPath)
+/* harmony export */ });
+function getRootPath() {
+  var domain = window.location.hostname;
+  var rootPath = "";
+  console.log("getRootPath domain: ".concat(domain));
+  if (domain === "zohra101.github.io") rootPath = "/capstone-level-3";
+  console.log("getRootpath: ".concat(rootPath));
+  return rootPath;
+}
+
+/***/ }),
+
+/***/ "./src/utils/output.js":
+/*!*****************************!*\
+  !*** ./src/utils/output.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   output: () => (/* binding */ output)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
+function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
+function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
+function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
+
+function output() {
+  var message = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "";
+  var outputTag = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "outputTag";
+  var shouldAppend = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(""),
+    _useState2 = _slicedToArray(_useState, 2),
+    outputMessage = _useState2[0],
+    setOutputMessage = _useState2[1];
+  var outputElement = document.getElementById(outputTag);
+  setOutputMessage(function (prevMessage) {
+    if (shouldAppend) {
+      return prevMessage + message;
+    } else {
+      return message;
+    }
+  });
+  console.log("Output was generated for ".concat(outputTag, "."));
+}
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/AlexResume.scss":
 /*!****************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/Views/AlexResume.scss ***!
@@ -34981,56 +36918,43 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, `h2 {
+___CSS_LOADER_EXPORT___.push([module.id, `#resumeMain h2 {
   font-size: 25px;
-  color: #CD5C5C;
+  color: #cd5c5c;
   margin: 15px;
 }
-
-h3 {
+#resumeMain h3 {
   text-align: left;
   font-size: 20px;
-  color: #228B22;
+  color: #228b22;
   margin: 15px;
 }
-
-h4 {
+#resumeMain h4 {
   text-align: left;
   font-size: 15px;
   color: #191970;
   width: 75%;
   margin: 15px;
 }
-
-p {
+#resumeMain p {
   text-align: left;
   font-size: 15px;
   color: #191970;
   width: 75%;
   margin: 15px;
 }
-
-#skill {
+#resumeMain #skill {
   font-size: 15px;
-  color: #008B8B;
+  color: #008b8b;
   font-weight: bold;
 }
-
-/* a {
-  text-align: left;
-  font-family: "Helvetica", sans-serif;
-  font-size: 15px;
-  color: #191970;
-  width: 75%;
-  padding: 5px;
-} */
-ul {
+#resumeMain ul {
   text-align: left;
   font-size: 15px;
   color: #191970;
   width: 85%;
   margin: 15px;
-}`, "",{"version":3,"sources":["webpack://./src/Views/AlexResume.scss"],"names":[],"mappings":"AACA;EACE,eAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AAAF;;AAGA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AAAF;;AAGA;EACE,eAAA;EACA,cAAA;EACA,iBAAA;AAAF;;AAGA;;;;;;;GAAA;AASA;EACE,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AADF","sourcesContent":["\r\nh2 {\r\n  font-size: 25px;\r\n  color: #CD5C5C;\r\n  margin: 15px;\r\n}\r\n\r\nh3 {\r\n  text-align: left;\r\n  font-size: 20px;\r\n  color: #228B22;\r\n  margin: 15px;\r\n}\r\n\r\nh4 {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  margin: 15px;\r\n}\r\n\r\np {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  margin: 15px;\r\n}\r\n\r\n#skill {\r\n  font-size: 15px;\r\n  color: #008B8B;\r\n  font-weight: bold;\r\n}\r\n\r\n/* a {\r\n  text-align: left;\r\n  font-family: \"Helvetica\", sans-serif;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 75%;\r\n  padding: 5px;\r\n} */\r\n\r\nul {\r\n  text-align: left;\r\n  font-size: 15px;\r\n  color: #191970;\r\n  width: 85%;\r\n  margin: 15px;\r\n}\r\n"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/Views/AlexResume.scss"],"names":[],"mappings":"AACC;EACC,eAAA;EACA,cAAA;EACA,YAAA;AAAF;AAGC;EACC,gBAAA;EACA,eAAA;EACA,cAAA;EACA,YAAA;AADF;AAIC;EACC,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AAFF;AAKC;EACC,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AAHF;AAMC;EACC,eAAA;EACA,cAAA;EACA,iBAAA;AAJF;AAOC;EACC,gBAAA;EACA,eAAA;EACA,cAAA;EACA,UAAA;EACA,YAAA;AALF","sourcesContent":["#resumeMain {\r\n\th2 {\r\n\t\tfont-size: 25px;\r\n\t\tcolor: #cd5c5c;\r\n\t\tmargin: 15px;\r\n\t}\r\n\r\n\th3 {\r\n\t\ttext-align: left;\r\n\t\tfont-size: 20px;\r\n\t\tcolor: #228b22;\r\n\t\tmargin: 15px;\r\n\t}\r\n\r\n\th4 {\r\n\t\ttext-align: left;\r\n\t\tfont-size: 15px;\r\n\t\tcolor: #191970;\r\n\t\twidth: 75%;\r\n\t\tmargin: 15px;\r\n\t}\r\n\r\n\tp {\r\n\t\ttext-align: left;\r\n\t\tfont-size: 15px;\r\n\t\tcolor: #191970;\r\n\t\twidth: 75%;\r\n\t\tmargin: 15px;\r\n\t}\r\n\r\n\t#skill {\r\n\t\tfont-size: 15px;\r\n\t\tcolor: #008b8b;\r\n\t\tfont-weight: bold;\r\n\t}\r\n\r\n\tul {\r\n\t\ttext-align: left;\r\n\t\tfont-size: 15px;\r\n\t\tcolor: #191970;\r\n\t\twidth: 85%;\r\n\t\tmargin: 15px;\r\n\t}\r\n}\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -35766,1890 +37690,6 @@ module.exports = __webpack_require__.p + "9319dbacbd2641f784c8.png";
 
 "use strict";
 module.exports = __webpack_require__.p + "ee9295314bf8fc485031.png";
-
-/***/ }),
-
-/***/ "./.aws/credentials.js":
-/*!*****************************!*\
-  !*** ./.aws/credentials.js ***!
-  \*****************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   accessKeyId: () => (/* binding */ accessKeyId),
-/* harmony export */   region: () => (/* binding */ region),
-/* harmony export */   secretAccessKey: () => (/* binding */ secretAccessKey)
-/* harmony export */ });
-var accessKeyId = "AKIAXEVXYRV6CY6IOSIC";
-var secretAccessKey = "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";
-var region = "us-east-2";
-
-/***/ }),
-
-/***/ "./src/Views/About.js":
-/*!****************************!*\
-  !*** ./src/Views/About.js ***!
-  \****************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   About: () => (/* binding */ About)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _assets_images_alex_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/alex.png */ "./assets/images/alex.png");
-/* harmony import */ var _src_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../src/index.scss */ "./src/index.scss");
-function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
-function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
-function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
-function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-
-
-
-function About() {
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
-    _useState2 = _slicedToArray(_useState, 2),
-    didMount = _useState2[0],
-    setDidMount = _useState2[1];
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
-    className: "p-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container ms-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-1 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    id: "aboutSite",
-    className: "emphasis newSection"
-  }, "About this website", " "))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I created this website using CSS, HTML, and JavaScript, storing my code in GitHub and using VS Code for coding and debugging. For CSS, I used a mix of Bootstrap, an external sheet for the resume page, and internal styles. Very few elenents have inline styles, to make maintenance and updates easier and more efficient."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "For the resume page, I used an external style sheet instead of Bootstrap to have more selection of colors. I designed the PDF version of the resume using Adobe InDesign."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    id: "aboutMe"
-  }, "About me"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _assets_images_alex_png__WEBPACK_IMPORTED_MODULE_1__,
-    alt: "alex",
-    style: {
-      width: "75%"
-    },
-    className: "ms-1"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col-9"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "During high school (in New Jersey), my dad wanted to buy me a really big present. \"Do you want a computer like your cousins? Or something else?\" And so began my war between art and computing. A writer since third grade, I served as the co-editor-in-chief of both the school paper and yearbook (thankfully, not in the same year!) and graduated with both journalism and programming classes. At university, I dropped computer science because debugging made me miserable. I had more fun around books, old things, and people so after a very brief fling with finance, I majored in English and Italian language and literature, with a minor in Mediaeval Studies focused on European history. (Yes, I am less or more a member of the SCA.)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "What can you do with an English degree? Almost anything! After selling computers and office machines at Sears, I joined inbound sales and then technical supoort at a call center, until the company went out of business. On a sales force automation help desk, supporting CRM software and equipment for biotech and pharma sales representatives, I trainied new techs and wrote a lot of SOPs. Working directly with both clients and technical staff gave me unparalleled insight into the needs of users of different literacy levels (computer and verbal), backgrounds, experiences, and goals."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Have you tried explaining that after being on the phone all day, talking on the phone is the last thing you want to do? Yeah, only someone who has done it understands. Hoping an advanced degree would improve my social life, I researched programs in communications, creative writing, and Italian, and came across technical writing. Realizing this field could stop the war, combining my loves for literature and technology, plus allow more energy for people outside work, I enrolled in a fantastic certificate program at the New Jersey Institute of Technology, and rolled right into the Master's."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Computer-based training, knowledge management, and user-centered design research completed, I escaped the snow by moving to Baton Rouge, LA, to become a business intelligence developer. (You read that correctly, not a technical writer.) I always liked tinkering with databases, and spent work breaks with accountants and data analysts, so why not? When the BI team moved under the Application Development umbrella, developers and managers alike were excited to acquire a technical writer to take over documenting the software they produced. I've been at least a part-time technical writer in every role I've held since.")))));
-  function componentDidMount() {
-    setDidMount(true);
-    console.log("The About component mounted.");
-    var titleTag = document.getElementById("titleTag");
-    titleTag.innerHTML = "Alex M - About";
-  }
-  function componentDidUpdate() {
-    if (didMount) console.log("The About component updated.");
-  }
-  function componentDidUnmount() {
-    return function displayMessage() {
-      console.log("The About component unmounted.");
-    };
-  }
-}
-
-/***/ }),
-
-/***/ "./src/Views/AlexResume.js":
-/*!*********************************!*\
-  !*** ./src/Views/AlexResume.js ***!
-  \*********************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   AlexResume: () => (/* binding */ AlexResume)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _Views_AlexResume_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../Views/AlexResume.scss */ "./src/Views/AlexResume.scss");
-function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
-function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
-function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
-function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-
-
-function AlexResume() {
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
-    _useState2 = _slicedToArray(_useState, 2),
-    didMount = _useState2[0],
-    setDidMount = _useState2[1];
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container ms-0"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-1 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "SUMMARY"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Experienced Technical Writer with over 10 years of expertise in transforming complex information into clear, user-friendly documentation that enhances product usability and customer satisfaction.", " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "With a sharp eye for detail and a design philosophy centered on clean, intuitive layouts, I enhance user experience while translating complex technology into accessible language; I\u2019m an expert in creating and maintaining documentation standards, help files, policies, procedures, style guides, system manuals, templates, and user guides."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "My strong background in software development, project management, technical support, and training\u2014coupled with excellent communication, analytical, and interpersonal skills\u2014helps me succeed in fostering alignment across teams and in collaborating with subject matter experts and stakeholders."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "SKILLS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "Collaboration: "), "Dropbox, Google Drive, Docs, Sheets; Discord, GoogleMeet, Slack, Teams, WebEx, Zoom"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "Design: "), "Adobe Acrobat, FrameMaker, InDesign, Photoshop, RoboHelp; DocuSign, Figma, FoxIt, Help and Manual, MadCap Flare; Microsoft Excel, PowerPoint, Visio, Word"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "Development: "), "CSS, GitHub, Glitch, HTML, JavaScript, SQL, XML; SQL Server Management Studio, SQL Server Reporting Services (SSRS), Team Foundation Server (TFS), Test Manager, VS Code"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "Languages: "), "English, French, Italian"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "Project Management: "), "Asana, Jira, Microsoft Project; SQL Server Management Studio, SQL Server Reporting Services (SSRS), Team Foundation Server (TFS), Test Manager, Visual Studio")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "CERTIFICATIONS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "Full Stack Developer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), " CodeX Academy (in progress)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "Cybersecurity Foundations"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "LinkedIn"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "Rajasthani Dance"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "Council of International Dance - UNESCO"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "RYT200 Registered Yoga Teacher"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "Yoga Path/Yoga Alliance"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "Master Writer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "Society for Technical Communication"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "A+ and Network+"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "(CompTIA)"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "EDUCATION"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "Master's in Professional and Technical Communication"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "(MS) New Jersey Institute of Technology"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Specialized in user-centered design and usability engineering"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Researched a help desk knowledge management system and developed storyboards")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "Bachelor's in English and Italian"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "(BA) Rutgers University")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "HONORS"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "Embracing Worldwide Differences Certificate"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "CRIF Lending Solutions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "Employee of the Quarter"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "CRIF Lending Solutions"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    id: "skill"
-  }, "Garden State Distinguished Scholar"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null), "State of New Jersey"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-2 row-cols-lg-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "PROFESSIONAL EXPERIENCE"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Owner/Technical Writer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", null, " Nivedana Consulting/Freelancer (Remote) | Nov 2014 \u2013 Present"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Blurb"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-    className: "ms-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Enhanced readability of an environmental solutions firm\u2019s IT policies and procedures, including disaster recovery plan, by revising content and layout of 24 documents."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Penned 17 best of, how-to, and review articles on Android and iOS apps for a web magazine."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Implemented communication standards on a wellness company website by composing privacy policy, translating content, and managing ISO code data.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Consultant"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "https://insightglobal.com/"
-  }, "Insight Global"), " (Remote) | Nov 2021 \u2013 Apr 2024"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Led business analysis for a state agency\u2019s Agile modernization project, updating Unisys mainframe functions to a web-based application suite."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-    className: "ms-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Championed consistency and user-centered design on a Scrum modernization project by adhering to style guides, advocating for end users, performing usability testing, and researching trends."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Supplemented documentation by developing security diagrams, editing release notes and technical specifications, and clarifying functionality for end user training."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Reduced user story errors by creating a Jira template, training business analysts on best practices, and creating priority lists. Produced 300+ user stories in 2.5 years.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Business Analyst/Technical Writer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "https://www.dbsysgraph.com/"
-  }, "DB Sysgraph"), " (Baton Rouge, LA) | Oct 2018 \u2013 Jul 2021"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Blurb"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-    className: "ms-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Cut help file delivery time 35% by training 3 colleagues on content creation. Created product marketing presentations, promotional materials, release notes, and workflow diagrams."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Managed an Agile team of 5 to deliver a suite of applications, developing close relationships with the client\u2019s CTO and industry experts by creating storyboards, specifications, test plans, and workshops."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Designed a clean and easy to use interface to automate collection of complex data for export to a federal agency. Promoted from Quality Assurance to Business Analyst after only 6 months.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Technical Specialist"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "https://www.meridianlink.com/"
-  }, "MeridianLink"), "/CRIF Lending Solutions (Hybrid) | Jun 2015 \u2013 Aug 2018"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Blurb"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-    className: "ms-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Lowered incident resolution times by creating a knowledge management committee. Partnered with delivery managers to analyze gaps, and drafted 1st versions of best practices, policies, and procedures."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Engaged IT management to define configuration and security policy, executing 1st projects using new API."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Increased revenue from Open Lending interface by 100% over 8 months by taking ownership of interface and improving relationships with clients and vendor. Selected by VP to coordinate a new Vendor Relationship Management demo program.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Project Coordinator/Technical Writer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h4", null, "CB&I/The Shaw Group (Baton Rouge, LA) | Jul 2008\u2013 Sept 2014"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Blurb"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-    className: "ms-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Authored 40-page administrator and user guides for web-based. Recruited by business systems portfolio manager after producing a 300-page manual and other training materials as side projects."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Improved documentation management by maintaining a SharePoint catalog of specifications for 800+ business intelligence reports. Designed templates for requirements, specifications, test plans, and user guides to improve documentation usability."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Helped the Application Development director prepare for CMMI certification by performing gap analysis of documents from all teams and writing new and updated SOPs."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", null, "Managed a tool inventory application with over 120 users across more than 25 global sites on 9 web servers in the US and Australia. Spearheaded efforts to resolve network connectivity issue on a major nuclear power construction site and aided in creating steering committee to govern global initiatives.")))));
-  function componentDidMount() {
-    setDidMount(true);
-    console.log("The Resume component mounted.");
-    var titleTag = document.getElementById("titleTag");
-    titleTag.innerHTML = "Alex M - Resume";
-  }
-  function componentDidUpdate() {
-    if (didMount) console.log("The Resume component updated.");
-  }
-  function componentDidUnmount() {
-    return function displayMessage() {
-      console.log("The Resume component unmounted.");
-    };
-  }
-}
-
-/***/ }),
-
-/***/ "./src/Views/Contact.js":
-/*!******************************!*\
-  !*** ./src/Views/Contact.js ***!
-  \******************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Contact: () => (/* binding */ Contact)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _modules_email_handleSubmitEmail_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/email/handleSubmitEmail.js */ "./src/modules/email/handleSubmitEmail.js");
-/* harmony import */ var _src_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../src/index.scss */ "./src/index.scss");
-function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
-function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
-function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
-function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-
-
-
-function Contact() {
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
-    _useState2 = _slicedToArray(_useState, 2),
-    didMount = _useState2[0],
-    setDidMount = _useState2[1];
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container m-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    id: "sendEmail"
-  }, "Send an email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "If you have any questions about my services, please fill out and submit the form below."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", {
-    id: "outputTag",
-    onSubmit: _modules_email_handleSubmitEmail_js__WEBPACK_IMPORTED_MODULE_1__.handleSubmitEmail
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("fieldset", {
-    className: "ms-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("legend", {
-    id: "legend"
-  }, "Contact Type"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    type: "radio",
-    id: "individual",
-    name: "Contact Type",
-    className: "p-2",
-    "aria-label": "Individual"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Individual"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    type: "radio",
-    id: "company",
-    name: "Contact Type",
-    className: "p-2 ms-2",
-    "aria-label": "Company"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Company")))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 p-2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "contactEmail"
-  }, "Contact Email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    required: true,
-    type: "email",
-    id: "contactEmail",
-    className: "inputs",
-    placeholder: "address@domain.com"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "contactPhone"
-  }, "Contact Phone"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    required: true,
-    type: "tel",
-    pattern: "[0-9]{3}-[0-9]{3}-[0-9]{4}",
-    id: "contactPhone",
-    className: "inputs",
-    placeholder: "01 5555555555"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "userMessage"
-  }, "Message"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("textarea", {
-    required: true,
-    id: "userMessage",
-    className: "inputs",
-    placeholder: "Enter your message here."
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    className: "btn btn-dark animation"
-  }, "Submit")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "spinner"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "outputTag2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)));
-  function componentDidMount() {
-    setDidMount(true);
-    console.log("The Contact component mounted.");
-    var titleTag = document.getElementById("titleTag");
-    titleTag.innerHTML = "Alex M - Contact";
-    var individualTag = document.getElementById("individual");
-    new bootstrap.Tooltip(individualTag);
-    var companyTag = document.getElementById("company");
-    new bootstrap.Tooltip(companyTag);
-  }
-  function componentDidUpdate() {
-    if (didMount) console.log("The Contact component updated.");
-  }
-  function componentDidUnmount() {
-    return function displayMessage() {
-      console.log("The Contact component unmounted.");
-    };
-  }
-}
-
-/***/ }),
-
-/***/ "./src/Views/Portfolio.js":
-/*!********************************!*\
-  !*** ./src/Views/Portfolio.js ***!
-  \********************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Portfolio: () => (/* binding */ Portfolio)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _assets_images_admin_guide_1_1024_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../assets/images/admin_guide_1_1024.png */ "./assets/images/admin_guide_1_1024.png");
-/* harmony import */ var _assets_images_help_file_1_1024_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/images/help_file_1_1024.png */ "./assets/images/help_file_1_1024.png");
-/* harmony import */ var _assets_images_policy_IT_1_1024_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/images/policy_IT_1_1024.png */ "./assets/images/policy_IT_1_1024.png");
-/* harmony import */ var _assets_images_manual_1_1024_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/images/manual_1_1024.png */ "./assets/images/manual_1_1024.png");
-/* harmony import */ var _assets_images_storyboards_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../assets/images/storyboards.png */ "./assets/images/storyboards.png");
-/* harmony import */ var _assets_images_ux_writing_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/images/ux_writing.png */ "./assets/images/ux_writing.png");
-/* harmony import */ var _assets_images_wireframe_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/images/wireframe.png */ "./assets/images/wireframe.png");
-/* harmony import */ var _assets_images_workflow_diagram_png__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/images/workflow_diagram.png */ "./assets/images/workflow_diagram.png");
-/* harmony import */ var _src_index_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../src/index.scss */ "./src/index.scss");
-function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
-function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
-function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
-function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-
-
-
-
-
-
-
-
-
-
-function Portfolio() {
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
-    _useState2 = _slicedToArray(_useState, 2),
-    didMount = _useState2[0],
-    setDidMount = _useState2[1];
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
-    id: "mainTag"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container ms-2 center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    classNanme: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "alert alert-secondary alert-dismissible w-75 center mb-5"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("strong", null, "Coming soon!"), " You'll be able to click on the images to view larger samples with more details about the projects.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    className: "btn-close",
-    "data-bs-dismiss": "alert"
-  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    classNanme: "col"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", null, "Projects"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Here's a sampling of current and past projects to which I've contributed."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Many projects involve propietary information or sensitive data. To protect the confidentiality and privacy of my clients and/or employers, most samples are generic representations of the deliverables produced. Any samples that contain actual work are from defunct companies with any data redacted."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    classNanme: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "portfolioCarousel",
-    className: "carousel carousel-dark slide m-4 ",
-    "data-bs-ride": "carousel"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "carousel-indicators"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    type: "button",
-    "data-bs-target": "#portfolioCarousel",
-    "data-bs-slide-to": "0",
-    className: "active",
-    "aria-current": "true",
-    "aria-label": "Slide 1"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    type: "button",
-    "data-bs-target": "#portfolioCarousel",
-    "data-bs-slide-to": "1",
-    "aria-label": "Slide 2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    type: "button",
-    "data-bs-target": "#portfolioCarousel",
-    "data-bs-slide-to": "2",
-    "aria-label": "Slide 3"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    type: "button",
-    "data-bs-target": "#portfolioCarousel",
-    "data-bs-slide-to": "3",
-    "aria-label": "Slide 4"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    type: "button",
-    "data-bs-target": "#portfolioCarousel",
-    "data-bs-slide-to": "4",
-    "aria-label": "Slide 5"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "carousel-inner"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "carousel-item active",
-    "data-bs-interval": "10000"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _assets_images_admin_guide_1_1024_png__WEBPACK_IMPORTED_MODULE_1__,
-    className: "d-block w-75 center",
-    alt: "adminGuide"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "carousel-caption d-none d-md-block"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "adminGuideTag",
-    className: "card w-75 m-5 list-group-item-color1 text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-body m-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-title list-group-item-text1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Administrator guide for software")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-text mb-3 list-group-item-text1 text-start"
-  }, "To reduce information overload, I separate manuals for each application into an administrator guide and a user guide."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "carousel-item",
-    "data-bs-interval": "10000"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _assets_images_help_file_1_1024_png__WEBPACK_IMPORTED_MODULE_2__,
-    className: "d-block w-75 center",
-    alt: "helpFile"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "carousel-caption d-none d-md-block"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "helpFileTag",
-    className: "card w-75 m-5 list-group-item-color1 text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-body m-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-title list-group-item-text1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Help file for a website")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-text mb-3 list-group-item-text1 text-start"
-  }, "Using RoboHelp, I created this help system as an assignment for a course on knowledge management and computer-based training design."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "carousel-item",
-    "data-bs-interval": "10000"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _assets_images_policy_IT_1_1024_png__WEBPACK_IMPORTED_MODULE_3__,
-    className: "d-block w-75 center",
-    alt: "policyDoc"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "carousel-caption d-none d-md-block"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "policyTag",
-    className: "card w-75 m-5 list-group-item-color1 text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-body m-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-title list-group-item-text1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Policy for software development department")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-text mb-3 list-group-item-text1 text-start"
-  }, "I performed a gap analysis and drafted policy and procedure documents for an application development director working on the group's CMMI certification."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "carousel-item",
-    "data-bs-interval": "10000"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _assets_images_manual_1_1024_png__WEBPACK_IMPORTED_MODULE_4__,
-    className: "d-block w-75 center",
-    alt: "softwareManual"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "carousel-caption d-none d-md-block"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "manualTag",
-    className: "card w-75 m-5 list-group-item-color1 text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-body m-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-title list-group-item-text1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Manual for custom software implementation")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-text mb-3 list-group-item-text1 text-start"
-  }, "I was asked to consolidate a third-party vendor's help file and hundreds of documents from two business divisions into a user manual."))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "carousel-item",
-    "data-bs-interval": "10000"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    src: _assets_images_storyboards_png__WEBPACK_IMPORTED_MODULE_5__,
-    className: "d-block w-100 center",
-    alt: "storyboards"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "carousel-caption d-none d-md-block"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "manualTag",
-    className: "card w-75 m-5 list-group-item-color1 text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-body m-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-title list-group-item-text1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h5", null, "Storyboards for help desk intranet")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-text mb-3 list-group-item-text1 text-start"
-  }, "While at graduate schoool specializing in user-centered design, I designed these storyboards to illustrate how a centralized intranet could improve efficiency and satisfaction among help desk employees.")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    className: "carousel-control-prev",
-    type: "button",
-    "data-bs-target": "#portfolioCarousel",
-    "data-bs-slide": "prev"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "carousel-control-prev-icon",
-    "aria-hidden": "true"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "visually-hidden"
-  }, "Previous")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    className: "carousel-control-next",
-    type: "button",
-    "data-bs-target": "#portfolioCarousel",
-    "data-bs-slide": "next"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "carousel-control-next-icon",
-    "aria-hidden": "true"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "visually-hidden"
-  }, "Next"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    classNanme: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "For samples not represented here, please", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "contact.html#sendMessage"
-  }, "submit a request"), " by completing the form on my Contact page.")))));
-  function componentDidMount() {
-    setDidMount(true);
-    console.log("The Portfolio component mounted.");
-    var titleTag = document.getElementById("titleTag");
-    titleTag.innerHTML = "Alex M - Portfolio";
-  }
-  function componentDidUpdate() {
-    if (didMount) console.log("The Portfolio component updated.");
-  }
-  function componentDidUnmount() {
-    return function displayMessage() {
-      console.log("The Portfolio component unmounted.");
-    };
-  }
-}
-
-/***/ }),
-
-/***/ "./src/Views/ScheduleFreeConsultation.js":
-/*!***********************************************!*\
-  !*** ./src/Views/ScheduleFreeConsultation.js ***!
-  \***********************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   ScheduleFreeConsultation: () => (/* binding */ ScheduleFreeConsultation)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _modules_consultation_handleSubmitCall_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/consultation/handleSubmitCall.js */ "./src/modules/consultation/handleSubmitCall.js");
-/* harmony import */ var _src_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../src/index.scss */ "./src/index.scss");
-function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
-function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
-function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
-function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-
-
-
-function ScheduleFreeConsultation() {
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
-    _useState2 = _slicedToArray(_useState, 2),
-    didMount = _useState2[0],
-    setDidMount = _useState2[1];
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container m-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", {
-    id: "scheduleConsult"
-  }, "Schedule a consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "To schedule a 30-minute free consultation to assess your needs, please complete the form below."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", {
-    id: "outputTag",
-    onSubmit: _modules_consultation_handleSubmitCall_js__WEBPACK_IMPORTED_MODULE_1__.handleSubmitCall
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("fieldset", {
-    className: "ms-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("legend", {
-    id: "legend"
-  }, "Contact Type"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    type: "radio",
-    id: "individual",
-    name: "Contact Type",
-    className: "p-2",
-    "aria-label": "Individual"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Individual"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    type: "radio",
-    id: "company",
-    name: "Contact Type",
-    className: "p-2 ms-2",
-    "aria-label": "Company"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Company"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "contactName"
-  }, "Contact Name"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    required: true,
-    type: "text",
-    id: "contactName",
-    className: "inputs",
-    placeholder: "First Last"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "contactEmail"
-  }, "Contact Email"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    required: true,
-    type: "email",
-    id: "contactEmail",
-    className: "inputs",
-    placeholder: "address@domain.com"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "contactPhone"
-  }, "Contact Phone"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    required: true,
-    type: "tel",
-    pattern: "[0-9]{3}-[0-9]{3}-[0-9]{4}",
-    id: "contactPhone",
-    className: "inputs",
-    placeholder: "01 5555555555"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    style: {
-      fontWeight: "bold"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "scheduleConsult"
-  }, "Select a Date & Time"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    required: true,
-    type: "datetime-local",
-    id: "scheduleConsult",
-    className: "inputs"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1 p-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    className: "btn btn-dark animation"
-  }, "Submit")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "spinner"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "outputTag2"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("br", null)));
-  function componentDidMount() {
-    setDidMount(true);
-    console.log("The Consultation component mounted.");
-    var titleTag = document.getElementById("titleTag");
-    titleTag.innerHTML = "Alex M - Free Consultation";
-  }
-  function componentDidUpdate() {
-    if (didMount) console.log("The Consultation component updated.");
-  }
-  function componentDidUnmount() {
-    return function displayMessage() {
-      console.log("The Consultation component unmounted.");
-    };
-  }
-}
-
-/***/ }),
-
-/***/ "./src/Views/auth/SignInArea.js":
-/*!**************************************!*\
-  !*** ./src/Views/auth/SignInArea.js ***!
-  \**************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   SignInArea: () => (/* binding */ SignInArea)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _auth_SignInModal_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../auth/SignInModal.js */ "./src/Views/auth/SignInModal.js");
-/* harmony import */ var _auth_SignOutModal_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../auth/SignOutModal.js */ "./src/Views/auth/SignOutModal.js");
-function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
-function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
-function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
-function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-
-
-
-function SignInArea() {
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null)),
-    _useState2 = _slicedToArray(_useState, 2),
-    button = _useState2[0],
-    setButton = _useState2[1];
-  var _useState3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
-    _useState4 = _slicedToArray(_useState3, 2),
-    isSignedIn = _useState4[0],
-    setIsSignedIn = _useState4[1];
-  var _useState5 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
-    _useState6 = _slicedToArray(_useState5, 2),
-    didMount = _useState6[0],
-    setDidMount = _useState6[1];
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, [isSignedIn]);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, button);
-  function componentDidMount() {
-    console.log("MOUNT PHASE: SignInArea");
-    if (isSignedIn) setButton(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_auth_SignOutModal_js__WEBPACK_IMPORTED_MODULE_2__.SignOutModal, {
-      onSignOut: handleSignOut
-    }));else setButton(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_auth_SignInModal_js__WEBPACK_IMPORTED_MODULE_1__.SignInModal, {
-      onSignIn: handleSignInAttempt
-    }));
-    setDidMount(true);
-  }
-  function componentDidUpdate() {
-    if (didMount) {
-      console.log("UPDATE PHASE: SignInArea");
-      if (isSignedIn) setButton(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_auth_SignOutModal_js__WEBPACK_IMPORTED_MODULE_2__.SignOutModal, {
-        onSignOut: handleSignOut
-      }));else setButton(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_auth_SignInModal_js__WEBPACK_IMPORTED_MODULE_1__.SignInModal, {
-        onSignIn: handleSignInAttempt
-      }));
-    }
-  }
-  function handleSignInAttempt() {
-    setIsSignedIn(true);
-  }
-  function handleSignOut() {
-    setIsSignedIn(false);
-  }
-}
-
-/***/ }),
-
-/***/ "./src/Views/auth/SignInContent.js":
-/*!*****************************************!*\
-  !*** ./src/Views/auth/SignInContent.js ***!
-  \*****************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   SignInContent: () => (/* binding */ SignInContent)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-function SignInContent(props) {
-  var errorMessage = props.errorMessage;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("fieldset", {
-    className: "ms-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "mb-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "email",
-    className: "htmlForm-label"
-  }, "Email address"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    type: "email",
-    required: true,
-    className: "htmlForm-control ms-3",
-    id: "email",
-    placeholder: "name@example.com"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "mb-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("label", {
-    htmlFor: "password",
-    className: "htmlForm-label"
-  }, "Password"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-    type: "password",
-    required: true,
-    className: "htmlForm-control ms-5",
-    id: "password",
-    placeholder: "************"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "m-1",
-    style: {
-      color: "red"
-    }
-  }, " ", errorMessage));
-}
-/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("fieldset", {
-  className: "ms-1"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-  type: "radio",
-  id: "individual",
-  name: "Contact Type",
-  className: "p-2",
-  "aria-label": "Individual"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Individual"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
-  type: "radio",
-  id: "company",
-  name: "Contact Type",
-  className: "p-2 ms-2",
-  "aria-label": "Company"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", null, " Company"));
-
-/***/ }),
-
-/***/ "./src/Views/auth/SignInModal.js":
-/*!***************************************!*\
-  !*** ./src/Views/auth/SignInModal.js ***!
-  \***************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   SignInModal: () => (/* binding */ SignInModal)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _Views_auth_SignInContent_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Views/auth/SignInContent.js */ "./src/Views/auth/SignInContent.js");
-/* harmony import */ var _controllers_handleSignInAttempt_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../controllers/handleSignInAttempt.js */ "./src/controllers/handleSignInAttempt.js");
-function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
-function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
-function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
-function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-
-
-
-function SignInModal(props) {
-  var onSignIn = props.onSignIn;
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(""),
-    _useState2 = _slicedToArray(_useState, 2),
-    errorMessage = _useState2[0],
-    setErrorMessage = _useState2[1];
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    type: "submit",
-    className: "btn btn-light",
-    "data-bs-toggle": "modal",
-    "data-bs-target": "#signInModal"
-  }, "Sign In"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", {
-    onSubmit: handleSubmit,
-    className: "modal fade",
-    id: "signInModal",
-    tabIndex: "-1",
-    "aria-labelledby": "signInModalLabel",
-    "aria-hidden": "true"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "modal-dialog "
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "modal-content modal-style"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "modal-header"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "modal-title fs-5",
-    id: "signInModalLabel"
-  }, "Sign In"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    type: "button",
-    className: "btn-close",
-    "data-bs-dismiss": "modal",
-    "aria-label": "Close"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "modal-body m-2"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_Views_auth_SignInContent_js__WEBPACK_IMPORTED_MODULE_1__.SignInContent, {
-    errorMessage: errorMessage
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "modal-footer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    id: "signInCloseButton",
-    type: "button",
-    className: "btn btn-secondary",
-    "data-bs-dismiss": "modal"
-  }, "Close"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    id: "signInSubmitButton",
-    type: "submit",
-    className: "btn btn-primary"
-  }, "Sign In"))))));
-  function handleSubmit(event) {
-    (0,_controllers_handleSignInAttempt_js__WEBPACK_IMPORTED_MODULE_2__.handleSignInAttempt)(event, setErrorMessage, onSignIn);
-  }
-}
-
-/***/ }),
-
-/***/ "./src/Views/auth/SignOutModal.js":
-/*!****************************************!*\
-  !*** ./src/Views/auth/SignOutModal.js ***!
-  \****************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   SignOutModal: () => (/* binding */ SignOutModal)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-function SignOutModal(props) {
-  var onSignOut = props.onSignOut;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    type: "button",
-    className: "btn btn-primary",
-    "data-bs-toggle": "modal",
-    "data-bs-target": "#signOutModal"
-  }, "Sign Out"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("form", {
-    onSubmit: handleSubmit,
-    className: "modal fade",
-    id: "signOutModal",
-    tabIndex: "-1",
-    "aria-labelledby": "signOutModalLabel",
-    "aria-hidden": "true"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "modal-dialog modal-style"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "modal-content"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "modal-header"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    className: "modal-title fs-5",
-    id: "signOutModalLabel"
-  }, "Sign Out"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    type: "button",
-    className: "btn-close",
-    "data-bs-dismiss": "modal",
-    "aria-label": "Close"
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "modal-body"
-  }, "Are you sure you want to sign out?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "modal-footer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    type: "button",
-    className: "btn btn-secondary",
-    "data-bs-dismiss": "modal"
-  }, "Close"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    id: "signOutSubmitButton",
-    type: "submit",
-    className: "btn btn-primary"
-  }, "Submit"))))));
-  function handleSubmit() {
-    var event = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : new Event();
-    event.preventDefault();
-    var inputs = event.target;
-    var closeButton = inputs[1];
-    closeButton.click();
-    onSignOut();
-  }
-}
-
-/***/ }),
-
-/***/ "./src/Views/home/HandleQuoteOfTheDay.js":
-/*!***********************************************!*\
-  !*** ./src/Views/home/HandleQuoteOfTheDay.js ***!
-  \***********************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   HandleQuoteOfTheDay: () => (/* binding */ HandleQuoteOfTheDay)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _modules_Qotd_extractQotdResponse_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../modules/Qotd/extractQotdResponse.js */ "./src/modules/Qotd/extractQotdResponse.js");
-function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
-function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
-function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
-function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-//Fetch the response from the server and extract it
-
-
-var proxy = "https://corsproxy.io/?url=";
-var baseUrl = "https://favqs.com/api";
-var endPoint = "/qotd";
-function HandleQuoteOfTheDay() {
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
-    _useState2 = _slicedToArray(_useState, 2),
-    didMount = _useState2[0],
-    setDidMount = _useState2[1];
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, [didMount]);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card w-50 m-4 list-group-item-color1 boxShadow "
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-header blockquote-header text-center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "badge text-bg-primary m-1"
-  }, "NEW!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("i", {
-    className: "bi bi-book"
-  }), " Quote of the Day", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "card-body"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("blockquote", {
-    id: "qotdQuoteTag",
-    className: "blockquote mb-3"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", {
-    id: "qotdAuthorTag",
-    className: "blockquote-footer mt-2 list-group-item-text1"
-  }))));
-  function componentDidMount() {
-    var url = proxy + baseUrl + endPoint;
-    var promise = fetch(url);
-    promise.then(_modules_Qotd_extractQotdResponse_js__WEBPACK_IMPORTED_MODULE_1__.extractQotdResponse);
-    setDidMount(true);
-    console.log("The HandleQuoteOfTheDay component mounted.");
-    return componentDidUnmount;
-  }
-  function componentDidUpdate() {
-    if (didMount) console.log("The HandleQuoteOfTheDay component updated.");
-  }
-  function componentDidUnmount() {
-    return function displayMessage() {
-      console.log("The  HandleQuoteOfTheDay component unmounted.");
-    };
-  }
-}
-
-/***/ }),
-
-/***/ "./src/Views/home/Home.js":
-/*!********************************!*\
-  !*** ./src/Views/home/Home.js ***!
-  \********************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Home: () => (/* binding */ Home)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HandleQuoteOfTheDay.js */ "./src/Views/home/HandleQuoteOfTheDay.js");
-/* harmony import */ var _ServicesListGroup_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ServicesListGroup.js */ "./src/Views/home/ServicesListGroup.js");
-/* harmony import */ var _src_index_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../src/index.scss */ "./src/index.scss");
-function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
-function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
-function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
-function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-
-
-
-
-function Home() {
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
-    _useState2 = _slicedToArray(_useState, 2),
-    didMount = _useState2[0],
-    setDidMount = _useState2[1];
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate, [didMount]);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
-    id: "homeMain"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h1", {
-    id: "mixin-welcome",
-    className: "m-2"
-  }, "Welcome"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_HandleQuoteOfTheDay_js__WEBPACK_IMPORTED_MODULE_1__.HandleQuoteOfTheDay, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container m-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "homeIntro",
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Hi, I'm Alex Marjanovic, a technical communicator based out of Baton Rouge, LA. Originally from New Jersey, I moved south to escape the cold and snow, after completing my Master's in Professional and Technical Communiction at the New Jersey Institute for Technology (NJIT)."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I started as a technical writer by documenting the standard operating procedures for the technical support and help desk teams on which I served, which reminded me that I not only enjoy writing and design but also excel. I've also been a video game beta tester, translator, business intelligence developer, business analyst, quality assurance tester, project manager, content writer, transaction developer/implementation specialist, and editor."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "In software development specifically, technical communication services are vital for ensuring that complex technical information is accessible to both technical and non-technical audiences, thereby improving user satisfaction and reducing the need for support. But the benefits of clear and effective communication apply to any industry."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "homeHelp",
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "How I can help"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "I'm a specialist at translating technology: creating and delivering information concisely, clearly, and effectively. Bridging the gap between end users and technical experts, primarily I create", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "portfolio.html#helpFile"
-  }, "help files"), ", design", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "portfolio.html#adminGuide"
-  }, " ", "administrator and user guides"), ", and write ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "portfolio.html#manual"
-  }, "manuals"), " that explain how to use products or services. In addition to writing the content, I also carefully select or create visual aids (charts, diagrams, screenshots, etc.) that help readers understand the information presented."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "During my career in information techonology, I've worked for and with organizations in the following industries: retail, mail-order, biotechnology and pharamceutical services, construction and engineering, loan origination, software development, and state government."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "homeServices",
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h3", null, "Services"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Whether it's writing user manuals, creating process documentation, developing training materials, or editing help files, I ensure that content is accessible and tailored to your audience's needs. Rates are per hour or per project depending on the complexity, scope, and estimated time for completion."))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    id: "homeServicesList",
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ServicesListGroup_js__WEBPACK_IMPORTED_MODULE_2__.ServicesListGroup, null))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row row-cols-2 row-cols-md-1 row-cols-lg-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "If my services seem like a good fit for your organization, please", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "contact.html#sendMessage"
-  }, "send a message"), " using the Contact form."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("p", null, "Thanks for visiting!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("h2", {
-    className: "signature ms-4 mt-2"
-  }, "Alex Marjanovic")))));
-  function componentDidMount() {
-    setDidMount(true);
-    console.log("The Home component mounted.");
-    var titleTag = document.getElementById("titleTag");
-    titleTag.innerHTML = "Alex M - Home";
-  }
-  function componentDidUpdate() {
-    if (didMount) console.log("The Home component updated.");
-  }
-  function componentDidUnmount() {
-    return function () {
-      console.log("The Home component unmounted.");
-    };
-  }
-}
-
-/***/ }),
-
-/***/ "./src/Views/home/ServicesListGroup.js":
-/*!*********************************************!*\
-  !*** ./src/Views/home/ServicesListGroup.js ***!
-  \*********************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   ServicesListGroup: () => (/* binding */ ServicesListGroup)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-function ServicesListGroup() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "m-5 center"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "row"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("ul", {
-    className: "container list-group ms-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "bold"
-  }, "Artificial intelligence:", " "), "Leveraging generative AI to produce effective images and text, increasing efficiency and productivity. Writing cotent and rubrics to train Large Language Modals (LLMs)."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "bold"
-  }, "Content Development & Strategy: "), "Developing and maintaining content for knowledge bases, software, websites, and other uses, ensuring that information is accessible and user-friendly."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "bold"
-  }, "Information Architecture & Design: "), "Structuring and organizing information to make it easy to understand and navigate, often involving charts, diagrams, mock-ups, screenshots, wire frames, and other visual aids."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "bold"
-  }, "Editing and Proofreading: "), "Reviewing visual and written works for accuracy, clarity, consistency, and grammar, ensuring they meet organizational standards and guidelines."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "bold"
-  }, "Marketing: "), "Producing materials like brochures, case studies, course descriptions, and product information sheets that help explain benefits and features to potential customers."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "bold"
-  }, "Technical Writing: "), "Creating user manuals, installation guides, help files, white papers, and other documentation."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "list-group-item list-group-item-color1 list-group-item-text1 boxShadowLI"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "bold"
-  }, "User Interface (UI) Design: "), "Working with subject matter expperts, designers, and developers to produce intuitive and easy to use interfaces."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("li", {
-    className: "list-group-item list-group-item-color2 list-group-item-text2 boxShadowLI mb-4"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "bold"
-  }, "User Experience (UX) Design: "), "Designing products users will love by applying usability engineering and user-centered design principles, including task analysis and usability testing."))));
-}
-
-/***/ }),
-
-/***/ "./src/Views/nav/Footer.js":
-/*!*********************************!*\
-  !*** ./src/Views/nav/Footer.js ***!
-  \*********************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Footer: () => (/* binding */ Footer)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _assets_icons_copyright_cGainsboro_nobg_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/icons/copyright_cGainsboro_nobg.png */ "./assets/icons/copyright_cGainsboro_nobg.png");
-
-
-function Footer() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("footer", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("hr", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "m-2"
-  }, " ", "2024", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    id: "copyright",
-    width: "15px",
-    src: _assets_icons_copyright_cGainsboro_nobg_png__WEBPACK_IMPORTED_MODULE_1__
-  }), " ", "Aleksandra Marjanovic"));
-}
-
-/***/ }),
-
-/***/ "./src/Views/nav/HandleRefresh.js":
-/*!****************************************!*\
-  !*** ./src/Views/nav/HandleRefresh.js ***!
-  \****************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   HandleRefresh: () => (/* binding */ HandleRefresh)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
-function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
-function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
-function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
-function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-
-
-
-/*************************************************
- * @summary Removes the 404 error on SPA refresh
- * @param props.children The elements to render on refresh
- * @description
- * This component depends on the local storage used by redirect.js
- * In redirect.js, properly set the root path.
- */
-function HandleRefresh(props) {
-  var children = props.children; //Render children 
-  var navigateTo = (0,react_router__WEBPACK_IMPORTED_MODULE_1__.useNavigate)(); //Allow function to access BrowserRouter
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
-    _useState2 = _slicedToArray(_useState, 2),
-    didMount = _useState2[0],
-    setDidMount = _useState2[1]; //set useState to false because component has not mounted
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []); //only track a single mount
-
-  if (didMount) return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, children); //if the component mounted, render the children
-  else return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null); //if the component did not mount, don't load anything
-
-  function componentDidMount() {
-    var redirectPath = localStorage.getItem("redirect"); //Check the path name
-    if (redirectPath) {
-      //if there's a path
-      navigateTo(redirectPath); //navigate to it
-      localStorage.setItem("redirect", "");
-      setTimeout(function () {
-        return setDidMount(true);
-      }, 1000); //Delay the rendering of children if 
-    } else setDidMount(true);
-  }
-}
-
-/***/ }),
-
-/***/ "./src/Views/nav/Header.js":
-/*!*********************************!*\
-  !*** ./src/Views/nav/Header.js ***!
-  \*********************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Header: () => (/* binding */ Header)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./NavbarCollapsible.js */ "./src/Views/nav/NavbarCollapsible.js");
-/* harmony import */ var _ImageMap_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ImageMap.js */ "./src/Views/nav/ImageMap.js");
-
-
-
-function Header() {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("header", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_NavbarCollapsible_js__WEBPACK_IMPORTED_MODULE_1__.NavbarCollapsible, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_ImageMap_js__WEBPACK_IMPORTED_MODULE_2__.ImageMap, null));
-}
-
-/***/ }),
-
-/***/ "./src/Views/nav/ImageMap.js":
-/*!***********************************!*\
-  !*** ./src/Views/nav/ImageMap.js ***!
-  \***********************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   ImageMap: () => (/* binding */ ImageMap)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var _assets_images_siteHeader_4kp_rev2_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../assets/images/siteHeader_4kp_rev2.png */ "./assets/images/siteHeader_4kp_rev2.png");
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
-/* harmony import */ var _utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../utils/getRootPath.js */ "./src/utils/getRootPath.js");
-function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
-function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
-function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
-function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-
-
-
-
-function ImageMap() {
-  var navigateTo = (0,react_router__WEBPACK_IMPORTED_MODULE_3__.useNavigate)(); //Allow function to access BrowserRouter
-  var rootPath = (0,_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_2__.getRootPath)();
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(false),
-    _useState2 = _slicedToArray(_useState, 2),
-    didMount = _useState2[0],
-    setDidMount = _useState2[1]; //set useState to false because component has not mounted
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidMount, []); //only track a single mount
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUpdate);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(componentDidUnmount, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    id: "siteHeader",
-    alt: "siteHeader",
-    width: "100%",
-    src: _assets_images_siteHeader_4kp_rev2_png__WEBPACK_IMPORTED_MODULE_1__,
-    className: "pb-4",
-    useMap: "#tc-image-map"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("map", {
-    name: "tc-image-map"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("area", {
-    title: "portfolio",
-    coords: "634,305,382",
-    shape: "circle",
-    onClick: function onClick() {
-      return navigateTo("".concat(rootPath, "/portfolio"));
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("area", {
-    title: "contact",
-    coords: "2851,294,300",
-    shape: "circle",
-    onClick: function onClick() {
-      return navigateTo("".concat(rootPath, "/contact"));
-    }
-  })));
-  function componentDidMount() {
-    setDidMount(true);
-    console.log("The Image Map component mounted.");
-    imageMapResize();
-  }
-  function componentDidUpdate() {
-    if (didMount) console.log("The Image Map  component updated.");
-  }
-  function componentDidUnmount() {
-    return function displayMessage() {
-      console.log("The Image Map component unmounted.");
-    };
-  }
-}
-
-/***/ }),
-
-/***/ "./src/Views/nav/NavbarCollapsible.js":
-/*!********************************************!*\
-  !*** ./src/Views/nav/NavbarCollapsible.js ***!
-  \********************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   NavbarCollapsible: () => (/* binding */ NavbarCollapsible)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
-/* harmony import */ var _utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../utils/getRootPath.js */ "./src/utils/getRootPath.js");
-/* harmony import */ var _assets_icons_icon_linkedin_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../assets/icons/icon_linkedin.png */ "./assets/icons/icon_linkedin.png");
-/* harmony import */ var _assets_icons_icon_email_coral_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../assets/icons/icon_email_coral.png */ "./assets/icons/icon_email_coral.png");
-/* harmony import */ var _auth_SignInArea_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../auth/SignInArea.js */ "./src/Views/auth/SignInArea.js");
-
-
-
-
-
-
-function NavbarCollapsible() {
-  var rootPath = (0,_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_1__.getRootPath)();
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("nav", {
-    className: "navbar nav-tabs navbar-expand-sm",
-    style: {
-      backgroundColor: "rgb(2, 32, 54)"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "container-fluid"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
-    className: "navbar-brand",
-    style: {
-      backgroundColor: "rgb(2, 32, 54)",
-      color: "rgb(220, 220, 170)"
-    },
-    to: "#"
-  }, "Alex Marjanovic"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "me-1"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    className: "ms-2 bg-dark",
-    href: "https://www.linkedin.com/in/alexmarjanovic"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    id: "linkedInIcon",
-    alt: "LinkedIn",
-    style: {
-      height: "45px",
-      width: "45px"
-    },
-    src: _assets_icons_icon_linkedin_png__WEBPACK_IMPORTED_MODULE_2__
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "me-3"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("a", {
-    href: "contact.html#sendMessage"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("img", {
-    id: "emailIcon",
-    alt: "email",
-    style: {
-      height: "30px",
-      width: "30px"
-    },
-    src: _assets_icons_icon_email_coral_png__WEBPACK_IMPORTED_MODULE_3__
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", {
-    className: "navbar-toggler",
-    type: "button",
-    "data-bs-toggle": "collapse",
-    "data-bs-target": "#navbarNavAltMarkup",
-    "aria-controls": "navbarNavAltMarkup",
-    "aria-expanded": "false",
-    "aria-label": "Toggle navigation"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("span", {
-    className: "navbar-toggler-icon",
-    style: {
-      backgroundColor: "rgb(109, 154, 189)"
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "collapse navbar-collapse",
-    id: "navbarNavAltMarkup"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
-    className: "navbar-nav"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
-    end: true,
-    className: "nav-link nav-text",
-    "aria-current": "page",
-    to: "".concat(rootPath, "/")
-  }, "Home"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
-    className: "nav-link nav-text",
-    to: "".concat(rootPath, "/portfolio")
-  }, "Portfolio"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
-    className: "nav-link nav-text",
-    to: "".concat(rootPath, "/alexresume")
-  }, "Resume"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
-    className: "nav-link nav-text",
-    to: "".concat(rootPath, "/contact")
-  }, "Contact"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
-    className: "nav-link nav-text",
-    to: "".concat(rootPath, "/schedulefreeconsultation")
-  }, "Free Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router__WEBPACK_IMPORTED_MODULE_5__.NavLink, {
-    className: "nav-link nav-text",
-    to: "".concat(rootPath, "/about")
-  }, "About"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_auth_SignInArea_js__WEBPACK_IMPORTED_MODULE_4__.SignInArea, null)));
-}
-
-/***/ }),
-
-/***/ "./src/controllers/handleSignInAttempt.js":
-/*!************************************************!*\
-  !*** ./src/controllers/handleSignInAttempt.js ***!
-  \************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   handleSignInAttempt: () => (/* binding */ handleSignInAttempt)
-/* harmony export */ });
-/* harmony import */ var _modules_authentication_authenticationAws_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/authentication/authenticationAws.js */ "./src/modules/authentication/authenticationAws.js");
-function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
-function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return e; }; var t, e = {}, r = Object.prototype, n = r.hasOwnProperty, o = Object.defineProperty || function (t, e, r) { t[e] = r.value; }, i = "function" == typeof Symbol ? Symbol : {}, a = i.iterator || "@@iterator", c = i.asyncIterator || "@@asyncIterator", u = i.toStringTag || "@@toStringTag"; function define(t, e, r) { return Object.defineProperty(t, e, { value: r, enumerable: !0, configurable: !0, writable: !0 }), t[e]; } try { define({}, ""); } catch (t) { define = function define(t, e, r) { return t[e] = r; }; } function wrap(t, e, r, n) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype), c = new Context(n || []); return o(a, "_invoke", { value: makeInvokeMethod(t, r, c) }), a; } function tryCatch(t, e, r) { try { return { type: "normal", arg: t.call(e, r) }; } catch (t) { return { type: "throw", arg: t }; } } e.wrap = wrap; var h = "suspendedStart", l = "suspendedYield", f = "executing", s = "completed", y = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var p = {}; define(p, a, function () { return this; }); var d = Object.getPrototypeOf, v = d && d(d(values([]))); v && v !== r && n.call(v, a) && (p = v); var g = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(p); function defineIteratorMethods(t) { ["next", "throw", "return"].forEach(function (e) { define(t, e, function (t) { return this._invoke(e, t); }); }); } function AsyncIterator(t, e) { function invoke(r, o, i, a) { var c = tryCatch(t[r], t, o); if ("throw" !== c.type) { var u = c.arg, h = u.value; return h && "object" == _typeof(h) && n.call(h, "__await") ? e.resolve(h.__await).then(function (t) { invoke("next", t, i, a); }, function (t) { invoke("throw", t, i, a); }) : e.resolve(h).then(function (t) { u.value = t, i(u); }, function (t) { return invoke("throw", t, i, a); }); } a(c.arg); } var r; o(this, "_invoke", { value: function value(t, n) { function callInvokeWithMethodAndArg() { return new e(function (e, r) { invoke(t, n, e, r); }); } return r = r ? r.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(e, r, n) { var o = h; return function (i, a) { if (o === f) throw Error("Generator is already running"); if (o === s) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var c = n.delegate; if (c) { var u = maybeInvokeDelegate(c, n); if (u) { if (u === y) continue; return u; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (o === h) throw o = s, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = f; var p = tryCatch(e, r, n); if ("normal" === p.type) { if (o = n.done ? s : l, p.arg === y) continue; return { value: p.arg, done: n.done }; } "throw" === p.type && (o = s, n.method = "throw", n.arg = p.arg); } }; } function maybeInvokeDelegate(e, r) { var n = r.method, o = e.iterator[n]; if (o === t) return r.delegate = null, "throw" === n && e.iterator["return"] && (r.method = "return", r.arg = t, maybeInvokeDelegate(e, r), "throw" === r.method) || "return" !== n && (r.method = "throw", r.arg = new TypeError("The iterator does not provide a '" + n + "' method")), y; var i = tryCatch(o, e.iterator, r.arg); if ("throw" === i.type) return r.method = "throw", r.arg = i.arg, r.delegate = null, y; var a = i.arg; return a ? a.done ? (r[e.resultName] = a.value, r.next = e.nextLoc, "return" !== r.method && (r.method = "next", r.arg = t), r.delegate = null, y) : a : (r.method = "throw", r.arg = new TypeError("iterator result is not an object"), r.delegate = null, y); } function pushTryEntry(t) { var e = { tryLoc: t[0] }; 1 in t && (e.catchLoc = t[1]), 2 in t && (e.finallyLoc = t[2], e.afterLoc = t[3]), this.tryEntries.push(e); } function resetTryEntry(t) { var e = t.completion || {}; e.type = "normal", delete e.arg, t.completion = e; } function Context(t) { this.tryEntries = [{ tryLoc: "root" }], t.forEach(pushTryEntry, this), this.reset(!0); } function values(e) { if (e || "" === e) { var r = e[a]; if (r) return r.call(e); if ("function" == typeof e.next) return e; if (!isNaN(e.length)) { var o = -1, i = function next() { for (; ++o < e.length;) if (n.call(e, o)) return next.value = e[o], next.done = !1, next; return next.value = t, next.done = !0, next; }; return i.next = i; } } throw new TypeError(_typeof(e) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, o(g, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), o(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, u, "GeneratorFunction"), e.isGeneratorFunction = function (t) { var e = "function" == typeof t && t.constructor; return !!e && (e === GeneratorFunction || "GeneratorFunction" === (e.displayName || e.name)); }, e.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, define(t, u, "GeneratorFunction")), t.prototype = Object.create(g), t; }, e.awrap = function (t) { return { __await: t }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, c, function () { return this; }), e.AsyncIterator = AsyncIterator, e.async = function (t, r, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(wrap(t, r, n, o), i); return e.isGeneratorFunction(r) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, defineIteratorMethods(g), define(g, u, "Generator"), define(g, a, function () { return this; }), define(g, "toString", function () { return "[object Generator]"; }), e.keys = function (t) { var e = Object(t), r = []; for (var n in e) r.push(n); return r.reverse(), function next() { for (; r.length;) { var t = r.pop(); if (t in e) return next.value = t, next.done = !1, next; } return next.done = !0, next; }; }, e.values = values, Context.prototype = { constructor: Context, reset: function reset(e) { if (this.prev = 0, this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(resetTryEntry), !e) for (var r in this) "t" === r.charAt(0) && n.call(this, r) && !isNaN(+r.slice(1)) && (this[r] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0].completion; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(e) { if (this.done) throw e; var r = this; function handle(n, o) { return a.type = "throw", a.arg = e, r.next = n, o && (r.method = "next", r.arg = t), !!o; } for (var o = this.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i.completion; if ("root" === i.tryLoc) return handle("end"); if (i.tryLoc <= this.prev) { var c = n.call(i, "catchLoc"), u = n.call(i, "finallyLoc"); if (c && u) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } else if (c) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); } else { if (!u) throw Error("try statement without catch or finally"); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } } } }, abrupt: function abrupt(t, e) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var o = this.tryEntries[r]; if (o.tryLoc <= this.prev && n.call(o, "finallyLoc") && this.prev < o.finallyLoc) { var i = o; break; } } i && ("break" === t || "continue" === t) && i.tryLoc <= e && e <= i.finallyLoc && (i = null); var a = i ? i.completion : {}; return a.type = t, a.arg = e, i ? (this.method = "next", this.next = i.finallyLoc, y) : this.complete(a); }, complete: function complete(t, e) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), y; }, finish: function finish(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.finallyLoc === t) return this.complete(r.completion, r.afterLoc), resetTryEntry(r), y; } }, "catch": function _catch(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.tryLoc === t) { var n = r.completion; if ("throw" === n.type) { var o = n.arg; resetTryEntry(r); } return o; } } throw Error("illegal catch attempt"); }, delegateYield: function delegateYield(e, r, n) { return this.delegate = { iterator: values(e), resultName: r, nextLoc: n }, "next" === this.method && (this.arg = t), y; } }, e; }
-function asyncGeneratorStep(n, t, e, r, o, a, c) { try { var i = n[a](c), u = i.value; } catch (n) { return void e(n); } i.done ? t(u) : Promise.resolve(u).then(r, o); }
-function _asyncToGenerator(n) { return function () { var t = this, e = arguments; return new Promise(function (r, o) { var a = n.apply(t, e); function _next(n) { asyncGeneratorStep(a, r, o, _next, _throw, "next", n); } function _throw(n) { asyncGeneratorStep(a, r, o, _next, _throw, "throw", n); } _next(void 0); }); }; }
-
-function handleSignInAttempt() {
-  return _handleSignInAttempt.apply(this, arguments);
-}
-function _handleSignInAttempt() {
-  _handleSignInAttempt = _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
-    var event,
-      setErrorMessage,
-      onSignIn,
-      inputs,
-      emailInput,
-      passwordInput,
-      closeButton,
-      email,
-      password,
-      isAuthenticated,
-      _args = arguments;
-    return _regeneratorRuntime().wrap(function _callee$(_context) {
-      while (1) switch (_context.prev = _context.next) {
-        case 0:
-          event = _args.length > 0 && _args[0] !== undefined ? _args[0] : new Event();
-          setErrorMessage = _args.length > 1 ? _args[1] : undefined;
-          onSignIn = _args.length > 2 ? _args[2] : undefined;
-          event.preventDefault();
-          inputs = event.target;
-          emailInput = inputs[1];
-          passwordInput = inputs[2];
-          closeButton = inputs[3];
-          email = emailInput.value;
-          password = passwordInput.value; // const resolveValue = await authenticationSimulationDB(email, password);
-          // const isAuthenticated = resolveValue;
-          _context.next = 12;
-          return (0,_modules_authentication_authenticationAws_js__WEBPACK_IMPORTED_MODULE_0__.authenticationAws)(email, password);
-        case 12:
-          isAuthenticated = _context.sent;
-          if (isAuthenticated) {
-            closeButton.click();
-            inputs.reset();
-            onSignIn();
-          } else setErrorMessage("The email and password entered do not match any authorized login.");
-        case 14:
-        case "end":
-          return _context.stop();
-      }
-    }, _callee);
-  }));
-  return _handleSignInAttempt.apply(this, arguments);
-}
-
-/***/ }),
-
-/***/ "./src/modules/Qotd/extractQotdResponse.js":
-/*!*************************************************!*\
-  !*** ./src/modules/Qotd/extractQotdResponse.js ***!
-  \*************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   extractQotdResponse: () => (/* binding */ extractQotdResponse)
-/* harmony export */ });
-/* harmony import */ var _parseQotdResponse_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./parseQotdResponse.js */ "./src/modules/Qotd/parseQotdResponse.js");
-//Extract the server resoponse and parse it
-
-function extractQotdResponse(resolveValue) {
-  var promise = resolveValue.text();
-  promise.then(_parseQotdResponse_js__WEBPACK_IMPORTED_MODULE_0__.parseQotdResponse);
-  console.log("Quote of the Day was extracted.");
-}
-
-/***/ }),
-
-/***/ "./src/modules/Qotd/parseQotdResponse.js":
-/*!***********************************************!*\
-  !*** ./src/modules/Qotd/parseQotdResponse.js ***!
-  \***********************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   parseQotdResponse: () => (/* binding */ parseQotdResponse)
-/* harmony export */ });
-/* harmony import */ var _utils_output_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../utils/output.js */ "./src/utils/output.js");
-//Parse the response and display the qotd on the index page
-
-function parseQotdResponse(resolveValue) {
-  var quote = "";
-  var author = "";
-  var response = JSON.parse(resolveValue); //Parse the JSON string
-  var quoteData = response.quote; //Access the quote object that contains the quote data
-
-  quote = quoteData.body; //Access the property that contains the quote text
-  console.log("Quote: ".concat(quote));
-  author = quoteData.author; //Access the property that contains the author text
-  console.log("Author: ".concat(author));
-  console.log("Quote of the Day was parsed.");
-  (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)(quote, "qotdQuoteTag");
-  (0,_utils_output_js__WEBPACK_IMPORTED_MODULE_0__.output)(author, "qotdAuthorTag");
-}
-
-/***/ }),
-
-/***/ "./src/modules/authentication/authenticationAws.js":
-/*!*********************************************************!*\
-  !*** ./src/modules/authentication/authenticationAws.js ***!
-  \*********************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   authenticationAws: () => (/* binding */ authenticationAws)
-/* harmony export */ });
-/* harmony import */ var _aws_sdk_client_dynamodb__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @aws-sdk/client-dynamodb */ "./node_modules/@aws-sdk/client-dynamodb/dist-es/DynamoDB.js");
-/* harmony import */ var _aws_sdk_lib_dynamodb__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @aws-sdk/lib-dynamodb */ "./node_modules/@aws-sdk/lib-dynamodb/dist-es/index.js");
-/* harmony import */ var _aws_credentials_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../.aws/credentials.js */ "./.aws/credentials.js");
-function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
-function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return e; }; var t, e = {}, r = Object.prototype, n = r.hasOwnProperty, o = Object.defineProperty || function (t, e, r) { t[e] = r.value; }, i = "function" == typeof Symbol ? Symbol : {}, a = i.iterator || "@@iterator", c = i.asyncIterator || "@@asyncIterator", u = i.toStringTag || "@@toStringTag"; function define(t, e, r) { return Object.defineProperty(t, e, { value: r, enumerable: !0, configurable: !0, writable: !0 }), t[e]; } try { define({}, ""); } catch (t) { define = function define(t, e, r) { return t[e] = r; }; } function wrap(t, e, r, n) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype), c = new Context(n || []); return o(a, "_invoke", { value: makeInvokeMethod(t, r, c) }), a; } function tryCatch(t, e, r) { try { return { type: "normal", arg: t.call(e, r) }; } catch (t) { return { type: "throw", arg: t }; } } e.wrap = wrap; var h = "suspendedStart", l = "suspendedYield", f = "executing", s = "completed", y = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var p = {}; define(p, a, function () { return this; }); var d = Object.getPrototypeOf, v = d && d(d(values([]))); v && v !== r && n.call(v, a) && (p = v); var g = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(p); function defineIteratorMethods(t) { ["next", "throw", "return"].forEach(function (e) { define(t, e, function (t) { return this._invoke(e, t); }); }); } function AsyncIterator(t, e) { function invoke(r, o, i, a) { var c = tryCatch(t[r], t, o); if ("throw" !== c.type) { var u = c.arg, h = u.value; return h && "object" == _typeof(h) && n.call(h, "__await") ? e.resolve(h.__await).then(function (t) { invoke("next", t, i, a); }, function (t) { invoke("throw", t, i, a); }) : e.resolve(h).then(function (t) { u.value = t, i(u); }, function (t) { return invoke("throw", t, i, a); }); } a(c.arg); } var r; o(this, "_invoke", { value: function value(t, n) { function callInvokeWithMethodAndArg() { return new e(function (e, r) { invoke(t, n, e, r); }); } return r = r ? r.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(e, r, n) { var o = h; return function (i, a) { if (o === f) throw Error("Generator is already running"); if (o === s) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var c = n.delegate; if (c) { var u = maybeInvokeDelegate(c, n); if (u) { if (u === y) continue; return u; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (o === h) throw o = s, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = f; var p = tryCatch(e, r, n); if ("normal" === p.type) { if (o = n.done ? s : l, p.arg === y) continue; return { value: p.arg, done: n.done }; } "throw" === p.type && (o = s, n.method = "throw", n.arg = p.arg); } }; } function maybeInvokeDelegate(e, r) { var n = r.method, o = e.iterator[n]; if (o === t) return r.delegate = null, "throw" === n && e.iterator["return"] && (r.method = "return", r.arg = t, maybeInvokeDelegate(e, r), "throw" === r.method) || "return" !== n && (r.method = "throw", r.arg = new TypeError("The iterator does not provide a '" + n + "' method")), y; var i = tryCatch(o, e.iterator, r.arg); if ("throw" === i.type) return r.method = "throw", r.arg = i.arg, r.delegate = null, y; var a = i.arg; return a ? a.done ? (r[e.resultName] = a.value, r.next = e.nextLoc, "return" !== r.method && (r.method = "next", r.arg = t), r.delegate = null, y) : a : (r.method = "throw", r.arg = new TypeError("iterator result is not an object"), r.delegate = null, y); } function pushTryEntry(t) { var e = { tryLoc: t[0] }; 1 in t && (e.catchLoc = t[1]), 2 in t && (e.finallyLoc = t[2], e.afterLoc = t[3]), this.tryEntries.push(e); } function resetTryEntry(t) { var e = t.completion || {}; e.type = "normal", delete e.arg, t.completion = e; } function Context(t) { this.tryEntries = [{ tryLoc: "root" }], t.forEach(pushTryEntry, this), this.reset(!0); } function values(e) { if (e || "" === e) { var r = e[a]; if (r) return r.call(e); if ("function" == typeof e.next) return e; if (!isNaN(e.length)) { var o = -1, i = function next() { for (; ++o < e.length;) if (n.call(e, o)) return next.value = e[o], next.done = !1, next; return next.value = t, next.done = !0, next; }; return i.next = i; } } throw new TypeError(_typeof(e) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, o(g, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), o(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, u, "GeneratorFunction"), e.isGeneratorFunction = function (t) { var e = "function" == typeof t && t.constructor; return !!e && (e === GeneratorFunction || "GeneratorFunction" === (e.displayName || e.name)); }, e.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, define(t, u, "GeneratorFunction")), t.prototype = Object.create(g), t; }, e.awrap = function (t) { return { __await: t }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, c, function () { return this; }), e.AsyncIterator = AsyncIterator, e.async = function (t, r, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(wrap(t, r, n, o), i); return e.isGeneratorFunction(r) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, defineIteratorMethods(g), define(g, u, "Generator"), define(g, a, function () { return this; }), define(g, "toString", function () { return "[object Generator]"; }), e.keys = function (t) { var e = Object(t), r = []; for (var n in e) r.push(n); return r.reverse(), function next() { for (; r.length;) { var t = r.pop(); if (t in e) return next.value = t, next.done = !1, next; } return next.done = !0, next; }; }, e.values = values, Context.prototype = { constructor: Context, reset: function reset(e) { if (this.prev = 0, this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(resetTryEntry), !e) for (var r in this) "t" === r.charAt(0) && n.call(this, r) && !isNaN(+r.slice(1)) && (this[r] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0].completion; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(e) { if (this.done) throw e; var r = this; function handle(n, o) { return a.type = "throw", a.arg = e, r.next = n, o && (r.method = "next", r.arg = t), !!o; } for (var o = this.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i.completion; if ("root" === i.tryLoc) return handle("end"); if (i.tryLoc <= this.prev) { var c = n.call(i, "catchLoc"), u = n.call(i, "finallyLoc"); if (c && u) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } else if (c) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); } else { if (!u) throw Error("try statement without catch or finally"); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } } } }, abrupt: function abrupt(t, e) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var o = this.tryEntries[r]; if (o.tryLoc <= this.prev && n.call(o, "finallyLoc") && this.prev < o.finallyLoc) { var i = o; break; } } i && ("break" === t || "continue" === t) && i.tryLoc <= e && e <= i.finallyLoc && (i = null); var a = i ? i.completion : {}; return a.type = t, a.arg = e, i ? (this.method = "next", this.next = i.finallyLoc, y) : this.complete(a); }, complete: function complete(t, e) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), y; }, finish: function finish(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.finallyLoc === t) return this.complete(r.completion, r.afterLoc), resetTryEntry(r), y; } }, "catch": function _catch(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.tryLoc === t) { var n = r.completion; if ("throw" === n.type) { var o = n.arg; resetTryEntry(r); } return o; } } throw Error("illegal catch attempt"); }, delegateYield: function delegateYield(e, r, n) { return this.delegate = { iterator: values(e), resultName: r, nextLoc: n }, "next" === this.method && (this.arg = t), y; } }, e; }
-function asyncGeneratorStep(n, t, e, r, o, a, c) { try { var i = n[a](c), u = i.value; } catch (n) { return void e(n); } i.done ? t(u) : Promise.resolve(u).then(r, o); }
-function _asyncToGenerator(n) { return function () { var t = this, e = arguments; return new Promise(function (r, o) { var a = n.apply(t, e); function _next(n) { asyncGeneratorStep(a, r, o, _next, _throw, "next", n); } function _throw(n) { asyncGeneratorStep(a, r, o, _next, _throw, "throw", n); } _next(void 0); }); }; }
-
-
-
-function authenticationAws() {
-  return _authenticationAws.apply(this, arguments);
-}
-function _authenticationAws() {
-  _authenticationAws = _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
-    var email,
-      password,
-      apiKey,
-      client,
-      niceClient,
-      request,
-      response,
-      matchingLogin,
-      isAuthenticated,
-      _args = arguments;
-    return _regeneratorRuntime().wrap(function _callee$(_context) {
-      while (1) switch (_context.prev = _context.next) {
-        case 0:
-          email = _args.length > 0 && _args[0] !== undefined ? _args[0] : "";
-          password = _args.length > 1 && _args[1] !== undefined ? _args[1] : "";
-          apiKey = {
-            region: _aws_credentials_js__WEBPACK_IMPORTED_MODULE_1__.region,
-            credentials: {
-              accessKeyId: _aws_credentials_js__WEBPACK_IMPORTED_MODULE_1__.accessKeyId,
-              secretAccessKey: _aws_credentials_js__WEBPACK_IMPORTED_MODULE_1__.secretAccessKey
-            }
-          };
-          client = new _aws_sdk_client_dynamodb__WEBPACK_IMPORTED_MODULE_2__.DynamoDB(apiKey);
-          niceClient = _aws_sdk_lib_dynamodb__WEBPACK_IMPORTED_MODULE_0__.DynamoDBDocument.from(client);
-          request = {
-            TableName: "logins",
-            Key: {
-              email: "abc@logins.com"
-            }
-          };
-          _context.next = 8;
-          return niceClient.get(request);
-        case 8:
-          response = _context.sent;
-          matchingLogin = response.Item;
-          if (matchingLogin) {
-            _context.next = 13;
-            break;
-          }
-          //Handles undefined error from password field
-          console.log("User not found.");
-          return _context.abrupt("return", false);
-        case 13:
-          isAuthenticated = password === matchingLogin.password;
-          return _context.abrupt("return", isAuthenticated);
-        case 15:
-        case "end":
-          return _context.stop();
-      }
-    }, _callee);
-  }));
-  return _authenticationAws.apply(this, arguments);
-}
-
-/***/ }),
-
-/***/ "./src/modules/consultation/handleSubmitCall.js":
-/*!******************************************************!*\
-  !*** ./src/modules/consultation/handleSubmitCall.js ***!
-  \******************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   handleSubmitCall: () => (/* binding */ handleSubmitCall)
-/* harmony export */ });
-//Form processing messages
-//  const emailSubmitMessage = "<br>" + "<h5>Your message has been sent from" + email + ".</h5>" + "<br>";
-// const scheduleSubmitMessage = "<br>" + "<h5>Your consultation request has been submitted. Confirmation will be sent to" + email + ".</h5>" + "<br>";
-
-function handleSubmitCall(event) {
-  event.preventDefault();
-  var inputs = event.target;
-  var emailInput = inputs[3]; //Targets the array location
-  var email = emailInput.value; //Gets the value of the array location
-  window.spinner.innerHTML = "<div class='spinner-border text-primary'></div>"; //Loads the spinner
-  output2("<br>" + "<h5>Submitting scheduling request for " + email + "...</h5><br>"); //Displays the "please wait" message
-  var promise = new Promise(callServerResponse); //Initiates a new promise
-  //Then handles the fulfilled state of a promise by executing the callback function argument when the promise resolves. Chaining then methods creates a sequence of async operations where the output of the previous then becomes the input of the next.
-  promise.then(callParseResponse).then(function hideSpinner(resolveValue2) {
-    //Attaches callParseResponse as the argument/callback function to be called when callServerResponse is fulfilled. When callParseResponse is fulfilled, hideSpinner is the new promise. 
-
-    window.spinner.innerHTML = ""; //Removes the spinner from the HTML tag
-    return resolveValue2; //Returns the argument of the second, hideSpinner promise so that the app knows the promise is fullfilled. 
-  });
-}
-
-/***/ }),
-
-/***/ "./src/modules/email/handleSubmitEmail.js":
-/*!************************************************!*\
-  !*** ./src/modules/email/handleSubmitEmail.js ***!
-  \************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   handleSubmitEmail: () => (/* binding */ handleSubmitEmail)
-/* harmony export */ });
-//Form processing messages
-//  const emailSubmitMessage = "<br>" + "<h5>Your message has been sent from" + email + ".</h5>" + "<br>";
-// const scheduleSubmitMessage = "<br>" + "<h5>Your consultation request has been submitted. Confirmation will be sent to" + email + ".</h5>" + "<br>";
-
-//Submit handler
-function handleSubmitEmail(event) {
-  event.preventDefault();
-  var inputs = event.target;
-  var emailInput = inputs[3]; //Targets the array location
-  var email = emailInput.value; //Gets the value of the array location
-  window.spinner.innerHTML = "<div class='spinner-border text-primary'></div>"; //Loads the spinner
-  output1("<br>" + "<h5>Submitting for " + email + "...</h5><br>"); //Displays the "please wait" message
-  var promise = new Promise(emailServerResponse); //Initiates a new promise
-  //Then handles the fulfilled state of a promise by executing the callback function argument when the promise resolves. Chaining then methods creates a sequence of async operations where the output of the previous then becomes the input of the next.
-  promise.then(emailParseResponse).then(function hideSpinner(resolveValue) {
-    //Attaches emailParseResponse as the argument/callback function to be called when emailServerResponse is fulfilled. When emailParseResponse is fulfilled, hideSpinner is the new promise.
-    window.spinner.innerHTML = ""; //Removes the spinner from the HTML tag
-    return resolveValue; //Returns the argument of the second, hideSpinner promise so that the app knows the promise is fullfilled.
-  });
-}
-
-/***/ }),
-
-/***/ "./src/utils/getRootPath.js":
-/*!**********************************!*\
-  !*** ./src/utils/getRootPath.js ***!
-  \**********************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   getRootPath: () => (/* binding */ getRootPath)
-/* harmony export */ });
-function getRootPath() {
-  var domain = window.location.hostname;
-  var rootPath = "";
-  console.log("getRootPath domain: ".concat(domain));
-  if (domain === "zohra101.github.io") rootPath = "/capstone-level-3";
-  console.log("getRootpath: ".concat(rootPath));
-  return rootPath;
-}
-
-/***/ }),
-
-/***/ "./src/utils/output.js":
-/*!*****************************!*\
-  !*** ./src/utils/output.js ***!
-  \*****************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   output: () => (/* binding */ output)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-function _slicedToArray(r, e) { return _arrayWithHoles(r) || _iterableToArrayLimit(r, e) || _unsupportedIterableToArray(r, e) || _nonIterableRest(); }
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
-function _arrayLikeToArray(r, a) { (null == a || a > r.length) && (a = r.length); for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e]; return n; }
-function _iterableToArrayLimit(r, l) { var t = null == r ? null : "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (null != t) { var e, n, i, u, a = [], f = !0, o = !1; try { if (i = (t = t.call(r)).next, 0 === l) { if (Object(t) !== t) return; f = !1; } else for (; !(f = (e = i.call(t)).done) && (a.push(e.value), a.length !== l); f = !0); } catch (r) { o = !0, n = r; } finally { try { if (!f && null != t["return"] && (u = t["return"](), Object(u) !== u)) return; } finally { if (o) throw n; } } return a; } }
-function _arrayWithHoles(r) { if (Array.isArray(r)) return r; }
-
-function output() {
-  var message = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : "";
-  var outputTag = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : "outputTag";
-  var shouldAppend = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(""),
-    _useState2 = _slicedToArray(_useState, 2),
-    outputMessage = _useState2[0],
-    setOutputMessage = _useState2[1];
-  var outputElement = document.getElementById(outputTag);
-  setOutputMessage(function (prevMessage) {
-    if (shouldAppend) {
-      return prevMessage + message;
-    } else {
-      return message;
-    }
-  });
-  console.log("Output was generated for ".concat(outputTag, "."));
-}
 
 /***/ }),
 
@@ -48602,6 +48642,7 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-router */ "./node_modules/react-router/dist/development/chunk-SYFQ2XB5.mjs");
 /* harmony import */ var _src_index_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../src/index.scss */ "./src/index.scss");
 /* harmony import */ var _src_Views_home_Home_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../src/Views/home/Home.js */ "./src/Views/home/Home.js");
@@ -48631,25 +48672,25 @@ __webpack_require__.r(__webpack_exports__);
 var bodyTag = document.getElementById("bodyTag");
 var root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_0__.createRoot)(bodyTag);
 var rootPath = (0,_src_utils_getRootPath_js__WEBPACK_IMPORTED_MODULE_9__.getRootPath)();
-root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_nav_HandleRefresh_js__WEBPACK_IMPORTED_MODULE_12__.HandleRefresh, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_nav_Header_js__WEBPACK_IMPORTED_MODULE_10__.Header, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+root.render(/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.BrowserRouter, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_src_Views_nav_HandleRefresh_js__WEBPACK_IMPORTED_MODULE_12__.HandleRefresh, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_src_Views_nav_Header_js__WEBPACK_IMPORTED_MODULE_10__.Header, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Routes, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
   path: "".concat(rootPath, "/"),
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_home_Home_js__WEBPACK_IMPORTED_MODULE_3__.Home, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_src_Views_home_Home_js__WEBPACK_IMPORTED_MODULE_3__.Home, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
   path: "".concat(rootPath, "/portfolio"),
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Portfolio_js__WEBPACK_IMPORTED_MODULE_8__.Portfolio, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_src_Views_Portfolio_js__WEBPACK_IMPORTED_MODULE_8__.Portfolio, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
   path: "".concat(rootPath, "/alexresume"),
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_AlexResume_js__WEBPACK_IMPORTED_MODULE_5__.AlexResume, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_src_Views_AlexResume_js__WEBPACK_IMPORTED_MODULE_5__.AlexResume, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
   path: "".concat(rootPath, "/contact"),
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_Contact_js__WEBPACK_IMPORTED_MODULE_7__.Contact, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_src_Views_Contact_js__WEBPACK_IMPORTED_MODULE_7__.Contact, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
   path: "".concat(rootPath, "/schedulefreeconsultation"),
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_ScheduleFreeConsultation_js__WEBPACK_IMPORTED_MODULE_6__.ScheduleFreeConsultation, null)
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_src_Views_ScheduleFreeConsultation_js__WEBPACK_IMPORTED_MODULE_6__.ScheduleFreeConsultation, null)
+}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_router__WEBPACK_IMPORTED_MODULE_13__.Route, {
   path: "".concat(rootPath, "/about"),
-  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_About_js__WEBPACK_IMPORTED_MODULE_4__.About, null)
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1__.createElement(_src_Views_nav_Footer_js__WEBPACK_IMPORTED_MODULE_11__.Footer, null), ",")));
+  element: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_src_Views_About_js__WEBPACK_IMPORTED_MODULE_4__.About, null)
+})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_src_Views_nav_Footer_js__WEBPACK_IMPORTED_MODULE_11__.Footer, null), ",")));
 })();
 
 /******/ })()
